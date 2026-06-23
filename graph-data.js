@@ -14083,6 +14083,181 @@ window.GRAPH_DATA = {
       "relation_type": "influences",
       "label": "强化学习奠基人 (2024图灵奖)",
       "weight": 5
+    },
+    {
+      "source": "Pan_Hengkai",
+      "target": "Yann_LeCun",
+      "relation_type": "collaborates",
+      "label": "JEPA 路线 / 视觉自监督+物理噪声过滤",
+      "weight": 3
+    },
+    {
+      "source": "Pan_Hengkai",
+      "target": "JEPA_concept",
+      "relation_type": "develops",
+      "label": "ViPRA: 动作条件视频预测 / JEPA路线",
+      "weight": 3
+    },
+    {
+      "source": "Pan_Hengkai",
+      "target": "Meta_FAIR",
+      "relation_type": "works_at",
+      "label": "JEPA视觉自监督研究方向",
+      "weight": 2
+    },
+    {
+      "source": "Feng_Jiashi",
+      "target": "Yan_Shuicheng",
+      "relation_type": "mentored_by",
+      "label": "NUS博士 / 颜家军核心",
+      "weight": 4
+    },
+    {
+      "source": "Feng_Jiashi",
+      "target": "Lin_Min",
+      "relation_type": "collaborates",
+      "label": "字节跳动 AI Lab 核心团队",
+      "weight": 4
+    },
+    {
+      "source": "Lin_Min",
+      "target": "Yan_Shuicheng",
+      "relation_type": "mentored_by",
+      "label": "NUS博士 / 颜家军",
+      "weight": 4
+    },
+    {
+      "source": "Lin_Min",
+      "target": "Feng_Jiashi",
+      "relation_type": "collaborates",
+      "label": "字节跳动 AI Lab 核心团队",
+      "weight": 4
+    },
+    {
+      "source": "Li_Yunzhu",
+      "target": "Song_Shuran",
+      "relation_type": "collaborates",
+      "label": "哥伦比亚大学 → 斯坦福 神经物理+机器人操作",
+      "weight": 3
+    },
+    {
+      "source": "Li_Yunzhu",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "粒子级物理大模型 / 视触觉融合",
+      "weight": 3
+    },
+    {
+      "source": "Zhou_Bolei",
+      "target": "Li_Hongyang",
+      "relation_type": "collaborates",
+      "label": "自动驾驶世界模型 / VAIL+OpenDriveLab",
+      "weight": 3
+    },
+    {
+      "source": "Zhou_Bolei",
+      "target": "Chen_Li",
+      "relation_type": "collaborates",
+      "label": "端到端自动驾驶仿真 / VAIL+UniAD",
+      "weight": 3
+    },
+    {
+      "source": "Zhou_Bolei",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "世界模型重构自动驾驶仿真环境",
+      "weight": 3
+    },
+    {
+      "source": "Yang_Yuncong",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "多模态空间动力学 / 可交互神经世界模型",
+      "weight": 2
+    },
+    {
+      "source": "Gao_Shenyuan",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "通用机器人的规模化世界模型",
+      "weight": 3
+    },
+    {
+      "source": "Wang_Hao",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "事件驱动的世界模型 / 具身智能预训练",
+      "weight": 3
+    },
+    {
+      "source": "Sun_Zhenguo",
+      "target": "Wang_Zhongyuan",
+      "relation_type": "works_at",
+      "label": "智源研究院具身交互世界模型实验室",
+      "weight": 4
+    },
+    {
+      "source": "Sun_Zhenguo",
+      "target": "Yu_Zhiwei",
+      "relation_type": "collaborates",
+      "label": "智源世界模型方向核心团队",
+      "weight": 3
+    },
+    {
+      "source": "Sun_Zhenguo",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "具身世界模型与多模态交互",
+      "weight": 3
+    },
+    {
+      "source": "Xia_Huaxia",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "灵巧手操作 / 机器人自进化制造",
+      "weight": 3
+    },
+    {
+      "source": "Deng_Mingyang",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "连续时间生成模型(Generative Modeling via Drifting)",
+      "weight": 2
+    },
+    {
+      "source": "Yu_Chao",
+      "target": "Yu_Yang",
+      "relation_type": "collaborates",
+      "label": "智源大会RL论坛主席 / 具身智能RL框架",
+      "weight": 3
+    },
+    {
+      "source": "Yu_Chao",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "RLinf: 面向具身智能的大规模RL框架",
+      "weight": 3
+    },
+    {
+      "source": "Paul_Debevec",
+      "target": "Spatial_Intel",
+      "relation_type": "influences",
+      "label": "基于图像的照明与渲染先驱 → 空间智能感知根基",
+      "weight": 3
+    },
+    {
+      "source": "Paul_Debevec",
+      "target": "Geng_Chen",
+      "relation_type": "influences",
+      "label": "渲染先驱 → 新一代神经渲染(NeRF/3DGS)世界模型应用",
+      "weight": 2
+    },
+    {
+      "source": "Shaoting_Zhang",
+      "target": "Shanghai_AI_Lab",
+      "relation_type": "collaborates",
+      "label": "CVPR 2026 PC Chair / 医疗影像AI",
+      "weight": 2
     }
   ]
 };
