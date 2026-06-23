@@ -4,7 +4,9 @@
 
 ## 在线访问
 
-部署于 GitHub Pages，打开仓库 Pages 地址即可使用（搜索、筛选、缩放、节点详情等均为纯前端交互）。
+**https://yuweiwan.github.io/world-model-mapping/**
+
+部署于 GitHub Pages（纯静态站点）。搜索、筛选、缩放、节点详情等交互均在浏览器内完成，无需后端。
 
 ## 本地预览
 
