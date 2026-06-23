@@ -1,0 +1,240 @@
+AMI Labs just raised $1.03B. World Labs raised $1B a few weeks earlier. Both are betting on world models.
+
+But almost nobody means the same thing by that term.
+
+Here are, in my view, five categories of world models.
+
+---
+
+1. Joint Embedding Predictive Architecture (JEPA)
+Representatives: AMI Labs (
+@ylecun
+), V-JEPA 2
+
+The central bet here is that pixel reconstruction alone is an inefficient objective for learning the abstractions needed for physical understanding. LeCun has been saying this for years — predicting every pixel of the future is intractable in any stochastic environment. JEPA sidesteps this by predicting in a learned latent space instead.
+
+Concretely, JEPA trains an encoder that maps video patches to representations, then a predictor that forecasts masked regions in that representation space — not in pixel space. 
+
+This is a crucial design choice. 
+
+A generative model that reconstructs pixels is forced to commit to low-level details (exact texture, lighting, leaf position) that are inherently unpredictable. By operating on abstract embeddings, JEPA can capture "the ball will fall off the table" without having to hallucinate every frame of it falling.
+
+V-JEPA 2 is the clearest large-scale proof point so far. It's a 1.2B-parameter model pre-trained on 1M+ hours of video via self-supervised masked prediction — no labels, no text. The second training stage is where it gets interesting: just 62 hours of robot data from the DROID dataset is enough to produce an action-conditioned world model that supports zero-shot planning. The robot generates candidate action sequences, rolls them forward through the world model, and picks the one whose predicted outcome best matches a goal image. This works on objects and environments never seen during training.
+
+The data efficiency is the real technical headline. 62 hours is almost nothing. It suggests that self-supervised pre-training on diverse video can bootstrap enough physical prior knowledge that very little domain-specific data is needed downstream. That's a strong argument for the JEPA design — if your representations are good enough, you don't need to brute-force every task from scratch.
+
+AMI Labs is LeCun's effort to push this beyond research. They're targeting healthcare and robotics first, which makes sense given JEPA's strength in physical reasoning with limited data. But this is a long-horizon bet — their CEO has openly said commercial products could be years away.
+
+---
+
+2. Spatial Intelligence (3D World Models)
+Representative: World Labs (
+@drfeifei
+)
+
+Where JEPA asks "what will happen next," Fei-Fei Li's approach asks "what does the world look like in 3D, and how can I build it?" 
+
+The thesis is that true understanding requires explicit spatial structure — geometry, depth, persistence, and the ability to re-observe a scene from novel viewpoints — not just temporal prediction. 
+
+This is a different bet from JEPA: rather than learning abstract dynamics, you learn a structured 3D representation of the environment that you can manipulate directly.
+
+Their product Marble generates persistent 3D environments from images, text, video, or 3D layouts. "Persistent" is the key word — unlike a video generation model that produces a linear sequence of frames, Marble's outputs are actual 3D scenes with spatial coherence. You can orbit the camera, edit objects, export meshes. This puts it closer to a 3D creation tool than to a predictive model, which is deliberate.
+
+For context, this builds on a lineage of neural 3D representation work (NeRFs, 3D Gaussian Splatting) but pushes toward generation rather than reconstruction. Instead of capturing a real scene from multi-view photos, Marble synthesizes plausible new scenes from sparse inputs. The challenge is maintaining physical plausibility — consistent geometry, reasonable lighting, sensible occlusion — across a generated world that never existed.
+
+---
+
+3. Learned Simulation (Generative Video + Latent-Space RL)
+Representatives: Google DeepMind (Genie 3, Dreamer V3/V4), Runway GWM-1
+
+This category groups two lineages that are rapidly converging: generative video models that learn to simulate interactive worlds, and RL agents that learn world models to train policies in imagination.
+
+The video generation lineage. DeepMind's Genie 3 is the purest version — text prompt in, navigable environment out, 24 fps at 720p, with consistency for a few minutes. Rather than relying on an explicit hand-built simulator, it learns interactive dynamics from data. The key architectural property is autoregressive generation conditioned on user actions: each frame is generated based on all previous frames plus the current input (move left, look up, etc.). This means the model must maintain an implicit spatial memory — turn away from a tree and turn back, and it needs to still be there. DeepMind reports consistency up to about a minute, which is impressive but still far from what you'd need for sustained agent training.
+
+Runway's GWM-1 takes a similar foundation — autoregressive frame prediction built on Gen-4.5 — but splits into three products: Worlds, Robotics, and Avatars. The split into Worlds / Avatars / Robotics suggests the practical generality problem is still being decomposed by action space and use case.
+
+The RL lineage. The Dreamer series has the longer intellectual history. The core idea is clean: learn a latent dynamics model from observations, then roll out imagined trajectories in latent space and optimize a policy via backpropagation through the model's predictions. The agent never needs to interact with the real environment during policy learning.
+
+Dreamer V3 was the first AI to get diamonds in Minecraft without human data. Dreamer 4 did the same purely offline — no environment interaction at all. Architecturally, Dreamer 4 moves from Dreamer’s earlier recurrent-style lineage to a more scalable transformer-based world-model recipe, and introduced "shortcut forcing" — a training objective that lets the model jump from noisy to clean predictions in just 4 steps instead of the 64 typical in diffusion models. This is what makes real-time inference on a single H100 possible. 
+
+These two sub-lineages used to feel distinct: video generation produces visual environments, while RL world models produce trained policies. 
+
+But Dreamer 4 blurred the line — humans can now play inside its world model interactively, and Genie 3 is being used to train DeepMind's SIMA agents. 
+
+The convergence point is that both need the same thing: a model that can accurately simulate how actions affect environments over extended horizons.
+
+The open question for this whole category is one LeCun keeps raising: does learning to generate pixels that look physically correct actually mean the model understands physics? Or is it pattern-matching appearance? Dreamer 4's ability to get diamonds in Minecraft from pure imagination is a strong empirical counterpoint, but it's also a game with discrete, learnable mechanics — the real world is messier.
+
+---
+
+4. Physical AI Infrastructure (Simulation Platform)
+Representative: NVIDIA Cosmos
+
+NVIDIA's play is don't build the world model, build the platform everyone else uses to build theirs. 
+
+Cosmos launched at CES January 2025 and covers the full stack — data curation pipeline (process 20M hours of video in 14 days on Blackwell, vs. 3+ years on CPU), a visual tokenizer with 8x better compression than prior SOTA, model training via NeMo, and deployment through NIM microservices.
+
+The pre-trained world foundation models are trained on 9,000 trillion tokens from 20M hours of real-world video spanning driving, industrial, robotics, and human activity data. 
+
+They come in two architecture families: diffusion-based (operating on continuous latent tokens) and autoregressive transformer-based (next-token prediction on discretized tokens). Both can be fine-tuned for specific domains.
+
+Three model families sit on top of this. 
+Predict generates future video states from text, image, or video inputs — essentially video forecasting that can be post-trained for specific robot or driving scenarios. 
+Transfer handles sim-to-real domain adaptation, which is one of the persistent headaches in physical AI — your model works great in simulation but breaks in the real world due to visual and dynamics gaps. 
+Reason (added at GTC 2025) brings chain-of-thought reasoning over physical scenes — spatiotemporal awareness, causal understanding of interactions, video Q&A.
+
+---
+
+5. Active Inference
+Representative: VERSES AI (Karl Friston)
+
+This is the outlier on the list — not from the deep learning tradition at all, but from computational neuroscience.
+
+Karl Friston's Free Energy Principle says intelligent systems continuously generate predictions about their environment and act to minimize surprise (technically: variational free energy, an upper bound on surprise).
+
+Where standard RL is usually framed around reward maximization, active inference frames behavior as minimizing variational / expected free energy, which blends goal-directed preferences with epistemic value. This leads to natural exploration behavior: the agent is drawn to situations where it's uncertain, because resolving uncertainty reduces free energy.
+
+VERSES built AXIOM (Active eXpanding Inference with Object-centric Models) on this foundation. 
+
+The architecture is fundamentally different from neural network world models. Instead of learning a monolithic function approximator, AXIOM maintains a structured generative model where each entity in the environment is a discrete object with typed attributes and relations. 
+
+Inference is Bayesian — beliefs are probability distributions that get updated via message passing, not gradient descent. This makes it interpretable (you can inspect what the agent believes about each object), compositional (add a new object type without retraining), and extremely data-efficient.
+
+In their robotics work, they've shown a hierarchical multi-agent setup where each joint of a robot arm is its own active inference agent. The joint-level agents handle local motor control while higher-level agents handle task planning, all coordinating through shared beliefs in a hierarchy. The whole system adapts in real time to unfamiliar environments without retraining — you move the target object and the agent re-plans immediately, because it's doing online inference, not executing a fixed policy.
+
+They shipped a commercial product (Genius) in April 2025, and the AXIOM benchmarks against RL baselines are competitive on standard control tasks while using orders of magnitude less data.
+
+---
+
+imo, these five categories aren't really competing — they're solving different sub-problems.
+
+JEPA compresses physical understanding.
+Spatial intelligence reconstructs 3D structure. 
+Learned simulation trains agents through generated experience. 
+NVIDIA provides the picks and shovels（can be counted as part of learned simulation category) 
+Active inference offers a fundamentally different computational theory of intelligence.
+
+
+好的，这是一份围绕你提出的五大“世界模型”方向，为你梳理的关键人物、里程碑与公司网络的详细清单。
+
+### 🌐 1. JEPA：通过联合嵌入预测架构学习抽象表征
+
+这条路径由 **Yann LeCun** 引领，核心理念是让AI像人类一样学习世界的抽象、可预测的表征。
+
+*   **核心人物（师承与合作关系）**：
+    *   **Yann LeCun**: 图灵奖得主，Meta首席AI科学家，纽约大学教授。
+    *   **Randall Balestriero**: Meta FAIR研究员，布朗大学助理教授，被视为JEPA理论发展关键人物。
+    *   **Anna Dawid**: 纽约计算量子物理中心研究员，与LeCun共同提出I-JEPA。
+    *   **Mike Rabbat** & **Nicolas Ballas**: Meta FAIR研究员，与Balestriero等合作发表JEPA理论分析。
+    *   **Mathias Verbeke** & **Davy Pissoort**: 鲁汶大学研究员，探索JEPA在时间序列分析的应用。
+    *   **团队**: Meta AI (FAIR), 纽约大学, PSL Research University, 布朗大学, 鲁汶大学。
+
+*   **关键里程碑（论文 / 产品）**：
+    *   **VICReg (2022)**: 由LeCun团队提出，为解决JEPA中表征坍缩问题提供了关键技术。
+    *   **I-JEPA (2023)**: 将JEPA成功应用于图像，被视为LeCun世界模型构想的首个重要实证。
+    *   **MC-JEPA (2023)**: 将学习扩展到运动与内容特征。
+    *   **V-JEPA (2024)**: 将架构成功扩展到视频领域，通过掩码特征预测学习时空表征。
+    *   **V-JEPA 2 (2025)**: 1.2B参数的视频世界模型，经少量机器人数据微调后支持零样本物理规划。
+    *   **EB-JEPA (2026)**: 开源JEPA库，为研究和应用提供了标准化工具箱。
+    *   **Demo-JEPA (2026)**: 展示了JEPA世界模型在跨形态模仿学习中的潜力。
+    *   **Causal-JEPA (2026)**: 探索在对象层级进行因果干预，赋予世界模型更强的泛化能力。
+    *   **EchoJEPA (2026)**: 多伦多大学健康网络将JEPA应用于心脏超声视频的医学影像分析。
+    *   **"Gaussian Embeddings" (2025)**: 对JEPA表征性质的理论分析，揭示了其数据密度感知能力。
+
+*   **关键公司**：
+    *   **Meta**：JEPA研究的核心推动者和资金方。
+    *   **AMI Labs**：LeCun为将JEPA研究（尤其在医疗和机器人领域）商业化的直接尝试。
+
+---
+
+### 🧠 2. 空间智能：构建显式的3D世界模型
+
+由 **Fei-Fei Li** 引领，这条路径的核心是让AI获得生成、理解和与3D世界互动的能力。
+
+*   **核心人物（师承与合作关系）**：
+    *   **Fei-Fei Li**: “AI教母”，斯坦福大学教授，World Labs CEO。
+    *   **Justin Johnson**: World Labs联合创始人，密歇根大学助理教授，Li的前博士生。
+    *   **Christoph Lassner**: World Labs联合创始人，前Meta/Facebook Reality Labs研究员。
+    *   **Ben Mildenhall**: World Labs联合创始人，NeRF论文的第一作者。
+    *   **Jiajun Wu**: 斯坦福大学助理教授，Li的长期合作者。
+    *   **Silvio Savarese**: Salesforce首席科学家，斯坦福大学兼职教授，Li的密切合作者。
+    *   **Ranjay Krishna**: 华盛顿大学助理教授，Li的前博士生。
+    *   **团队**: 斯坦福大学视觉与学习实验室, Stanford HAI, 加州理工学院, 卡内基梅隆大学。
+
+*   **关键里程碑（论文 / 产品）**：
+    *   **ImageNet (2009)**: 李飞飞团队构建的超大规模图像数据集，直接引发了深度学习革命。
+    *   **NeRF (2020)**: 神经辐射场，Mildenhall等人的代表作，开创了用神经网络隐式表达3D场景的新范式。
+    *   **3D Gaussian Splatting (2023)**: 实时、高质量的显式3D场景表达方法，成为NeRF的有力补充和继承者。
+    *   **Marble (2025)**: World Labs的首款产品，能够从文本、图像等输入生成持久、可编辑、符合物理规律的3D场景。
+    *   **ICLR 2026 六项研究**: 李飞飞团队联合发布，从基准构建、数据生成、推理优化三个维度，系统性地推动具身智能的空间认知。
+
+*   **关键公司**：
+    *   **World Labs**: 李飞飞于2023年联合创立，专注于空间智能。
+    *   **Autodesk**: 2026年2月向World Labs战略投资2亿美元，并在其董事会获得顾问席位。
+
+---
+
+### 🕹️ 3. 学习仿真：生成式视频与潜在空间强化学习的融合
+
+这条路径的核心思想是让世界模型在“想象”中学习和规划。它融合了生成视频模型（如DeepMind的Genie）和基于世界模型的强化学习（如Dreamer）两大流派。
+
+**① 生成式世界模型 (DeepMind Genie / Runway GWM)**
+*   **核心人物**：
+    *   **Shlomi Fruchter**: Google DeepMind研究总监，Genie 3的关键构建者。
+    *   **Jack Parker-Holder**: Google DeepMind研究科学家，Genie 3的另一位关键构建者。
+    *   **Robin Kahlow**: Runway首席研究工程师，领导了GWM-1和Gen-Turbo等前沿研究工作。
+*   **关键里程碑**：
+    *   **Genie 3 (2025)**: DeepMind发布，能够从文本/图像生成可交互的3D虚拟世界，是当时最先进的世界模型之一。
+    *   **Runway GWM-1 (2025)**: Runway发布其首个通用世界模型，基于Gen-4.5构建，能够逐帧预测并模拟物理感知的环境。
+
+**② 基于世界模型的强化学习 (Dreamer系列)**
+*   **核心人物**：
+    *   **Danijar Hafner**: Google DeepMind主任研究科学家，Dreamer系列算法的主要作者。师从多伦多大学Jimmy Ba，并在UC Berkeley Pieter Abbeel实验室访问。
+    *   **Jimmy Ba**: 多伦多大学教授，Hafner的博士生导师。
+    *   **Timothy Lillicrap**: DeepMind资深科学家，DreamerV3的核心作者之一。
+    *   **Jurgis Pasukonis**: DeepMind研究科学家，DreamerV3的核心作者之一。
+*   **关键里程碑**：
+    *   **Dreamer (2020)**: Hafner等人提出，首次实现在世界模型的潜在空间中“想象”并学习行为。
+    *   **DreamerV2 (2021)**: 引入离散世界模型，成为首个在Atari游戏上达到人类水平的基于世界模型的智能体。
+    *   **DreamerV3 (2023)**: 实现高度泛化，仅凭单一配置在超150项任务中超越专用方法，并首次在《我的世界》中无人类数据取得钻石。
+    *   **Dreamer 4 (2025)**: 仅从视频数据离线学习任务，通过“捷径强制”技术大幅提升推理速度。
+
+*   **融合点与应用**：
+    *   **SIMA (2024)**: DeepMind发布的可扩展、可指导、多世界智能体，它能在Genie等生成的3D虚拟环境中遵循自然语言指令完成任务。
+    *   **SIMA 2 (2025)**: 融合了世界模型与大型语言模型，是打通“感知-推理-行动-反思”闭环的通用AI智能体。
+*   **关键公司**：
+    *   **Google DeepMind** (SIMA, Dreamer), **Runway** (GWM-1), **OpenAI** (Sora), **World Models** (Hafner关联公司), **NVIDIA** (GEAR团队)。
+
+---
+
+### ⚙️ 4. 物理AI基础设施：提供构建世界模型的“铲子” (和3合并了）
+
+这条路径的定位是成为“世界模型”领域的底座平台，为所有其他方向提供基础算力、数据、模型和工具。
+
+*   **核心人物**：
+    *   **Jim Fan**: NVIDIA高级研究科学家，GEAR团队（通用具身智能体研究）负责人，也是Project GR00T（人形机器人通用大脑）的领导者。
+    *   **Ming-Yu Liu**: NVIDIA研究副总裁，领导“深度想象”团队，该团队专注于为物理AI开发生成模型，包括Cosmos平台。
+    *   **Chen-Hsuan Lin**: NVIDIA Cosmos实验室主任研究员，直接负责Cosmos世界模型平台的构建。
+*   **关键里程碑**：
+    *   **Cosmos 平台 (2025.01)**: NVIDIA在CES上发布，包含了**扩散**和**自回归**两种架构的预训练世界基础模型，以及**Predict**、**Transfer**、**Reason**三大上层模型家族和完整数据处理管线。
+*   **关键公司**：
+    *   **NVIDIA**: 提供Omniverse模拟平台、Cosmos模型、数据处理管线、GPU硬件等物理AI所需的完整算力基础。
+
+---
+
+### 🧬 5. 主动推理：来自神经科学的另一种“智能”理论
+
+该方向独立于深度学习主流，由理论神经科学家 **Karl Friston** 开创，认为智能源于最小化“自由能”（即意外或不确定性）。
+
+*   **核心人物**：
+    *   **Karl Friston**: 伦敦大学学院教授，VERSES AI首席科学家，自由能原理和主动推理理论的创立者。
+    *   **研究网络**: 包括伦敦大学学院、马普研究所等众多致力于理论神经科学和类脑计算的学术机构。
+*   **关键里程碑**：
+    *   **自由能原理 (FEP) 提出 (2006)**: Friston发表的一系列开创性论文，奠定了主动推理的数学基础。
+    *   **《Active Inference》出版 (2022)**: MIT出版社出版，详细阐述了自由能原理在认知、大脑和行为科学中的应用。
+    *   **AXIOM 系统**: VERSES AI基于主动推理构建的商业级AI系统，采用贝叶斯消息传递而非反向传播，具有高度可解释、可组合和数据高效的特点。
+    *   **Genius 产品 (2025.04)**: VERSES推出了基于主动推理的商业产品“Genius”，将理论推向市场。
+    *   **《Active Inference and Intentional Behavior》发表 (2025)**: Friston在 *Neural Computation* 上的最新论文，深化了主动推理对“有意行为”的描述。
+*   **关键公司**：
+    *   **VERSES AI**: 主动推理理论的主要商业化推手，其目标是构建基于自然智能设计原则的下一代AI系统。
+

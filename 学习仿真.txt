@@ -1,0 +1,47 @@
+ 学习型仿真派 (Learned Simulation) 的核心人物
+这个流派的核心是打造一个真实且可交互的虚拟世界，让AI在里面高效训练。其灵魂人物可以按照他们贡献的核心理念和项目来划分：
+
+理论基础提出者
+
+Juergen Schmidhuber: 被誉为“现代人工智能之父”之一，其研究为可学习的环境模拟奠定了基础。
+
+David Ha: 与Schmidhuber合作，在2018年发表了开创性论文 《World Models》 。这篇论文首次提出了让AI在“想象”的梦境中学习的概念，为整个学派提供了理论起点。
+
+技术框架奠基者
+
+Danijar Hafner: 作为谷歌DeepMind和多伦多大学的研究科学家，主导了Dreamer系列模型的研发。Dreamer系列让AI能通过“想象”未来的状态来进行高效规划，其中的DreamerV3更是因卓越性能登上了《Nature》杂志。
+
+大型应用开创者
+
+Tim Rocktäschel: 作为Genie项目负责人，他领导的Genie彻底改变了思路，让AI仅通过观看海量互联网视频，就能学会生成可交互的虚拟世界，实现了真正的“无师自通”。
+
+Jeff Clune: 作为Genie项目的论文作者之一，他强调了这一模型使其通用化的巨大潜力。
+
+组织与战略引领者
+
+Demis Hassabis: 谷歌DeepMind的联合创始人与CEO。他不仅提供了顶尖的研究环境，更从公司战略层面将世界模型定义为“通往AGI的关键部分”，并投入了大量精力。
+
+Tim Brooks: 前OpenAI Sora项目的联合负责人，2025年被谷歌DeepMind聘请，组建并领导全新的世界模型团队。这标志着谷歌对于该领域的野心与决心。
+
+⛏️ 基础设施派 (Infrastructure) 的核心人物（并入学习仿真)
+这个流派旨在为AI研究提供底层“水电煤”，其代表NVIDIA便是这一角色的核心扮演者。
+
+战略领航者
+
+黄仁勋: NVIDIA的创始人与CEO。他不仅在最高层面确立了Cosmos的战略方向，并亲自为它站台，将其定义为“实体AI的重大进展”。
+
+研究领导者
+
+Ming-Yu Liu: NVIDIA的研究副总裁、IEEE Fellow。他领导着名为 “Deep Imagination Research” 的研究小组，是Cosmos项目背后的核心技术领导者之一。
+
+Sanja Fidler: NVIDIA AI Research的副总裁，其工作涉及Sim2Real等与Cosmos紧密相关的关键领域。
+
+核心技术骨干
+
+Jim Fan: 作为NVIDIA具身智能领域的核心研究员，他是 “世界基础模型”(World Foundation Models) 概念的重要推动者，从叙事和工程层面将Cosmos的理念转化为可落地的技术与系统。
+
+顾金伟博士: NVIDIA的首席研究科学家，是Cosmos模型开发的技术负责人之一。
+
+Chen-Hsuan Lin: NVIDIA的研究科学家及团队经理，领导着专门的 “NVIDIA Cosmos Lab”，负责Cosmos模型的构建工作。
+
+刘锡安: 作为NVIDIA Research的科学家，是Cosmos世界模型系列的核心贡献者之一，深度参与模型的核心研发。
