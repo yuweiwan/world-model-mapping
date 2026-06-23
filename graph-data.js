@@ -342,7 +342,7 @@ window.GRAPH_DATA = {
       "id": "Jim_Fan",
       "name": "范麟熙 Jim Fan",
       "type": "person",
-      "description": "2021年斯坦福博士（师从李飞飞）。OpenAI第一位实习生。NVIDIA GEAR实验室联合负责人，聚焦具身智能与多模态大模型。是路线二和路线三的关键桥接人物——既是李飞飞学生，又是NVIDIA Cosmos核心推动者。",
+      "description": "英伟达GEAR实验室（Generalist Embodied Agent Research）联合创始人与领衔科学家。全球具身智能与物理AI领域最具影响力的青年领袖之一。核心贡献：①MineDojo（将Minecraft重构为AI训练沙盒）；②Voyager（首个利用LLM实现终身自主学习的游戏Agent，NeurIPS 2023杰出论文奖）；③VIMA（多模态提示词驱动机器人操控）；④深度参与定义NVIDIA Cosmos物理仿真世界模型平台。核心理念：\"通过数字世界模拟通往现实具身通用智能\"。",
       "degree": 4,
       "composite_weight": 0.033,
       "group_id": "spatial",
@@ -966,7 +966,7 @@ window.GRAPH_DATA = {
       "id": "Saining_Xie",
       "name": "谢赛宁 Saining Xie",
       "type": "person",
-      "description": "NYU助理教授，原Meta FAIR研究科学家。ConvNeXt、ResNeXt等核心架构作者。2026年初宣布加入AMI Labs，是LeCun团队核心成员。",
+      "description": "NYU助理教授，原Meta FAIR研究科学家。ConvNeXt、ResNeXt等核心架构作者。与Bill Peebles共同提出DiT（Diffusion Transformers）里程碑架构——首次将Transformer引入扩散模型，打破U-Net局限，成为OpenAI Sora、可灵等主流视频大模型核心底层地基。2026年初宣布加入AMI Labs，是LeCun团队核心成员。",
       "degree": 3,
       "composite_weight": 0.025,
       "group_id": "jepa",
@@ -3787,7 +3787,7 @@ window.GRAPH_DATA = {
       "id": "Li_Hongyang",
       "name": "李弘扬 Li Hongyang",
       "type": "person",
-      "description": "HKU助理教授，上海AI Lab OpenDriveLab负责人。2019年CUHK博士（导师？）。IEEE Senior Member。研究方向：端到端自动驾驶→驾驶世界模型。代表工作：BEVFormer（鸟瞰图感知框架，2022年Top 100 AI Papers）、UniAD（CVPR 2023最佳论文，首个规划导向端到端自动驾驶框架）、Vista（NeurIPS 2024，高质量可控驾驶世界模型）、GenAD/ReSim。",
+      "description": "HKU助理教授，上海AI Lab OpenDriveLab负责人。2019年CUHK博士（导师？）。IEEE Senior Member。研究方向：端到端自动驾驶→驾驶世界模型。代表工作：BEVFormer（鸟瞰图感知框架，2022年Top 100 AI Papers）、UniAD（CVPR 2023最佳论文，首个规划导向端到端自动驾驶框架）、Vista（NeurIPS 2024，高质量可控驾驶世界模型）、GenAD/ReSim。联合推出UniVLA等具身大模型，持续拔高自动驾驶与通用物理AI系统的决策上限。",
       "degree": 2,
       "composite_weight": 0.016,
       "group_id": "sim",
@@ -4983,7 +4983,7 @@ window.GRAPH_DATA = {
       "id": "Wang_Tengfei",
       "name": "王腾飞 Wang Tengfei",
       "type": "person",
-      "description": "腾讯混元3D世界模型负责人，主导HY-World系列（1.0/1.1/1.5/2.0/Voyager）研发与落地。HKUST博士（2023，导师陈启峰Qifeng Chen），北航本科。前MSRA研究员（2021-2023）。CVPR/ICCV/SIGGRAPH/ICLR等顶会论文40+篇，引用3500+。ICCV/ECCV最有影响力论文奖。核心观点：3D表示是构建可交互、物理一致世界模型的关键基础。FlashWorld项目：9秒从单图生成3D场景（比CAT3D快500倍）。",
+      "description": "腾讯混元3D世界模型负责人，主导HY-World系列（1.0/1.1/1.5/2.0/Voyager）研发与落地。HKUST博士（2023，导师陈启峰Qifeng Chen），北航本科。前MSRA研究员（2021-2023）。CVPR/ICCV/SIGGRAPH/ICLR等顶会论文40+篇，引用3500+。ICCV/ECCV最有影响力论文奖。核心观点：3D表示是构建可交互、物理一致世界模型的关键基础。FlashWorld项目：9秒从单图生成3D场景（比CAT3D快500倍）。 腾讯混元世界模型（HY World）负责人，2026智源大会演讲「HY World：迈向统一的多模态世界模型」。",
       "degree": 5,
       "composite_weight": 0.341,
       "group_id": "spatial",
@@ -6270,6 +6270,721 @@ window.GRAPH_DATA = {
       "description": "2025年5月成立于上海杨浦，由HillBot团队回国后演变而来（HillBot于2024年在圣地亚哥由韩铮+苏昊创立）。定位：具身智能与机器人基础模型公司。首款产品Sudo R1——全球首个3D世界模型+强化学习一体化具身通用模型：0真机数据、纯仿真训练（Real2Sim2Real），首次抓取成功率98%。核心技术：SAPIEN仿真器+ManiSkill平台+世界模型+RL一体化。CEO韩铮（ZEPP/火箭科技连续创业者），首席技术顾问苏昊（复旦大学通用物理智能研究院院长），研发VP徐泽祥（前Adobe 3D Gen AI）。估值超20亿美元，投资方：宁德时代、阿里、腾讯、蚂蚁、高瓴、IDG、蓝驰等。已与宁德时代在电池制造场景落地。",
       "degree": 0,
       "composite_weight": 0.025,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Yan_Shuicheng",
+      "name": "颜水成 Shuicheng Yan",
+      "type": "person",
+      "description": "ACM/IEEE/IAPR等五院Fellow，全球计算机视觉与多媒体泰斗级宗师，引用数十万。前360集团AI研究院院长、Sea集团首席科学家。现新加坡国立大学（NUS）教授，学习与视觉实验室（LV Lab）负责人。提出全认知世界模型与多模态大一统Backbone理念，指导Meissonic/Muddit等非自回归生成架构。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Chen_Delong",
+      "name": "陈德龙 Delong Chen",
+      "type": "person",
+      "description": "港科大+AMI Labs在读博士，2024-2026年在Meta FAIR（巴黎）任访问学者。ICLR 2026 Oral论文VL-JEPA：将JEPA从纯视觉推向视觉-语言联合空间。主导推出WorldPrediction视频基准，测试AI内部世界模型的长程程序性规划能力。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "jepa",
+      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "tags": [
+        "路线一：JEPA 联合嵌入预测架构"
+      ]
+    },
+    {
+      "id": "Zhang_Wancong",
+      "name": "张万聪 Wancong Zhang",
+      "type": "person",
+      "description": "NYU Courant研究所博士生，导师Yann LeCun，Meta FAIR研究科学家实习生。NeurIPS 2025第一作者（潜在动力学模型从无奖励离线数据学习），ICML 2025物理合理世界模型研讨会最佳论文奖。2026年推出Hierarchical Planning with Latent World Models。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "jepa",
+      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "tags": [
+        "路线一：JEPA 联合嵌入预测架构"
+      ]
+    },
+    {
+      "id": "Pan_Hengkai",
+      "name": "潘恒楷 Hengkai Pan",
+      "type": "person",
+      "description": "活跃于视觉自监督表征与具身智能交汇处。通过时空掩码机制与特征不变性约束，帮世界模型在隐空间自动过滤高频物理噪声。2026年共同推出ViPRA（Video Prediction for Robot Actions），将动作条件织入视频预测。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "jepa",
+      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "tags": [
+        "路线一：JEPA 联合嵌入预测架构"
+      ]
+    },
+    {
+      "id": "Zhou_Gaoyue",
+      "name": "周高月 Gaoyue Zhou",
+      "type": "person",
+      "description": "UC Berkeley计算机科学+应用数学双学士，CMU机器人学硕士，现NYU Courant博士在读，师从Lerrel Pinto与Yann LeCun。参与Real World Offline RL with Realistic Data Sources，研究不完美数据下智能体如何借助潜物理因果规律稳健学习。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "jepa",
+      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "tags": [
+        "路线一：JEPA 联合嵌入预测架构"
+      ]
+    },
+    {
+      "id": "Wu_Jiajun",
+      "name": "吴佳俊 Jiajun Wu",
+      "type": "person",
+      "description": "斯坦福大学计算机科学与心理学助理教授，SVL实验室核心成员。清华姚班本科，MIT博士。融合神经物理学（Neural Physics）、三维几何结构与计算认知科学。让AI具备物理直觉——推算力学质量、重心及运动趋势。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能与3D世界模型",
+      "tags": [
+        "路线二：空间智能与3D世界模型"
+      ]
+    },
+    {
+      "id": "Chen_Minghao",
+      "name": "陈明豪 Minghao Chen",
+      "type": "person",
+      "description": "牛津大学VGG实验室中坚青年学者。2026年联合发布PointWorld：大规模预训练3D世界模型，将机器人动作与世界状态统一在共享3D空间，输入少量RGB-D图像+操作指令即可在几何层面精准预测全场景运动形变和接触力学。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能与3D世界模型",
+      "tags": [
+        "路线二：空间智能与3D世界模型"
+      ]
+    },
+    {
+      "id": "Gao_Jun",
+      "name": "高军 Jun Gao",
+      "type": "person",
+      "description": "英伟达空间智能实验室核心研究员。跨越3D场景重建、多智能体交互仿真及机器人Affordance基础模型。AFUN等功能性理解模型支持4+虚拟智能体在同一3D空间中无缝多玩家交互。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能与3D世界模型",
+      "tags": [
+        "路线二：空间智能与3D世界模型"
+      ]
+    },
+    {
+      "id": "Yu_Heng",
+      "name": "于恒 Heng Yu",
+      "type": "person",
+      "description": "斯坦福大学计算机视觉与具身智能博士生。4Real（文本生成照片级4D动态场景）、SocialGen/AnyLift（多人交互建模）、OpenWAM（video/action双向统一建模）。让世界模型从生成视觉内容走向理解三维空间、支持动作交互与因果推演。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能与3D世界模型",
+      "tags": [
+        "路线二：空间智能与3D世界模型"
+      ]
+    },
+    {
+      "id": "Geng_Chen",
+      "name": "耿琛 Chen Geng",
+      "type": "person",
+      "description": "斯坦福大学CS博士，吴佳俊与李飞飞联合指导。研究方向：神经渲染（NeRF、3D Gaussian Splatting）在世界模型中的应用。通过高效前馈三维重建架构，让机器人或AR设备在从未见过的新场景中，仅凭一眼就能在毫秒内将残缺平面视野脑补为高保真可探索三维物理世界。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能与3D世界模型",
+      "tags": [
+        "路线二：空间智能与3D世界模型"
+      ]
+    },
+    {
+      "id": "Bai_Jinbin",
+      "name": "白晋斌 Jinbin Bai",
+      "type": "person",
+      "description": "新加坡国立大学（NUS）与MeissonFlow Research核心青年科学家。Meissonic高效生成架构（Masked Generative Transformer，高分辨率+远超Diffusion并行效率）和Muddit离散扩散多模态统一Backbone的核心主导者。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Feng_Jiashi",
+      "name": "冯佳时 Jiashi Feng",
+      "type": "person",
+      "description": "中科大本科，NUS博士，UC Berkeley博士后。前NUS助理教授。字节跳动AI Lab视觉负责人。CVPR/ICCV/NeurIPS/ICML数百篇论文。攻克视频生成时空连续性、多物交互一致性及复杂物理模拟底层技术难题。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Lin_Min",
+      "name": "林敏 Min Lin",
+      "type": "person",
+      "description": "清华本科，NUS博士。深度学习里程碑经典论文Network In Network（NIN）第一作者——首次引入1×1卷积与全局平均池化，被ResNet/Inception等所有主流深度视觉网络采纳。现字节跳动AI Lab核心技术骨干。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Liu_Ming_Yu",
+      "name": "刘洺堉 Ming-Yu Liu",
+      "type": "person",
+      "description": "英伟达AI研究副总裁，Cosmos核心发起人。先后主导UNIT、MUNIT、GauGAN等里程碑生成算法。带领团队将视觉生成完全推向服务于物理AI的硬核仿真新范式。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Zhu_Yuke",
+      "name": "朱玉可 Yuke Zhu",
+      "type": "person",
+      "description": "UT Austin计算机科学系助理教授、机器人感知与学习（RPL）实验室主任，英伟达GEAR实验室资深研究科学家。与Jim Fan紧密合作，主导VIMA、Voyager等具身智能里程碑。通过构建具备严密物理常识的虚拟仿真环境解决机器人数据荒。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Song_Shuran",
+      "name": "宋舒然 Shuran Song",
+      "type": "person",
+      "description": "斯坦福大学助理教授、REAL实验室（机器人与具身智能实验室）负责人，前哥伦比亚大学RoboPIL实验室执掌者。以机器人抓取、非刚性物体操纵及三维视觉闻名。UMI手持硬件接口平台。联合推出Cosmos Policy，通过微调视频大模型直接进行视觉运动控制与规划。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Li_Yunzhu",
+      "name": "李昀烛 Yunzhu Li",
+      "type": "person",
+      "description": "哥伦比亚大学计算机科学系助理教授。全球神经物理模拟与视触觉融合领域顶尖青年学者。粒子级物理大模型（Particle-based Physical Model）与多模态感知：让AI像人类一样依靠视觉+触觉+力学感建立对物质力学属性的认知。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Zhou_Bolei",
+      "name": "周博磊 Bolei Zhou",
+      "type": "person",
+      "description": "UCLA助理教授，前港中文教授。生成式AI与自动驾驶闭环系统顶尖学者。VAIL实验室核心方向：以世界模型重构自动驾驶仿真环境，生成物理反事实推演能力的交通流场景，让自动驾驶在虚拟极端路况安全自适应学习。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Chen_Li",
+      "name": "陈立 Li Chen",
+      "type": "person",
+      "description": "上海人工智能实验室OpenDriveLab核心骨干。CVPR 2023最佳论文奖——UniAD（Unified Autonomous Driving），首次将全栈驾驶任务（感知、预测、规划）整合进单个神经网络。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Shi_Yuge",
+      "name": "史宇歌 Yuge Shi",
+      "type": "person",
+      "description": "牛津大学博士，Google DeepMind核心研究科学家。里程碑工作Genie（Generative Interactive Environments）共同核心作者。打破传统世界模型需游戏引擎标注动作的限制，证明AI可通过纯粹观看互联网视频悟出物理操控逻辑。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Zhang_Jingwei",
+      "name": "张静惟 Jingwei Zhang",
+      "type": "person",
+      "description": "Google DeepMind基础大模型与世界模型研究前沿核心华人科学家。深度参与Genie基础世界模型家族架构设计与跨模态演进。Genie 3迭代中将研究方向从2D像素关卡拓宽到流体、天气、动画角色及物理生态环境的高动态实时模拟。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Wang_Guanzhi",
+      "name": "王冠志 Guanzhi Wang",
+      "type": "person",
+      "description": "英伟达高级研究科学家，深耕大规模强化学习、神经仿真环境及通用具身智能体决策架构。与Jim Fan紧密合作，是MineDojo、VIMA及GR00T N1.7基础系统背后的硬核算法功臣。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Jiang_Yunfan",
+      "name": "姜云凡 Yunfan Jiang",
+      "type": "person",
+      "description": "斯坦福大学CS博士生，师从李飞飞与吴佳俊，英伟达GEAR实验室核心研究员。横跨物理仿真与交互环境派。主导VIMA、Voyager及BRS（BEHAVIOR Robot Suite）。擅长将大模型注入虚拟游戏/数字孪生场景，迫使AI Agent在交互中自我进化。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Yang_Yuncong",
+      "name": "杨云聪 Yuncong Yang",
+      "type": "person",
+      "description": "活跃在计算机视觉与大规模生成式视频架构领域的硬核工业界专家。深耕多模态空间动力学。攻克大模型在长时间轴、多物体交互下画面逻辑崩溃的工程顽疾。推动国内从单向视频生成走向可交互神经世界模型。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Zhu_Haoyi",
+      "name": "朱灏怡 Haoyi Zhu",
+      "type": "person",
+      "description": "北大本科，中科院博士。前上海人工智能实验室高级研究员。CVPR/ICCV/ECCV多篇论文。研究方向：人体动作捕捉、大规模视频时空表征学习、自监督表征算法。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Meissonic",
+      "name": "Meissonic",
+      "type": "product_paper",
+      "description": "白晋斌主导的高效生成架构。基于Masked Generative Transformer，在保持高分辨率图像生成质量的同时拥有远超主流Diffusion模型的并行推理效率。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Muddit",
+      "name": "Muddit",
+      "type": "product_paper",
+      "description": "白晋斌主导的统一多模态生成Backbone。基于离散扩散架构，将图像、视频、动作、文本统一到同一数学空间。多模态不是独立数据类型，而是共享同一套语法。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "VL_JEPA",
+      "name": "VL-JEPA",
+      "type": "product_paper",
+      "description": "陈德龙ICLR 2026 Oral论文。将LeCun的JEPA从纯视觉推向视觉-语言联合空间。通过对比学习与掩码设计，隐式世界模型不仅能看懂画面，更能在隐空间推演未来语义演变趋势。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "jepa",
+      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "tags": [
+        "路线一：JEPA 联合嵌入预测架构"
+      ]
+    },
+    {
+      "id": "HWM",
+      "name": "HWM (Hierarchical World Models)",
+      "type": "product_paper",
+      "description": "LeCun团队的分层世界模型架构。低阶控制（下一秒发生什么）+高阶决策（未来几分钟甚至几小时）。2026年张万聪的Hierarchical Planning with Latent World Models是重要里程碑。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "jepa",
+      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "tags": [
+        "路线一：JEPA 联合嵌入预测架构"
+      ]
+    },
+    {
+      "id": "PointWorld",
+      "name": "PointWorld",
+      "type": "product_paper",
+      "description": "陈明豪2026年联合发布的大规模预训练3D世界模型。将机器人动作与世界状态统一在共享3D空间（三维点流），输入少量RGB-D图像+操作指令即可在几何层面精准预测全场景运动形变和接触力学。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能与3D世界模型",
+      "tags": [
+        "路线二：空间智能与3D世界模型"
+      ]
+    },
+    {
+      "id": "DiT_concept",
+      "name": "DiT (Diffusion Transformers)",
+      "type": "product_paper",
+      "description": "谢赛宁与Bill Peebles共同提出的里程碑架构。首次将Transformer引入扩散模型，打破U-Net局限。成为OpenAI Sora、可灵等全球主流视频大模型核心底层地基。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "MeissonFlow",
+      "name": "MeissonFlow Research",
+      "type": "company",
+      "description": "专注于下一代高效非自回归生成模型、Masked Diffusion架构攻坚的前沿研究网络。颜水成学术思想的产业化延伸，白晋斌等核心科学家主导Meissonic和Muddit等突破。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "VIMA",
+      "name": "VIMA",
+      "type": "product_paper",
+      "description": "朱玉可/Jim Fan/姜云凡等共同推出的具身智能里程碑：VisuoMotor Attention model，多模态提示词控制机器人操作。英伟达GEAR实验室与UT Austin RPL联合研究。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Voyager",
+      "name": "Voyager",
+      "type": "product_paper",
+      "description": "Jim Fan/姜云凡/王冠志等推出的里程碑：首个利用LLM在Minecraft中实现终身自主学习的游戏Agent（NeurIPS 2023杰出论文奖）。无需人类数据，通过代码生成+自我验证在无限开放世界中持续发现新技能。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Cosmos_platform",
+      "name": "NVIDIA Cosmos",
+      "type": "product_paper",
+      "description": "英伟达通用物理基础模型平台（World Foundation Model Platform），刘洺堉/Jim Fan核心发起。为机器人、自动驾驶和智能工厂打造的物理仿真世界模型。学习摩擦力、重力、流体力学及碰撞体积，在虚拟世界实时生成具备真实物理反馈的轨迹与交互环境。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "UniAD",
+      "name": "UniAD (Unified Autonomous Driving)",
+      "type": "product_paper",
+      "description": "陈立/李弘扬等联合推出。CVPR 2023最佳论文奖。首次将全栈驾驶任务（感知、预测、规划）完美整合进单个神经网络，通过数据驱动让AI实时预测周围车辆行人未来几秒的空间运动意图。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Wang_Zhongyuan",
+      "name": "王仲远 Wang Zhongyuan",
+      "type": "person",
+      "description": "智源研究院（BAAI）院长。2026年智源大会世界模型论坛主席。主持发布智源世界模型相关战略布局，推动ORCA世界基座模型等旗舰项目。组织「重构世界——中国大模型巅峰对话」等行业顶级论坛。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Liu_Yang_Kunlun",
+      "name": "刘扬 Liu Yang",
+      "type": "person",
+      "description": "Skywork（昆仑万维）首席科学家。2026智源大会世界模型论坛演讲「Matrix-Game：可交互世界模型探索现状和未来」。致力于推动从视频生成到可交互世界模型的范式转变。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Gao_Shenyuan",
+      "name": "高深远 Gao Shenyuan",
+      "type": "person",
+      "description": "香港科技大学博士。2026智源大会世界模型论坛演讲「通用机器人的规模化世界模型」。研究方向：大规模世界模型在通用机器人操作中的扩展与部署。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Wang_Hao",
+      "name": "王昊 Wang Hao",
+      "type": "person",
+      "description": "自变量机器人联合创始人兼CTO。2026智源大会世界模型论坛演讲「事件驱动的世界模型：迈向通用具身智能的预训练」。研究方向：以事件为核心表征构建世界模型，实现通用具身智能的鲁棒预训练。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Sun_Zhenguo",
+      "name": "孙振国 Sun Zhenguo",
+      "type": "person",
+      "description": "星源智联合创始人，智源研究院具身交互世界模型实验室负责人。2026智源大会世界模型论坛演讲「具身世界模型与多模态交互」。研究方向：具身世界模型、多模态交互、机器人操作。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Yu_Zhiwei",
+      "name": "于智薇 Yu Zhiwei",
+      "type": "person",
+      "description": "智源研究院（BAAI）研究员。2026智源大会世界模型论坛联合主席及圆桌主持人。负责世界模型方向的前沿研究规划与学术组织。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Wang_Pengwei",
+      "name": "王鹏伟 Wang Pengwei",
+      "type": "person",
+      "description": "智源具身模型研究中心负责人。2026智源大会具身智能论坛主席。核心演讲「ORCA：世界基座模型——像人一样学习世界」。致力于构建通用世界基座模型，打通感知-认知-行动全链条。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Luo_Jianlan",
+      "name": "罗剑岚 Luo Jianlan",
+      "type": "person",
+      "description": "上海创智学院副教授，智元机器人首席科学家。2026智源大会具身智能论坛演讲「在真实部署中持续学习的机器人基础模型」。研究方向：具身基础模型的持续学习与真实世界部署。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Mu_Yao",
+      "name": "穆尧 Mu Yao",
+      "type": "person",
+      "description": "上海交通大学助理教授。2026智源大会具身智能论坛演讲「RoboEvolve：生成式仿真驱动的具身智能自进化系统」。研究方向：利用生成式仿真实现具身智能的自主进化。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Wang_Donglin",
+      "name": "王东林 Wang Donglin",
+      "type": "person",
+      "description": "西湖大学人工智能系副主任，西湖机器人科技（杭州）有限公司创始人。2026智源大会具身智能论坛演讲「机器人全身运动操作通用方法」。研究方向：机器人全身运动控制与通用操作。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Xia_Huaxia",
+      "name": "夏华夏 Xia Huaxia",
+      "type": "person",
+      "description": "灵心巧手首席科学家。2026智源大会具身智能论坛演讲「让灵巧手学会制造自己——机器人制造机器人的物理自进化路径」。研究方向：灵巧手操作、机器人自进化制造。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Deng_Mingyang",
+      "name": "邓明扬 Deng Mingyang",
+      "type": "person",
+      "description": "MIT博士生。2026智源大会多模态论坛演讲「Generative Modeling via Drifting」。研究方向：生成式建模新范式、连续时间生成模型。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Zhao_Min",
+      "name": "赵敏 Zhao Min",
+      "type": "person",
+      "description": "南京大学助理教授。2026智源大会多模态论坛主持人及演讲「视频世界模型：从离线内容生成到实时交互」。研究方向：视频世界模型、实时交互生成、多模态AI。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能与3D世界模型",
+      "tags": [
+        "路线二：空间智能与3D世界模型"
+      ]
+    },
+    {
+      "id": "Peng_Sida",
+      "name": "彭思达 Peng Sida",
+      "type": "person",
+      "description": "浙江大学研究员。2026智源大会多模态论坛演讲「面向三维世界模型的空间感知基础模型研究」。研究方向：3D世界模型的空间感知、3D重建与理解。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能与3D世界模型",
+      "tags": [
+        "路线二：空间智能与3D世界模型"
+      ]
+    },
+    {
+      "id": "Yang_Mengyue",
+      "name": "杨梦月 Yang Mengyue",
+      "type": "person",
+      "description": "伦敦大学学院（UCL）博士，布里斯托大学助理教授。2026智源大会AI自进化论坛演讲「开放场景下的因果世界理解：从表征学习到持续性自主优化」。研究方向：因果表征学习、开放世界的因果理解与自主优化。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Yu_Chao",
+      "name": "于超 Yu Chao",
+      "type": "person",
+      "description": "清华大学深圳国际研究生院助理教授。2026智源大会强化学习论坛主席。演讲「面向具身智能的高灵活大规模强化学习框架RLinf」。研究方向：具身智能RL、大规模强化学习框架。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Andrew_Barto",
+      "name": "Andrew Barto",
+      "type": "person",
+      "description": "2024年图灵奖得主，强化学习奠基人。马萨诸塞大学安姆斯特分校计算机科学教授。与Richard Sutton合著《Reinforcement Learning: An Introduction》（强化学习圣经）。2026智源大会演讲「Rediscovering Reinforcement Learning」。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "ORCA",
+      "name": "ORCA 世界基座模型",
+      "type": "product_paper",
+      "description": "智源研究院王鹏伟团队推出的世界基座模型。核心理念：像人一样学习世界。打通感知-认知-行动全链条，构建通用世界模型底座。2026智源大会具身智能论坛首次系统阐述。",
+      "degree": 0,
+      "composite_weight": 0.01,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）"
+      ]
+    },
+    {
+      "id": "Matrix_Game",
+      "name": "Matrix-Game",
+      "type": "product_paper",
+      "description": "刘扬（Skywork）主导的可交互世界模型探索项目。致力于打破传统视频生成的单向输出，构建可实时交互、可操控的神经世界环境。2026智源大会世界模型论坛重点披露。",
+      "degree": 0,
+      "composite_weight": 0.01,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -12899,6 +13614,475 @@ window.GRAPH_DATA = {
       "relation_type": "evolved_into",
       "label": "2025年团队回国演变（圣地亚哥→上海杨浦）",
       "weight": 2
+    },
+    {
+      "source": "Yan_Shuicheng",
+      "target": "Bai_Jinbin",
+      "relation_type": "mentors",
+      "label": "导师 / 颜家军核心",
+      "weight": 4
+    },
+    {
+      "source": "Yan_Shuicheng",
+      "target": "MeissonFlow",
+      "relation_type": "founder_of",
+      "label": "学术指导 / MeissonFlow思想源头",
+      "weight": 3
+    },
+    {
+      "source": "Bai_Jinbin",
+      "target": "Meissonic",
+      "relation_type": "develops",
+      "label": "第一作者 / 核心主导者",
+      "weight": 4
+    },
+    {
+      "source": "Bai_Jinbin",
+      "target": "Muddit",
+      "relation_type": "develops",
+      "label": "核心主导者",
+      "weight": 4
+    },
+    {
+      "source": "Bai_Jinbin",
+      "target": "MeissonFlow",
+      "relation_type": "works_at",
+      "label": "核心青年科学家",
+      "weight": 3
+    },
+    {
+      "source": "Chen_Delong",
+      "target": "Yann_LeCun",
+      "relation_type": "mentored_by",
+      "label": "Meta FAIR访问学者 / AMI Labs博士",
+      "weight": 3
+    },
+    {
+      "source": "Chen_Delong",
+      "target": "VL_JEPA",
+      "relation_type": "develops",
+      "label": "第一作者 (ICLR 2026 Oral)",
+      "weight": 5
+    },
+    {
+      "source": "Chen_Delong",
+      "target": "AMI_Labs",
+      "relation_type": "works_at",
+      "label": "在读博士",
+      "weight": 2
+    },
+    {
+      "source": "Zhang_Wancong",
+      "target": "Yann_LeCun",
+      "relation_type": "mentored_by",
+      "label": "NYU Courant 博士生导师",
+      "weight": 4
+    },
+    {
+      "source": "Zhang_Wancong",
+      "target": "HWM",
+      "relation_type": "develops",
+      "label": "Hierarchical Planning核心贡献者",
+      "weight": 4
+    },
+    {
+      "source": "Zhou_Gaoyue",
+      "target": "Yann_LeCun",
+      "relation_type": "mentored_by",
+      "label": "NYU Courant 博士(联合Lerrel Pinto)",
+      "weight": 3
+    },
+    {
+      "source": "Wu_Jiajun",
+      "target": "FeiFei_Li",
+      "relation_type": "collaborates",
+      "label": "SVL核心长期合作者",
+      "weight": 4
+    },
+    {
+      "source": "Geng_Chen",
+      "target": "Wu_Jiajun",
+      "relation_type": "mentored_by",
+      "label": "博士联合导师",
+      "weight": 3
+    },
+    {
+      "source": "Geng_Chen",
+      "target": "FeiFei_Li",
+      "relation_type": "mentored_by",
+      "label": "博士联合导师",
+      "weight": 3
+    },
+    {
+      "source": "Wang_Jianyuan",
+      "target": "Philip_Torr",
+      "relation_type": "mentored_by",
+      "label": "牛津VGG + Meta AI联合培养博士",
+      "weight": 3
+    },
+    {
+      "source": "Chen_Minghao",
+      "target": "PointWorld",
+      "relation_type": "develops",
+      "label": "核心推动者 (2026)",
+      "weight": 4
+    },
+    {
+      "source": "Gao_Jun",
+      "target": "NVIDIA",
+      "relation_type": "works_at",
+      "label": "空间智能实验室核心研究员",
+      "weight": 3
+    },
+    {
+      "source": "Yu_Heng",
+      "target": "FeiFei_Li",
+      "relation_type": "mentored_by",
+      "label": "斯坦福SVL博士生",
+      "weight": 3
+    },
+    {
+      "source": "Yu_Heng",
+      "target": "Wu_Jiajun",
+      "relation_type": "collaborates",
+      "label": "斯坦福SVL同门",
+      "weight": 2
+    },
+    {
+      "source": "Liu_Ming_Yu",
+      "target": "NVIDIA",
+      "relation_type": "works_at",
+      "label": "AI研究副总裁 / Cosmos核心发起人",
+      "weight": 5
+    },
+    {
+      "source": "Liu_Ming_Yu",
+      "target": "Jim_Fan",
+      "relation_type": "collaborates",
+      "label": "NVIDIA Cosmos / 物理AI方向",
+      "weight": 4
+    },
+    {
+      "source": "Zhu_Yuke",
+      "target": "Jim_Fan",
+      "relation_type": "collaborates",
+      "label": "GEAR实验室 + VIMA/Voyager",
+      "weight": 5
+    },
+    {
+      "source": "Zhu_Yuke",
+      "target": "NVIDIA",
+      "relation_type": "works_at",
+      "label": "GEAR实验室资深研究科学家",
+      "weight": 3
+    },
+    {
+      "source": "Song_Shuran",
+      "target": "FeiFei_Li",
+      "relation_type": "collaborates",
+      "label": "斯坦福REAL实验室",
+      "weight": 3
+    },
+    {
+      "source": "Song_Shuran",
+      "target": "NVIDIA",
+      "relation_type": "collaborates",
+      "label": "Cosmos Policy联合推出",
+      "weight": 3
+    },
+    {
+      "source": "Chen_Li",
+      "target": "Shanghai_AI_Lab",
+      "relation_type": "works_at",
+      "label": "OpenDriveLab核心骨干",
+      "weight": 3
+    },
+    {
+      "source": "Shi_Yuge",
+      "target": "Google_DeepMind",
+      "relation_type": "works_at",
+      "label": "核心研究科学家 / Genie共同核心作者",
+      "weight": 5
+    },
+    {
+      "source": "Zhang_Jingwei",
+      "target": "Google_DeepMind",
+      "relation_type": "works_at",
+      "label": "Genie 3核心华人科学家",
+      "weight": 4
+    },
+    {
+      "source": "Shi_Yuge",
+      "target": "Zhang_Jingwei",
+      "relation_type": "collaborates",
+      "label": "DeepMind Genie团队",
+      "weight": 3
+    },
+    {
+      "source": "Wang_Guanzhi",
+      "target": "NVIDIA",
+      "relation_type": "works_at",
+      "label": "高级研究科学家",
+      "weight": 3
+    },
+    {
+      "source": "Wang_Guanzhi",
+      "target": "Jim_Fan",
+      "relation_type": "collaborates",
+      "label": "MineDojo/VIMA/GR00T",
+      "weight": 5
+    },
+    {
+      "source": "Jiang_Yunfan",
+      "target": "FeiFei_Li",
+      "relation_type": "mentored_by",
+      "label": "斯坦福CS博士导师",
+      "weight": 4
+    },
+    {
+      "source": "Jiang_Yunfan",
+      "target": "Wu_Jiajun",
+      "relation_type": "mentored_by",
+      "label": "斯坦福CS博士联合导师",
+      "weight": 3
+    },
+    {
+      "source": "Jiang_Yunfan",
+      "target": "Jim_Fan",
+      "relation_type": "collaborates",
+      "label": "NVIDIA GEAR / VIMA/Voyager/BRS",
+      "weight": 5
+    },
+    {
+      "source": "Jiang_Yunfan",
+      "target": "NVIDIA",
+      "relation_type": "works_at",
+      "label": "GEAR实验室核心研究员",
+      "weight": 3
+    },
+    {
+      "source": "Yan_Shuicheng",
+      "target": "Yann_LeCun",
+      "relation_type": "collaborates",
+      "label": "2023智源大会同台 / 世界模型对话",
+      "weight": 3
+    },
+    {
+      "source": "DiT_concept",
+      "target": "Saining_Xie",
+      "relation_type": "develops",
+      "label": "共同第一作者 (与Bill Peebles)",
+      "weight": 5
+    },
+    {
+      "source": "Zhang_Jingwei",
+      "target": "Genie_3",
+      "relation_type": "develops",
+      "label": "Genie 3核心贡献者",
+      "weight": 3
+    },
+    {
+      "source": "Li_Hongyang",
+      "target": "Shanghai_AI_Lab",
+      "relation_type": "works_at",
+      "label": "OpenDriveLab 领军人物 / 港大助理教授",
+      "weight": 4
+    },
+    {
+      "source": "Zhu_Haoyi",
+      "target": "Shanghai_AI_Lab",
+      "relation_type": "works_at",
+      "label": "前高级研究员",
+      "weight": 2
+    },
+    {
+      "source": "Shi_Yuge",
+      "target": "Genie_3",
+      "relation_type": "develops",
+      "label": "Genie 共同核心作者",
+      "weight": 4
+    },
+    {
+      "source": "VIMA",
+      "target": "Jim_Fan",
+      "relation_type": "developed_by",
+      "label": "核心作者 (英伟达GEAR)",
+      "weight": 5
+    },
+    {
+      "source": "VIMA",
+      "target": "Zhu_Yuke",
+      "relation_type": "developed_by",
+      "label": "核心作者 (UT Austin RPL)",
+      "weight": 4
+    },
+    {
+      "source": "VIMA",
+      "target": "Jiang_Yunfan",
+      "relation_type": "developed_by",
+      "label": "核心作者 (斯坦福/NVIDIA)",
+      "weight": 4
+    },
+    {
+      "source": "Voyager",
+      "target": "Jim_Fan",
+      "relation_type": "developed_by",
+      "label": "核心作者 (NeurIPS 2023 Outstanding Paper)",
+      "weight": 5
+    },
+    {
+      "source": "Voyager",
+      "target": "Jiang_Yunfan",
+      "relation_type": "developed_by",
+      "label": "核心作者",
+      "weight": 4
+    },
+    {
+      "source": "Voyager",
+      "target": "Wang_Guanzhi",
+      "relation_type": "developed_by",
+      "label": "核心作者",
+      "weight": 4
+    },
+    {
+      "source": "Voyager",
+      "target": "Zhu_Yuke",
+      "relation_type": "developed_by",
+      "label": "核心作者",
+      "weight": 3
+    },
+    {
+      "source": "Cosmos_platform",
+      "target": "NVIDIA",
+      "relation_type": "developed_by",
+      "label": "英伟达通用物理基础模型平台",
+      "weight": 5
+    },
+    {
+      "source": "Cosmos_platform",
+      "target": "Liu_Ming_Yu",
+      "relation_type": "developed_by",
+      "label": "核心发起人 (NVIDIA AI研究VP)",
+      "weight": 5
+    },
+    {
+      "source": "Cosmos_platform",
+      "target": "Jim_Fan",
+      "relation_type": "developed_by",
+      "label": "GEAR实验室核心推动者",
+      "weight": 4
+    },
+    {
+      "source": "UniAD",
+      "target": "Chen_Li",
+      "relation_type": "developed_by",
+      "label": "第一作者 (CVPR 2023 Best Paper)",
+      "weight": 5
+    },
+    {
+      "source": "UniAD",
+      "target": "Li_Hongyang",
+      "relation_type": "developed_by",
+      "label": "合作者 (OpenDriveLab)",
+      "weight": 4
+    },
+    {
+      "source": "Jiang_Yunfan",
+      "target": "Zhu_Yuke",
+      "relation_type": "collaborates",
+      "label": "VIMA/Voyager 核心合作者",
+      "weight": 3
+    },
+    {
+      "source": "Wang_Zhongyuan",
+      "target": "Wang_Pengwei",
+      "relation_type": "collaborates",
+      "label": "智源研究院院长 / 具身模型中心负责人",
+      "weight": 4
+    },
+    {
+      "source": "Wang_Zhongyuan",
+      "target": "Yu_Zhiwei",
+      "relation_type": "collaborates",
+      "label": "世界模型论坛联合主席",
+      "weight": 3
+    },
+    {
+      "source": "Wang_Pengwei",
+      "target": "ORCA",
+      "relation_type": "develops",
+      "label": "ORCA 世界基座模型负责人",
+      "weight": 5
+    },
+    {
+      "source": "Yu_Zhiwei",
+      "target": "Chen_Delong",
+      "relation_type": "collaborates",
+      "label": "世界模型论坛 / VL-JEPA",
+      "weight": 2
+    },
+    {
+      "source": "Liu_Yang_Kunlun",
+      "target": "Matrix_Game",
+      "relation_type": "develops",
+      "label": "Skywork可交互世界模型",
+      "weight": 4
+    },
+    {
+      "source": "Chen_Boyuan",
+      "target": "Inverse_Matrix",
+      "relation_type": "works_at",
+      "label": "创始人兼首席研发官 / 世界模型创新中心",
+      "weight": 4
+    },
+    {
+      "source": "Wang_Donglin",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "西湖机器人 / 全身运动操作",
+      "weight": 2
+    },
+    {
+      "source": "Mu_Yao",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "RoboEvolve 生成式仿真自进化",
+      "weight": 2
+    },
+    {
+      "source": "Luo_Jianlan",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "智元机器人持续学习基础模型",
+      "weight": 3
+    },
+    {
+      "source": "Zhao_Min",
+      "target": "Model_Based_RL",
+      "relation_type": "develops",
+      "label": "视频世界模型 / 实时交互",
+      "weight": 2
+    },
+    {
+      "source": "Peng_Sida",
+      "target": "Spatial_Intel",
+      "relation_type": "develops",
+      "label": "三维世界模型空间感知",
+      "weight": 2
+    },
+    {
+      "source": "Yang_Mengyue",
+      "target": "Judea_Pearl",
+      "relation_type": "influenced_by",
+      "label": "因果世界理解 / 表征学习",
+      "weight": 2
+    },
+    {
+      "source": "Andrew_Barto",
+      "target": "Model_Based_RL",
+      "relation_type": "influences",
+      "label": "强化学习奠基人 (2024图灵奖)",
+      "weight": 5
     }
   ]
 };
