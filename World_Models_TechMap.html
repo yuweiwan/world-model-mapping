@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-CN" data-theme="dark">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +13,9 @@
 <script src="cytoscape-fcose.js"></script>
 <script src="graph-data.js"></script>
 <style>
-  :root {
+  /* ── 浅色主题（默认） ── */
+  :root,
+  :root[data-theme="light"] {
     --bg: #ecf1f6;
     --bg-panel: #ffffff;
     --border: #d8e0e8;
@@ -25,6 +27,37 @@
     --company: #f59e0b;
     --person: #10b981;
     --hover: #f2f5f9;
+    --topbar-gradient: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(240,246,252,0.92));
+    --panel-bg: rgba(255,255,255,0.97);
+    --tooltip-bg: rgba(255,255,255,0.96);
+    --shadow-color: rgba(0,0,0,0.08);
+    --overlay-bg: rgba(0,0,0,0.3);
+    --tag-bg: rgba(99,102,241,0.08);
+    --tag-border: rgba(99,102,241,0.18);
+    --focus-glow: rgba(8,145,178,0.12);
+  }
+
+  /* ── 深色主题 ── */
+  :root[data-theme="dark"] {
+    --bg: #0d1b2a;
+    --bg-panel: #1b2838;
+    --border: #2a3f55;
+    --text: #e0e8f0;
+    --text-dim: #8899b4;
+    --text-soft: #5a6e85;
+    --accent: #38bdf8;
+    --product: #818cf8;
+    --company: #f59e0b;
+    --person: #34d399;
+    --hover: #243447;
+    --topbar-gradient: linear-gradient(135deg, rgba(27,40,56,0.96), rgba(13,27,42,0.96));
+    --panel-bg: rgba(27,40,56,0.98);
+    --tooltip-bg: rgba(27,40,56,0.97);
+    --shadow-color: rgba(0,0,0,0.5);
+    --overlay-bg: rgba(0,0,0,0.55);
+    --tag-bg: rgba(129,140,248,0.12);
+    --tag-border: rgba(129,140,248,0.22);
+    --focus-glow: rgba(56,189,248,0.2);
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
@@ -39,8 +72,8 @@
   /* ── Top bar ── */
   .topbar {
     height: 44px; border-bottom: 1px solid var(--border);
-    background: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(240,246,252,0.92));
-    backdrop-filter: blur(10px);
+    background: var(--topbar-gradient);
+    backdrop-filter: blur(12px);
     display: flex; align-items: center; padding: 0 18px; gap: 12px;
     z-index: 100; flex-shrink: 0;
   }
@@ -51,6 +84,15 @@
   .topbar .brand { font-size: 14px; font-weight: 700; color: var(--accent); letter-spacing: -0.3px; }
   .topbar .stats { display: flex; gap: 16px; margin-left: auto; font-size: 10px; color: var(--text-soft); }
   .topbar .stats span { white-space: nowrap; }
+  .theme-toggle {
+    background: none; border: 1px solid var(--border);
+    border-radius: 6px; cursor: pointer; padding: 4px 8px;
+    font-size: 14px; line-height: 1;
+    transition: background 0.15s;
+  }
+  .theme-toggle:hover { background: var(--hover); }
+  :root[data-theme="dark"] .theme-icon-dark,
+  :root:not([data-theme="dark"]) .theme-icon-light { display: none; }
 
   /* ── Main ── */
   .main { display: flex; flex: 1; overflow: hidden; position: relative; }
@@ -73,7 +115,7 @@
     color: var(--text); border-radius: 6px; outline: none;
     font-family: inherit; transition: border-color 0.2s, box-shadow 0.2s;
   }
-  .search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 2px rgba(8,145,178,0.12); }
+  .search-input:focus { border-color: var(--accent); box-shadow: 0 0 0 2px var(--focus-glow); }
   .search-input::placeholder { color: var(--text-soft); font-size: 10px; }
   .search-clear {
     position: absolute; right: 6px; top: 50%; transform: translateY(-50%);
@@ -155,9 +197,9 @@
   /* Tooltip */
   .tooltip {
     position: absolute; pointer-events: none; z-index: 200;
-    background: rgba(255, 255, 255, 0.96); border: 1px solid var(--border);
+    background: var(--tooltip-bg); border: 1px solid var(--border);
     padding: 10px 12px; border-radius: 6px; font-size: 10px;
-    max-width: 250px; display: none; box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    max-width: 250px; display: none; box-shadow: 0 4px 24px var(--shadow-color);
   }
   .tooltip.visible { display: block; }
   .tooltip .tt-name { color: var(--text); font-size: 13px; font-weight: 600; margin-bottom: 2px; }
@@ -168,11 +210,11 @@
   .detail-panel {
     position: absolute; top: 0; right: 0; bottom: 0;
     width: 340px; z-index: 150;
-    background: rgba(255, 255, 255, 0.97); border-left: 1px solid var(--border);
+    background: var(--panel-bg); border-left: 1px solid var(--border);
     display: flex; flex-direction: column;
     transform: translateX(100%);
     transition: transform 0.32s cubic-bezier(0.4,0,0.2,1);
-    box-shadow: -4px 0 28px rgba(0,0,0,0.06);
+    box-shadow: -4px 0 32px var(--shadow-color);
   }
   .detail-panel.open { transform: translateX(0); }
   .detail-header {
@@ -199,8 +241,8 @@
   .detail-body .tag {
     display: inline-block; padding: 3px 8px; margin: 2px 4px 2px 0;
     font-size: 9.5px; font-weight: 500;
-    background: rgba(99, 102, 241, 0.08);
-    border: 1px solid rgba(99, 102, 241, 0.18); border-radius: 4px; color: var(--text-dim);
+    background: var(--tag-bg);
+    border: 1px solid var(--tag-border); border-radius: 4px; color: var(--text-dim);
   }
   .detail-body .relation-item {
     display: flex; align-items: center; gap: 8px; padding: 5px 8px;
@@ -211,7 +253,7 @@
 
   /* Sidebar overlay for mobile */
   .sidebar-overlay {
-    display: none; position: fixed; inset: 0; background: rgba(0,0,0,0.3);
+    display: none; position: fixed; inset: 0; background: var(--overlay-bg);
     z-index: 90;
   }
   .sidebar-overlay.visible { display: block; }
@@ -230,7 +272,7 @@
     .sidebar {
       position: fixed; top: 48px; left: 0; bottom: 0; width: 280px; z-index: 95;
       transform: translateX(-100%); transition: transform 0.25s ease;
-      box-shadow: 4px 0 20px rgba(0,0,0,0.08);
+      box-shadow: 4px 0 24px var(--shadow-color);
     }
     .sidebar.open { transform: translateX(0); }
 
@@ -254,6 +296,10 @@
 <div class="topbar">
   <button class="menu-btn" id="menuBtn" title="菜单">&#9776;</button>
   <span class="brand">世界模型 · 技术全景图谱</span>
+  <button class="theme-toggle" id="themeToggle" title="切换深色/浅色模式" aria-label="切换主题">
+    <span class="theme-icon-light">☀️</span>
+    <span class="theme-icon-dark">🌙</span>
+  </button>
   <div class="stats">
     <span>569 实体</span>
     <span>1200 关系</span>
@@ -325,19 +371,58 @@
 // ═══════════════════════════════════════════════════
 // Constants
 // ═══════════════════════════════════════════════════
-var TYPE_COLORS = { person: '#10b981', company: '#f59e0b', product_paper: '#6366f1' };
+var TYPE_COLORS = { person: '#34d399', company: '#f59e0b', product_paper: '#818cf8' };
 var TYPE_NAMES = { person: '人物', company: '公司/机构', product_paper: '产品/论文' };
 
 var REL_COLORS = {
-  develops: '#6366f1', collaborates: '#3b82f6', related: '#6b7280',
-  mentors: '#14b8a6', founded: '#f59e0b', works_at: '#10b981',
-  evolves_to: '#ec4899'
+  develops: '#818cf8', collaborates: '#60a5fa', related: '#9ca3af',
+  mentors: '#2dd4bf', founded: '#f59e0b', works_at: '#34d399',
+  evolves_to: '#f472b6'
 };
 var REL_NAMES = {
   develops: '开发/推动', collaborates: '合作', related: '关联',
   mentors: '指导', founded: '创办', works_at: '任职',
   evolves_to: '演变'
 };
+
+// ═══════════════════════════════════════════════════
+// Theme — 双主题颜色映射
+// ═══════════════════════════════════════════════════
+var TYPE_COLORS_LIGHT = { person: '#10b981', company: '#f59e0b', product_paper: '#6366f1' };
+var TYPE_COLORS_DARK  = { person: '#34d399', company: '#f59e0b', product_paper: '#818cf8' };
+var REL_COLORS_LIGHT = {
+  develops: '#6366f1', collaborates: '#3b82f6', related: '#6b7280',
+  mentors: '#14b8a6', founded: '#f59e0b', works_at: '#10b981',
+  evolves_to: '#ec4899'
+};
+var REL_COLORS_DARK = {
+  develops: '#818cf8', collaborates: '#60a5fa', related: '#9ca3af',
+  mentors: '#2dd4bf', founded: '#f59e0b', works_at: '#34d399',
+  evolves_to: '#f472b6'
+};
+
+function currentTheme() {
+  return document.documentElement.getAttribute('data-theme') || 'dark';
+}
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('wm-theme', theme);
+  var isDark = theme === 'dark';
+  var tc = isDark ? TYPE_COLORS_DARK : TYPE_COLORS_LIGHT;
+  var rc = isDark ? REL_COLORS_DARK : REL_COLORS_LIGHT;
+  for (var k in tc) { TYPE_COLORS[k] = tc[k]; }
+  for (var k2 in rc) { REL_COLORS[k2] = rc[k2]; }
+  if (typeof cy !== 'undefined' && cy) { cy.style().update(); }
+}
+
+(function initTheme() {
+  var saved = localStorage.getItem('wm-theme') || 'dark';
+  applyTheme(saved);
+  document.getElementById('themeToggle').addEventListener('click', function() {
+    applyTheme(currentTheme() === 'dark' ? 'light' : 'dark');
+  });
+})();
 
 // ═══════════════════════════════════════════════════
 // State
