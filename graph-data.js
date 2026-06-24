@@ -5,8 +5,8 @@ window.GRAPH_DATA = {
       "name": "Yann LeCun 杨立昆",
       "type": "person",
       "description": "1960年生。1987年UPMC博士（导师Maurice Milgram），1988年AT&T贝尔实验室，2003年NYU教授，2013年创立Meta FAIR，2018年图灵奖。2025年11月离开Meta，2026年3月创办AMI Labs。核心主张：像素级预测在随机环境中不可行，应在学习的潜在空间中预测，而非像素空间。",
-      "degree": 51,
-      "composite_weight": 0.33116883116883117,
+      "degree": 52,
+      "composite_weight": 0.33766233766233766,
       "group_id": "jepa",
       "group_name": "路线一：JEPA 联合嵌入预测架构",
       "tags": [
@@ -226,8 +226,8 @@ window.GRAPH_DATA = {
       "name": "JEPA 联合嵌入预测",
       "type": "product_paper",
       "description": "核心设计选择：不预测像素，而是在学习的潜在空间中预测。编码器将视频块映射为表征，预测器在表征空间中预测被掩码区域。这让模型可以捕捉'球会从桌上掉落'而无需逐帧渲染。",
-      "degree": 25,
-      "composite_weight": 0.16233766233766234,
+      "degree": 26,
+      "composite_weight": 0.16883116883116883,
       "group_id": "jepa",
       "group_name": "路线一：JEPA 联合嵌入预测架构",
       "tags": [
@@ -512,8 +512,8 @@ window.GRAPH_DATA = {
       "name": "空间智能",
       "type": "product_paper",
       "description": "核心理念：真正的理解需要显式的空间结构——几何、深度、持续性和从新视角重观测场景的能力——而非仅时序预测。这是一条不同于JEPA的赌注：不是学习抽象动力学，而是学习可被直接操控的3D环境结构化表征。",
-      "degree": 65,
-      "composite_weight": 0.42207792207792205,
+      "degree": 67,
+      "composite_weight": 0.43506493506493504,
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
@@ -707,8 +707,8 @@ window.GRAPH_DATA = {
       "name": "NVIDIA 英伟达",
       "type": "company",
       "description": "物理AI基础设施的绝对领导者。Cosmos平台（2025.01 CES发布）提供完整技术栈：数据管线（20M小时视频14天处理）、视觉Tokenizer（8x压缩比）、扩散和自回归双架构预训练模型、Predict/Transfer/Reason三大上层模型家族。同时提供Omniverse模拟平台和GPU硬件。",
-      "degree": 33,
-      "composite_weight": 0.21428571428571427,
+      "degree": 35,
+      "composite_weight": 0.22727272727272727,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -785,8 +785,8 @@ window.GRAPH_DATA = {
       "name": "NVIDIA Cosmos (2025)",
       "type": "product_paper",
       "description": "NVIDIA的完整世界模型平台。预训练世界基础模型：9000万亿tokens，20M小时真实世界视频。双架构：扩散（连续潜在tokens）+ 自回归Transformer（离散tokens）。三大模型家族：Predict（视频预测）、Transfer（sim-to-real）、Reason（物理场景链式推理）。",
-      "degree": 16,
-      "composite_weight": 0.1038961038961039,
+      "degree": 17,
+      "composite_weight": 0.11038961038961038,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -2046,8 +2046,8 @@ window.GRAPH_DATA = {
       "name": "Cosmos Predict (2025)",
       "type": "product_paper",
       "description": "NVIDIA Cosmos平台的视频预测后训练模型。用于机器人/驾驶特定场景的状态推演，实现物理世界的时间序列预测。",
-      "degree": 7,
-      "composite_weight": 0.045454545454545456,
+      "degree": 8,
+      "composite_weight": 0.05194805194805195,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -2059,8 +2059,8 @@ window.GRAPH_DATA = {
       "name": "Cosmos Transfer (2025)",
       "type": "product_paper",
       "description": "NVIDIA Cosmos平台的大规模sim-to-real域适应模型。解决仿真与真实世界之间的视觉和物理动力学鸿沟。",
-      "degree": 4,
-      "composite_weight": 0.025974025974025976,
+      "degree": 5,
+      "composite_weight": 0.032467532467532464,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -2072,8 +2072,8 @@ window.GRAPH_DATA = {
       "name": "Cosmos Reason (GTC 2025)",
       "type": "product_paper",
       "description": "NVIDIA Cosmos平台的物理场景链式思维推理。时空感知+因果交互理解+视频问答，将LLM推理范式引入物理世界模型。",
-      "degree": 3,
-      "composite_weight": 0.01948051948051948,
+      "degree": 4,
+      "composite_weight": 0.025974025974025976,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -2761,8 +2761,8 @@ window.GRAPH_DATA = {
       "name": "π0 (2024)",
       "type": "product_paper",
       "description": "Physical Intelligence发布的首个视觉-语言-动作(VLA)基础模型。在多机器人平台和多任务上展现通用操作能力。基于互联网规模视觉数据预训练+机器人数据微调。",
-      "degree": 4,
-      "composite_weight": 0.025974025974025976,
+      "degree": 5,
+      "composite_weight": 0.032467532467532464,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -3320,8 +3320,8 @@ window.GRAPH_DATA = {
       "name": "GraspVLA (2025)",
       "type": "product_paper",
       "description": "银河通用2025年1月发布的全球首个基于十亿级仿真合成动作数据预训练的端到端具身抓取基础大模型。实现零样本泛化能力。核心思路：仿真生成几何信息丰富的3D合成数据（不受光照纹理影响）→大规模预训练→真实数据微调。代表了sim-to-real路线在具身操作领域的SOTA实践。",
-      "degree": 4,
-      "composite_weight": 0.025974025974025976,
+      "degree": 5,
+      "composite_weight": 0.032467532467532464,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -5010,8 +5010,8 @@ window.GRAPH_DATA = {
       "name": "混元3D 2.1 (CVPR 2025)",
       "type": "product_paper",
       "description": "腾讯混元团队，郭春超领导。业界首个全链路开源工业级3D生成大模型。支持文/图生成3D资产，引入PBR材质生成（CVPR 2025）。从Hunyuan3D-1.0（2024.11）→2.0（2025.01）→2.1（2025.06）→2.5（2025.12），有效面片数增加超10倍。开源24小时获3.2万GitHub Stars。",
-      "degree": 3,
-      "composite_weight": 0.01948051948051948,
+      "degree": 4,
+      "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
@@ -6749,8 +6749,8 @@ window.GRAPH_DATA = {
       "name": "王仲远 Wang Zhongyuan",
       "type": "person",
       "description": "智源研究院（BAAI）院长。2026年智源大会世界模型论坛主席。主持发布智源世界模型相关战略布局，推动ORCA世界基座模型等旗舰项目。组织「重构世界——中国大模型巅峰对话」等行业顶级论坛。",
-      "degree": 3,
-      "composite_weight": 0.01948051948051948,
+      "degree": 5,
+      "composite_weight": 0.032467532467532464,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -7073,8 +7073,8 @@ window.GRAPH_DATA = {
       "name": "小鹏汽车 Xpeng Motors",
       "type": "company",
       "description": "中国智能电动汽车头部企业，成立于2014年。在自动驾驶世界模型方向深度布局。2026年4月发布X-World——基于视频扩散生成的可控多视角生成式世界模型，应用于闭环仿真测试与在线决策。正在研发720亿参数超大规模自研世界模型。",
-      "degree": 2,
-      "composite_weight": 0.012987012987012988,
+      "degree": 3,
+      "composite_weight": 0.01948051948051948,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -7117,8 +7117,8 @@ window.GRAPH_DATA = {
       "name": "腾讯 AI Tencent AI",
       "type": "company",
       "description": "腾讯旗下AI研发力量。在视频生成、世界模型方向有布局。王井东现任腾讯AI Lab视觉计算中心总监。",
-      "degree": 3,
-      "composite_weight": 0.01948051948051948,
+      "degree": 4,
+      "composite_weight": 0.025974025974025976,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -7161,8 +7161,8 @@ window.GRAPH_DATA = {
       "name": "郭彦东 Guo Yandong",
       "type": "person",
       "description": "智平方AI² Robotics创始人兼CEO。普渡大学博士，前微软美国总部AI核心研究员，后任小鹏汽车首席科学家、OPPO首席科学家。2023年创立智平方，一年12轮融资，B轮超10亿元，估值突破100亿元。核心成果：GOVLA 1.0（全球首个全域全身VLA大模型，控制频率117.7Hz，超越Pi0达30%）。",
-      "degree": 2,
-      "composite_weight": 0.012987012987012988,
+      "degree": 5,
+      "composite_weight": 0.032467532467532464,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -7489,6 +7489,217 @@ window.GRAPH_DATA = {
         "多模态",
         "物理世界",
         "AGI"
+      ]
+    },
+    {
+      "id": "Manycore_Tech",
+      "name": "群核科技 Manycore Tech",
+      "type": "company",
+      "description": "2011年成立于杭州，「杭州六小龙」之一。2026年4月港交所上市(00068.HK)，全球空间智能第一股，首日涨144%，市值超316亿港元。核心产品酷家乐为国内最大空间设计平台，构建「空间编辑→空间数据→空间大模型」闭环。2025年营收8.2亿元，毛利率82.2%。创始人黄晓煌、陈航、朱皓均毕业于UIUC。",
+      "degree": 1,
+      "composite_weight": 0.006493506493506494,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能（3D 世界模型）",
+      "tags": [
+        "路线二：空间智能（3D 世界模型）",
+        "空间智能",
+        "IPO",
+        "杭州六小龙"
+      ]
+    },
+    {
+      "id": "BAAI",
+      "name": "智源研究院 BAAI",
+      "type": "company",
+      "description": "北京智源人工智能研究院，2018年成立，非营利新型研发机构。2021年发布悟道大模型，2026年发布全球首个通用世界基座模型悟界·Physis v0.1。院长王仲远。孵化智谱AI、月之暗面、面壁智能、银河通用等企业。开源模型超200个，全球下载量超10亿次。主张基于统一潜空间的全模态表征融合路线。",
+      "degree": 4,
+      "composite_weight": 0.025974025974025976,
+      "group_id": "jepa",
+      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "tags": [
+        "路线一：JEPA 联合嵌入预测架构",
+        "研究机构",
+        "世界模型",
+        "开源"
+      ]
+    },
+    {
+      "id": "AISquare",
+      "name": "智平方 AI² Robotics",
+      "type": "company",
+      "description": "2023年4月成立于深圳，生产力型通用智能机器人公司，深圳首个百亿级具身智能独角兽。创始人兼CEO郭彦东博士（前小鹏汽车/OPPO首席科学家）。自研全球首个全域全身VLA大模型GOVLA，硬件产品AlphaBot系列。2026年B轮融资超10亿元，估值超百亿，12个月内完成12轮融资。",
+      "degree": 2,
+      "composite_weight": 0.012987012987012988,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "具身智能",
+        "人形机器人",
+        "独角兽",
+        "VLA"
+      ]
+    },
+    {
+      "id": "Geely",
+      "name": "吉利汽车 Geely",
+      "type": "company",
+      "description": "中国头部汽车集团，旗下拥有吉利、领克、极氪等品牌。2026年发布WAM世界行为模型（World Action Model），统一智能驾驶、智能座舱与底盘控制三大域，走WA（World Action）路线而非主流VLA路线，主张直接在物理动作空间建模世界知识。",
+      "degree": 1,
+      "composite_weight": 0.006493506493506494,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "自动驾驶",
+        "世界行为模型",
+        "WA"
+      ]
+    },
+    {
+      "id": "Physis_v0_1",
+      "name": "悟界·Physis v0.1 (2026)",
+      "type": "product_paper",
+      "description": "智源研究院2026年6月发布的全球首个通用世界基座模型。采用物理隐空间表征，将视频、深度、3D点云等全模态信息统一转化，具备物理一致性、动作因果性、长程可推演性。覆盖50+物理场景。标志着智源从「悟道」到「悟界」的跨越。",
+      "degree": 3,
+      "composite_weight": 0.01948051948051948,
+      "group_id": "jepa",
+      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "tags": [
+        "路线一：JEPA 联合嵌入预测架构",
+        "世界基座模型",
+        "2026",
+        "智源"
+      ]
+    },
+    {
+      "id": "Omega_EVA",
+      "name": "ω-EVA (2026)",
+      "type": "product_paper",
+      "description": "星源智能与智源研究院2026年6月联合发布的全球首个具身交互世界模型。采用「预演→验证→行动」闭环决策架构，参数量仅1.2B，在LIBERO基准上平均成功率98.6%。核心理念：世界模型不仅是观察者，更是行动的参与者与验证者。",
+      "degree": 1,
+      "composite_weight": 0.006493506493506494,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "具身智能",
+        "交互世界模型",
+        "2026"
+      ]
+    },
+    {
+      "id": "EvoPhys_World",
+      "name": "EvoPhys-World (2026)",
+      "type": "product_paper",
+      "description": "北京大学2026年6月发布的5D世界模型，登顶斯坦福WorldScore榜单第一。提出「5D」概念：三维空间+时间+动作与因果维度。核心理念「知行合一」：一个基模两种形态——World Engine（万物可孪生）+ World Policy（万物可操控）。全程在国产摩尔线程MTT S5000 GPU上完成原生训练。",
+      "degree": 1,
+      "composite_weight": 0.006493506493506494,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "5D世界模型",
+        "WorldScore",
+        "2026",
+        "北大"
+      ]
+    },
+    {
+      "id": "Cosmos_3",
+      "name": "NVIDIA Cosmos 3 (2026)",
+      "type": "product_paper",
+      "description": "NVIDIA于2026年6月GTC台北发布的全球首个开源全模态物理AI大模型。采用混合Transformer架构，原生融合文本、图像、视频、环境音与动作。三个版本：Super（高精度）、Nano（快速推理）、Edge（边缘部署）。在World Generation、Robot Action Policies等多项基准登顶。训练数据达20万亿token。",
+      "degree": 6,
+      "composite_weight": 0.03896103896103896,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "全模态",
+        "2026",
+        "开源",
+        "NVIDIA"
+      ]
+    },
+    {
+      "id": "ABot_Earth",
+      "name": "ABot-Earth0.5 (2026)",
+      "type": "product_paper",
+      "description": "高德发布的全球首个3D原生城市世界模型。以3D数据直接训练而非2D反推3D，技术论文登顶Hugging Face论文三榜（月榜/周榜/日榜）第一。具备城市级3D场景理解与重建能力，获图形学权威陈宝权教授公开推荐。",
+      "degree": 1,
+      "composite_weight": 0.006493506493506494,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能（3D 世界模型）",
+      "tags": [
+        "路线二：空间智能（3D 世界模型）",
+        "3D重建",
+        "城市世界模型",
+        "2026"
+      ]
+    },
+    {
+      "id": "HY_World2",
+      "name": "混元3D世界模型2.0 HY-World 2.0 (2026)",
+      "type": "product_paper",
+      "description": "腾讯2026年5月发布并开源的新一代3D世界模型。面向游戏引擎、空间建模与交互式3D内容生成，支持高精度几何重建与物理一致的实时渲染，标志着互联网巨头从视频生成向空间智能的纵深布局。",
+      "degree": 3,
+      "composite_weight": 0.01948051948051948,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能（3D 世界模型）",
+      "tags": [
+        "路线二：空间智能（3D 世界模型）",
+        "3D世界模型",
+        "开源",
+        "2026",
+        "腾讯"
+      ]
+    },
+    {
+      "id": "GOVLA",
+      "name": "GOVLA (2024-2026)",
+      "type": "product_paper",
+      "description": "智平方原创的全球首个全域全身VLA大模型。GOVLA 0.0（RoboMamba）2024年6月开源，参数量仅为谷歌同类1/20，性能提升超80%，入选NeurIPS 2024。GOVLA 0.5（FiS-VLA）2025年6月发布，业界首个异构输入+异步频率双系统VLA，控制频率达117.7Hz，超越Pi0达30%。",
+      "degree": 4,
+      "composite_weight": 0.025974025974025976,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "VLA",
+        "具身智能",
+        "开源"
+      ]
+    },
+    {
+      "id": "WAM_Geely",
+      "name": "WAM 世界行为模型 (2026)",
+      "type": "product_paper",
+      "description": "吉利汽车2026年发布的世界行为模型（World Action Model），统一智能驾驶、智能座舱与底盘控制三大域。走WA（World Action）路线，直接在物理动作空间建模世界知识，公开拒绝主流VLA范式。代表车企从被动使用AI到主动定义世界模型技术路线的产业趋势。",
+      "degree": 1,
+      "composite_weight": 0.006493506493506494,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "自动驾驶",
+        "世界行为模型",
+        "2026"
+      ]
+    },
+    {
+      "id": "Huang_Xiaohuang",
+      "name": "黄晓煌 Huang Xiaohuang",
+      "type": "person",
+      "description": "群核科技（Manycore Tech）联合创始人、董事长。毕业于美国伊利诺伊大学厄巴纳-香槟分校（UIUC）计算机科学硕士。曾任职于英伟达。2011年与陈航、朱皓以20万元在杭州创办群核科技，打造酷家乐平台，2026年4月带领公司登陆港交所成为「全球空间智能第一股」。",
+      "degree": 2,
+      "composite_weight": 0.012987012987012988,
+      "group_id": "spatial",
+      "group_name": "路线二：空间智能（3D 世界模型）",
+      "tags": [
+        "路线二：空间智能（3D 世界模型）",
+        "创始人",
+        "空间智能"
       ]
     }
   ],
@@ -15892,6 +16103,181 @@ window.GRAPH_DATA = {
       "relation_type": "develops",
       "label": "多模态视觉-语言联合表征→空间理解",
       "weight": 0.7
+    },
+    {
+      "source": "Huang_Xiaohuang",
+      "target": "Manycore_Tech",
+      "relation_type": "founded",
+      "label": "联合创始人、董事长",
+      "weight": 5
+    },
+    {
+      "source": "Huang_Xiaohuang",
+      "target": "NVIDIA",
+      "relation_type": "works_at",
+      "label": "前员工",
+      "weight": 2
+    },
+    {
+      "source": "Wang_Zhongyuan",
+      "target": "BAAI",
+      "relation_type": "works_at",
+      "label": "院长",
+      "weight": 5
+    },
+    {
+      "source": "BAAI",
+      "target": "Physis_v0_1",
+      "relation_type": "develops",
+      "label": "发布机构",
+      "weight": 5
+    },
+    {
+      "source": "Wang_Zhongyuan",
+      "target": "Physis_v0_1",
+      "relation_type": "develops",
+      "label": "发布者",
+      "weight": 4
+    },
+    {
+      "source": "BAAI",
+      "target": "Omega_EVA",
+      "relation_type": "develops",
+      "label": "联合发布机构",
+      "weight": 4
+    },
+    {
+      "source": "BAAI",
+      "target": "Yann_LeCun",
+      "relation_type": "collaborates",
+      "label": "智源大会特邀演讲、学术交流",
+      "weight": 2
+    },
+    {
+      "source": "Guo_Yandong",
+      "target": "AISquare",
+      "relation_type": "founded",
+      "label": "创始人兼CEO",
+      "weight": 5
+    },
+    {
+      "source": "AISquare",
+      "target": "GOVLA",
+      "relation_type": "develops",
+      "label": "自研VLA大模型",
+      "weight": 5
+    },
+    {
+      "source": "Guo_Yandong",
+      "target": "GOVLA",
+      "relation_type": "develops",
+      "label": "核心推动者",
+      "weight": 4
+    },
+    {
+      "source": "Guo_Yandong",
+      "target": "Xpeng",
+      "relation_type": "works_at",
+      "label": "前首席科学家",
+      "weight": 3
+    },
+    {
+      "source": "Geely",
+      "target": "WAM_Geely",
+      "relation_type": "develops",
+      "label": "发布WAM世界行为模型",
+      "weight": 5
+    },
+    {
+      "source": "Physis_v0_1",
+      "target": "JEPA_concept",
+      "relation_type": "related",
+      "label": "继承JEPA隐空间预测思想",
+      "weight": 3
+    },
+    {
+      "source": "NVIDIA",
+      "target": "Cosmos_3",
+      "relation_type": "develops",
+      "label": "GTC 2026发布",
+      "weight": 5
+    },
+    {
+      "source": "Cosmos",
+      "target": "Cosmos_3",
+      "relation_type": "evolves_to",
+      "label": "全模态统一大版本升级",
+      "weight": 5
+    },
+    {
+      "source": "Cosmos_Predict",
+      "target": "Cosmos_3",
+      "relation_type": "evolves_to",
+      "label": "预测模块并入统一架构",
+      "weight": 4
+    },
+    {
+      "source": "Cosmos_Reason",
+      "target": "Cosmos_3",
+      "relation_type": "evolves_to",
+      "label": "推理模块并入统一架构",
+      "weight": 4
+    },
+    {
+      "source": "Cosmos_Transfer",
+      "target": "Cosmos_3",
+      "relation_type": "evolves_to",
+      "label": "迁移模块并入统一架构",
+      "weight": 4
+    },
+    {
+      "source": "EvoPhys_World",
+      "target": "Cosmos_3",
+      "relation_type": "related",
+      "label": "同期登顶不同基准的世界模型",
+      "weight": 2
+    },
+    {
+      "source": "Tencent_AI",
+      "target": "HY_World2",
+      "relation_type": "develops",
+      "label": "发布并开源",
+      "weight": 5
+    },
+    {
+      "source": "Hunyuan3D",
+      "target": "HY_World2",
+      "relation_type": "evolves_to",
+      "label": "从3D生成升级为3D世界模型",
+      "weight": 4
+    },
+    {
+      "source": "HY_World2",
+      "target": "Spatial_Intel",
+      "relation_type": "related",
+      "label": "3D空间智能同一技术方向",
+      "weight": 2
+    },
+    {
+      "source": "GOVLA",
+      "target": "Pi0",
+      "relation_type": "related",
+      "label": "GOVLA 0.5全面超越Pi0达30%",
+      "weight": 3
+    },
+    {
+      "source": "GOVLA",
+      "target": "GraspVLA",
+      "relation_type": "related",
+      "label": "VLA架构的工业级实现",
+      "weight": 2
+    },
+    {
+      "source": "ABot_Earth",
+      "target": "Spatial_Intel",
+      "relation_type": "related",
+      "label": "3D原生城市世界模型",
+      "weight": 2
     }
   ]
 };
