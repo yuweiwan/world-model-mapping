@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>世界模型 · 技术全景图谱</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Noto+Sans+SC:wght@400;500;600;700&display=swap" rel="stylesheet">
 <script src="cytoscape.min.js"></script>
 <script src="layout-base.js"></script>
 <script src="cose-base.js"></script>
@@ -11,29 +14,31 @@
 <script src="graph-data.js"></script>
 <style>
   :root {
-    --bg: #0c0815;
-    --bg-panel: #150f24;
-    --border: #251a3a;
-    --text: #e2ddf0;
-    --text-dim: #7a6f99;
-    --accent: #a78bfa;
-    --product: #7c3aed;
+    --bg: #f3f4f6;
+    --bg-panel: #ffffff;
+    --border: #e5e7eb;
+    --text: #1f2937;
+    --text-dim: #9ca3af;
+    --accent: #0d9488;
+    --product: #6366f1;
     --company: #f59e0b;
     --person: #10b981;
+    --hover: #f9fafb;
   }
   * { margin: 0; padding: 0; box-sizing: border-box; }
   body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+    font-family: 'Inter', 'Noto Sans SC', -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Microsoft YaHei', sans-serif;
     background: var(--bg);
     color: var(--text);
     height: 100vh; overflow: hidden; display: flex; flex-direction: column;
     font-size: 12px;
+    -webkit-font-smoothing: antialiased;
   }
 
   /* ── Top bar ── */
   .topbar {
     height: 42px; border-bottom: 1px solid var(--border);
-    background: rgba(12, 8, 21, 0.9); backdrop-filter: blur(8px);
+    background: rgba(255, 255, 255, 0.85); backdrop-filter: blur(8px);
     display: flex; align-items: center; padding: 0 18px; gap: 18px;
     z-index: 100; flex-shrink: 0;
   }
@@ -76,7 +81,7 @@
     display: flex; align-items: center; gap: 7px; transition: background 0.12s;
     font-size: 11px;
   }
-  .search-result-item:hover { background: rgba(167, 139, 250, 0.1); }
+  .search-result-item:hover { background: var(--hover); }
   .search-result-item .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
   .search-result-item .name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
   .search-result-item .sub { color: var(--text-dim); font-size: 9px; flex-shrink: 0; }
@@ -123,7 +128,7 @@
     display: flex; align-items: center; gap: 7px; padding: 4px 6px;
     cursor: pointer; border-radius: 4px; transition: background 0.1s; font-size: 11px;
   }
-  .lb-item:hover { background: rgba(167, 139, 250, 0.08); }
+  .lb-item:hover { background: var(--hover); }
   .lb-item .rank { width: 16px; font-size: 10px; color: var(--text-dim); text-align: right; flex-shrink: 0; }
   .lb-item .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
   .lb-item .lb-name { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
@@ -141,9 +146,9 @@
   /* Tooltip */
   .tooltip {
     position: absolute; pointer-events: none; z-index: 200;
-    background: rgba(21, 15, 36, 0.96); border: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.97); border: 1px solid var(--border);
     padding: 8px 10px; border-radius: 5px; font-size: 10px;
-    max-width: 240px; display: none; box-shadow: 0 4px 16px rgba(0,0,0,0.5);
+    max-width: 240px; display: none; box-shadow: 0 2px 12px rgba(0,0,0,0.08);
   }
   .tooltip.visible { display: block; }
   .tooltip .tt-name { color: var(--text); font-size: 13px; margin-bottom: 2px; }
@@ -155,11 +160,11 @@
   .detail-panel {
     position: absolute; top: 0; right: 0; bottom: 0;
     width: 320px; z-index: 150;
-    background: rgba(21, 15, 36, 0.98); border-left: 1px solid var(--border);
+    background: rgba(255, 255, 255, 0.98); border-left: 1px solid var(--border);
     display: flex; flex-direction: column;
     transform: translateX(100%);
     transition: transform 0.32s cubic-bezier(0.4,0,0.2,1);
-    box-shadow: -4px 0 24px rgba(0,0,0,0.5);
+    box-shadow: -4px 0 24px rgba(0,0,0,0.06);
   }
   .detail-panel.open { transform: translateX(0); }
   .detail-header {
@@ -183,14 +188,14 @@
   .detail-body .db-label { font-size: 10px; color: var(--text-dim); margin-bottom: 6px; letter-spacing: 0.5px; }
   .detail-body .tag {
     display: inline-block; padding: 2px 7px; margin: 2px 3px 2px 0;
-    font-size: 9px; background: rgba(167,139,250,0.1);
-    border: 1px solid rgba(167,139,250,0.2); border-radius: 3px; color: var(--text-dim);
+    font-size: 9px; background: var(--hover);
+    border: 1px solid rgba(99, 102, 241, 0.15); border-radius: 3px; color: var(--text-dim);
   }
   .detail-body .relation-item {
     display: flex; align-items: center; gap: 7px; padding: 4px 6px;
     font-size: 10px; cursor: pointer; border-radius: 4px; transition: background 0.1s;
   }
-  .detail-body .relation-item:hover { background: rgba(167,139,250,0.08); }
+  .detail-body .relation-item:hover { background: var(--hover); }
   .detail-body .relation-item .rel-dot { width: 6px; height: 6px; border-radius: 50%; flex-shrink: 0; }
 
   ::-webkit-scrollbar { width: 3px; }
@@ -270,7 +275,7 @@
 // ═══════════════════════════════════════════════════
 // Constants
 // ═══════════════════════════════════════════════════
-var TYPE_COLORS = { person: '#10b981', company: '#f59e0b', product_paper: '#7c3aed' };
+var TYPE_COLORS = { person: '#10b981', company: '#f59e0b', product_paper: '#6366f1' };
 var TYPE_NAMES = { person: '人物', company: '公司/机构', product_paper: '产品/论文' };
 
 var REL_COLORS = {
@@ -378,17 +383,17 @@ function init() {
       {
         selector: 'node',
         style: {
-          'background-color': function(e) { return TYPE_COLORS[e.data('type')] || '#888'; },
+          'background-color': function(e) { return TYPE_COLORS[e.data('type')] || '#9ca3af'; },
           'border-width': 1.5,
-          'border-color': function(e) { return darken(TYPE_COLORS[e.data('type')]||'#888', 40); },
+          'border-color': function(e) { return darken(TYPE_COLORS[e.data('type')]||'#9ca3af', 40); },
           'width': function(e) { return nodeRadius(e.data('_raw')) * 2; },
           'height': function(e) { return nodeRadius(e.data('_raw')) * 2; },
           'label': '',
           'font-size': 9,
-          'color': '#e2ddf0',
+          'color': '#1f2937',
           'font-family': '"PingFang SC","Microsoft YaHei",sans-serif',
           'text-outline-width': 2,
-          'text-outline-color': '#0c0815',
+          'text-outline-color': '#ffffff',
           'text-max-width': '90px',
           'text-wrap': 'ellipsis',
           'min-zoomed-font-size': 6,
@@ -423,8 +428,8 @@ function init() {
         selector: 'edge',
         style: {
           'width': function(e) { return Math.max(0.6, Math.min(3, Math.log2((e.data('weight')||1)+1))); },
-          'line-color': function(e) { return REL_COLORS[e.data('relation_type')] || '#555'; },
-          'target-arrow-color': function(e) { return REL_COLORS[e.data('relation_type')] || '#555'; },
+          'line-color': function(e) { return REL_COLORS[e.data('relation_type')] || '#9ca3af'; },
+          'target-arrow-color': function(e) { return REL_COLORS[e.data('relation_type')] || '#9ca3af'; },
           'target-arrow-shape': 'triangle',
           'arrow-scale': 0.7,
           'curve-style': 'bezier',
@@ -575,7 +580,7 @@ function hideTooltip() { document.getElementById('tooltip').classList.remove('vi
 function showDetail(node) {
   var d = node.data();
   var raw = d._raw;
-  var color = TYPE_COLORS[d.type] || '#888';
+  var color = TYPE_COLORS[d.type] || '#9ca3af';
   var tn = TYPE_NAMES[d.type] || d.type;
 
   document.getElementById('dhDot').style.backgroundColor = color;
@@ -619,7 +624,7 @@ function showDetail(node) {
       shown[key] = true;
       var nb = cy.getElementById(nid);
       if (!nb.length) return;
-      var nc = TYPE_COLORS[nb.data('type')] || '#888';
+      var nc = TYPE_COLORS[nb.data('type')] || '#9ca3af';
       body += '<div class="relation-item" data-node-id="' + nid + '" onclick="selectNode(\'' + nid + '\')">';
       body += '<span class="rel-dot" style="background:' + nc + '"></span>';
       body += '<span>' + nb.data('label') + '</span>';
@@ -675,7 +680,7 @@ function setupSearch() {
     }).slice(0, 15);
 
     resultsEl.innerHTML = results.map(function(n) {
-      var color = TYPE_COLORS[n.type] || '#888';
+      var color = TYPE_COLORS[n.type] || '#9ca3af';
       return '<div class="search-result-item" data-node-id="' + n.id + '">'
         + '<span class="dot" style="background:' + color + '"></span>'
         + '<span class="name">' + n.name + '</span>'
@@ -726,7 +731,7 @@ function renderLegend() {
   var items = [];
   for (var k in REL_NAMES) { items.push({ key: k, label: REL_NAMES[k] }); }
   content.innerHTML = items.map(function(it) {
-    var c = REL_COLORS[it.key] || '#555';
+    var c = REL_COLORS[it.key] || '#9ca3af';
     return '<div class="legend-item"><span class="legend-line" style="background:' + c + '"></span><span>' + it.label + ' (' + it.key + ')</span></div>';
   }).join('');
 
@@ -759,7 +764,7 @@ function renderLeaderboard() {
   var top = filtered;
 
   list.innerHTML = top.map(function(n, i) {
-    var color = TYPE_COLORS[n.type] || '#888';
+    var color = TYPE_COLORS[n.type] || '#9ca3af';
     return '<div class="lb-item" data-node-id="' + n.id + '">'
       + '<span class="rank">' + (i+1) + '</span>'
       + '<span class="dot" style="background:' + color + '"></span>'
