@@ -1,0 +1,14 @@
+# Auto-detect text files, convert to LF on commit
+* text=auto
+
+# JavaScript / HTML / JSON — always LF
+*.js text eol=lf
+*.html text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.css text eol=lf
+
+# Binary
+*.png binary
+*.jpg binary
+*.ico binary

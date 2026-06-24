@@ -304,6 +304,12 @@ function darken(hex, amt) {
   return '#' + ((r<<16)|(g<<8)|b).toString(16).padStart(6,'0');
 }
 
+function escapeHtml(text) {
+  var div = document.createElement('div');
+  div.appendChild(document.createTextNode(text));
+  return div.innerHTML;
+}
+
 function nodeRadius(raw) {
   return 14 + 40 * (raw.composite_weight || 0.01);
 }
@@ -325,9 +331,7 @@ function init() {
   document.getElementById('loading').textContent = '渲染图谱中...';
 
   // Build elements
-  var nodeIds = new Set();
   var nodes = graphData.nodes.map(function(n) {
-    nodeIds.add(n.id);
     return {
       data: {
         id: n.id, label: n.name, type: n.type,
@@ -580,7 +584,7 @@ function showDetail(node) {
 
   var body = '';
   if (raw.description) {
-    body += '<div class="db-desc">' + raw.description + '</div>';
+    body += '<div class="db-desc">' + escapeHtml(raw.description) + '</div>';
   }
 
   // Stats
