@@ -203,9 +203,9 @@
 <div class="topbar">
   <span class="brand">世界模型 · 技术全景图谱</span>
   <div class="stats">
-    <span>536 实体</span>
-    <span>1038 关系</span>
-    <span>5 技术路线</span>
+    <span>566 实体</span>
+    <span>1191 关系</span>
+    <span>7 关系类型</span>
   </div>
 </div>
 
@@ -274,14 +274,14 @@ var TYPE_COLORS = { person: '#10b981', company: '#f59e0b', product_paper: '#7c3a
 var TYPE_NAMES = { person: '人物', company: '公司/机构', product_paper: '产品/论文' };
 
 var REL_COLORS = {
-  mentors: '#14b8a6', founder_of: '#f59e0b', works_at: '#10b981',
-  collaborates_with: '#3b82f6', develops: '#6366f1', related: '#6b7280',
-  invests_in: '#ec4899'
+  develops: '#6366f1', collaborates: '#3b82f6', related: '#6b7280',
+  mentors: '#14b8a6', founded: '#f59e0b', works_at: '#10b981',
+  evolves_to: '#ec4899'
 };
 var REL_NAMES = {
-  mentors: '指导', founder_of: '创办', works_at: '任职',
-  collaborates_with: '合作', develops: '开发/推动', related: '关联',
-  invests_in: '投资'
+  develops: '开发/推动', collaborates: '合作', related: '关联',
+  mentors: '指导', founded: '创办', works_at: '任职',
+  evolves_to: '演变'
 };
 
 // ═══════════════════════════════════════════════════
@@ -602,7 +602,7 @@ function showDetail(node) {
   if (connEdges.length > 0) {
     body += '<div class="db-section"><div class="db-label">关联关系 (' + connEdges.length + ')</div>';
     var shown = {};
-    var order = { mentors:1, founder_of:2, works_at:3, develops:4, collaborates_with:5, invests_in:6, related:7 };
+    var order = { mentors:1, founded:2, works_at:3, develops:4, collaborates:5, evolves_to:6, related:7 };
     var sorted = connEdges.sort(function(a, b) {
       return (order[a.data('relation_type')]||5) - (order[b.data('relation_type')]||5);
     });
