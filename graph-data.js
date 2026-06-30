@@ -6351,7 +6351,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
-        "路线二：空间智能与3D世界模型"
+        "路线二：空间智能（3D 世界模型）"
       ]
     },
     {
@@ -6364,7 +6364,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
-        "路线二：空间智能与3D世界模型"
+        "路线二：空间智能（3D 世界模型）"
       ]
     },
     {
@@ -6377,7 +6377,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
-        "路线二：空间智能与3D世界模型"
+        "路线二：空间智能（3D 世界模型）"
       ]
     },
     {
@@ -6390,7 +6390,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
-        "路线二：空间智能与3D世界模型"
+        "路线二：空间智能（3D 世界模型）"
       ]
     },
     {
@@ -6403,7 +6403,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
-        "路线二：空间智能与3D世界模型"
+        "路线二：空间智能（3D 世界模型）"
       ]
     },
     {
@@ -6663,7 +6663,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
-        "路线二：空间智能与3D世界模型"
+        "路线二：空间智能（3D 世界模型）"
       ]
     },
     {
@@ -6910,7 +6910,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
-        "路线二：空间智能与3D世界模型"
+        "路线二：空间智能（3D 世界模型）"
       ]
     },
     {
@@ -6923,7 +6923,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
-        "路线二：空间智能与3D世界模型"
+        "路线二：空间智能（3D 世界模型）"
       ]
     },
     {
@@ -7001,6 +7001,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "具身智能",
         "世界模型",
         "端到端",
@@ -7017,6 +7018,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "具身智能",
         "人形机器人",
         "独角兽",
@@ -7033,6 +7035,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "灵巧手",
         "具身智能",
         "自进化"
@@ -7048,6 +7051,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "人形机器人",
         "西湖大学",
         "运动控制"
@@ -7063,6 +7067,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "视频生成",
         "世界模型",
         "AI"
@@ -7078,6 +7083,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "智能驾驶",
         "世界模型",
         "具身智能"
@@ -7093,6 +7099,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "智能驾驶",
         "世界模型"
       ]
@@ -7107,6 +7114,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "AI",
         "世界模型",
         "视频生成"
@@ -7122,6 +7130,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "AI",
         "视频生成",
         "世界模型"
@@ -7137,6 +7146,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "具身智能",
         "人形机器人",
         "开源"
@@ -7152,6 +7162,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "具身智能",
         "人形机器人"
       ]
@@ -7166,6 +7177,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "VLA",
         "具身智能",
         "独角兽"
@@ -7181,6 +7193,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "3D生成",
         "大模型",
         "创业"
@@ -7196,6 +7209,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "VLA",
         "世界模型",
         "具身智能"
@@ -7211,6 +7225,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "具身智能",
         "自动驾驶"
       ]
@@ -7225,6 +7240,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "自动驾驶",
         "世界模型",
         "Waymo"
@@ -7240,6 +7256,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
+        "路线二：空间智能（3D 世界模型）",
         "3D生成",
         "大模型",
         "创业"
@@ -7255,6 +7272,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
+        "路线二：空间智能（3D 世界模型）",
         "3D生成",
         "大模型",
         "创业"
@@ -7270,6 +7288,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "DiT",
         "视频生成",
         "扩散模型"
@@ -7285,6 +7304,7 @@ window.GRAPH_DATA = {
       "group_id": "spatial",
       "group_name": "路线二：空间智能（3D 世界模型）",
       "tags": [
+        "路线二：空间智能（3D 世界模型）",
         "3D视觉",
         "SLAM",
         "Stanford"
@@ -7300,6 +7320,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "强化学习",
         "图灵奖",
         "DeepMind"
@@ -7315,6 +7336,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "自动驾驶",
         "世界模型",
         "生成式仿真"
@@ -7330,6 +7352,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "机器人",
         "基础模型",
         "具身智能"
@@ -7345,6 +7368,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "人形机器人",
         "家用机器人",
         "AGI"
@@ -7360,6 +7384,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "自动驾驶",
         "世界模型",
         "L4"
@@ -7375,6 +7400,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "计算机视觉",
         "世界模型",
         "盘古大模型"
@@ -7390,6 +7416,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "自动驾驶",
         "世界模型",
         "L4",
@@ -7406,6 +7433,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "AI",
         "自动驾驶",
         "盘古大模型",
@@ -7422,6 +7450,7 @@ window.GRAPH_DATA = {
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "世界模型",
         "仿真",
         "自动驾驶",
@@ -7438,6 +7467,7 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "自动驾驶",
         "多模态",
         "具身智能",
@@ -7454,6 +7484,7 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "视觉推理",
         "世界模型",
         "Gemini",
@@ -7470,6 +7501,7 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "多模态",
         "视觉推理",
         "表征学习"
@@ -7485,6 +7517,7 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
         "视觉推理",
         "多模态",
         "物理世界",

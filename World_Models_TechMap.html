@@ -21,6 +21,11 @@
     --product: #6366f1;
     --company: #f59e0b;
     --person: #10b981;
+    --group-jepa: #4f46e5;
+    --group-spatial: #0891b2;
+    --group-sim: #d97706;
+    --group-active_inf: #7c3aed;
+    --group-causal: #dc2626;
     --hover: #f2f5f9;
     --topbar-gradient: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(240,246,252,0.92));
     --panel-bg: rgba(255,255,255,0.97);
@@ -44,6 +49,11 @@
     --product: #818cf8;
     --company: #f59e0b;
     --person: #34d399;
+    --group-jepa: #818cf8;
+    --group-spatial: #22d3ee;
+    --group-sim: #fbbf24;
+    --group-active_inf: #a78bfa;
+    --group-causal: #f87171;
     --hover: #243447;
     --topbar-gradient: linear-gradient(135deg, rgba(27,40,56,0.96), rgba(13,27,42,0.96));
     --panel-bg: rgba(27,40,56,0.98);
@@ -325,6 +335,17 @@
     </div>
 
     <div class="sidebar-section">
+      <div class="section-title">路线筛选</div>
+      <div class="filter-btns" id="groupFilterBtns">
+        <button class="filter-btn active" data-group="jepa"><span class="dot" style="background:var(--group-jepa)"></span>JEPA</button>
+        <button class="filter-btn active" data-group="spatial"><span class="dot" style="background:var(--group-spatial)"></span>空间智能</button>
+        <button class="filter-btn active" data-group="sim"><span class="dot" style="background:var(--group-sim)"></span>学习仿真</button>
+        <button class="filter-btn active" data-group="active_inf"><span class="dot" style="background:var(--group-active_inf)"></span>主动推理</button>
+        <button class="filter-btn active" data-group="causal"><span class="dot" style="background:var(--group-causal)"></span>因果推断</button>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
       <button class="legend-toggle" id="legendToggle"><span>图例</span><span id="legendArrow">▶</span></button>
       <div class="legend-content" id="legendContent"></div>
     </div>
@@ -374,6 +395,9 @@
 var TYPE_COLORS = { person: '#34d399', company: '#f59e0b', product_paper: '#818cf8' };
 var TYPE_NAMES = { person: '人物', company: '公司/机构', product_paper: '产品/论文' };
 
+var GROUP_COLORS = { jepa: '#6366f1', spatial: '#06b6d4', sim: '#f59e0b', active_inf: '#a855f7', causal: '#ef4444' };
+var GROUP_NAMES = { jepa: 'JEPA 联合嵌入', spatial: '空间智能', sim: '学习仿真', active_inf: '主动推理', causal: '因果推断' };
+
 var REL_COLORS = {
   develops: '#818cf8', collaborates: '#60a5fa', related: '#9ca3af',
   mentors: '#2dd4bf', founded: '#f59e0b', works_at: '#34d399',
@@ -390,6 +414,8 @@ var REL_NAMES = {
 // ═══════════════════════════════════════════════════
 var TYPE_COLORS_LIGHT = { person: '#10b981', company: '#f59e0b', product_paper: '#6366f1' };
 var TYPE_COLORS_DARK  = { person: '#34d399', company: '#f59e0b', product_paper: '#818cf8' };
+var GROUP_COLORS_LIGHT = { jepa: '#4f46e5', spatial: '#0891b2', sim: '#d97706', active_inf: '#7c3aed', causal: '#dc2626' };
+var GROUP_COLORS_DARK  = { jepa: '#818cf8', spatial: '#22d3ee', sim: '#fbbf24', active_inf: '#a78bfa', causal: '#f87171' };
 var REL_COLORS_LIGHT = {
   develops: '#6366f1', collaborates: '#3b82f6', related: '#6b7280',
   mentors: '#14b8a6', founded: '#f59e0b', works_at: '#10b981',
@@ -411,8 +437,10 @@ function applyTheme(theme) {
   var isDark = theme === 'dark';
   var tc = isDark ? TYPE_COLORS_DARK : TYPE_COLORS_LIGHT;
   var rc = isDark ? REL_COLORS_DARK : REL_COLORS_LIGHT;
+  var gc = isDark ? GROUP_COLORS_DARK : GROUP_COLORS_LIGHT;
   for (var k in tc) { TYPE_COLORS[k] = tc[k]; }
   for (var k2 in rc) { REL_COLORS[k2] = rc[k2]; }
+  for (var k3 in gc) { GROUP_COLORS[k3] = gc[k3]; }
   if (typeof cy !== 'undefined' && cy) { cy.style().update(); }
 }
 
@@ -431,6 +459,7 @@ var cy = null;
 var graphData = null;
 var selectedNodeId = null;
 var activeFilters = new Set(['person', 'company', 'product_paper']);
+var activeGroupFilters = new Set(['jepa', 'spatial', 'sim', 'active_inf', 'causal']);
 var activeTab = 'person';
 
 // ═══════════════════════════════════════════════════
@@ -518,9 +547,9 @@ function init() {
       {
         selector: 'node',
         style: {
-          'background-color': function(e) { return TYPE_COLORS[e.data('type')] || '#9ca3af'; },
-          'border-width': 1.5,
-          'border-color': function(e) { return darken(TYPE_COLORS[e.data('type')]||'#9ca3af', 40); },
+          'background-color': function(e) { return GROUP_COLORS[e.data('group_id')] || '#9ca3af'; },
+          'border-width': 2.5,
+          'border-color': function(e) { return TYPE_COLORS[e.data('type')] || '#9ca3af'; },
           'width': function(e) { return nodeRadius(e.data('_raw')) * 2; },
           'height': function(e) { return nodeRadius(e.data('_raw')) * 2; },
           'label': '',
@@ -716,10 +745,11 @@ function hideTooltip() { document.getElementById('tooltip').classList.remove('vi
 function showDetail(node) {
   var d = node.data();
   var raw = d._raw;
-  var color = TYPE_COLORS[d.type] || '#9ca3af';
+  var groupColor = GROUP_COLORS[d.group_id] || '#9ca3af';
+  var typeColor = TYPE_COLORS[d.type] || '#9ca3af';
   var tn = TYPE_NAMES[d.type] || d.type;
 
-  document.getElementById('dhDot').style.backgroundColor = color;
+  document.getElementById('dhDot').style.backgroundColor = groupColor;
   document.getElementById('dhName').textContent = d.label;
   document.getElementById('dhType').textContent = tn;
 
@@ -732,13 +762,22 @@ function showDetail(node) {
   body += '<div style="display:flex;gap:16px;margin-bottom:12px;font-size:10px;color:var(--text-dim)">';
   body += '<span>度数 ' + (d.degree || 0) + '</span>';
   body += '<span>权重 ' + ((d.composite_weight||0)*100).toFixed(0) + '</span>';
-  if (raw.group_name) body += '<span>' + raw.group_name.replace('路线','') + '</span>';
+  // 路线 + 类型
+  body += '<div style="display:flex;gap:6px;align-items:center;margin-bottom:6px">';
+  body += '<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:' + groupColor + '"></span>';
+  body += '<span style="font-size:10px;color:var(--text-dim)">' + (raw.group_name||'').replace('路线','') + '</span>';
+  body += '<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:' + typeColor + ';margin-left:8px"></span>';
+  body += '<span style="font-size:10px;color:var(--text-dim)">' + tn + '</span>';
   body += '</div>';
 
   // Tags
-  if (raw.tags && raw.tags.length > 0) {
-    body += '<div class="db-section"><div class="db-label">技术路线</div>';
-    raw.tags.forEach(function(t) { body += '<span class="tag">' + t + '</span>'; });
+  if (raw.tags && raw.tags.length > 1) {
+    body += '<div class="db-section"><div class="db-label">标签</div>';
+    raw.tags.slice(1).forEach(function(t) { body += '<span class="tag">' + t + '</span>'; });
+    body += '</div>';
+  } else if (raw.tags && raw.tags.length === 1) {
+    body += '<div class="db-section"><div class="db-label">标签</div>';
+    body += '<span class="tag">' + raw.tags[0] + '</span>';
     body += '</div>';
   }
 
@@ -760,7 +799,7 @@ function showDetail(node) {
       shown[key] = true;
       var nb = cy.getElementById(nid);
       if (!nb.length) return;
-      var nc = TYPE_COLORS[nb.data('type')] || '#9ca3af';
+      var nc = GROUP_COLORS[nb.data('group_id')] || '#9ca3af';
       body += '<div class="relation-item" data-node-id="' + nid + '" onclick="selectNode(\'' + nid + '\')">';
       body += '<span class="rel-dot" style="background:' + nc + '"></span>';
       body += '<span>' + nb.data('label') + '</span>';
@@ -832,11 +871,7 @@ function setupSearch() {
     }).slice(0, 15);
 
     resultsEl.innerHTML = results.map(function(n) {
-      var color = TYPE_COLORS[n.type] || '#9ca3af';
-      return '<div class="search-result-item" data-node-id="' + n.id + '">'
-        + '<span class="dot" style="background:' + color + '"></span>'
-        + '<span class="name">' + n.name + '</span>'
-        + '<span class="sub">' + (TYPE_NAMES[n.type]||'') + '</span></div>';
+      var color = GROUP_COLORS[n.group_id] || '#9ca3af';
     }).join('');
 
     resultsEl.querySelectorAll('.search-result-item').forEach(function(item) {
@@ -864,12 +899,22 @@ function setupFilters() {
     else { activeFilters.add(t); btn.classList.add('active'); }
     applyFilters();
   });
+  document.getElementById('groupFilterBtns').addEventListener('click', function(e) {
+    var btn = e.target.closest('.filter-btn');
+    if (!btn) return;
+    var g = btn.dataset.group;
+    if (activeGroupFilters.has(g)) { activeGroupFilters.delete(g); btn.classList.remove('active'); }
+    else { activeGroupFilters.add(g); btn.classList.add('active'); }
+    applyFilters();
+  });
 }
 
 function applyFilters() {
   if (!cy) return;
   cy.nodes().forEach(function(n) {
-    if (activeFilters.has(n.data('type'))) n.removeClass('filtered-out');
+    var typeOk = activeFilters.has(n.data('type'));
+    var groupOk = activeGroupFilters.has(n.data('group_id'));
+    if (typeOk && groupOk) n.removeClass('filtered-out');
     else n.addClass('filtered-out');
   });
   updateLabels();
@@ -880,12 +925,33 @@ function applyFilters() {
 // ═══════════════════════════════════════════════════
 function renderLegend() {
   var content = document.getElementById('legendContent');
+  var html = '';
+
+  // 路线颜色
+  html += '<div class="section-title" style="margin-top:0">节点路线</div>';
+  var groupOrder = ['jepa', 'spatial', 'sim', 'active_inf', 'causal'];
+  groupOrder.forEach(function(g) {
+    var c = GROUP_COLORS[g] || '#9ca3af';
+    html += '<div class="legend-item"><span class="legend-line" style="background:' + c + '"></span><span>' + GROUP_NAMES[g] + '</span></div>';
+  });
+
+  // 边关系类型
+  html += '<div class="section-title" style="margin-top:8px">关系类型</div>';
   var items = [];
   for (var k in REL_NAMES) { items.push({ key: k, label: REL_NAMES[k] }); }
-  content.innerHTML = items.map(function(it) {
+  html += items.map(function(it) {
     var c = REL_COLORS[it.key] || '#9ca3af';
     return '<div class="legend-item"><span class="legend-line" style="background:' + c + '"></span><span>' + it.label + ' (' + it.key + ')</span></div>';
   }).join('');
+
+  // 节点类型（边框颜色）
+  html += '<div class="section-title" style="margin-top:8px">节点类型（边框色）</div>';
+  for (var t in TYPE_NAMES) {
+    var tc = TYPE_COLORS[t] || '#9ca3af';
+    html += '<div class="legend-item"><span class="legend-line" style="background:' + tc + '"></span><span>' + TYPE_NAMES[t] + '</span></div>';
+  }
+
+  content.innerHTML = html;
 
   document.getElementById('legendToggle').addEventListener('click', function() {
     var el = document.getElementById('legendContent');
@@ -916,7 +982,7 @@ function renderLeaderboard() {
   var top = filtered;
 
   list.innerHTML = top.map(function(n, i) {
-    var color = TYPE_COLORS[n.type] || '#9ca3af';
+    var color = GROUP_COLORS[n.group_id] || '#9ca3af';
     return '<div class="lb-item" data-node-id="' + n.id + '">'
       + '<span class="rank">' + (i+1) + '</span>'
       + '<span class="dot" style="background:' + color + '"></span>'
