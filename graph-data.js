@@ -5,8 +5,8 @@ window.GRAPH_DATA = {
       "name": "Yann LeCun 杨立昆",
       "type": "person",
       "description": "1960年生。1987年UPMC博士（导师Maurice Milgram），1988年AT&T贝尔实验室，2003年NYU教授，2013年创立Meta FAIR，2018年图灵奖。2025年11月离开Meta，2026年3月创办AMI Labs。核心主张：像素级预测在随机环境中不可行，应在学习的潜在空间中预测，而非像素空间。",
-      "degree": 52,
-      "composite_weight": 0.33766233766233766,
+      "degree": 53,
+      "composite_weight": 0.34415584415584416,
       "group_id": "jepa",
       "group_name": "路线一：JEPA 联合嵌入预测架构",
       "tags": [
@@ -3671,8 +3671,8 @@ window.GRAPH_DATA = {
       "name": "王晓刚 Wang Xiaogang",
       "type": "person",
       "description": "香港中文大学（CUHK）电子工程系教授，多媒体实验室（MMLab）创始主任。商汤科技联合创始人兼首席科学家。师承汤晓鸥教授。在计算机视觉、深度学习领域发表论文数百篇。培养出刘宇（Vivix AI）、吕健勤（Chen Change Loy, NTU MMLab主任）等视觉领域领军人物。ImageNet/COCO/MOT等多项国际竞赛冠军团队成员。",
-      "degree": 6,
-      "composite_weight": 0.03896103896103896,
+      "degree": 9,
+      "composite_weight": 0.05844155844155844,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -3788,8 +3788,8 @@ window.GRAPH_DATA = {
       "name": "李弘扬 Li Hongyang",
       "type": "person",
       "description": "HKU助理教授，上海AI Lab OpenDriveLab负责人。2019年CUHK博士（导师？）。IEEE Senior Member。研究方向：端到端自动驾驶→驾驶世界模型。代表工作：BEVFormer（鸟瞰图感知框架，2022年Top 100 AI Papers）、UniAD（CVPR 2023最佳论文，首个规划导向端到端自动驾驶框架）、Vista（NeurIPS 2024，高质量可控驾驶世界模型）、GenAD/ReSim。联合推出UniVLA等具身大模型，持续拔高自动驾驶与通用物理AI系统的决策上限。",
-      "degree": 5,
-      "composite_weight": 0.032467532467532464,
+      "degree": 8,
+      "composite_weight": 0.05194805194805195,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -3801,8 +3801,8 @@ window.GRAPH_DATA = {
       "name": "BEVFormer + UniAD (2022-23)",
       "type": "product_paper",
       "description": "李弘扬团队的代表性工作组合。BEVFormer：利用时空Transformer从多摄像头输入学习鸟瞰图表示，2022年Top 100 AI Papers（NVIDIA CEO黄仁勋公开认可）。UniAD：首个规划导向的端到端自动驾驶统一框架，获CVPR 2023最佳论文奖，对特斯拉FSD V12产生重大影响。两者共同奠定了从感知到规划的端到端自动驾驶范式。",
-      "degree": 2,
-      "composite_weight": 0.012987012987012988,
+      "degree": 3,
+      "composite_weight": 0.01948051948051948,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -6515,8 +6515,8 @@ window.GRAPH_DATA = {
       "name": "陈立 Li Chen",
       "type": "person",
       "description": "上海人工智能实验室OpenDriveLab核心骨干。CVPR 2023最佳论文奖——UniAD（Unified Autonomous Driving），首次将全栈驾驶任务（感知、预测、规划）整合进单个神经网络。",
-      "degree": 3,
-      "composite_weight": 0.01948051948051948,
+      "degree": 5,
+      "composite_weight": 0.032467532467532464,
       "group_id": "sim",
       "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
       "tags": [
@@ -7700,6 +7700,145 @@ window.GRAPH_DATA = {
         "路线二：空间智能（3D 世界模型）",
         "创始人",
         "空间智能"
+      ]
+    },
+    {
+      "id": "Hongyuan_Lu",
+      "name": "陆弘远 Adam Lu",
+      "type": "person",
+      "description": "95后AI创业者。本科/硕士毕业于帝国理工学院（ICL），香港中文大学NLP实验室博士（师从林伟教授）。博士期间发表14篇一作/通讯顶会论文，多篇高引，获顶会最佳论文奖。曾任职于微软、阿里巴巴、亚马逊。2023年6月创立脸谱心智（FaceMind），任CEO。提出LoopWM循环共享参数世界模型架构，其Adam's Law被Anthropic采用。",
+      "degree": 2,
+      "composite_weight": 0.012987012987012988,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "创始人",
+        "世界模型"
+      ]
+    },
+    {
+      "id": "Yiran_Wei",
+      "name": "韦怡然 Yiran Wei",
+      "type": "person",
+      "description": "剑桥大学博士，机器人小脑专家，深耕世界模型领域多年。脸谱心智（FaceMind）联合创始人兼CTO，负责端侧全模态模型与世界模型底层架构研发。",
+      "degree": 1,
+      "composite_weight": 0.006493506493506494,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "联合创始人",
+        "CTO"
+      ]
+    },
+    {
+      "id": "FaceMind",
+      "name": "脸谱心智 FaceMind",
+      "type": "company",
+      "description": "世界模型创业公司，2023年6月成立于上海。自研LoopWM循环共享参数世界模型架构，突破长时序梯度衰减、数据稀缺、算力成本高等瓶颈。产品「叠叠社」（AI虚拟陪伴应用）作为世界模型能力的早期验证场。2024-2026年完成天使轮、Pre-A轮（星连资本领投、360超额跟投）融资，获英伟达官方点赞。",
+      "degree": 4,
+      "composite_weight": 0.025974025974025976,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "世界模型",
+        "端侧AI"
+      ]
+    },
+    {
+      "id": "LoopWM",
+      "name": "LoopWM 循环世界模型 (2025)",
+      "type": "product_paper",
+      "description": "脸谱心智（FaceMind）自研的循环共享参数世界模型架构。核心创新：通过循环共享参数机制破解长时序预测中的梯度衰减难题，同时显著降低数据需求和算力成本，支持端侧全模态部署。为叠叠社等应用提供底层世界模型能力，获英伟达官方点赞。",
+      "degree": 2,
+      "composite_weight": 0.012987012987012988,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "世界模型架构",
+        "循环神经网络"
+      ]
+    },
+    {
+      "id": "Dacheng_Tao",
+      "name": "陶大程 Dacheng Tao",
+      "type": "person",
+      "description": "澳大利亚科学院院士、欧洲科学院外籍院士，IEEE/ACM/AAAS Fellow。IEEE计算机学会技术成就奖获得者。曾任京东探索研究院创始院长、优必选AI首席科学家。发表超1200篇学术论文，被引逾14万次。2025年加入大晓机器人（ACE ROBOTICS），任首席科学家，主导开悟（Kairos）具身世界模型研发。",
+      "degree": 3,
+      "composite_weight": 0.01948051948051948,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "首席科学家",
+        "具身智能"
+      ]
+    },
+    {
+      "id": "ACE_Robotics",
+      "name": "大晓机器人 ACE ROBOTICS",
+      "type": "company",
+      "description": "具身智能独角兽企业，2025年7月成立于上海，商汤科技「1+X」分拆战略孵化。由商汤联合创始人王晓刚任董事长兼CEO，陶大程院士任首席科学家。自研开悟（Kairos）世界模型3.0——首个国内开源且商业应用的具身世界模型，在4项全球具身智能基准测试中取得SOTA。ACE研发范式以100万小时训练数据驱动。累计融资数亿美元，投资方包括蚂蚁集团、启明创投、吉利资本、深创投等。",
+      "degree": 3,
+      "composite_weight": 0.01948051948051948,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "具身智能",
+        "独角兽",
+        "世界模型"
+      ]
+    },
+    {
+      "id": "Kairos",
+      "name": "开悟 Kairos 3.0 (2026)",
+      "type": "product_paper",
+      "description": "大晓机器人（ACE ROBOTICS）自研的具身世界模型，国内首个开源且实现商业应用的具身世界模型。在4项全球具身智能基准测试中取得SOTA成绩。以ACE研发范式（以人为中心的环境式数据采集，100万小时训练数据）驱动。赋能道路巡检、无人物流仓、酒店、安防巡检等场景的具身智能应用。",
+      "degree": 3,
+      "composite_weight": 0.01948051948051948,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "具身世界模型",
+        "开源",
+        "SOTA"
+      ]
+    },
+    {
+      "id": "Tianyu_Li",
+      "name": "李天羽 Tianyu Li",
+      "type": "person",
+      "description": "上海创智学院首批毕业生，复旦大学博士。华为量产自动驾驶ADS 4.0世界引擎方案核心开发者。入选2025年阿里云魔塔社区EAI学术新锐20人。2026年4月与李弘扬、陈立联合创立源策未来（Archon Robotics），任CEO。主导通用全身人形基座模型研发。",
+      "degree": 2,
+      "composite_weight": 0.012987012987012988,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "联合创始人",
+        "CEO",
+        "具身智能"
+      ]
+    },
+    {
+      "id": "Archon_Robotics",
+      "name": "源策未来 Archon Robotics",
+      "type": "company",
+      "description": "通用全身具身大脑公司，2026年4月成立于上海。由港大教授李弘扬（RSS Early Career Award首位华人学者）、李天羽（华为ADS 4.0世界引擎核心开发者）、陈立（UniAD最佳论文一作）联合创立。核心技术理念为Human Body Learning（人体学习），三层协同架构（大脑-中脑-小脑）。计划2026年下旬发布首个人形原生基座模型。2026年6月完成数亿元种子轮融资，真格基金、高榕创投、IDG资本、五源资本等投资。被业界称为「人形机器人时代的OpenAI」。",
+      "degree": 4,
+      "composite_weight": 0.025974025974025976,
+      "group_id": "sim",
+      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "tags": [
+        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "人形机器人",
+        "基座模型",
+        "具身智能"
       ]
     }
   ],
@@ -16278,6 +16417,125 @@ window.GRAPH_DATA = {
       "relation_type": "related",
       "label": "3D原生城市世界模型",
       "weight": 2
+    },
+    {
+      "source": "Hongyuan_Lu",
+      "target": "FaceMind",
+      "relation_type": "founded",
+      "label": "创始人 & CEO (2023)",
+      "weight": 5
+    },
+    {
+      "source": "Yiran_Wei",
+      "target": "FaceMind",
+      "relation_type": "works_at",
+      "label": "联合创始人 & CTO (2023)",
+      "weight": 4
+    },
+    {
+      "source": "FaceMind",
+      "target": "LoopWM",
+      "relation_type": "develops",
+      "label": "核心世界模型架构",
+      "weight": 5
+    },
+    {
+      "source": "Hongyuan_Lu",
+      "target": "LoopWM",
+      "relation_type": "develops",
+      "label": "核心提出者 / Adam's Law被Anthropic采用",
+      "weight": 4
+    },
+    {
+      "source": "Wang_Xiaogang",
+      "target": "ACE_Robotics",
+      "relation_type": "founded",
+      "label": "董事长 & CEO (2025)",
+      "weight": 5
+    },
+    {
+      "source": "Dacheng_Tao",
+      "target": "ACE_Robotics",
+      "relation_type": "works_at",
+      "label": "首席科学家 (2025)",
+      "weight": 4
+    },
+    {
+      "source": "ACE_Robotics",
+      "target": "Kairos",
+      "relation_type": "develops",
+      "label": "核心具身世界模型产品",
+      "weight": 5
+    },
+    {
+      "source": "Dacheng_Tao",
+      "target": "Kairos",
+      "relation_type": "develops",
+      "label": "技术主导 (2025-2026)",
+      "weight": 3
+    },
+    {
+      "source": "Wang_Xiaogang",
+      "target": "Kairos",
+      "relation_type": "develops",
+      "label": "战略主导 / 商汤开悟世界模型技术迁移",
+      "weight": 3
+    },
+    {
+      "source": "Li_Hongyang",
+      "target": "Archon_Robotics",
+      "relation_type": "founded",
+      "label": "创始人 (2026)",
+      "weight": 5
+    },
+    {
+      "source": "Tianyu_Li",
+      "target": "Archon_Robotics",
+      "relation_type": "founded",
+      "label": "联合创始人 & CEO (2026)",
+      "weight": 5
+    },
+    {
+      "source": "Chen_Li",
+      "target": "Archon_Robotics",
+      "relation_type": "works_at",
+      "label": "联合创始人 & Head of AI (2026)",
+      "weight": 4
+    },
+    {
+      "source": "Li_Hongyang",
+      "target": "Tianyu_Li",
+      "relation_type": "collaborates",
+      "label": "联合创立源策未来 (2026)",
+      "weight": 4
+    },
+    {
+      "source": "Li_Hongyang",
+      "target": "Chen_Li",
+      "relation_type": "collaborates",
+      "label": "UniAD (CVPR 2023 Best Paper) → 联合创立源策未来",
+      "weight": 4
+    },
+    {
+      "source": "Wang_Xiaogang",
+      "target": "Dacheng_Tao",
+      "relation_type": "collaborates",
+      "label": "大晓机器人核心团队 (2025)",
+      "weight": 3
+    },
+    {
+      "source": "Archon_Robotics",
+      "target": "BEVFormer_UniAD",
+      "relation_type": "related",
+      "label": "创始团队核心工作 (BEVFormer+UniAD)→人形基座模型",
+      "weight": 3
+    },
+    {
+      "source": "FaceMind",
+      "target": "Yann_LeCun",
+      "relation_type": "related",
+      "label": "LoopWM隐式表征预测→JEPA世界模型路线",
+      "weight": 1
     }
   ]
 };
