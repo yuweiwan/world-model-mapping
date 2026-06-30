@@ -8,10 +8,12 @@ window.GRAPH_DATA = {
       "degree": 53,
       "composite_weight": 0.34415584415584416,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Maurice_Milgram",
@@ -21,10 +23,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Geoffrey_Hinton",
@@ -34,10 +38,12 @@ window.GRAPH_DATA = {
       "degree": 7,
       "composite_weight": 0.045454545454545456,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Christopher_Longuet_Higgins",
@@ -47,10 +53,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Yoshua_Bengio",
@@ -60,10 +68,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Koray_Kavukcuoglu",
@@ -73,10 +83,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Raia_Hadsell",
@@ -86,10 +98,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Randall_Balestriero",
@@ -99,10 +113,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Leon_Bottou",
@@ -112,10 +128,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "AMI_Labs",
@@ -125,10 +143,12 @@ window.GRAPH_DATA = {
       "degree": 7,
       "composite_weight": 0.045454545454545456,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Meta_FAIR",
@@ -138,10 +158,12 @@ window.GRAPH_DATA = {
       "degree": 26,
       "composite_weight": 0.16883116883116883,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "V_JEPA2",
@@ -151,10 +173,12 @@ window.GRAPH_DATA = {
       "degree": 13,
       "composite_weight": 0.08441558441558442,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "I_JEPA",
@@ -164,10 +188,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "EB_JEPA",
@@ -177,10 +203,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "CNN_LeNet",
@@ -190,10 +218,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "ICLR",
@@ -203,10 +233,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "EBM_concept",
@@ -216,10 +248,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "JEPA_concept",
@@ -229,10 +263,12 @@ window.GRAPH_DATA = {
       "degree": 26,
       "composite_weight": 0.16883116883116883,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "PyTorch",
@@ -242,10 +278,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "FeiFei_Li",
@@ -255,10 +293,12 @@ window.GRAPH_DATA = {
       "degree": 40,
       "composite_weight": 0.2597402597402597,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Pietro_Perona",
@@ -268,10 +308,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Christof_Koch",
@@ -281,10 +323,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Jitendra_Malik",
@@ -294,10 +338,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Valentino_Braitenberg",
@@ -307,10 +353,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Thomas_Binford",
@@ -320,10 +368,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Andrej_Karpathy",
@@ -333,10 +383,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Jim_Fan",
@@ -346,10 +398,12 @@ window.GRAPH_DATA = {
       "degree": 11,
       "composite_weight": 0.07142857142857142,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Justin_Johnson",
@@ -359,10 +413,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Yuke_Zhu",
@@ -372,10 +428,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Ben_Mildenhall",
@@ -385,10 +443,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Christoph_Lassner",
@@ -398,10 +458,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Jiajun_Wu",
@@ -411,10 +473,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "World_Labs",
@@ -424,10 +488,12 @@ window.GRAPH_DATA = {
       "degree": 8,
       "composite_weight": 0.05194805194805195,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Autodesk",
@@ -436,11 +502,13 @@ window.GRAPH_DATA = {
       "description": "1982年成立。2026年向World Labs战略投资2亿美元，并在董事会获得顾问席位。3D设计、工程及娱乐软件全球领导者。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Marble",
@@ -450,10 +518,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "ImageNet",
@@ -463,10 +533,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "NeRF",
@@ -476,10 +548,12 @@ window.GRAPH_DATA = {
       "degree": 7,
       "composite_weight": 0.045454545454545456,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Gaussian_Splat",
@@ -489,10 +563,12 @@ window.GRAPH_DATA = {
       "degree": 10,
       "composite_weight": 0.06493506493506493,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "CS231n",
@@ -502,10 +578,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Spatial_Intel",
@@ -515,10 +593,12 @@ window.GRAPH_DATA = {
       "degree": 67,
       "composite_weight": 0.43506493506493504,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Juergen_Schmidhuber",
@@ -527,11 +607,13 @@ window.GRAPH_DATA = {
       "description": "1991年TUM博士（导师Brauer & Schulten）。IDSIA科学主任，现KAUST教授。LSTM发明人、GAN/元学习先驱。2018年与David Ha合作发表《World Models》，首次提出让AI在'想象'的梦境中学习的概念，为整个学习仿真学派提供了理论起点。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "David_Ha",
@@ -540,11 +622,13 @@ window.GRAPH_DATA = {
       "description": "东京大学博士。前Google Brain日本研究员。2018年与Schmidhuber合作发表开创性论文《World Models》，提出了让AI在'梦境'中训练的核心概念。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Danijar_Hafner",
@@ -553,11 +637,13 @@ window.GRAPH_DATA = {
       "description": "多伦多大学博士（导师Jimmy Ba），UC Berkeley访问（Pieter Abbeel），UCL MRes（导师Karl Friston & Tim Lillicrap）。Dreamer系列算法（v1→v2→v3→v4）的唯一主导作者。DreamerV3首次在Minecraft中无人类数据取得钻石，登《Nature》。Dreamer 4实现纯离线学习+实时推理。2025年离开Google DeepMind，创立Embo，获a16z领投超$1亿种子轮，聚焦机器人世界模型。",
       "degree": 12,
       "composite_weight": 0.07792207792207792,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jimmy_Ba",
@@ -566,11 +652,13 @@ window.GRAPH_DATA = {
       "description": "多伦多大学计算机科学教授。Adam优化器合著者之一，深度学习优化领域权威。Danijar Hafner的博士导师。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Demis_Hassabis",
@@ -579,11 +667,13 @@ window.GRAPH_DATA = {
       "description": "2009年UCL认知神经科学博士（导师Eleanor Maguire）。DeepMind联合创始人兼CEO。从公司战略层面将世界模型定义为'通往AGI的关键部分'，为Genie/Dreamer/SIMA提供了顶级研究环境。",
       "degree": 13,
       "composite_weight": 0.08441558441558442,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Tim_Rocktaschel",
@@ -592,11 +682,13 @@ window.GRAPH_DATA = {
       "description": "2017年UCL博士（导师Sebastian Riedel）。Google DeepMind研究总监，Genie 3项目的关键构建者。Genie让AI仅通过观看海量互联网视频，就能学会生成可交互的虚拟世界。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Shlomi_Fruchter",
@@ -605,11 +697,13 @@ window.GRAPH_DATA = {
       "description": "Google DeepMind研究总监。与Tim Rocktäschel共同领导Genie 3的开发，推动从文本/图像生成可交互3D虚拟世界的技术突破。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Tim_Brooks",
@@ -618,11 +712,13 @@ window.GRAPH_DATA = {
       "description": "前OpenAI Sora项目联合负责人。2025年被Google DeepMind聘请，组建并领导全新的世界模型团队。这一关键人才流动标志着DeepMind对世界模型领域的战略决心。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jensen_Huang",
@@ -631,11 +727,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA创始人与CEO。在最高层面确立了Cosmos的战略方向，将其定义为'物理AI的重大进展'。2025年CES发布Cosmos平台。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "MingYu_Liu",
@@ -644,11 +742,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA研究副总裁，IEEE Fellow。领导'Deep Imagination Research'研究小组，是Cosmos项目背后的核心技术领导者之一。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "ChenHsuan_Lin",
@@ -657,11 +757,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA研究科学家及团队经理。领导专门'NVIDIA Cosmos Lab'，直接负责Cosmos世界模型平台的构建。",
       "degree": 7,
       "composite_weight": 0.045454545454545456,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jack_Parker_Holder",
@@ -670,11 +772,13 @@ window.GRAPH_DATA = {
       "description": "Google DeepMind研究科学家。Genie 3的另一位关键构建者，与Fruchter共同推进从文本/图像生成可交互世界的技术。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Robin_Kahlow",
@@ -683,11 +787,13 @@ window.GRAPH_DATA = {
       "description": "Runway首席研究工程师。领导了GWM-1和Gen-Turbo等前沿研究工作。GWM-1是Runway基于Gen-4.5构建的首个通用世界模型。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Google_DeepMind",
@@ -696,11 +802,13 @@ window.GRAPH_DATA = {
       "description": "学习仿真路线的核心推动者。同时拥有生成视频（Genie 3）和基于模型的RL（Dreamer系列）两条亚线。SIMA项目将世界模型用于智能体训练，2025年SIMA 2融合了世界模型与大语言模型。",
       "degree": 29,
       "composite_weight": 0.18831168831168832,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "NVIDIA",
@@ -709,11 +817,13 @@ window.GRAPH_DATA = {
       "description": "物理AI基础设施的绝对领导者。Cosmos平台（2025.01 CES发布）提供完整技术栈：数据管线（20M小时视频14天处理）、视觉Tokenizer（8x压缩比）、扩散和自回归双架构预训练模型、Predict/Transfer/Reason三大上层模型家族。同时提供Omniverse模拟平台和GPU硬件。",
       "degree": 35,
       "composite_weight": 0.22727272727272727,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Runway",
@@ -722,11 +832,13 @@ window.GRAPH_DATA = {
       "description": "全球知名AI视频生成公司。发布首个通用世界模型GWM-1，基于Gen-4.5构建。分为Worlds、Robotics、Avatars三条产品线，表明通用性问题仍按动作空间和用例分解。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "OpenAI_Sora",
@@ -735,11 +847,13 @@ window.GRAPH_DATA = {
       "description": "Sora项目开创了视频生成模型用于世界模拟的先河。核心人才Tim Brooks于2025年转投DeepMind组建世界模型团队，成为路线内部人才流动的关键事件。",
       "degree": 7,
       "composite_weight": 0.045454545454545456,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "DreamerV3",
@@ -748,11 +862,13 @@ window.GRAPH_DATA = {
       "description": "首个在Minecraft中无人类数据取得钻石的AI。泛化超150项任务，单一配置超越专用方法。核心idea：学习潜在动力学模型→在潜在空间想象轨迹→通过模型反向传播优化策略。《Nature》发表标志着该方向的学术认可。",
       "degree": 14,
       "composite_weight": 0.09090909090909091,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Dreamer4",
@@ -761,11 +877,13 @@ window.GRAPH_DATA = {
       "description": "仅从视频数据离线学习任务，无需环境交互。迁移至可扩展的Transformer架构。'shortcut forcing'技术让模型仅需4步从噪声到清晰预测（vs扩散模型64步），在单个H100上实现实时推理。人类已可在其世界模型中交互式游玩。",
       "degree": 8,
       "composite_weight": 0.05194805194805195,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Genie3",
@@ -774,11 +892,13 @@ window.GRAPH_DATA = {
       "description": "DeepMind发布。文本输入→可导航环境，24fps 720p，一致性维持约1分钟。核心技术：自回归帧生成，以用户动作为条件。模型必须维护隐式空间记忆——转身再转回，物体仍需存在。正在用于训练SIMA智能体。",
       "degree": 9,
       "composite_weight": 0.05844155844155844,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Cosmos",
@@ -787,11 +907,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA的完整世界模型平台。预训练世界基础模型：9000万亿tokens，20M小时真实世界视频。双架构：扩散（连续潜在tokens）+ 自回归Transformer（离散tokens）。三大模型家族：Predict（视频预测）、Transfer（sim-to-real）、Reason（物理场景链式推理）。",
       "degree": 17,
       "composite_weight": 0.11038961038961038,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "GWM1",
@@ -800,11 +922,13 @@ window.GRAPH_DATA = {
       "description": "Runway基于Gen-4.5构建的首个通用世界模型。自回归逐帧预测，模拟物理感知环境。分Worlds/Robotics/Avatars三条产品线。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "SIMA2",
@@ -813,11 +937,13 @@ window.GRAPH_DATA = {
       "description": "DeepMind的可扩展多世界智能体。融合世界模型与大语言模型。打通'感知→推理→行动→反思'完整闭环，可在Genie等生成的3D虚拟环境中遵循自然语言指令完成任务。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "World_Models_Paper",
@@ -826,11 +952,13 @@ window.GRAPH_DATA = {
       "description": "Schmidhuber与David Ha合作发表。首次提出让AI在'想象'的梦境中学习的概念。为整个学习仿真学派提供了理论起点和实验范式。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Gen_Video_concept",
@@ -839,11 +967,13 @@ window.GRAPH_DATA = {
       "description": "核心思路：自回归帧生成，以用户动作为条件。每帧基于所有先前帧+当前输入（移动、转向等）生成。模型必须维护隐式空间记忆，是Genie 3/GWM-1的共同技术基础。",
       "degree": 31,
       "composite_weight": 0.2012987012987013,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Model_Based_RL",
@@ -852,11 +982,13 @@ window.GRAPH_DATA = {
       "description": "Dreamer系列的核心范式：从观测学习潜在动力学模型→在潜在空间中展开想象轨迹→通过模型反向传播优化策略。智能体在策略学习期间无需与真实环境交互。Dreamer 4将此推向纯离线。",
       "degree": 154,
       "composite_weight": 1,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "PhysAI_Infra",
@@ -865,11 +997,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA Cosmos的核心定位：不构建单一世界模型，而是构建让所有人用来构建自己世界模型的平台。覆盖全栈——数据管线、Tokenizer、模型训练（NeMo）、模型部署（NIM microservices）。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Karl_Friston",
@@ -879,10 +1013,12 @@ window.GRAPH_DATA = {
       "degree": 17,
       "composite_weight": 0.11038961038961038,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "VERSES_AI",
@@ -892,10 +1028,12 @@ window.GRAPH_DATA = {
       "degree": 11,
       "composite_weight": 0.07142857142857142,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "FEP",
@@ -905,10 +1043,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "AXIOM",
@@ -918,10 +1058,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Genius",
@@ -931,10 +1073,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Active_Inference",
@@ -944,10 +1088,12 @@ window.GRAPH_DATA = {
       "degree": 14,
       "composite_weight": 0.09090909090909091,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Alexandre_LeBrun",
@@ -957,10 +1103,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Saining_Xie",
@@ -970,10 +1118,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Mahmoud_Assran",
@@ -983,10 +1133,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Adrien_Bardes",
@@ -996,10 +1148,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Nicolas_Ballas",
@@ -1009,10 +1163,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Quentin_Garrido",
@@ -1022,10 +1178,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "David_Fan",
@@ -1035,10 +1193,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Russell_Howes",
@@ -1048,10 +1208,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Mojtaba_Komeili",
@@ -1061,10 +1223,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Emmanuel_Dupoux",
@@ -1074,10 +1238,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Jean_Ponce",
@@ -1087,10 +1253,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Matthieu_Destrade",
@@ -1100,10 +1268,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Oumayma_Bounou",
@@ -1113,10 +1283,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Quentin_Le_Lidec",
@@ -1126,10 +1298,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Bo_Wang",
@@ -1139,10 +1313,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Alif_Munim",
@@ -1152,10 +1328,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Kyunghyun_Cho",
@@ -1165,10 +1343,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Vlad_Sobal",
@@ -1178,10 +1358,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "V_JyothirS",
@@ -1191,10 +1373,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Siddhartha_Jalagam",
@@ -1204,10 +1388,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Nicolas_Carion",
@@ -1217,10 +1403,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Lorenzo_Mur_Labadia",
@@ -1230,10 +1418,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Matthew_Muckley",
@@ -1243,10 +1433,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Amir_Bar",
@@ -1256,10 +1448,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Koustuv_Sinha",
@@ -1269,10 +1463,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Aaron_van_den_Oord",
@@ -1282,10 +1478,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Ishan_Misra",
@@ -1295,10 +1493,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Alyosha_Efros",
@@ -1308,10 +1508,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Michael_Rabbat",
@@ -1321,10 +1523,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "V_JEPA",
@@ -1334,10 +1538,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "V_JEPA2_1",
@@ -1347,10 +1553,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Rethinking_JEPA",
@@ -1360,10 +1568,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Value_Guided_Planning_JEPA",
@@ -1373,10 +1583,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Medical_Ultrasound_JEPA",
@@ -1386,10 +1598,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Nabla",
@@ -1398,11 +1612,13 @@ window.GRAPH_DATA = {
       "description": "医疗AI公司，专注临床文档自动化。联合创始人兼CEO Alexandre LeBrun于2025年底转任AMI Labs CEO。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Pratul_Srinivasan",
@@ -1412,10 +1628,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Ravi_Ramamoorthi",
@@ -1425,10 +1643,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Ruilong_Li",
@@ -1438,10 +1658,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Zhaoshuo_Li",
@@ -1451,10 +1673,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Thomas_Muller",
@@ -1464,10 +1688,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Andreas_Geiger",
@@ -1477,10 +1703,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Paul_Debevec",
@@ -1490,10 +1718,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Ashutosh_Saxena",
@@ -1503,10 +1733,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Gordon_Wetzstein",
@@ -1516,10 +1748,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Lu_Jiang",
@@ -1529,10 +1763,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "GQN",
@@ -1542,10 +1778,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Neuralangelo",
@@ -1555,10 +1793,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "RTFM",
@@ -1568,10 +1808,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Manycore",
@@ -1581,10 +1823,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Odyssey",
@@ -1594,10 +1838,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "General_Intuition",
@@ -1607,10 +1853,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Video_Rebirth",
@@ -1619,11 +1867,13 @@ window.GRAPH_DATA = {
       "description": "新加坡AI视频世界模型公司，主攻高端影视工业标准。由前腾讯杰出科学家Wei Liu创立。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Alex_Krizhevsky",
@@ -1632,11 +1882,13 @@ window.GRAPH_DATA = {
       "description": "多伦多大学博士。AlexNet第一作者，深度卷积神经网络奠基人。Ilya Sutskever的密切合作者。其核心技术思路间接奠定了视频/图像生成世界模型的表征基础。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ilya_Sutskever",
@@ -1645,11 +1897,13 @@ window.GRAPH_DATA = {
       "description": "前OpenAI联合创始人兼首席科学家。Alex Krizhevsky的前导师。从AlexNet到GPT系列再到多模态大模型，其倡导的大规模自回归方法直接影响视频世界模型（Sora、Runway等）的设计范式。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Cristobal_Valenzuela",
@@ -1658,11 +1912,13 @@ window.GRAPH_DATA = {
       "description": "Runway联合创始人兼CEO。带领团队完成Gen-1→Gen-2→Gen-3→Gen-4.5→GWM-1的产品升级，从视频生成全面转向世界模型。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Anastasis_Germanidis",
@@ -1671,11 +1927,13 @@ window.GRAPH_DATA = {
       "description": "Runway联合创始人兼CTO。与Valenzuela一起定义Runway视频世界的技术栈。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Alejandro_Matamala",
@@ -1684,11 +1942,13 @@ window.GRAPH_DATA = {
       "description": "Runway联合创始人兼CDO。负责Runway产品与设计方向。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Oliver_Cameron",
@@ -1697,11 +1957,13 @@ window.GRAPH_DATA = {
       "description": "Odyssey联合创始人。前自动驾驶创业公司Voyage CEO。与Jeff Hawke共同创办Odyssey，开发交互式世界模型。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jeff_Hawke",
@@ -1710,11 +1972,13 @@ window.GRAPH_DATA = {
       "description": "Odyssey联合创始人。前自动驾驶技术专家。与Oliver Cameron共同创办Odyssey。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wei_Liu",
@@ -1723,11 +1987,13 @@ window.GRAPH_DATA = {
       "description": "Video Rebirth创始人，IEEE/AAAS Fellow。前腾讯杰出科学家。主攻高端影视工业标准的AI视频世界模型。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Xun_Huang",
@@ -1736,11 +2002,13 @@ window.GRAPH_DATA = {
       "description": "CMU视频世界模型研究者，HeyGen关联。研究聚焦AI视频生成与编辑。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Genie1",
@@ -1749,11 +2017,13 @@ window.GRAPH_DATA = {
       "description": "Google DeepMind发布。提出'可玩世界'概念——仅通过观看互联网视频学会生成可交互的游戏环境，为Genie系列奠基。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Genie2",
@@ -1762,11 +2032,13 @@ window.GRAPH_DATA = {
       "description": "Google DeepMind。自回归潜扩散模型，生成可控3D交互场景（鼠标/键盘驱动），具备对象交互、NPC行为和长时记忆（约1分钟）。",
       "degree": 7,
       "composite_weight": 0.045454545454545456,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Timothy_Lillicrap",
@@ -1775,11 +2047,13 @@ window.GRAPH_DATA = {
       "description": "DeepMind深度强化学习理论核心人物。Dreamer V3合作者。在连续控制、策略梯度理论上有一系列奠基性贡献。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jurgis_Pasukonis",
@@ -1788,11 +2062,13 @@ window.GRAPH_DATA = {
       "description": "Dreamer V3共同作者。主要贡献在分布鲁棒性与平衡归一化策略，提升了Dreamer系列算法的稳定性和泛化能力。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "David_Silver",
@@ -1801,11 +2077,13 @@ window.GRAPH_DATA = {
       "description": "DeepMind首席科学家。AlphaGo、AlphaZero、MuZero、AlphaStar核心推手。从围棋到通用游戏的深度强化学习范式奠定了基于模型的RL世界模型理论基础。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Julian_Schrittwieser",
@@ -1814,11 +2092,13 @@ window.GRAPH_DATA = {
       "description": "DeepMind研究员，MuZero一作。构建了基于价值等价原理与MCTS的模型驱动规划范式，直接影响后续UniZero和Dreamer系列。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Sergey_Levine",
@@ -1827,11 +2107,13 @@ window.GRAPH_DATA = {
       "description": "UC Berkeley教授，机器人学习权威。将视觉世界模型大规模应用于机器人操控任务（RT-1、RT-2等关键线）。其博士生/博士后遍布Skild AI等明星公司。",
       "degree": 9,
       "composite_weight": 0.05844155844155844,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Pieter_Abbeel",
@@ -1840,11 +2122,13 @@ window.GRAPH_DATA = {
       "description": "UC Berkeley教授，深度强化学习与机器人先驱。早期探索世界模型在机器人任务中的各项应用。Danijar Hafner在UC Berkeley期间的访问导师。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Chelsea_Finn",
@@ -1853,11 +2137,13 @@ window.GRAPH_DATA = {
       "description": "Stanford教授，原Sergey Levine学生。元学习与泛化推理权威，将少样本自适应世界模型引入机器人操作任务。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Deepak_Pathak",
@@ -1866,11 +2152,13 @@ window.GRAPH_DATA = {
       "description": "CMU教授，原Sergey Levine学生。好奇心驱动探索的世界模型先锋，提出ICM、RND、视频预测模型等。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ashish_Vaswani",
@@ -1879,11 +2167,13 @@ window.GRAPH_DATA = {
       "description": "Transformer核心作者（Attention Is All You Need）。发明了现代大模型架构基础（注意力机制），与Łukasz Kaiser的工作共同塑造了现代世界模型架构范式。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Lukasz_Kaiser",
@@ -1892,11 +2182,13 @@ window.GRAPH_DATA = {
       "description": "Transformer核心作者之一。Danijar Hafner的密切合作者，在模型架构设计上深刻影响了Dreamer系列向Transformer的迁移。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Abhinav_Gupta",
@@ -1905,11 +2197,13 @@ window.GRAPH_DATA = {
       "description": "CMU教授，Skild AI联合创始人。大规模机器人世界模型与基础模型训练实践的积极推动者。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "MuZero",
@@ -1918,11 +2212,13 @@ window.GRAPH_DATA = {
       "description": "DeepMind发布。无环境模型的潜在空间树搜索规划。在Atari、围棋、国际象棋等领域实现超人类表现，无需知道游戏规则。奠定了基于价值等价的模型驱动规划范式。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "UniZero",
@@ -1931,11 +2227,13 @@ window.GRAPH_DATA = {
       "description": "价值等价+Transformer的可扩展统一潜空间规划框架。在MuZero基础上引入Transformer架构提升可扩展性。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Skild_AI",
@@ -1944,11 +2242,13 @@ window.GRAPH_DATA = {
       "description": "通用机器人世界模型公司。Skild Brain跨具身形态训练，累计估值超过140亿美元。Abhinav Gupta联合创办。Sergey Levine学生/博士后广泛参与。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wayve",
@@ -1957,11 +2257,13 @@ window.GRAPH_DATA = {
       "description": "伦敦自动驾驶公司。端到端可学习驾驶模拟，构建自动驾驶世界模型。以GAIA-1世界模型闻名。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Waabi",
@@ -1970,11 +2272,13 @@ window.GRAPH_DATA = {
       "description": "多伦多自动驾驶公司。Raquel Urtasun创办。基于可微传感器模拟构建世界模型，强调安全验证。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "OneX_Technologies",
@@ -1983,11 +2287,13 @@ window.GRAPH_DATA = {
       "description": "发布Neo世界模型，直接对标机器人仿真-现实迁移。人形机器人公司。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "FieldAI",
@@ -1996,11 +2302,13 @@ window.GRAPH_DATA = {
       "description": "融资$405M，市值约$2B。'物理优先'机器人基础模型公司。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "DINO_WM",
@@ -2009,11 +2317,13 @@ window.GRAPH_DATA = {
       "description": "自监督世界模型。被ACM CSUR 2025综述列为可与JEPA/Dreamer并行对比的核心方法论。利用DINO自监督特征构建世界模型。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "ACM_CSUR_2025_Review",
@@ -2022,11 +2332,13 @@ window.GRAPH_DATA = {
       "description": "系统梳理MBRL、自监督世界模型、LLM结合路径三大轴。是世界模型领域最全面的学术综述之一。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Hi_WM",
@@ -2035,11 +2347,13 @@ window.GRAPH_DATA = {
       "description": "Human-in-the-World-Model。基于世界模型的机器人策略后训练校正框架，将人类反馈引入世界模型训练循环。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Cosmos_Predict",
@@ -2048,11 +2362,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA Cosmos平台的视频预测后训练模型。用于机器人/驾驶特定场景的状态推演，实现物理世界的时间序列预测。",
       "degree": 8,
       "composite_weight": 0.05194805194805195,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Cosmos_Transfer",
@@ -2061,11 +2377,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA Cosmos平台的大规模sim-to-real域适应模型。解决仿真与真实世界之间的视觉和物理动力学鸿沟。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Cosmos_Reason",
@@ -2074,11 +2392,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA Cosmos平台的物理场景链式思维推理。时空感知+因果交互理解+视频问答，将LLM推理范式引入物理世界模型。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Omniverse_DSX",
@@ -2087,11 +2407,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA发布的数字孪生集成框架。开放AI工厂的数据与物理仿真层，打通Omniverse与Cosmos的全栈物理AI生态。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "World51_Model",
@@ -2100,11 +2422,13 @@ window.GRAPH_DATA = {
       "description": "51WORLD发布。全球首款自带'物理直觉'的世界模型产品。发布三大能力模块：重建与生成/训练与部署/预测与规划。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "WORLD51",
@@ -2113,11 +2437,13 @@ window.GRAPH_DATA = {
       "description": "香港上市（HK:6651）。'物理AI第一股'。51Sim在高阶自动驾驶仿真市占率53.5%。2026年3月发布51World Model。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Oxa",
@@ -2126,11 +2452,13 @@ window.GRAPH_DATA = {
       "description": "英国自动驾驶公司。引入NVIDIA Cosmos Predict增强虚拟传感器，将世界模型技术应用于自动驾驶感知系统。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Moon_Surgical",
@@ -2139,11 +2467,13 @@ window.GRAPH_DATA = {
       "description": "手术机器人公司。使用NVIDIA Cosmos生成模拟临床环境，将世界模型应用于医疗手术场景。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Lightwheel",
@@ -2152,11 +2482,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA Cosmos生态系统合作伙伴。参与物理AI数据生成与仿真管线。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Flexcompute",
@@ -2165,11 +2497,13 @@ window.GRAPH_DATA = {
       "description": "GPU原生物理仿真超算平台。Flow360为旗舰产品，提供CFD等物理场仿真能力。与NVIDIA Omniverse生态互补。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Hexagon",
@@ -2178,11 +2512,13 @@ window.GRAPH_DATA = {
       "description": "整合NVIDIA Omniverse到工业数字孪生工作流。工业测量与仿真软件全球领导者。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Flexion",
@@ -2191,11 +2527,13 @@ window.GRAPH_DATA = {
       "description": "EX-NVIDIA团队创办。获$50M融资。专注服务机器人的通用AI'大脑'。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "DemoChain",
@@ -2204,11 +2542,13 @@ window.GRAPH_DATA = {
       "description": "中国物理AI仿真公司。具身智能虚拟训练平台DemoChain，提供国产替代方案。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "MooreThreads_51Sim",
@@ -2217,11 +2557,13 @@ window.GRAPH_DATA = {
       "description": "国产GPU集群与物理AI仿真体系。摩尔线程提供GPU算力基础，51Sim提供仿真能力，共同构建中国自主可控的物理AI基础设施。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Thomas_Parr",
@@ -2231,10 +2573,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Tommaso_Salvatori",
@@ -2244,10 +2588,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Takuya_Isomura",
@@ -2257,10 +2603,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Alexander_Tschantz",
@@ -2270,10 +2618,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Maxwell_Ramstead",
@@ -2283,10 +2633,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Conor_Heins",
@@ -2296,10 +2648,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Magnus_Koudahl",
@@ -2309,10 +2663,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Aswin_Paul",
@@ -2322,10 +2678,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Adeel_Razi",
@@ -2335,10 +2693,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Brett_Kagan",
@@ -2348,10 +2708,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Tim_Verbelen",
@@ -2361,10 +2723,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "David_Scott",
@@ -2374,10 +2738,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Sophisticated_Inference",
@@ -2387,10 +2753,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Active_Inference_Intentional",
@@ -2400,10 +2768,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "AXIOM_Robot",
@@ -2413,10 +2783,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Active_Inference_Patent",
@@ -2426,10 +2798,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Themesis",
@@ -2439,10 +2813,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Making_World_Differentiable",
@@ -2451,11 +2827,13 @@ window.GRAPH_DATA = {
       "description": "1990年2月（11月修订），Schmidhuber在慕尼黑工业大学发表。首次使用\"世界模型\"一词指代预测器神经网络。提出双RNN架构：控制器RNN选择动作 + 世界模型RNN预测后果。核心创新包括：(1) RNN世界模型用于规划——控制器可在世界模型中\"心理模拟\"动作序列；(2) 高维向量值奖励信号；(3) 对抗性人工好奇心（proto-GAN）——控制器试图产生让世界模型惊讶的输出，世界模型试图准确预测；(4) 元学习与自省行为。该报告是2018年《World Models》论文的直接学术先驱，也被视为现代基于模型的RL的理论起点。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Paul_Allen",
@@ -2464,11 +2842,13 @@ window.GRAPH_DATA = {
       "description": "1953-2018。微软联合创始人。2014年创立艾伦人工智能研究所（Ai2），以非营利形式推动AI基础研究。其遗产持续资助Ai2的开放科研和工具开发。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ai2",
@@ -2477,11 +2857,13 @@ window.GRAPH_DATA = {
       "description": "2014年由Paul Allen创立。非营利研究机构，专注AI基础研究与开源工具。2025-2026年发布MolmoBot——完全在仿真中训练的开放机器人模型套件。以高质量开源研究著称，对标封闭的商业AI实验室。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "MolmoBot",
@@ -2490,11 +2872,13 @@ window.GRAPH_DATA = {
       "description": "Ai2发布的开放机器人模型套件。完全在仿真中训练，零真实世界数据。核心发现：在可仿真任务范围内，纯仿真训练策略优于在数千小时真实数据上训练的SOTA视觉语言动作模型（VLA）。挑战了\"真实数据必不可少\"的行业共识。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Dhruv_Shah",
@@ -2503,11 +2887,13 @@ window.GRAPH_DATA = {
       "description": "Princeton大学教授，Google DeepMind研究员。MolmoBot项目的核心参与者。评价称：\"在可仿真任务范围内，纯仿真训练策略优于在数千小时真实数据上训练的SOTA VLA。\"推动了仿真→现实迁移的研究边界。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "IRIS",
@@ -2516,11 +2902,13 @@ window.GRAPH_DATA = {
       "description": "2022年发表。使用离散自编码器将视觉观察压缩为离散token，再用自回归Transformer建模环境动力学。在Atari 100k基准上开创了序列建模路线。其方法论直接被GAIA-1扩展到90亿参数驾驶场景。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "GAIA_1",
@@ -2529,11 +2917,13 @@ window.GRAPH_DATA = {
       "description": "Wayve发布。将IRIS开创的离散token+自回归Transformer方法扩展到90亿参数，在真实世界驾驶视频上训练。可根据动作和文本提示生成驾驶场景。首次确认了观察到的缩放定律也适用于视觉世界模型——更多数据和参数带来更好的性能。证明了世界模型真的能交互。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "DIAMOND",
@@ -2542,11 +2932,13 @@ window.GRAPH_DATA = {
       "description": "NeurIPS 2024 Spotlight论文。由日内瓦大学、爱丁堡大学、微软研究院联合发表。第一作者Eloi Alonso。用扩散模型直接预测未来帧——仅需3步去噪即可高速生成。核心创新：(1) 视觉保真度远超离散token方法；(2) Atari 100k新SOTA（mean HNS 1.46）；(3) 用87小时CS:GO视频在单GPU上训练出完全可交互的神经网络游戏引擎。第一作者Eloi Alonso和合作者Vincent Micheli后来成为General Intuition联合创始人。",
       "degree": 7,
       "composite_weight": 0.045454545454545456,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Eloi_Alonso",
@@ -2555,11 +2947,13 @@ window.GRAPH_DATA = {
       "description": "日内瓦大学博士（导师François Fleuret）。DIAMOND论文第一作者（NeurIPS 2024 Spotlight）。世界模型扩散路线的核心推动者。后成为General Intuition联合创始人，将扩散世界模型技术带入商业化。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Vincent_Micheli",
@@ -2568,11 +2962,13 @@ window.GRAPH_DATA = {
       "description": "日内瓦大学博士（导师François Fleuret）。IRIS和Δ-IRIS世界模型论文第一作者。DIAMOND论文共同作者。后成为General Intuition联合创始人。是离散token→扩散这一世界模型架构演进的核心见证者和推动者。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Francois_Fleuret",
@@ -2581,11 +2977,13 @@ window.GRAPH_DATA = {
       "description": "日内瓦大学教授。Eloi Alonso和Vincent Micheli的博士导师。DIAMOND论文的资深作者。其研究组是世界模型扩散路线和序列建模路线的重要学术源头。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Moonlake_AI",
@@ -2595,10 +2993,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "FanYun_Sun",
@@ -2608,10 +3008,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Sharon_Lee",
@@ -2621,10 +3023,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Reverie",
@@ -2634,10 +3038,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Decart",
@@ -2646,11 +3052,13 @@ window.GRAPH_DATA = {
       "description": "由Dean Leitersdorf与Moshe Shalev联合创办。构建物理AI世界模型，产品线覆盖优化(DOS)→沉浸式世界模型(Lucy)→物理世界模型(Oasis)。累计融资约$300M，估值约$4B。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Dean_Leitersdorf",
@@ -2659,11 +3067,13 @@ window.GRAPH_DATA = {
       "description": "Decart联合创始人兼CEO。带领公司从AI优化平台(DOS)拓展到物理AI世界模型(Oasis)，完成从基础设施到世界模型的战略升级。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Moshe_Shalev",
@@ -2672,11 +3082,13 @@ window.GRAPH_DATA = {
       "description": "Decart联合创始人。与Leitersdorf共同推动公司从AI优化到物理世界模型的技术转型。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Decart_DOS",
@@ -2685,11 +3097,13 @@ window.GRAPH_DATA = {
       "description": "Decart的AI优化平台产品，为公司早期核心业务。为后续物理AI世界模型提供了工程基础设施和商业化经验。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Decart_Lucy",
@@ -2698,11 +3112,13 @@ window.GRAPH_DATA = {
       "description": "Decart的沉浸式世界模型产品。从优化平台向世界模型的过渡产品，验证了世界模型技术的商业化可行性。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Decart_Oasis",
@@ -2711,11 +3127,13 @@ window.GRAPH_DATA = {
       "description": "Decart的旗舰物理AI世界模型产品。代表了公司从AI基础设施向物理世界模型的最终战略转向。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Physical_Intelligence",
@@ -2724,11 +3142,13 @@ window.GRAPH_DATA = {
       "description": "由Karol Hausman（CEO）、Sergey Levine、Chelsea Finn、Brian Ichter等联合创办。构建视觉-语言-动作(VLA)机器人基础模型π系列。累计融资超$1B，估值超$11B。核心理念：将世界模型嵌入机器人操作策略，实现通用机器人智能。",
       "degree": 9,
       "composite_weight": 0.05844155844155844,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Karol_Hausman",
@@ -2737,11 +3157,13 @@ window.GRAPH_DATA = {
       "description": "Physical Intelligence联合创始人兼CEO。前Google DeepMind研究科学家。机器人学习与VLA模型方向的领军人物，推动π系列模型从学术走向产业化。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Brian_Ichter",
@@ -2750,11 +3172,13 @@ window.GRAPH_DATA = {
       "description": "Physical Intelligence联合创始人。前Google DeepMind研究科学家。在机器人基础模型和VLA架构设计上有重要贡献。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Pi0",
@@ -2763,11 +3187,13 @@ window.GRAPH_DATA = {
       "description": "Physical Intelligence发布的首个视觉-语言-动作(VLA)基础模型。在多机器人平台和多任务上展现通用操作能力。基于互联网规模视觉数据预训练+机器人数据微调。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Pi0_5",
@@ -2776,11 +3202,13 @@ window.GRAPH_DATA = {
       "description": "Physical Intelligence的VLA模型快速迭代版本。在π0基础上提升推理速度和任务泛化能力。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Pi_star_06",
@@ -2789,11 +3217,13 @@ window.GRAPH_DATA = {
       "description": "Physical Intelligence VLA模型语义理解增强版。引入更丰富的语言理解和场景推理能力。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Pi1_0",
@@ -2802,11 +3232,13 @@ window.GRAPH_DATA = {
       "description": "Physical Intelligence VLA模型首个完整版本。打通视觉感知→语言理解→动作执行的端到端机器人操作闭环，标志着VLA路线从研究原型走向产品化。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Alex_Kendall",
@@ -2815,11 +3247,13 @@ window.GRAPH_DATA = {
       "description": "剑桥大学博士。Wayve联合创始人兼CEO。端到端自动驾驶世界模型先驱，带领团队开发GAIA-1等里程碑产品。主张以世界模型而非高精地图路线实现自动驾驶。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Odyssey_Interactive_WM",
@@ -2828,11 +3262,13 @@ window.GRAPH_DATA = {
       "description": "Odyssey的核心产品。40ms/帧实时生成可交互视频世界，无需传统游戏引擎。支持用户在AI生成的3D环境中自由导航和交互。代表了生成式世界模型在实时交互方向的前沿探索。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "GI_Spatiotemporal_WM",
@@ -2842,10 +3278,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Gen4_5",
@@ -2854,11 +3292,13 @@ window.GRAPH_DATA = {
       "description": "Runway的第四代视频生成模型升级版。是GWM-1通用世界模型的技术基础，标志着Runway从创意视频生成向物理世界模拟的战略转型。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Kaiming_He",
@@ -2868,10 +3308,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Deqing_Sun",
@@ -2880,11 +3322,13 @@ window.GRAPH_DATA = {
       "description": "Google DeepMind研究科学家。ICCV 2025程序委员会主席。在物理世界模型方向上有多项开创性工作：δ-Diffusion（视频演示→物理模拟）、Force Prompting（力场提示实现物理交互视频生成）、Fluid/UniFluid（自回归视觉世界模型）。其研究正推动视频生成模型向可交互物理世界模拟演进。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jingyi_Yu",
@@ -2894,10 +3338,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Ce_Liu",
@@ -2906,11 +3352,13 @@ window.GRAPH_DATA = {
       "description": "清华本科/硕士，MIT博士(导师Freeman & Adelson)。Microsoft Azure AI计算机视觉首席架构师。CVPR 2020程序委员会主席，CVPR 2025大会主席(IEEE Fellow)。领导开发Florence视觉基础模型，将其定义为'视觉世界模型'(world model for visual understanding)——统一识别、检测、分割、描述等任务的生成式基础模型。研究方向从经典视觉(光流/SIFT Flow)演进到基础模型/世界模型。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Chen_Change_Loy",
@@ -2919,11 +3367,13 @@ window.GRAPH_DATA = {
       "description": "NTU计算机与数据科学学院讲席教授，MMLab@NTU主任。CVPR 2026程序委员会主席。共同组织CVPR 2025 Tutorial'从视频生成到世界模型'(From Video Generation to World Models)。领导开发LaVie、SeedVR、Seaweed-7B等视频生成基础模型。核心命题：视频生成能否作为通向世界模型的桥梁——连接具身智能、物理推理与决策。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Olga_Russakovsky",
@@ -2933,10 +3383,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Tieniu_Tan",
@@ -2946,10 +3398,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Jingdong_Wang",
@@ -2959,10 +3413,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Shaoting_Zhang",
@@ -2972,10 +3428,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Gang_Hua",
@@ -2985,10 +3443,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Jianxin_Wu",
@@ -2998,10 +3458,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Long_Quan",
@@ -3011,10 +3473,12 @@ window.GRAPH_DATA = {
       "degree": 13,
       "composite_weight": 0.08441558441558442,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Roger_Mohr",
@@ -3024,10 +3488,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Tan_Ping",
@@ -3037,10 +3503,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Fang_Tian",
@@ -3050,10 +3518,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Six_Point_Algorithm",
@@ -3063,10 +3533,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Altizure",
@@ -3075,11 +3547,13 @@ window.GRAPH_DATA = {
       "description": "2015年由权龙与方天共同创立。将无人机航拍照片转化为三维实景模型，形成众包Google Earth。产品覆盖无人机爱好者(C端)及智慧城市/测绘(B端/G端)。后被Apple收购，体现空间智能技术在消费电子巨头中的战略价值。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Light_Illusions",
@@ -3089,10 +3563,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Yao_Yao",
@@ -3102,10 +3578,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "MVSNet",
@@ -3115,10 +3593,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Matrix3D",
@@ -3128,10 +3608,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Zhang_Feihu",
@@ -3141,10 +3623,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Philip_Torr",
@@ -3154,10 +3638,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "DreamTech",
@@ -3167,10 +3653,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Direct3D",
@@ -3180,10 +3668,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Xiao_Jianxiong",
@@ -3192,11 +3682,13 @@ window.GRAPH_DATA = {
       "description": "港科大本科(2008)→Mphil(导师权龙)。本科时即发表ICCV 2007 Oral论文。MIT CSAIL博士(2012 Google Research最佳论文奖)。普林斯顿大学助理教授。2016年辞去教职创立AutoX，专注L4级自动驾驶。开拓RGB-D场景分析和三维深度学习研究。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "AutoX",
@@ -3205,11 +3697,13 @@ window.GRAPH_DATA = {
       "description": "2016年由肖健雄(Professor X)辞去普林斯顿教职后创立。专注L4级全无人驾驶，在中国多个城市落地Robotaxi运营。将三维视觉与深度学习技术大规模应用于自动驾驶场景理解与决策。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Omniverse",
@@ -3218,11 +3712,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA的数字孪生与3D仿真操作系统。基于OpenUSD标准，支持跨3D工具实时协作。核心理念：构建物理世界的高保真数字副本，作为机器人、自动驾驶等AI系统的虚拟训练场。2025年CES发布Mega Blueprint用于工厂级机器人集群仿真。与Cosmos深度整合：Omniverse构建虚拟世界→Cosmos在虚拟世界中训练和推理物理AI。",
       "degree": 7,
       "composite_weight": 0.045454545454545456,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Isaac_Sim",
@@ -3231,11 +3727,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA的机器人仿真平台，基于Omniverse构建。v5.0集成NuRec（3D Gaussian Splatting神经渲染）缩小Sim-to-Real鸿沟。Isaac Lab 2.2提供开源强化学习框架。被Boston Dynamics、Figure AI等头部机器人公司采用。核心理念：机器人在虚拟世界中完成数百万次试错→零样本迁移到现实世界。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Tesla",
@@ -3244,11 +3742,13 @@ window.GRAPH_DATA = {
       "description": "全球新能源汽车与AI领军企业。在自动驾驶世界模型方向上做了开创性工作：端到端神经网络FSD架构、神经世界模拟器（Neural World Simulator）、3D占用网络（Occupancy Network）。2025年ICCV上AI VP Ashok Elluswamy披露技术细节：模拟器中1天=人类500年驾驶经验，世界模拟器底层引擎同时用于FSD和Optimus机器人。代表了从量产自动驾驶向通用物理世界AI的战略升级。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ashok_Elluswamy",
@@ -3257,11 +3757,13 @@ window.GRAPH_DATA = {
       "description": "Tesla人工智能副总裁，FSD端到端架构和神经世界模拟器核心推动者。2025年10月在ICCV檀香山首次公开披露FSD技术内幕：端到端架构+3D高斯泼溅场景重建+自然语言推理闭环。将FSD从传统模块化框架推向生成式世界模型范式，是学习仿真路线在量产自动驾驶领域最关键的实践领导者。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Tesla_World_Sim",
@@ -3270,11 +3772,13 @@ window.GRAPH_DATA = {
       "description": "特斯拉的端到端神经世界模拟器，完全基于神经网络从真实驾驶数据中学习。核心能力：(1)根据当前状态+候选动作→生成未来世界视觉画面；(2)可连续生成6分钟以上、8摄像头24fps逼真视频；(3)支持对抗性长尾场景生成；(4)同底层引擎用于FSD和Optimus机器人训练。2025年ICCV由Ashok Elluswamy首次公开披露。将世界模型从学术概念推向亿级车队验证的量产工程实践。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Occupancy_Network",
@@ -3283,11 +3787,13 @@ window.GRAPH_DATA = {
       "description": "特斯拉于CVPR 2022 Workshop首次公开的3D空间感知方案。直接输出3D体素空间的占用概率和语义信息，无需依赖HD地图或LiDAR。仅用视觉输入（多摄像头）即可实现对任意形状物体和不规则空间的鲁棒3D表征。引发自动驾驶行业从2D BEV到全3D占用的范式转变，后被Wayve、华为等广泛跟进。是空间智能在量产自动驾驶中的标志性落地。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_He",
@@ -3296,11 +3802,13 @@ window.GRAPH_DATA = {
       "description": "1992年生。清华电子系本科，2021年Stanford博士（师从？）。北大前沿计算研究中心助理教授、博导，北京智源人工智能研究院具身智能研究中心主任。2023年5月创立银河通用。研究方向：具身多模态大模型，合成数据驱动的世界模型仿真。MIT TR35中国入选者(2025)。累计融资超50亿元，估值~30亿美元，为国内估值最高的具身智能初创。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "GalaxyBot",
@@ -3309,11 +3817,13 @@ window.GRAPH_DATA = {
       "description": "2023年5月由王鹤创立。具身智能赛道国内第一梯队，累计融资约8亿美元。产品Galbot G1（双臂轮式人形机器人）。核心技术路线：合成数据驱动+多模态大模型——用高精物理仿真生成十亿级动作数据预训练，真实数据后训练。发布GraspVLA（全球首个十亿级仿真数据预训练的端到端抓取大模型）、GroceryVLA（零售）、TrackVLA（导航）。已与博世合资、宁德时代/丰田/现代等合作，智慧药店已部署近10家。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "GraspVLA",
@@ -3322,11 +3832,13 @@ window.GRAPH_DATA = {
       "description": "银河通用2025年1月发布的全球首个基于十亿级仿真合成动作数据预训练的端到端具身抓取基础大模型。实现零样本泛化能力。核心思路：仿真生成几何信息丰富的3D合成数据（不受光照纹理影响）→大规模预训练→真实数据微调。代表了sim-to-real路线在具身操作领域的SOTA实践。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhou_Xian",
@@ -3335,11 +3847,13 @@ window.GRAPH_DATA = {
       "description": "1994年生。NTU机械工程本科（最高荣誉），CMU机器人学博士(2024)，师从Katerina Fragkiadaki。博士研究方向：世界模型、模仿学习、强化学习，提出生成式仿真新范式。发起并领导Genesis开源项目（25.4k+ GitHub Stars，最大具身智能开源项目）。2024年12月创立Genesis AI，2025年7月完成$105M种子轮（硅谷具身智能赛道史上最大种子轮），Khosla/Eclipse/红杉中国等投资。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Genesis_AI",
@@ -3348,11 +3862,13 @@ window.GRAPH_DATA = {
       "description": "2024年12月由周衔与Théophile Gervet（前Mistral AI多模态负责人）联合创立。定位全球物理AI实验室+全栈机器人公司。硅谷(Palo Alto)+巴黎双总部。核心产品：生成式物理引擎Genesis——根据自然语言自动生成4D动态物理世界，比现实世界快43万倍，单卡26秒训练可迁移至真机的运动策略。融资$105M种子轮，团队~20人平均年龄不到28岁。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Genesis_Engine",
@@ -3361,11 +3877,13 @@ window.GRAPH_DATA = {
       "description": "2024年底由CMU/清华/北大/MIT/Stanford等10+机构联合开源。根据自然语言描述自动生成4D动态物理世界（机器人操作、运动策略、交互式3D场景等）。比现实世界快约43万倍，RTX 4090单卡26秒训练可迁移至真机的运动策略。GitHub 25.4k+ Stars，最大具身智能开源项目。代表了生成式仿真替代传统手工建模的范式转变。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Su_Hao",
@@ -3374,11 +3892,13 @@ window.GRAPH_DATA = {
       "description": "北航本科。UCSD终身教授（2026年回国任复旦大学浩清特聘教授、通用物理智能研究院院长）。师从李飞飞，参与缔造ImageNet项目。3D视觉领域里程碑式贡献者：ShapeNet（300万3D模型数据集）、PointNet/PointNet++（3D点云深度学习开创方法），谷歌学术被引超14.5万次。主导开发SAPIEN仿真器与ManiSkill机器人训练平台。CVPR 2024青年学者奖、CVPR 2025程序主席。2024年与北航同窗韩铮联合创立HillBot，2025年演变为苏度科技（Sudo Technology），任首席技术顾问。",
       "degree": 7,
       "composite_weight": 0.045454545454545456,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "HillBot",
@@ -3387,11 +3907,13 @@ window.GRAPH_DATA = {
       "description": "2024年由韩铮(CEO)与苏昊(CTO)在圣地亚哥联合创立。核心理念：「先去天上修仙，再下凡干活」——在SAPIEN仿真器中进行模块化训练再sim-to-real迁移。2025年团队回国后演变为苏度科技（Sudo Technology），在上海杨浦注册运营。HillBot阶段完成$82.5M早期VC轮，为后续苏度科技的Sudo R1产品奠定了仿真基础设施基础。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Liu_Yu_Vivix",
@@ -3400,11 +3922,13 @@ window.GRAPH_DATA = {
       "description": "CUHK MMLab博士，师从王晓刚教授。前商汤科技执行研究总监，主导AIGC产品「秒画」（上线9天300万用户）。在ImageNet、MOT等国际竞赛中多次夺冠。2025年1月创立Vivix AI，团队不足20人。10个月内估值飙升至超$1.32B，红杉中国/IDG押注。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Vivix_AI",
@@ -3413,11 +3937,13 @@ window.GRAPH_DATA = {
       "description": "2025年1月由前商汤核心刘宇创立。专注实时交互式多模态内容生成。核心技术：Vivix Turbo推理引擎——自适应低精度计算+深度学习编译器+混合多维并行，号称「0.6T秒生成T秒画面」，推理速度提升两个数量级。主打产品Tiptap AI通过手势交互实现视频内容实时改造。长远愿景：构建原生多模态系统，视/听/画面作为一等公民在统一标记空间交互。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Changhu",
@@ -3426,11 +3952,13 @@ window.GRAPH_DATA = {
       "description": "中科大学士/硕士。前微软亚洲研究院主管研究员，2017年加入字节跳动任AI实验室总监/视觉技术负责人，参与抖音/TikTok从0到1建设。深耕CV领域20年。2023年4月创立爱诗科技，发布PixVerse（全球用户破亿，MAU 1600万+）。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Aisphere",
@@ -3439,11 +3967,13 @@ window.GRAPH_DATA = {
       "description": "2023年4月由王长虎创立。PixVerse（海外）/ 拍我AI（国内）——从AI视频生成工具升级为实时世界模型。代表产品PixVerse V5.6在全球榜单长期位列前2。2026年初发布PixVerse R1——号称全球首个通用实时世界模型，实现无限流/多模态/实时响应。ARR超$40M。累计融资超$300M（含阿里巴巴B轮$60M、鼎晖C轮$300M创亚洲纪录）。全球用户破亿。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "PixVerse_R1",
@@ -3452,11 +3982,13 @@ window.GRAPH_DATA = {
       "description": "爱诗科技2026年初发布的全球首个通用实时世界模型。从视频生成工具进化为实时交互世界模拟器：「无限流、多模态、实时响应」——用户指令可实时改变视频世界走向。标志着国产视频生成赛道从内容工具向世界模型路线的战略升级。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhang_Guofeng",
@@ -3466,10 +3998,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "InSpatio",
@@ -3479,10 +4013,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "InSpatio_WorldFM",
@@ -3492,10 +4028,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Huang_Guan",
@@ -3504,11 +4042,13 @@ window.GRAPH_DATA = {
       "description": "清华自动化系博士，微软亚洲研究院深度学习研究（国内最早一批深度学习研究者）。先后任职地平线、鉴智机器人，三星中国研究院。同时具备顶尖科研、量产工程、商业落地和连续创业经验。2023年6月创立极佳科技。90后。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "GigaVision",
@@ -3517,11 +4057,13 @@ window.GRAPH_DATA = {
       "description": "2023年6月由黄冠创立。国内最早系统布局世界模型的公司之一，'平台+大脑+本体'三条腿走路：世界模型平台GigaWorld、通用具身大脑GigaBrain、自研机器人本体Maker。GigaWorld-Policy将具身策略与世界模型深度融合设计。Maker H01已在汽车制造、3C电子、仓储物流、家庭服务等场景商业化落地，2026年冲刺千台交付量。与一汽模具、阿里云完成具身智能在真实工业制造场景的全流程方案落地。计划年内视觉-动作数据达100万小时以上，世界模型预训练数据超1000万小时。2026年一个多月内完成25亿元融资，估值突破百亿，是国内首个世界模型百亿独角兽。华为哈勃首次投资世界模型公司。",
       "degree": 7,
       "composite_weight": 0.045454545454545456,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "GigaWorld",
@@ -3530,11 +4072,13 @@ window.GRAPH_DATA = {
       "description": "极佳科技的世界模型平台。GigaWorld-1在WorldArena评测中击败Google/英伟达等登顶全球第一。覆盖驾驶世界模型（DriveDreamer）和具身世界模型两大方向，WorldArena评测全球第一。代表国产世界模型在国际评测体系中的里程碑。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wu_Wei",
@@ -3543,11 +4087,13 @@ window.GRAPH_DATA = {
       "description": "前商汤科技高管（2015年加入商汤初创），曾任商汤绝影智能云研发总经理，主导商汤「开悟」世界模型研发与落地。联合发起人包括清华教授（长江学者）及清华助理教授。2025年5月创立流形空间，坚持WMA路线。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Manifold_AI",
@@ -3556,11 +4102,13 @@ window.GRAPH_DATA = {
       "description": "2025年5月由武伟（前商汤绝影）联合清华教授创立。定位'国内第一家自研世界模型作为具身基础模型落地到机器人的创业公司'。自研Worldscape世界模型：全球首个同时支持移动和操作交互的实时世界模型，作为机器人预训练基座。Worldscape Policy实现具身世界-动作模型：时空状态预测+视觉空间内生推理+动作执行，精度全面超越现有VLA模型，具备少样本和零样本执行能力。坚持硬件-数据-模型闭环迭代，自研遥操、UMI、ego-centric到采测一体等多种数据采集设备。成立不到十个月累计完成四轮近5亿元融资，华为哈勃/君联资本/同创伟业等投资。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Du_Dalong",
@@ -3569,11 +4117,13 @@ window.GRAPH_DATA = {
       "description": "中科院计算所硕士，清华创新领军工程博士。百度IDL创始成员；地平线6号创始员工（深度参与国内首款AI芯片BPU设计）；2021年联合创办鉴智机器人任CTO（2025年底被四维图新并购，A股最大智能驾驶并购案）。2026年1月创立章鱼动力。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "SynapX",
@@ -3582,11 +4132,13 @@ window.GRAPH_DATA = {
       "description": "2026年1月由都大龙联合创立。定位物理AGI，提出SYNTH深思架构三大模块：SYNAction（REMA分频多尺度端到端操作架构，System 2→1→0三层闭环）、SYNWorld（VFT-WFM视-力-触统一世界模型）、SYNData（OPDS全模态物理数据系统）。首轮近$50M，地平线/高瓴/小米/顺为/线性投资，后续获新加坡K3（郭鹤年家族）追加。成立不到60天即完成首轮。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhu_Xing",
@@ -3595,11 +4147,13 @@ window.GRAPH_DATA = {
       "description": "85后，花名「陶斋」。蚂蚁灵波科技CEO、法定代表人。带领团队从0到1构建蚂蚁具身智能业务线，推动LingBot系列模型开源。将机器人定位为「连接虚拟世界与物理世界的下一个入口」，切入家庭/养老/医疗健康等密集交互场景。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Shen_Yujun",
@@ -3608,11 +4162,13 @@ window.GRAPH_DATA = {
       "description": "蚂蚁灵波科技首席科学家。持「真机数据优先」的具身智能路线——认为仿真数据作用有限，真机数据采集才是核心壁垒，与纯仿真路线形成鲜明对比。主导LingBot-VLA/VA/World/Depth四模型开源体系。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Robbyant",
@@ -3621,11 +4177,13 @@ window.GRAPH_DATA = {
       "description": "蚂蚁集团旗下具身智能子公司，2024年12月注册成立（注册资本1亿元）。上海浦东+杭州双城布局。首款服务机器人Robbyant-R1（厨房/导览/问诊多场景）。蚂蚁「AI First」战略在具身智能方向的延伸。2026年1月一口气开源四模型：LingBot-Depth（空间感知）、LingBot-VLA（具身大模型）、LingBot-World（世界模型）、LingBot-VA（具身世界模型）。团队约100人，硕博技术人才占比超九成。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "LingBot_World",
@@ -3634,11 +4192,13 @@ window.GRAPH_DATA = {
       "description": "蚂蚁灵波2026年1月开源的世界模型。高保真、可实时操控的「数字演练场」——交互延迟低于1秒，生成吞吐约16FPS，支持近10分钟连续稳定视频生成。支持键盘/鼠标/文本指令实时控制，零样本泛化。效果媲美Google Genie3。为具身智能提供低成本、高保真闭环验证环境。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "LingBot_VA",
@@ -3647,11 +4207,13 @@ window.GRAPH_DATA = {
       "description": "蚂蚁灵波2026年1月开源的全球首个自回归视频-动作世界模型。实现机器人「边推演、边行动」:预测未来视频帧+同步输出动作序列。在复杂任务成功率上较Pi0.5提升20%。核心创新：将视觉预测与动作决策统一在一个自回归框架中，是世界模型与VLA路线融合的代表作。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Leonidas_J_Guibas",
@@ -3661,10 +4223,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Wang_Xiaogang",
@@ -3673,11 +4237,13 @@ window.GRAPH_DATA = {
       "description": "香港中文大学（CUHK）电子工程系教授，多媒体实验室（MMLab）创始主任。商汤科技联合创始人兼首席科学家。师承汤晓鸥教授。在计算机视觉、深度学习领域发表论文数百篇。培养出刘宇（Vivix AI）、吕健勤（Chen Change Loy, NTU MMLab主任）等视觉领域领军人物。ImageNet/COCO/MOT等多项国际竞赛冠军团队成员。",
       "degree": 9,
       "composite_weight": 0.05844155844155844,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yao_Tengzhou",
@@ -3686,11 +4252,13 @@ window.GRAPH_DATA = {
       "description": "北航机器人研究所硕士，师从王田苗教授。前ABB集团上海机器人研发中心工程师。2023年与王鹤共同创立银河通用，负责硬件与系统工程。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Han_Zheng",
@@ -3699,11 +4267,13 @@ window.GRAPH_DATA = {
       "description": "北航本科，苏昊的昔日同窗。连续创业者：创办ZEPP智能穿戴（2018年被华米收购）、火箭科技智能办公（被优客工场收购）。40余项计算机视觉/IoT/NLP专利。2015年Fast Company中国百大创新者。2024年与苏昊联合创立HillBot，2025年演变为苏度科技（Sudo Technology），任CEO。主导Sudo R1的商业化落地，推动0真机数据纯仿真训练达成98%首次抓取成功率。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhu_Zheng",
@@ -3712,11 +4282,13 @@ window.GRAPH_DATA = {
       "description": "中科院自动化研究所博士(2019)，清华大学自动化系博士后。极佳科技联合创始人兼首席科学家。发表AI顶会论文50+篇，引用1.7万+。代表作SiamRPN（目标跟踪）、BEVDet系列（自动驾驶感知）。负责GigaWorld/GigaBrain等核心模型技术方向。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Liang_Zhujin",
@@ -3725,11 +4297,13 @@ window.GRAPH_DATA = {
       "description": "清华大学创新领军工程博士。物理AI先行者，业内最早推动「世界模型+端到端RL闭环训练体系」落地真实系统的技术专家之一。前鉴智机器人技术副总裁。2026年与都大龙联合创立章鱼动力，负责SYNWorld世界模型等核心技术。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Liu_Haomin",
@@ -3739,10 +4313,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Lu_Cewu",
@@ -3751,11 +4327,13 @@ window.GRAPH_DATA = {
       "description": "Stanford博士，师从李飞飞。上海交通大学计算机系教授、博导。穹彻智能（Noematrix）创始人，专注机器人操作与技能学习。作为苏昊的同门师弟，代表了李飞飞学术谱系从3D视觉向机器人操作的延伸。ICRA/IROS等机器人顶会最佳论文奖获得者。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Xie_Xuzhang",
@@ -3764,11 +4342,13 @@ window.GRAPH_DATA = {
       "description": "北京大学光华管理学院毕业。曾任光源资本董事，专注科技领域融资与IPO。2023年与王长虎联合创立爱诗科技，负责商业运营与海外市场拓展。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Chen_Baoquan",
@@ -3778,10 +4358,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Li_Hongyang",
@@ -3790,11 +4372,13 @@ window.GRAPH_DATA = {
       "description": "HKU助理教授，上海AI Lab OpenDriveLab负责人。2019年CUHK博士（导师？）。IEEE Senior Member。研究方向：端到端自动驾驶→驾驶世界模型。代表工作：BEVFormer（鸟瞰图感知框架，2022年Top 100 AI Papers）、UniAD（CVPR 2023最佳论文，首个规划导向端到端自动驾驶框架）、Vista（NeurIPS 2024，高质量可控驾驶世界模型）、GenAD/ReSim。联合推出UniVLA等具身大模型，持续拔高自动驾驶与通用物理AI系统的决策上限。",
       "degree": 8,
       "composite_weight": 0.05194805194805195,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "BEVFormer_UniAD",
@@ -3803,11 +4387,13 @@ window.GRAPH_DATA = {
       "description": "李弘扬团队的代表性工作组合。BEVFormer：利用时空Transformer从多摄像头输入学习鸟瞰图表示，2022年Top 100 AI Papers（NVIDIA CEO黄仁勋公开认可）。UniAD：首个规划导向的端到端自动驾驶统一框架，获CVPR 2023最佳论文奖，对特斯拉FSD V12产生重大影响。两者共同奠定了从感知到规划的端到端自动驾驶范式。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Xu_Danfei",
@@ -3816,11 +4402,13 @@ window.GRAPH_DATA = {
       "description": "2021年Stanford博士，师从李飞飞与Silvio Savarese。Georgia Tech助理教授，NVIDIA AI Research研究科学家。NSF CAREER Award获得者。研究方向：结构化世界模型用于长程规划、机器人操作技能学习。「人类数据是伪装成另一种形式的机器人数据」理念推动者，EgoMimic/EgoScale等从人类视频学习机器人先验。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhu_Senhua",
@@ -3830,10 +4418,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "BrainStone",
@@ -3843,10 +4433,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "active_inf",
-      "group_name": "路线四：主动推理（边缘路线）",
+      "group_name": "主动推理",
       "tags": [
-        "路线四：主动推理（边缘路线）"
-      ]
+        "主动推理"
+      ],
+      "route_family": "active_inf",
+      "route_family_name": "主动推理"
     },
     {
       "id": "Yu_Yang",
@@ -3855,11 +4447,13 @@ window.GRAPH_DATA = {
       "description": "南大人工智能学院教授、博导，LAMDA课题组核心成员。2011年南大博士。入选IEEE Intelligent Systems「AI's 10 to Watch」(2018)，获CCF-IEEE青年科学家奖。研究方向：强化学习→因果世界模型。核心观点：世界模型的核心价值是反事实推理——对未见过的决策推断其结果；纯视频生成不准确学到物理规律，难以作为真正世界模型。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Jun",
@@ -3868,11 +4462,13 @@ window.GRAPH_DATA = {
       "description": "UCL计算机系正教授、阿兰·图灵研究所Turing Fellow。上海数字大脑研究院联合创始人/院长，前华为诺亚实验室决策推理首席科学家。研究方向：多智能体深度强化学习、生成模型、决策大模型。代表作：BiCNet（多智能体协调网络）、PR2（概率递归推理）、OpenR（首个类o1开源RL全链条训练框架）。培养出张伟楠/杨耀东等学生。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhang_Weinan",
@@ -3881,11 +4477,13 @@ window.GRAPH_DATA = {
       "description": "上海交大计算机系教授、博导、副系主任。2011年上海交大ACM班学士，2016年UCL博士（师从汪军）。2018年阿里达摩院青橙奖，2021年吴文俊AI优秀青年奖。谷歌学术引用3万+。研究方向：强化学习(模型驱动/数据驱动)→决策大模型。著有《动手学强化学习》《动手学机器学习》。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yang_Yaodong",
@@ -3894,11 +4492,13 @@ window.GRAPH_DATA = {
       "description": "北大人工智能研究院助理教授（博雅青年学者），AI安全与治理中心执行主任。中科大本科，UCL博士（师从汪军，提名ACM SIGAI优秀博士论文）。MIT TR「AI 100青年先锋」。研究方向：多智能体强化学习、大模型安全对齐、具身世界模型。团队开源MARLlib/HARL/Omnisafe等RL框架。发表200+论文，引用1.6万+。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhu_Jun",
@@ -3907,11 +4507,13 @@ window.GRAPH_DATA = {
       "description": "清华计算机系Bosch AI教授、IEEE Fellow，人工智能研究院副院长。2009年清华博士。获求是杰出青年奖、科学探索奖。研究方向：正则化贝叶斯理论→扩散模型高效算法→视频世界模型。DPM-Solver获ICLR 2022杰出论文奖（被DALL·E 2/Stable Diffusion采用），U-ViT为首个Diffusion+Transformer融合架构（早于Sora的DiT）。生数科技首席科学家，发布国产视频大模型Vidu。培养出刘松铭（Liber AI创始人）等学生。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Shengshu",
@@ -3920,11 +4522,13 @@ window.GRAPH_DATA = {
       "description": "朱军作为首席科学家参与孵化的AI创业公司。2024年4月发布中国首个长时长（16s）、高一致性（1080P）视频大模型Vidu，采用自研U-ViT架构（全球首个Diffusion+Transformer融合架构，早于Sora的DiT），能模拟真实物理世界。代表清华体系在视频世界模型方向的突破。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Vidu",
@@ -3933,11 +4537,13 @@ window.GRAPH_DATA = {
       "description": "生数科技2024年4月发布的国产视频大模型，对标OpenAI Sora。采用朱军团队自研U-ViT架构端到端生成，支持一键生成16秒1080P高清视频，具备多镜头生成、时空一致性高等特点。基于DPM-Solver高效扩散模型采样技术（ICLR 2022杰出论文）。代表国产视频世界模型的自研突破。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Cao_Yue",
@@ -3946,11 +4552,13 @@ window.GRAPH_DATA = {
       "description": "清华软件学院博士，2018年清华特等奖学金获得者。Swin Transformer第一作者（ICCV 2021最佳论文马尔奖，引用近6万次）。前北京智源研究院视觉模型研究中心负责人、光年之外联合创始人。2024年1月创立Sand.AI，押注自回归路线构建视频世界模型——认为自回归是更接近终局的方案，时序因果建模+可扩展。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Sand_AI",
@@ -3959,11 +4567,13 @@ window.GRAPH_DATA = {
       "description": "2024年1月由曹越创立。核心技术路线：自回归(Autoregressive)构建视频世界模型，与U-ViT/DiT等Diffusion路线完全不同。代表产品：MAGI-1（全球首个自回归视频生成大模型，100%开源，Physics-IQ 56%远超Sora/可灵）。自回归路线更接近语言模型'预测下一个token'逻辑，但用于视觉时空序列预测——本质上即世界模型构建方式。ARR超千万美元，近期完成约$50M新融资。被李开复评为「继DeepSeek之后又一家开发出世界一流开源模型的AI公司」。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "MAGI_1",
@@ -3972,11 +4582,13 @@ window.GRAPH_DATA = {
       "description": "Sand.AI于2025年4月发布。全球首个自回归视频生成大模型，Diffusion Transformer + Flow-Matching，24帧/块分块自回归支持无限长度扩展。Physics-IQ基准56.02%（远超Sora/可灵等扩散方案），VBench-I2V总分89.28排名第一。100% Apache 2.0开源。核心思路：视频存在天然时间因果性，自回归能更好建模物理一致性（Sora等纯扩散方案容易左腿右腿同出）。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Dreamer",
@@ -3985,11 +4597,13 @@ window.GRAPH_DATA = {
       "description": "Danijar Hafner等人提出。Dreamer系列的开山之作。《Dream to Control: Learning Behaviors by Latent Imagination》。核心洞察：如果有一个足够好的隐空间世界模型，训练期间根本不需要碰真实环境。智能体在隐空间（latent space）中想象动作序列和后果，接收奖励信号，更新策略——所有这一切都在想象中完成，没有一次真实交互。当它最终进入真实环境时，已经知道该做什么。奠定了Dreamer系列「Learn by Imagination」的核心范式。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Embo",
@@ -3998,11 +4612,13 @@ window.GRAPH_DATA = {
       "description": "2025年由Danijar Hafner创立，a16z领投超$1亿种子轮。核心技术路线：基于Dreamer系列隐空间世界模型，构建机器人通用智能。核心理念延续Dreamer范式——让机器人在隐空间想象中学习和规划，最小化真实环境交互成本。代表了从Google DeepMind学术研究向商业化的关键一跃。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "GigaWorld_Policy",
@@ -4011,11 +4627,13 @@ window.GRAPH_DATA = {
       "description": "极佳视界的核心产品。将具身策略和世界模型深度融合——不是先建世界模型再往机器人上套，而是从一开始就绑在一起设计。世界模型负责时空状态预测，策略网络直接利用世界模型的隐空间表征做决策。代表了世界模型从'感知'到'行动'的范式跨越。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "GigaBrain",
@@ -4024,11 +4642,13 @@ window.GRAPH_DATA = {
       "description": "极佳视界的通用具身大脑模型。利用GigaWorld世界模型生成的合成数据训练，实现真机泛化。国内首个利用世界模型数据实现真机泛化的VLA模型。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Maker_H01",
@@ -4037,11 +4657,13 @@ window.GRAPH_DATA = {
       "description": "极佳视界自研通用机器人本体。已在汽车制造、3C电子、仓储物流、家庭服务等场景实现商业化落地。2026年4月与一汽模具、阿里云完成具身智能机器人在真实工业制造场景的全流程方案落地。年内冲刺千台交付量。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Worldscape",
@@ -4050,11 +4672,13 @@ window.GRAPH_DATA = {
       "description": "Manifold AI自研。世界范围内首个同时支持移动和操作交互的实时世界模型。作为机器人预训练基座，通过世界模型做时空状态预测，结合视觉输入进行空间内生推理并执行动作。精度全面超越现有VLA模型，具备少样本和零样本执行能力。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Worldscape_Policy",
@@ -4063,11 +4687,13 @@ window.GRAPH_DATA = {
       "description": "基于Worldscape世界模型的具身策略。时空状态预测+视觉空间内生推理+动作执行三位一体。利用世界模型预训练基座实现少样本/零样本任务执行。实证精度全面超越现有VLA（视觉-语言-动作）模型。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ji_Jiaming",
@@ -4076,11 +4702,13 @@ window.GRAPH_DATA = {
       "description": "1998年出生，北大人工智能研究院博士生，2025年北大学生年度人物。极少数同时获Apple Scholar（当年大陆仅2位）、腾讯、蚂蚁认可的学者，谷歌学术引用5600+。逆矩阵科技创始人兼CEO。聚焦世界基础模型与强化学习的融合研究。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Chen_Boyuan",
@@ -4089,11 +4717,13 @@ window.GRAPH_DATA = {
       "description": "2004年出生，北大元培学院大四本科生，2025年北大学生年度人物。大一发表顶会论文，大四独立发表NeurIPS 2025亮点论文，代表论文获NeurIPS Oral（接受率仅0.35%）。谷歌学术引用2000+。逆矩阵科技联合创始人。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Inverse_Matrix",
@@ -4102,11 +4732,13 @@ window.GRAPH_DATA = {
       "description": "定位'通用世界基座模型'，目标是构建能真正'理解'而非'模仿'物理规律的AI系统。技术路径被业界视为继李飞飞（空间智能）和杨立昆（JEPA）之后的'第三条路'：强化学习+世界模型融合，强调因果推理能力。核心目标：能响应动作指令并做出物理正确预测，在任意物理场景中进行因果推理与反事实预测。计划2026年内发布旗舰模型。成立仅40余天获高瓴创投、燕缘创投等超千万美元融资。团队超30人，来自北大和头部大厂。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Liu_Songming",
@@ -4115,11 +4747,13 @@ window.GRAPH_DATA = {
       "description": "清华大学00后本科生特等奖学金得主（每年仅10人），师从朱军教授。RDT系列一作，多篇ICML、NeurIPS顶会论文。2024年由AI for Physics转向具身智能，主导RDT系列研发。2025年12月创立Liber AI，任CEO。愿景：'像苹果一样，去定义世界模型的数采范式、本体及系统'。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Lin_Fanqi",
@@ -4128,11 +4762,13 @@ window.GRAPH_DATA = {
       "description": "清华大学，师从高阳老师。一作论文《Data Scaling Laws》提出模型泛化性随数据多样性增加而显著提升的规律，获ICLR Oral、CoRL X-Embodiment Workshop Best Paper。Liber AI联合创始人。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Gao_Yang",
@@ -4141,11 +4777,13 @@ window.GRAPH_DATA = {
       "description": "清华大学教师。研究方向：具身智能、机器人学习。林凡淇的导师。Data Scaling Laws在具身智能领域有重要影响。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Liber_AI",
@@ -4154,11 +4792,13 @@ window.GRAPH_DATA = {
       "description": "2025年12月由刘松铭（清华特奖/朱军学生）创立。聚焦具身智能模型研发，瞄准人类UMI数据与世界模型融合的下一代技术范式。已跑通UMI硬件→数据采集→大模型训练全流程闭环。核心产品：具身智能大模型及配套UMI硬件、数据采集与训练体系。两大创新：模态对齐（让海量视频数据反哺稀缺物理数据）+ 归纳偏置（把物理规律注入模型加速收敛）。成立4个月发布首个Demo：五指灵巧手实现双手剥香蕉、拧瓶盖、持锅颠勺等精细操作长程任务。三个月内连续完成种子轮/天使轮/天使+轮，累计数亿元，真格/红杉中国/美团龙珠/顺为等投资，估值翻5倍。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "RDT_1B",
@@ -4167,11 +4807,13 @@ window.GRAPH_DATA = {
       "description": "刘松铭主导研发。全球首个使用大规模预训练+扩散Transformer范式的具身基座模型，领先硅谷竞品PI-0模型一个月发布。奠定了大规模预训练在具身智能中的技术路线。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "RDT_2",
@@ -4180,11 +4822,13 @@ window.GRAPH_DATA = {
       "description": "刘松铭团队发布。首个使用大规模UMI无本体人类数据预训练范式的具身模型，领先Generalist的GEN-0模型一个月。无需本体数据即可从人类操作视频中学习操作技能，代表了世界模型+人类数据融合的技术方向。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Andrea_Vedaldi",
@@ -4194,10 +4838,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Wang_Jianyuan",
@@ -4207,10 +4853,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "VGGT",
@@ -4220,10 +4868,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "VGGT_Omega",
@@ -4233,10 +4883,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Lerrel_Pinto",
@@ -4245,11 +4897,13 @@ window.GRAPH_DATA = {
       "description": "NYU Courant 计算机科学教授。研究方向：机器人学习、世界模型。Gaoyue Zhou 的博士 co-advisor（与 Yann LeCun 共同指导）。在真实世界机器人数据高效学习方面有重要贡献。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Gaoyue_Zhou",
@@ -4258,11 +4912,13 @@ window.GRAPH_DATA = {
       "description": "NYU Courant 博二，师从 Yann LeCun & Lerrel Pinto。UC Berkeley 本科（Sergey Levine 指导 BAIR Lab），CMU 机器人所硕士（Abhinav Gupta 指导）。DINO-WM 第一作者（ICML 2025），NWM 核心作者（CVPR 2025 最佳论文荣誉提名）。研究方向：基于预训练视觉特征的世界模型、零样本规划、导航世界模型。跨越 JEPA（LeCun 学生）和学习仿真（Berkeley/CMU 机器人背景）两条路线。",
       "degree": 8,
       "composite_weight": 0.05194805194805195,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "NWM",
@@ -4271,11 +4927,13 @@ window.GRAPH_DATA = {
       "description": "Gaoyue Zhou 核心参与（Amir Bar 一作），获 CVPR 2025 最佳论文荣誉提名。10 亿参数 Conditional Diffusion Transformer（CDiT），基于人类和机器人自我中心视频的多样化数据集训练。通过模拟导航轨迹并评估是否达成目标来进行规划，实现跨环境和跨具身形态的通用导航世界模型。代表了世界模型从'被动生成'到'主动规划'的关键跨越。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jinwei_Gu",
@@ -4284,11 +4942,13 @@ window.GRAPH_DATA = {
       "description": "NVIDIA Principal Research Scientist，Cosmos 模型开发技术负责人之一。Columbia 博士(2010)，清华本科/硕士。IEEE Senior Member，TPAMI/TIP副主编。Cosmos WFM Platform、Cosmos-Reason1、Cosmos Policy 核心作者。CUHK 兼职副教授。前 SenseBrain R&D 执行总监。",
       "degree": 8,
       "composite_weight": 0.05194805194805195,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Xian_Liu",
@@ -4297,11 +4957,13 @@ window.GRAPH_DATA = {
       "description": "CUHK MMLab 博士(2025)，师从 Dahua Lin & Ziwei Liu。浙大本科(专业第1)。前 NVIDIA Cosmos Team 研究科学家(2024-2025)，Cosmos 系列核心贡献者：Cosmos-Predict2/2.5 预训练+后训练、Cosmos Tokenizer、Cosmos-Transfer1。30+顶会论文，1400+引用。现为 xAI Grok Imagine Team 研究员。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Trevor_Darrell",
@@ -4310,11 +4972,13 @@ window.GRAPH_DATA = {
       "description": "UC Berkeley 计算机科学教授，BAIR Lab 核心成员。计算机视觉与机器人学习先驱。许华哲的博士导师。在跨模态学习、领域自适应、具身AI方向有深厚积累。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Silvio_Savarese",
@@ -4323,11 +4987,13 @@ window.GRAPH_DATA = {
       "description": "Stanford 计算机科学教授，与李飞飞共同领导 Stanford Vision and Learning Lab (SVL)。研究方向：计算机视觉、机器人学、3D场景理解。指导了 Yuke Zhu、徐丹飞、Kuan Fang、Fei Xia 等多名世界模型/具身智能方向的学者。前 Salesforce 首席科学家。",
       "degree": 8,
       "composite_weight": 0.05194805194805195,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Antonio_Torralba",
@@ -4336,11 +5002,13 @@ window.GRAPH_DATA = {
       "description": "MIT EECS 教授，MIT CSAIL 核心成员。计算机视觉与场景理解泰斗。Yunzhu Li 的博士主导师。在视觉场景理解、数据集构建方向有奠基性贡献。Places 数据集、MIT Indoor 场景数据集创建者。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Russ_Tedrake",
@@ -4349,11 +5017,13 @@ window.GRAPH_DATA = {
       "description": "MIT EECS 教授，机器人学权威。Toyota Research Institute VP of Robotics Research。Yunzhu Li 的博士 co-advisor。研究方向：非线性控制、欠驱动机器人、操作规划。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Xu_Huazhe",
@@ -4362,11 +5032,13 @@ window.GRAPH_DATA = {
       "description": "清华电子系本科，UC Berkeley 博士（师从 Trevor Darrell），Stanford 博士后（李飞飞组）。清华大学交叉信息研究院助理教授、博导，清华具身智能实验室（TEA Lab）负责人。提出 3D Diffusion Policy (DP3)，已被业内广泛采用。2023年联合创立星海图（Galbot，融资近30亿/估值200亿），2026年2月离开创办破壳机器人，押注家庭通用机器人+世界模型+强化学习路线，天使轮数千万美元（云启/顺为/小米战投等）。",
       "degree": 7,
       "composite_weight": 0.045454545454545456,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Fei_Xia",
@@ -4375,11 +5047,13 @@ window.GRAPH_DATA = {
       "description": "Stanford 博士（师从 Silvio Savarese & Leonidas Guibas），SVL 实验室。Google DeepMind 机器人团队 Senior Research Scientist。代表性工作：RT-1/RT-2 (Robotics Transformer)、PaLM-E（562B具身多模态语言模型）、SayCan、Inner Monologue、AutoRT、Open X-Embodiment。CoRL 特别创新奖、ICRA 杰出机器人学习论文奖。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wenlong_Huang",
@@ -4388,11 +5062,13 @@ window.GRAPH_DATA = {
       "description": "UC Berkeley 本科（Deepak Pathak/Pieter Abbeel），Stanford 博士在读（师从李飞飞）。代表性工作：VoxPoser（LLM驱动的零样本机器人操作）、PaLM-E（562B参数）、Inner Monologue、Code as Policies。实习于 MIT CSAIL/NVIDIA Robotics/Google Robotics。ICRA 2023 杰出机器人学习论文奖、CoRL 2024 LEAP 最佳论文奖。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yu_Xiang",
@@ -4401,11 +5077,13 @@ window.GRAPH_DATA = {
       "description": "Michigan 博士，Stanford SVL 访问学者（Savarese 组）。前 NVIDIA Research 高级研究科学家（2018-2021）。UT Dallas 计算机系助理教授，IRVL 实验室主任。研究方向：机器人视觉感知、3D物体识别与位姿估计。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yunzhu_Li",
@@ -4414,11 +5092,13 @@ window.GRAPH_DATA = {
       "description": "北大本科，MIT CSAIL 博士（师从 Antonio Torralba & Russ Tedrake），Stanford 博士后（李飞飞组）。哥伦比亚大学计算机系助理教授，RoboPIL 实验室主任。研究方向：结构化世界模型用于机器人操作、多模态感知（视觉+触觉+听觉+语言）。ICRA 最佳论文奖、CoRL 最佳系统论文奖。成果发表于 Nature/Science/RSS/NeurIPS/CVPR。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Kuan_Fang",
@@ -4427,11 +5107,13 @@ window.GRAPH_DATA = {
       "description": "清华本科，Stanford 博士（师从李飞飞 & Silvio Savarese）。UC Berkeley 博士后（Sergey Levine），Boston Dynamics AI Institute 研究员。康奈尔大学计算机系助理教授。研究方向：从大规模多模态数据学习通用视运动技能，自主数据生成与持续学习。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Galbot",
@@ -4440,11 +5122,13 @@ window.GRAPH_DATA = {
       "description": "2023年由高继扬(CEO/清华→Waymo)、许华哲(首席科学家/清华教授)、赵行(清华)、李天威(UCL)联合创立。核心产品：R1系列轮式仿人形通用机器人。估值一度突破200亿。李飞飞团队曾使用 R1 平台训练机器人系统。2026年2月许华哲离开独立创办破壳机器人。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Arie_Kaufman",
@@ -4454,10 +5138,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "SLAM3R",
@@ -4467,10 +5153,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Liu_Libin",
@@ -4479,11 +5167,13 @@ window.GRAPH_DATA = {
       "description": "北京大学智能学院助理教授、博雅青年学者，VCL Lab 核心成员。前硅谷 DeepMotion Inc. 首席科学家，UBC 及 Disney Research 博士后。研究方向：数字人建模与运动控制、具身智能。与陈宝权团队在数字人仿真、可微物理代理、RL运动策略方向深度合作。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Thomas_Huang",
@@ -4493,10 +5183,12 @@ window.GRAPH_DATA = {
       "degree": 7,
       "composite_weight": 0.045454545454545456,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Qi_Guojun",
@@ -4505,11 +5197,13 @@ window.GRAPH_DATA = {
       "description": "西湖大学工学院教授，MAPLE Lab（机器感知与学习实验室）负责人（~20人）。IEEE Fellow、IAPR Fellow、ACM 杰出科学家。中科大自动化博士（2009）+ UIUC 电子与计算机工程博士（2013，师从 Thomas Huang），7.5年获双博士学位。前华为美国研究中心技术副总裁兼首席AI科学家（2018-2021，获华为总裁奖），前 OPPO 西雅图研究中心创始院长（2021-2023）。研究方向：多模态感知+生成+交互、AIGC、跨模态语义转移（文生图/文生视频的数学基础）、3D智慧创作、具身智能交互。MAPLE Lab 横跨视觉生成大模型与机器人世界模型两大前沿。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhang_Changshui",
@@ -4518,11 +5212,13 @@ window.GRAPH_DATA = {
       "description": "清华大学自动化系教授。国内最早从事人工智能研究的学者之一。研究方向：机器学习、模式识别、数据挖掘。王井东的硕士导师（2001-2004）。其学生还包括贾扬清（Caffe 作者、前阿里技术副总裁）。清华自动化系是中国AI研究的重要源头院系之一。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Harry_Shum",
@@ -4532,10 +5228,12 @@ window.GRAPH_DATA = {
       "degree": 9,
       "composite_weight": 0.05844155844155844,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Tang_Xiaoou",
@@ -4545,10 +5243,12 @@ window.GRAPH_DATA = {
       "degree": 7,
       "composite_weight": 0.045454545454545456,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Ma_Yi",
@@ -4558,10 +5258,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Jin_Xin",
@@ -4571,10 +5273,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Liu_Yebin",
@@ -4584,10 +5288,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Gao_Lin",
@@ -4597,10 +5303,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Zhang_Zhaoxiang",
@@ -4610,10 +5318,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Zhao_Hengshuang",
@@ -4623,10 +5333,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Jiang_Li",
@@ -4636,10 +5348,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Chen_Yingcong",
@@ -4649,10 +5363,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "InSpatio_World",
@@ -4662,10 +5378,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "HERMES",
@@ -4675,10 +5393,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Kairos_3",
@@ -4688,10 +5408,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Masayoshi_Tomizuka",
@@ -4700,11 +5422,13 @@ window.GRAPH_DATA = {
       "description": "UC Berkeley 机械工程系教授，美国国家工程院院士。机电控制与机器人学先驱。陈建宇的博士导师。在运动控制、人机交互方向有奠基性贡献。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Chen_Jianyu",
@@ -4713,11 +5437,13 @@ window.GRAPH_DATA = {
       "description": "清华大学交叉信息研究院助理教授、博导（28岁），星动纪元创始人。UC Berkeley 博士（师从 Masayoshi Tomizuka），姚期智邀请回国。研究方向：具身智能、人形机器人、强化学习。ERA-42 端到端具身模型作者，Ctrl-World 在 World Arena 榜单登顶（2026.2）。星动纪元累计融资超 16 亿元（吉利/阿里/联想/海尔/北汽/三星等 16 家产业方）。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhao_Xing",
@@ -4726,11 +5452,13 @@ window.GRAPH_DATA = {
       "description": "清华大学交叉信息研究院助理教授，MARS Lab 负责人。MIT 博士，前 Waymo 研究科学家。星海图联合创始人兼首席科学家。提出「一脑多型」理念——同一 AI 大脑控制轮式、足式等不同形态机器人。研究方向：多模态学习、自动驾驶、端到端具身大模型。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Gao_Jiyang",
@@ -4739,11 +5467,13 @@ window.GRAPH_DATA = {
       "description": "星海图（Galbot）创始人兼 CEO。清华电子系本科，南加大 CV 博士。前 Waymo 视觉感知研究员，前 Momenta 多模块/产品负责人。2023 年联合创立星海图，累计融资超 30 亿元，估值突破 200 亿元，国内估值最高具身智能企业。投资方：高瓴创投、美团龙珠、正心谷、北汽产投、金鼎资本等。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Lu_Zongqing",
@@ -4752,11 +5482,13 @@ window.GRAPH_DATA = {
       "description": "北京大学计算机学院长聘副教授，国家级青年人才，智源学者。前智源研究院多模态交互研究中心负责人。提出 Being-0——首个集运动、导航、灵巧操作于一体的人形机器人通用智能体（2025）。具身智能创业公司 BeingBeyond 创始人。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Cao_Xudong",
@@ -4765,11 +5497,13 @@ window.GRAPH_DATA = {
       "description": "Momenta CEO。2026 年 4 月宣布 R7 强化学习世界模型量产首发。主张世界模型+强化学习是物理 AI 的两大核心支柱。技术路线与 DeepMind Dreamer 方向一致：世界模型生成仿真数据→RL 训练策略→迁移真实车辆。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Xiong_Rong",
@@ -4778,11 +5512,13 @@ window.GRAPH_DATA = {
       "description": "浙江大学求是特聘教授，浙江人形机器人创新中心首席科学家。2026 年获国际机器人联合会「塑造机器人未来的女性」奖（全球仅 11 位，中国唯一）。研究智能移动机器人逾二十年，主导制定国家人形机器人通用智能控制系统标准。联合华为、海康等 41 家单位推进具身智能标准化。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wei_Yunchao",
@@ -4791,11 +5527,13 @@ window.GRAPH_DATA = {
       "description": "北京交通大学计算机学院教授，国家高层次青年人才，IEEE 高级会员。与豆包大模型团队共同开发 VideoWorld——首个纯视觉、无语言参与的世界模型。通过观看数万局围棋高手对战视频自主领悟规则，以职业 5 段实力击败人类。从纯视觉角度提供了不同于 LLM 的推理路径。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Genie_3",
@@ -4804,11 +5542,13 @@ window.GRAPH_DATA = {
       "description": "Google DeepMind 发布。目前最接近实时交互通用世界模型的成果：720p、24fps 生成可持续导航的 3D 环境。无硬编码物理引擎——所有行为从训练数据中学习。正在被用于训练 SIMA 智能体。代表了从视频生成模型向可交互世界模拟器的关键跨越。",
       "degree": 9,
       "composite_weight": 0.05844155844155844,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Dreamer_V4",
@@ -4817,11 +5557,13 @@ window.GRAPH_DATA = {
       "description": "Danijar Hafner 系列最新版。标志性成就：仅凭离线数据在 Minecraft 中挖到钻石——此前 OpenAI VPT 需要 27 万小时标注视频 + 19.4 万小时在线 RL，Dreamer V4 数据量仅为前者 1%。人类已可交互式在其世界模型中游玩。模糊了生成环境与 RL 训练的边界。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Being_0",
@@ -4830,11 +5572,13 @@ window.GRAPH_DATA = {
       "description": "北京大学卢宗青团队提出。首个集运动、导航、灵巧操作于一体的人形机器人通用智能体。代表了从单任务 RL 到通用具身智能体的重要探索。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ctrl_World",
@@ -4843,11 +5587,13 @@ window.GRAPH_DATA = {
       "description": "陈建宇（清华/星动纪元）与 Chelsea Finn（Stanford）合作。2026 年 2 月在李飞飞牵头的全球具身智能评测 World Arena 榜单登顶。端到端具身世界模型，代表了中国 90 后学者在国际具身智能竞赛中的最高水平。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "VideoWorld",
@@ -4856,11 +5602,13 @@ window.GRAPH_DATA = {
       "description": "魏云超（北京交大）与豆包大模型团队共同开发。首个纯视觉、无语言模型参与的世界模型。仅通过观看数万局围棋高手对战视频自主领悟规则，以职业 5 段实力击败人类对手。证明了纯视觉推理可以独立于语言模型实现对复杂系统的深刻理解。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "HappyOyster",
@@ -4869,11 +5617,13 @@ window.GRAPH_DATA = {
       "description": "阿里 ATH 创新事业部 2026 年 4 月发布。对标 Google Genie 3，支持用户实时构建可互动、可演绎、可探索的 AI 数字世界。阿里在视频生成领域多年积累向世界模型方向延伸的重要节点。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "X_World",
@@ -4882,11 +5632,13 @@ window.GRAPH_DATA = {
       "description": "小鹏汽车 2026 年 4 月发布。基于视频扩散生成技术构建可控多视角生成式世界模型。两阶段训练：①将大型预训练视频生成模型改造为可控多摄像头世界模型；②通过分块因果架构+少步自强制学习实现实时推理。已在闭环仿真测试与在线闭环中应用。正在研发 720 亿参数超大规模自研模型。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Drive_OccWorld",
@@ -4895,11 +5647,13 @@ window.GRAPH_DATA = {
       "description": "华为联合浙江大学 2024 年发布。以视觉为中心的占用预测世界模型，用于自动驾驶场景的端到端世界理解与预测。华为 Drive 系列世界模型的开端。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "WordGrow",
@@ -4908,11 +5662,13 @@ window.GRAPH_DATA = {
       "description": "华为联合上海交大/华中科技大学 2025 年发布。单张 GPU 30 分钟生成 272 m² 超大规模室内场景。结合 LLM 布局推理与程序化 3D 生成，代表了世界模型在室内空间生成方向的突破。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Star_Era",
@@ -4921,11 +5677,13 @@ window.GRAPH_DATA = {
       "description": "2023 年由陈建宇（清华助理教授）创立。核心产品 ERA-42 端到端具身模型。2026 年 Ctrl-World 在 World Arena 榜单登顶。累计融资超 16 亿元，投资方包括吉利资本、阿里巴巴、联想、海尔、北汽、三星等 16 家产业方。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "BeingBeyond",
@@ -4934,11 +5692,13 @@ window.GRAPH_DATA = {
       "description": "北京大学卢宗青团队孵化。方向：人形机器人通用智能体，基于 Being-0 的多模态感知-规划-执行一体化框架。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Momenta",
@@ -4947,11 +5707,13 @@ window.GRAPH_DATA = {
       "description": "2016 年由曹旭东创立。2026 年 4 月宣布 R7 强化学习世界模型量产首发。技术路线：世界模型生成仿真数据→RL 训练策略→迁移真实车辆。中国自动驾驶领域世界模型+RL 路线的最激进实践者之一。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jiaya_Jia",
@@ -4961,10 +5723,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Guo_Chunchao",
@@ -4974,10 +5738,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Wang_Tengfei",
@@ -4987,10 +5753,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Qifeng_Chen",
@@ -5000,10 +5768,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Hunyuan3D",
@@ -5013,10 +5783,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "HY_World",
@@ -5026,10 +5798,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Hunyuan_Voyager",
@@ -5039,10 +5813,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Zhang_Di",
@@ -5051,11 +5827,13 @@ window.GRAPH_DATA = {
       "description": "上海交大计算机本硕（2010）。被称为「可灵之父」。2010-2020：阿里巴巴，阿里妈妈大数据与ML工程架构负责人。2020-2025.8：快手技术副总裁，大模型与多媒体技术团队负责人，主导可灵AI从0到1（30+版本迭代，4500万用户，累计生成2亿视频/4亿图片）。2025.9：短暂加入B站任技术条线负责人（不足3月）。2025.11：回归阿里，淘天集团未来生活实验室负责人（P11），向CTO郑波汇报。2026.4：仅用5个月打造HappyHorse-1.0，登顶AI Video Arena双榜。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Kling",
@@ -5064,11 +5842,13 @@ window.GRAPH_DATA = {
       "description": "快手推出，张迪主导研发。全球首个用户可用的DiT架构视频生成大模型。上线后30+版本迭代，2025年Q2营收超2.5亿元（环比增67%）。可灵2.0在Artificial Analysis图生视频赛道全球榜首。被视为中国视频生成大模型从学术Demo到亿级用户产品的关键里程碑。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "HappyHorse",
@@ -5077,11 +5857,13 @@ window.GRAPH_DATA = {
       "description": "阿里巴巴淘天集团未来生活实验室，张迪主导研发（仅5个月）。150亿参数，40层统一自注意力Transformer，将文本/视频/音频三种模态的Token放入同一序列联合建模。全球首个原生支持音视频联合生成的开源视频大模型，原生支持7种语言唇形同步。单张H100生成5秒1080p视频仅需约38秒（DMD-2蒸馏至8步去噪）。2026年4月匿名空降AI Video Arena文生视频+图生视频双榜登顶。定位电商视频生成、广告素材、短剧，通过阿里云百炼MaaS平台对外提供API。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Alibaba",
@@ -5090,11 +5872,13 @@ window.GRAPH_DATA = {
       "description": "阿里巴巴集团。2026年3月成立ATH（Alibaba Token Hub）事业群，CEO吴泳铭亲自挂帅，整合通义实验室、MaaS业务线、千问事业部等五大板块。AI视频/世界模型双线并行：HappyHorse（视频生成，张迪主导）+ HappyOyster（可交互AI世界，对标Genie 3）。依托淘天体系海量商品数据和交易闭环，将AI视频/世界模型嵌入电商操作系统。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Pushmeet_Kohli",
@@ -5103,11 +5887,13 @@ window.GRAPH_DATA = {
       "description": "Oxford Brookes 博士 (2007)，师从 Philip Torr (FRS/FREng)。Google DeepMind VP of Research。主导或参与：AlphaFold (2024诺贝尔化学奖)、AlphaCode、AlphaMissense、SynthID。TIME 100 AI 最具影响力人物 (2023)。作为研究副总裁，直接管辖 DeepMind 的世界模型、具身智能、科学 AI 三大研究方向，为 Genie/Dreamer/SIMA 等项目提供顶级研究环境与战略支持。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "AlphaFold",
@@ -5116,11 +5902,13 @@ window.GRAPH_DATA = {
       "description": "Google DeepMind 发布。从氨基酸序列预测蛋白质3D结构，2024年获诺贝尔化学奖（Demis Hassabis & John Jumper）。虽非直接世界模型，但其核心思想——从隐空间表征预测3D物理结构——与 JEPA/空间智能 共享深层方法论基础。被视为 AI for Science 的里程碑，推动了科学世界模型的发展。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Sun_Jian",
@@ -5130,10 +5918,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Liu_Ligang",
@@ -5143,10 +5933,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Lyu_Le",
@@ -5156,10 +5948,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Zhang_Zhizheng",
@@ -5168,11 +5962,13 @@ window.GRAPH_DATA = {
       "description": "中科大本科/博士（2021，导师陈志波、李卫平），哥伦比亚大学CSC联合培养。前微软亚洲研究院（MSRA）高级研究员，参与Copilot、Dynamics 365等大模型产品。2023年与王鹤联合创立银河通用，任大模型负责人。主导LDA（Latent Dynamics Action Model），入选RSS 2026并开源，在隐空间中统一世界模型与VLA的跨本体动作基础模型。主张「虚实共融、人机结合」具身数据观，提出具身智能三阶段：仿真冷启动→真实数据对接→业务回流闭环。2025年北京市劳动模范。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "LDA_Model",
@@ -5181,11 +5977,13 @@ window.GRAPH_DATA = {
       "description": "银河通用张直政主导。LDA（Latent Dynamics Action Model）在隐空间中统一世界模型与VLA，实现跨本体（不同机器人形态）的动作生成。入选机器人顶会RSS 2026（仅210篇录用），已全面开源。代表具身智能从「单一本体专用模型」向「跨本体通用基础模型」的关键跨越。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ding_Ning",
@@ -5194,11 +5992,13 @@ window.GRAPH_DATA = {
       "description": "华中科技大学本科，清华大学计算机系博士（2018-2023，导师郑海涛、刘知远），清华大学电子系博士后（2023-2025，合作导师周伯文）。2025年5月起任清华大学电子工程系助理教授、博导。OpenBMB核心贡献者，GitHub累计25000+星标。谷歌学术引用超1万次，2023年Nature Machine Intelligence封面文章（年度最高引）。代表工作：Ultra系列对齐、TTRL测试时强化学习、PRIME密集奖励RL。2026年1月创立自然意志，定位具身智能「大脑」，走「世界模型+强化学习」路线。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Natural_Will",
@@ -5207,11 +6007,13 @@ window.GRAPH_DATA = {
       "description": "2026年1月由清华助理教授丁宁创立于北京。定位具身智能「大脑」——让AI理解物理世界规律并自主推理决策，区别于传统机器人公司的「身体」路线。核心技术路径：「世界模型+强化学习」，致力于降低对真实物理数据的依赖，让AI用更少数据掌握更多物理理解。打造可解释大脑——不仅能决策，还能解释为什么这么做。天使轮估值40亿元人民币，IDG资本/真格基金/峰瑞资本联合投资。成立不足4月即获顶级VC押注，被视为国内具身大脑赛道最稀缺的团队。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "PokeRobot",
@@ -5220,11 +6022,13 @@ window.GRAPH_DATA = {
       "description": "2026年3月由清华助理教授许华哲创立于北京。定位C端家庭机器人——「会主动干活的家庭成员」，能完成洗衣收纳、精细清洁、多步骤家务串联。技术路线放弃主流VLA架构，采用UAG架构构建端到端「视频→动作」世界模型，第一代32B参数具身世界模型已完成首轮训练，RL贯穿预训练与部署全流程。天使轮数千万美元：云启资本领投，顺为资本/小米战投/弘晖基金/百度风投/英诺天使/水木清华校友基金跟投，星海图种子轮孵化投资。许华哲激进判断：两年内中国将出现可用的家庭机器人。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Long_Mingsheng",
@@ -5233,11 +6037,13 @@ window.GRAPH_DATA = {
       "description": "清华大学软件学院长聘副教授（华为冠名）、博导、信息所所长。2008年清华电机系学士，2014年清华计算机系博士（导师王建民），UC Berkeley访问博士后（合作导师Michael I. Jordan）。国家优青，世界前2%终身影响力科学家。在Nature/Nature Machine Intelligence发表封面文章，谷歌学术引用超40,000次。研究方向：深度适配网络（DAN）、时空预测世界模型（PredRNN系列）、气象大模型（NowcastNet）。龙明盛-王韫博团队是华人世界模型+RL领域最具影响力的学术脉络之一。",
       "degree": 7,
       "composite_weight": 0.045454545454545456,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Jianmin",
@@ -5246,11 +6052,13 @@ window.GRAPH_DATA = {
       "description": "清华大学软件学院院长、教授，国家杰出青年科学基金获得者。清华大学大数据系统软件国家工程研究中心主任。龙明盛的博士导师。研究方向：大数据系统软件、工业数据智能。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Michael_Jordan",
@@ -5259,11 +6067,13 @@ window.GRAPH_DATA = {
       "description": "UC Berkeley 教授（1988至今），美国三院院士（NAS/NAE/AAS）。机器学习领域最具影响力的学者之一。指导博士后龙明盛（清华）、博士金驰（普林斯顿）。与清华软件学院（王建民团队）建立长期合作关系。研究方向：统计机器学习、分布式计算、强化学习理论。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Yunbo",
@@ -5272,11 +6082,13 @@ window.GRAPH_DATA = {
       "description": "上海交通大学计算机学院长聘教轨副教授、博导。2008-2012年西安交大电气工程学士，2012-2015年清华集成电路工程硕士，2015-2020年清华软件学院博士（双导师：龙明盛、俞士纶/Philip S. Yu）。CCF优秀博士学位论文奖。研究方向：世界模型、视频预测（PredRNN系列）、有模型强化学习、可微物理模拟。与导师龙明盛构成华人世界模型+RL领域最具代表性的师徒组合。牵头组织NeurIPS具身世界模型Workshop。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ren_Shaoqing",
@@ -5285,11 +6097,13 @@ window.GRAPH_DATA = {
       "description": "蔚来汽车高级副总裁、智能驾驶负责人，中科大讲席教授/通用人工智能研究所所长。2007年中科大信息安全本科，2016年中科大与MSRA联合培养博士（导师：李斌+孙剑）。ResNet第三作者（CVPR 2016最佳论文，引用超31万次），Faster R-CNN第一作者（NeurIPS 2025时间检验奖）。2023年获未来科学大奖（与何恺明、张祥雨、孙剑共获）。2016年与曹旭东联合创立Momenta，2020年加入蔚来，主导发布国内首个智能驾驶世界模型并量产落地。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "NIO",
@@ -5298,11 +6112,13 @@ window.GRAPH_DATA = {
       "description": "2014年由李斌创立。中国高端智能电动汽车代表企业。2025年发布国内首个智能驾驶世界模型（NWM），由任少卿主导。NWM将世界模型引入量产智能驾驶系统，实现端到端时空推理与规划。代表了世界模型从学术研究到汽车量产的跨越。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ding_Wenchao",
@@ -5311,11 +6127,13 @@ window.GRAPH_DATA = {
       "description": "它石智航（TARS）联合创始人兼首席科学家。1993年生，华中科技大学本科，2020年香港科技大学电子及计算机工程系博士（导师沈劭劼）。2020年通过华为「天才少年」计划加入华为车BU，主导ADS 1.0和ADS 2.0预测决策系统。2023年加入复旦大学任研究员，打造复旦首个人形机器人。2025年2月与陈亦伦（前华为车BU自动驾驶CTO）联合创立它石智航。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Shen_Shaojie",
@@ -5324,11 +6142,13 @@ window.GRAPH_DATA = {
       "description": "香港科技大学电子及计算机工程系教授，香港科技大学空中机器人实验室主任。大疆创新创始成员（2010-2015），主导DJI Phantom系列飞控系统。无人驾驶与空中机器人领域权威学者。丁文超的博士导师。研究方向：无人机自主导航、多传感器融合SLAM、端到端自动驾驶。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "TARS",
@@ -5337,11 +6157,13 @@ window.GRAPH_DATA = {
       "description": "2025年2月成立，总部上海。李震宇（前百度IDG总裁）任董事长，陈亦伦（前华为车BU自动驾驶CTO）任CEO，丁文超（前华为天才少年）任首席科学家。华为旧部+百度系组合。天使轮1.2亿美元+Pre-A轮超4.5亿美元，创中国具身智能融资纪录。方向：端到端具身大模型+通用人形机器人。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Bao_Hujun",
@@ -5351,10 +6173,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Zhao_Hao",
@@ -5364,10 +6188,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Jin_Xiaojie",
@@ -5376,11 +6202,13 @@ window.GRAPH_DATA = {
       "description": "北京交通大学计算机学院教授、博导，国家海外优青。本科西安电子科技大学，硕士中科院自动化所（保送），2018年新加坡国立大学博士（双导师：颜水成、冯佳时）。字节跳动美国研究院创始成员及技术负责人，开发二十余项商业化成果，日服务用户超千万。曾任Google研究院、Snap研究院研究员。2024-2025年从硅谷回国任教。发表论文80余篇，中美专利近60项。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Hu_Wenbo",
@@ -5389,11 +6217,13 @@ window.GRAPH_DATA = {
       "description": "腾讯ARC Lab高级研究员，1996年生。2018年大连理工大学计算机学士，2022年香港中文大学计算机科学与工程博士（导师黄田津/Wong Tien-Tsin）。2023年11月加入腾讯ARC Lab，主导生成式世界模型方向。在SIGGRAPH/CVPR/ICCV/ECCV/NeurIPS发表论文30余篇。代表工作：Crafter系列（DepthCrafter/CVPR 2025最佳论文奖、GeometryCrafter、ViewCrafter、VerseCrafter），Tri-MipRF入围ICCV 2023最佳论文决赛。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yu_Yizhou",
@@ -5402,11 +6232,13 @@ window.GRAPH_DATA = {
       "description": "香港大学计算机科学系教授、人工智能实验室主任。浙江大学计算机学士和应用数学硕士，2000年UC Berkeley计算机科学博士。2000-2012年任教UIUC，2012年加入港大。ACM Fellow和IEEE Fellow，获NSF CAREER奖。2025年发布首篇「高效视频世界模型」全面综述，首次从「高效性」视角系统梳理视频世界模型，解决长时一致性、实时可用性与物理准确性之间的不可能三角问题。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Bai_Xiang",
@@ -5416,10 +6248,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Chi_Jin",
@@ -5428,11 +6262,13 @@ window.GRAPH_DATA = {
       "description": "普林斯顿大学电气与计算机工程系终身副教授（2026年2月晋升）。2012年北京大学物理系学士，2019年UC Berkeley博士（导师Michael I. Jordan）。2024年斯隆研究奖得主，NSF CAREER奖。谷歌学术引用超13,500次。研究方向：强化学习理论（Q-learning效率、Bellman Eluder维度、POMDP可学习性）、非凸优化理论（鞍点逃逸）。纯学术路线，RL理论社区核心人物。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhang_Xuhong",
@@ -5441,11 +6277,13 @@ window.GRAPH_DATA = {
       "description": "浙江大学软件学院百人计划研究员、院长助理、博导，国家级青年人才。1988年生，哈尔滨工业大学软件工程学士，2017年美国中佛罗里达大学（UCF）计算机工程博士（导师Jun Wang）。2018-2020年LinkedIn高级工程师，2020年加入浙大控制学院，2022年转入软件学院。研究方向：多模态大模型、具身智能（VLA/VLN具身基础模型）、可信AI。团队配备多型机器人设备和GPU算力，与阿里/腾讯/小红书/华为等有产学研合作。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Lin_Jing",
@@ -5454,11 +6292,13 @@ window.GRAPH_DATA = {
       "description": "中山大学计算机学院二级教授、鹏城国家实验室多智能体与具身智能研究所所长。国家杰青（2023）、IEEE/IAPR/IET Fellow、CCF-ACM人工智能奖（2025）。谷歌学术引用40,000+。HCP Lab负责人。研究方向：具身世界模型——认知推理与物理模拟高效协同。代表成果：ARIO数据集（全球最大具身智能数据集，300万条轨迹）、InfiniteWorld仿真平台（NeurIPS 2024）、50亿参数具身智能基础模型。2025年加入京东探索研究院任具身智能方向负责人，孵化拓元智慧。前商汤首席研发总监/研究院执行院长。培养学生梁小丹（阿里青橙奖）、王广润（华为天才少年最高级）。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Guangrun",
@@ -5467,11 +6307,13 @@ window.GRAPH_DATA = {
       "description": "中山大学计算机学院青年研究员、博导。华为「天才少年计划」最高级别入选者，国家海外高层次青年人才，吴文俊人工智能优秀博士论文奖。博士师从林倞（中山大学HCP Lab），博士后牛津大学Philip H.S. Torr院士。研究方向：大物理模型与世界模型、具身智能。代表成果：PAR/PhysGen物理自回归模型——732M参数在LIBERO基准达90.8%成功率，超越OpenVLA(7B)，单张A100训练60小时。拓元智慧（X-Era AI）首席科学家，E0具身大模型。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Lu_Jiwen",
@@ -5480,11 +6322,13 @@ window.GRAPH_DATA = {
       "description": "清华大学自动化系长聘教授、自动化系副主任。IEEE Fellow、IAPR Fellow。研究方向：机器视觉感知、视频生成世界模型、闭环自动驾驶。代表成果：WorldDreamer——全球首次以Transformer+LLM为中心的视频生成世界模型；视界一粟YiSu（中国首个超长时长Sora级视频生成大模型，原生16秒）；联合发布通用世界模型综述（260+文献）。黄冠的博士导师、朱政的博士后导师，清华自动化系世界模型学术谱系的核心。与极佳科技深度合作。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhu_Wenwu",
@@ -5493,11 +6337,13 @@ window.GRAPH_DATA = {
       "description": "清华大学计算机系教授、人工智能研究院大数据智能研究中心主任。ACM/IEEE/AAAS/SPIE Fellow，欧洲科学院外籍院士。三次国家自然科学二等奖。研究方向：具身智能、多模态大模型与世界模型联合架构。首次系统提出MLLM-WM联合驱动的具身AI架构——「会思考的大脑（MLLM）+ 懂物理的身体（WM）」协同范式，将长程任务成功率从约50%提升至78-89%。苏航所在团队负责人。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Su_Hang",
@@ -5506,11 +6352,13 @@ window.GRAPH_DATA = {
       "description": "清华大学计算机系副研究员。国家「万人计划」青年拔尖人才，Google Scholar引用15,000+。朱军教授实验室核心成员，2026年起担任清华大学-自变量机器人产学研专项首席科学家。研究方向：基座模型驱动的具身智能泛化、世界模型、Sim2Real迁移。代表成果：ManiBox框架（发现空间泛化Scaling Law）、RDT-1B（全球最大1.2B参数diffusion policy）、VIDAR视频基座模型。",
       "degree": 8,
       "composite_weight": 0.05194805194805195,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Huang_Gao",
@@ -5519,11 +6367,13 @@ window.GRAPH_DATA = {
       "description": "清华大学自动化系副教授。国家优青、MIT TR35亚太区、达摩院青橙奖、亚洲青年科学家奖（2024）。DenseNet第一作者（CVPR 2017最佳论文奖，单篇引用62,000+）。Google Scholar总引用105,000+。研究方向：具身基座模型与世界模型、多模态学习、强化学习。中国自动化学会具身智能专委会副主任委员。代表成果：全自主颈动脉超声机器人（Nature Communications 2025），超247,000对训练数据。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Sun_Fuchun",
@@ -5532,11 +6382,13 @@ window.GRAPH_DATA = {
       "description": "清华大学计算机系长聘教授、智能机器人中心主任。国家杰青、IEEE/CAAI/CAA Fellow，中国人工智能学会副理事长。被称为「南湘北苗中富春」（与李泽湘/王田苗并列中国机器人学界三大领军人物）。研究方向：具身智能、灵巧手操作、世界模型与空间智能协同。提出「世界模型三部曲」理论框架和具身图灵测试概念。自研15kg负载主动握力灵巧手，云-边协作大小模型架构。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Lu_Zhiwu",
@@ -5545,11 +6397,13 @@ window.GRAPH_DATA = {
       "description": "中国人民大学高瓴人工智能学院教授。研究方向：视频生成、世界模拟器、多模态大模型。代表成果：VDT（Video Diffusion Transformer）——2023年5月发布，比OpenAI Sora早10个月提出DiT架构用于视频生成（ICLR 2024）。与OpenAI三次「撞车」（文澜vs CLIP、元乘象vs GPT-4V、VDT vs Sora），被业内认为是Sora技术路线先行者。核心技术支撑创业团队智子引擎（Awaker 1.0多模态大模型）。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Lan_Xuguang",
@@ -5558,11 +6412,13 @@ window.GRAPH_DATA = {
       "description": "西安交通大学人工智能学院教授、党委书记/副院长。国家杰青、IEEE高级会员，中国自动化学会共融机器人专委会主任委员。研究方向：世界模型驱动的机器人自主学习与作业。提出「感知-学习-想象-执行-反馈」自我进化具身智能框架；世界模型驱动的自举模型预测控制；想象引导决策大模型的多机器人自主协同。成果应用于航天、航空、物流等领域。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhang_Shanghang",
@@ -5572,10 +6428,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Tian_Yonghong",
@@ -5584,11 +6442,13 @@ window.GRAPH_DATA = {
       "description": "北京大学博雅特聘教授、深圳研究生院副院长。研究方向：多模态世界模型、视频生成、具身智能。代表成果：Open-Sora Plan联合发起人（中国首个开源Sora复现项目，GitHub 12,000星）；WristWorld——首个基于锚点视图生成手腕视角视频的4D世界模型。与华为昇腾深度合作，共建北大深研院-云蝶科技具身智能多模态大模型联合实验室。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yuan_Li",
@@ -5597,11 +6457,13 @@ window.GRAPH_DATA = {
       "description": "北京大学深圳研究生院信息工程学院助理教授、博导（1994年生）。国家优青（海外）、福布斯亚洲30U30。新加坡国立大学博士。研究方向：多模态深度学习、视频生成世界模型。Open-Sora Plan核心发起人（GitHub Trending全球第一）。代表成果：ChatExcel/ChatLaw等爆款AI应用、VOLO/T2T-ViT深度神经网络框架。与田永鸿联合发起Open-Sora Plan，与兔展智能/华为昇腾深度合作。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jiang_Shuqiang",
@@ -5610,11 +6472,13 @@ window.GRAPH_DATA = {
       "description": "中科院计算技术研究所研究员、中国科学院大学特聘教授。国家杰青，CAAI具身智能专委会主任，CCF多媒体专委会副主任，吴文俊人工智能自然科学一等奖获得者。研究方向：多模态具身智能、具身导航、世界模型。在「身体-环境-智能」框架下定义世界模型为智能体决策的核心依据。主持科技创新2030重大项目，发表CCF-A类论文200+篇。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jia_Kui",
@@ -5624,10 +6488,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "CrossDim_AI",
@@ -5637,10 +6503,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Li_Yiming",
@@ -5650,10 +6518,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Zou_Xueyan",
@@ -5663,10 +6533,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Liu_Wei_Tencent",
@@ -5675,11 +6547,13 @@ window.GRAPH_DATA = {
       "description": "Video Rebirth创始人兼CEO。哥伦比亚大学博士，IEEE Fellow、AAAS Fellow，前腾讯AI Lab计算机视觉中心总监/混元大模型技术负责人/腾讯杰出科学家。代表腾讯「AI三剑客」（与张潼、俞栋并列）。2024年10月创立Video Rebirth（新加坡），获AMD Ventures/现代汽车等投资累计1.3亿美元。Avenger 0.5 Pro登顶Artificial Analysis视频竞技场总榜第二。技术路线：先进扩散架构+物理原生注意力（PNA），视频生成→交互式世界模型。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Fan_Lue",
@@ -5688,11 +6562,13 @@ window.GRAPH_DATA = {
       "description": "中国科学院自动化研究所模式识别实验室（NLPR）助理研究员，CSIG优博（2025）、中科院优秀博士学位论文（2025）。博士师从张兆翔教授。研究方向：自动驾驶世界模型、端到端驾驶。代表成果：LAW（ICLR 2025，潜在世界模型增强端到端自动驾驶）、DriveVLA-W0（世界模型放大自动驾驶数据缩放定律，NAVSIM SOTA）、FreeSim（CVPR 2025）。2025年CVPR×2、ICLR×2、ICCV×3的高产青年学者。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Simplexity_Robotics",
@@ -5701,11 +6577,13 @@ window.GRAPH_DATA = {
       "description": "2025年7月成立，杭州。贾鹏（CEO，前理想汽车智能驾驶技术负责人/VLA+世界模型专家）、王凯（董事长，前理想汽车CTO）、王佳佳（COO）联合创立。半年5轮累计20亿元融资，腾讯+阿里巴巴罕见同时押注，红杉中国/蓝驰创投/君联资本持续加码。估值超10亿美元，最年轻具身智能独角兽。核心产品：LaST₀基座模型、TwinRL真机强化学习框架。技术路线：世界模型+VLA一体化、「Human data is all you need」范式、复刻特斯拉影子模式数据闭环。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "AI2_Robotics",
@@ -5714,11 +6592,13 @@ window.GRAPH_DATA = {
       "description": "2023年4月成立，深圳。郭彦东博士（普渡大学博士，前微软美国总部AI核心/小鹏汽车首席科学家/OPPO首席科学家）创立。一年12轮融资，B轮系列超10亿元（百度战投/中车资本等），估值突破100亿元，广东首家百亿估值具身智能独角兽。核心产品：GOVLA 1.0（全球首个全域全身VLA大模型，控制频率117.7Hz，超越Pi0达30%）、AlphaBot 2轮式双臂机器人。与惠科签3年1000台订单（摩根士丹利认定全球该领域最大单一订单）。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "VAST",
@@ -5728,10 +6608,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Deemos",
@@ -5741,10 +6623,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "QCraft",
@@ -5753,11 +6637,13 @@ window.GRAPH_DATA = {
       "description": "2019年成立，硅谷→北京。于骞（清华计算机本硕、南加州大学博士，前Google街景+Waymo感知关键模块Tech Lead）创立。D轮1亿美元（2026.03，北汽集团等），累计5亿美元+。智驾系统搭载突破100万台，合作近10家车企。技术路线：世界模型+强化学习物理AI方案——从L4自动驾驶向物理AI/机器人拓展。IPO倒计时中。代表了Waymo系华人团队在国内自动驾驶世界模型应用的最前沿。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "TranscEngram",
@@ -5766,11 +6652,13 @@ window.GRAPH_DATA = {
       "description": "2023年9月成立，深圳。马毅（港大计算与数据科学学院创始院长、IEEE/ACM/SIAM三料Fellow、前UC Berkeley教授/前字节跳动硅谷研究院院长）创立，高盛华（港大终身教授/CTO）、杨言超（港大助理教授/UCLA博士/Stanford博士后）联合创立。真格基金天使轮，A轮张江浩珩/浦东资本等国资加持。核心理念：将「黑盒大模型」替换为「白盒自主学习系统」——从信息论第一性原理（MCR²最大化编码率缩减）出发构建可解释的AI 2.0。核心技术：CRATE白盒Transformer、SimDINO视觉自监督、HiMaCon具身智能。与四川发展合资成立川发忆生（具身数据采集中心）。目标：能理解物理世界、自主学习、持续进化的具身世界模型。Yann LeCun创业方向（2025.11）与忆生愿景高度一致，互为行业验证。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ivor_Tsang",
@@ -5779,11 +6667,13 @@ window.GRAPH_DATA = {
       "description": "新加坡A*STAR前沿AI研究中心(CFAR)主任，IEEE Fellow (2022)。2007年香港科技大学计算机科学博士（导师James T. Kwok郭天佑）。前南洋理工大学(NTU)助理教授、悉尼科技大学AI教授/澳大利亚人工智能研究院(AAII)研究主任。研究方向：大规模机器学习、迁移学习、核方法。高盛华在NTU的博士导师（2008-2012），师生合著CVPR/ECCV/TPAMI等多篇顶会/顶刊论文。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Gao_Shenghua",
@@ -5793,10 +6683,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Stefano_Soatto",
@@ -5806,10 +6698,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Yang_Yanchao",
@@ -5819,10 +6713,12 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Pan_Yunhe",
@@ -5832,10 +6728,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Chen_Tianrun",
@@ -5845,10 +6743,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "KOKONI",
@@ -5858,10 +6758,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Roger_Jiang",
@@ -5870,11 +6772,13 @@ window.GRAPH_DATA = {
       "description": "亮源新创创始人兼CEO。少数完整参与过OpenAI大模型核心技术演进的华人创业者：GPT-4技术报告核心贡献者，InstructGPT主要作者（奠定了ChatGPT指令遵循与人类偏好对齐的基础）。2024年8月离开OpenAI创立亮源新创。核心判断：具身智能会沿着大模型走过的路径再走一遍——先大规模预训练，再对齐微调。认为跳过预训练直接做真机遥操/RL是走NLP当年的弯路（具身智能的bitter lesson）。声称公司研发阶段对标OpenAI GPT系列的GPT-2.5水平，预计2026年底实现具身智能的ChatGPT时刻。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "BrightSource",
@@ -5883,11 +6787,13 @@ window.GRAPH_DATA = {
       "description": "2024年8月由姜旭（前OpenAI GPT-4核心贡献者/InstructGPT主要作者）创立。定位具身基础模型公司，同时自研硬件。全职约60人，核心成员来自OpenAI、大疆、微软、华为、字节。2025年完成一轮未公开融资，正在close新一轮。母公司为香港实体。技术路线独树一帜：将大模型Scaling方法论平移到具身智能——先用大规模互联网人类行为视频做预训练，再用真机数据做对齐微调。区别于行业主流只做真机遥操/RL的路径。姜旭对标OpenAI GPT系列，称当前处于GPT-2.5阶段，预计2026年底实现ChatGPT时刻。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Judea_Pearl",
@@ -5897,10 +6803,12 @@ window.GRAPH_DATA = {
       "degree": 9,
       "composite_weight": 0.05844155844155844,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Causal_Inference",
@@ -5910,10 +6818,12 @@ window.GRAPH_DATA = {
       "degree": 16,
       "composite_weight": 0.1038961038961039,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Chunhua_Shen",
@@ -5923,13 +6833,15 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "浙江大学",
         "目标检测",
         "深度估计"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Jiangmiao_Pang",
@@ -5939,14 +6851,16 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "上海AI Lab",
         "具身智能",
         "3D点云",
         "OpenMMLab"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Tong_He",
@@ -5956,13 +6870,15 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "上海AI Lab",
         "3D视觉",
         "点云理解"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Haoyi_Zhu",
@@ -5972,13 +6888,15 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "上海AI Lab",
         "空间智能",
         "3D重建"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Dahua_Lin",
@@ -5988,13 +6906,15 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "CUHK",
         "MMLab",
         "OpenMMLab"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Shanghai_AI_Lab",
@@ -6004,13 +6924,15 @@ window.GRAPH_DATA = {
       "degree": 8,
       "composite_weight": 0.05194805194805195,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "研究机构",
         "具身智能",
         "开源平台"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Aether",
@@ -6020,14 +6942,16 @@ window.GRAPH_DATA = {
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "ICCV 2025",
         "世界模型",
         "4D重建",
         "合成数据"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Elias_Bareinboim",
@@ -6037,10 +6961,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Rina_Dechter",
@@ -6050,10 +6976,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Hector_Geffner",
@@ -6063,10 +6991,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Jin_Tian",
@@ -6076,10 +7006,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Kun_Zhang",
@@ -6089,10 +7021,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Biwei_Huang",
@@ -6102,10 +7036,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Clark_Glymour",
@@ -6115,10 +7051,12 @@ window.GRAPH_DATA = {
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Peter_Spirtes",
@@ -6128,10 +7066,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Bernhard_Scholkopf",
@@ -6141,10 +7081,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "David_Chickering",
@@ -6154,10 +7096,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Ilya_Shpitser",
@@ -6167,10 +7111,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "causal",
-      "group_name": "路线五：因果推断（Pearl 因果推理框架）",
+      "group_name": "因果推断",
       "tags": [
-        "路线五：因果推断（Pearl 因果推理框架）"
-      ]
+        "因果推断"
+      ],
+      "route_family": "causal",
+      "route_family_name": "因果推断"
     },
     {
       "id": "Wang_Qibin",
@@ -6179,11 +7125,13 @@ window.GRAPH_DATA = {
       "description": "灵初智能（PsiBot）创始人兼CEO。前云迹科技、京东机器人核心成员，拥有消费电子与商用机器人（酒店配送、物流配送）的研发、交付与商业化全链条经验。2024年联合创立灵初智能，提出具身智能三周期判断：硬件周期（成本快速下降但难成壁垒）→ 数据周期（2025-2026胜负手，建立数据飞轮者胜）→ 场景周期（大规模应用待数据+模型到位）。战略定位：不做整机，做具身智能时代的'数据标准制定者'，对标特斯拉Model 3定价策略（整机目标$10,000级别）。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Chen_Yuanpei",
@@ -6192,11 +7140,13 @@ window.GRAPH_DATA = {
       "description": "2001年生，00后AI创业者，灵初智能联合创始人。华南理工大学土木工程本科（自学机器人算法，RoboMaster全国冠军）。北大访问学生（师从杨耀东，研究RL+灵巧手），Stanford访问学者（师从李飞飞&Karen Liu）。入选福布斯亚洲30 Under 30 AI榜单(2025)。全球首次实现RL在真实世界同时控制双臂、双手多技能操作。拒华为'天才少年'百万年薪邀约。核心主张：人类数据→机器人policy转化管线，真实人类操作数据可大幅替代真机采集（成本1/10）。主导Psi-R2模型研发——用10万小时人类数据预训练，MolmoSpaces榜单全球第一。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "PsiBot",
@@ -6205,11 +7155,13 @@ window.GRAPH_DATA = {
       "description": "2024年成立，CEO王启斌+联合创始人陈源培+柴晓杰（机器人算法专家）。首席科学家杨耀东（北大）。定位：具身智能'大脑'公司，走人类数据路线，做'小全栈'（不做整机）。累计融资约20亿元（高瓴创投、蓝驰创投、国开金融、央视融媒体基金等）+ 英伟达Inception计划。双模型架构：①Psi-R2 World Action Model（VLA）——10万小时人类数据预训练，<100条真机轨迹微调即可泛化，MolmoSpaces全球第一；②Psi-W0 Action-Conditioned World Model——在后台模拟物理世界运行规律，加入30%失败数据进行反事实推演，评估和优化R2策略。自研21自由度灵巧手ψ-SynHand，发布全球最大人类手部数据集SynData(1000小时)，HuggingFace Trending全球第一。2026年目标：数据采集100万小时（CEO认为这是泛化涌现临界点），销售额数亿元。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Gu_Jindong",
@@ -6218,11 +7170,13 @@ window.GRAPH_DATA = {
       "description": "LMU Munich博士（2022，导师Volker Tresp）。Google DeepMind高级研究科学家（CAIR团队）+ 牛津大学高级研究员。研究目标：构建负责任AGI。研究方向：AI安全、对抗鲁棒性、可解释性、隐私保护。核心贡献：①Red Teaming GPT-4V——构建全面越狱评估数据集（1445个有害问题/11项安全策略/32种攻击方法），证明GPT-4V对视觉越狱近乎免疫；②MM-SafetyBench——多模态LLM安全基准（5040图文对/13场景）；③Latent Guard——文生图安全框架；④GuardSpace——安全敏感子空间+有害抵抗零空间保护微调安全对齐；⑤Responsible GenAI框架（5项责任维度）。参与Gemini安全团队，为Gemini 2.5技术报告贡献者。NeurIPS 2025/ICLR 2026/ICML 2026/AAAI 2026 Area Chair。CVPR 2025/CIKM 2025最佳论文奖。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Pascale_Fung",
@@ -6232,10 +7186,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Jing_Li",
@@ -6245,10 +7201,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Xu_Zexiang",
@@ -6257,11 +7215,13 @@ window.GRAPH_DATA = {
       "description": "UCSD计算机科学博士（2020，导师Ravi Ramamoorthi）。前Adobe Research研究科学家，3D Gen AI方向负责人。3D生成与重建领域核心贡献者：Instant3D（快速文生3D）、One-2-3-45（NeurIPS 2024，单图45秒生成360°3D网格，187+引用）、DMV3D（去噪多视图扩散）、GS-LRM/PF-LRM/MeshLRM（大重建模型系列）。谷歌学术引用超1.1万次。2025年加入HillBot（后演变为苏度科技），任研发VP，负责多模态基础模型与具身智能。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Sudo_Technology",
@@ -6270,11 +7230,13 @@ window.GRAPH_DATA = {
       "description": "2025年5月成立于上海杨浦，由HillBot团队回国后演变而来（HillBot于2024年在圣地亚哥由韩铮+苏昊创立）。定位：具身智能与机器人基础模型公司。首款产品Sudo R1——全球首个3D世界模型+强化学习一体化具身通用模型：0真机数据、纯仿真训练（Real2Sim2Real），首次抓取成功率98%。核心技术：SAPIEN仿真器+ManiSkill平台+世界模型+RL一体化。CEO韩铮（ZEPP/火箭科技连续创业者），首席技术顾问苏昊（复旦大学通用物理智能研究院院长），研发VP徐泽祥（前Adobe 3D Gen AI）。估值超20亿美元，投资方：宁德时代、阿里、腾讯、蚂蚁、高瓴、IDG、蓝驰等。已与宁德时代在电池制造场景落地。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yan_Shuicheng",
@@ -6283,11 +7245,13 @@ window.GRAPH_DATA = {
       "description": "ACM/IEEE/IAPR等五院Fellow，全球计算机视觉与多媒体泰斗级宗师，引用数十万。前360集团AI研究院院长、Sea集团首席科学家。现新加坡国立大学（NUS）教授，学习与视觉实验室（LV Lab）负责人。提出全认知世界模型与多模态大一统Backbone理念，指导Meissonic/Muddit等非自回归生成架构。",
       "degree": 8,
       "composite_weight": 0.05194805194805195,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Chen_Delong",
@@ -6297,10 +7261,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Zhang_Wancong",
@@ -6310,10 +7276,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Pan_Hengkai",
@@ -6323,10 +7291,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Zhou_Gaoyue",
@@ -6336,10 +7306,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Wu_Jiajun",
@@ -6349,10 +7321,12 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Chen_Minghao",
@@ -6362,10 +7336,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Gao_Jun",
@@ -6375,10 +7351,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Yu_Heng",
@@ -6388,10 +7366,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Geng_Chen",
@@ -6401,10 +7381,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Bai_Jinbin",
@@ -6413,11 +7395,13 @@ window.GRAPH_DATA = {
       "description": "新加坡国立大学（NUS）与MeissonFlow Research核心青年科学家。Meissonic高效生成架构（Masked Generative Transformer，高分辨率+远超Diffusion并行效率）和Muddit离散扩散多模态统一Backbone的核心主导者。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Feng_Jiashi",
@@ -6426,11 +7410,13 @@ window.GRAPH_DATA = {
       "description": "中科大本科，NUS博士，UC Berkeley博士后。前NUS助理教授。字节跳动AI Lab视觉负责人。CVPR/ICCV/NeurIPS/ICML数百篇论文。攻克视频生成时空连续性、多物交互一致性及复杂物理模拟底层技术难题。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Lin_Min",
@@ -6439,11 +7425,13 @@ window.GRAPH_DATA = {
       "description": "清华本科，NUS博士。深度学习里程碑经典论文Network In Network（NIN）第一作者——首次引入1×1卷积与全局平均池化，被ResNet/Inception等所有主流深度视觉网络采纳。现字节跳动AI Lab核心技术骨干。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Liu_Ming_Yu",
@@ -6452,11 +7440,13 @@ window.GRAPH_DATA = {
       "description": "英伟达AI研究副总裁，Cosmos核心发起人。先后主导UNIT、MUNIT、GauGAN等里程碑生成算法。带领团队将视觉生成完全推向服务于物理AI的硬核仿真新范式。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhu_Yuke",
@@ -6465,11 +7455,13 @@ window.GRAPH_DATA = {
       "description": "UT Austin计算机科学系助理教授、机器人感知与学习（RPL）实验室主任，英伟达GEAR实验室资深研究科学家。与Jim Fan紧密合作，主导VIMA、Voyager等具身智能里程碑。通过构建具备严密物理常识的虚拟仿真环境解决机器人数据荒。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Song_Shuran",
@@ -6478,11 +7470,13 @@ window.GRAPH_DATA = {
       "description": "斯坦福大学助理教授、REAL实验室（机器人与具身智能实验室）负责人，前哥伦比亚大学RoboPIL实验室执掌者。以机器人抓取、非刚性物体操纵及三维视觉闻名。UMI手持硬件接口平台。联合推出Cosmos Policy，通过微调视频大模型直接进行视觉运动控制与规划。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Li_Yunzhu",
@@ -6491,11 +7485,13 @@ window.GRAPH_DATA = {
       "description": "哥伦比亚大学计算机科学系助理教授。全球神经物理模拟与视触觉融合领域顶尖青年学者。粒子级物理大模型（Particle-based Physical Model）与多模态感知：让AI像人类一样依靠视觉+触觉+力学感建立对物质力学属性的认知。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhou_Bolei",
@@ -6504,11 +7500,13 @@ window.GRAPH_DATA = {
       "description": "UCLA助理教授，前港中文教授。生成式AI与自动驾驶闭环系统顶尖学者。VAIL实验室核心方向：以世界模型重构自动驾驶仿真环境，生成物理反事实推演能力的交通流场景，让自动驾驶在虚拟极端路况安全自适应学习。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Chen_Li",
@@ -6517,11 +7515,13 @@ window.GRAPH_DATA = {
       "description": "上海人工智能实验室OpenDriveLab核心骨干。CVPR 2023最佳论文奖——UniAD（Unified Autonomous Driving），首次将全栈驾驶任务（感知、预测、规划）整合进单个神经网络。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Shi_Yuge",
@@ -6530,11 +7530,13 @@ window.GRAPH_DATA = {
       "description": "牛津大学博士，Google DeepMind核心研究科学家。里程碑工作Genie（Generative Interactive Environments）共同核心作者。打破传统世界模型需游戏引擎标注动作的限制，证明AI可通过纯粹观看互联网视频悟出物理操控逻辑。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhang_Jingwei",
@@ -6543,11 +7545,13 @@ window.GRAPH_DATA = {
       "description": "Google DeepMind基础大模型与世界模型研究前沿核心华人科学家。深度参与Genie基础世界模型家族架构设计与跨模态演进。Genie 3迭代中将研究方向从2D像素关卡拓宽到流体、天气、动画角色及物理生态环境的高动态实时模拟。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Guanzhi",
@@ -6556,11 +7560,13 @@ window.GRAPH_DATA = {
       "description": "英伟达高级研究科学家，深耕大规模强化学习、神经仿真环境及通用具身智能体决策架构。与Jim Fan紧密合作，是MineDojo、VIMA及GR00T N1.7基础系统背后的硬核算法功臣。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jiang_Yunfan",
@@ -6569,11 +7575,13 @@ window.GRAPH_DATA = {
       "description": "斯坦福大学CS博士生，师从李飞飞与吴佳俊，英伟达GEAR实验室核心研究员。横跨物理仿真与交互环境派。主导VIMA、Voyager及BRS（BEHAVIOR Robot Suite）。擅长将大模型注入虚拟游戏/数字孪生场景，迫使AI Agent在交互中自我进化。",
       "degree": 7,
       "composite_weight": 0.045454545454545456,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yang_Yuncong",
@@ -6582,11 +7590,13 @@ window.GRAPH_DATA = {
       "description": "活跃在计算机视觉与大规模生成式视频架构领域的硬核工业界专家。深耕多模态空间动力学。攻克大模型在长时间轴、多物体交互下画面逻辑崩溃的工程顽疾。推动国内从单向视频生成走向可交互神经世界模型。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhu_Haoyi",
@@ -6595,11 +7605,13 @@ window.GRAPH_DATA = {
       "description": "北大本科，中科院博士。前上海人工智能实验室高级研究员。CVPR/ICCV/ECCV多篇论文。研究方向：人体动作捕捉、大规模视频时空表征学习、自监督表征算法。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Meissonic",
@@ -6608,11 +7620,13 @@ window.GRAPH_DATA = {
       "description": "白晋斌主导的高效生成架构。基于Masked Generative Transformer，在保持高分辨率图像生成质量的同时拥有远超主流Diffusion模型的并行推理效率。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Muddit",
@@ -6621,11 +7635,13 @@ window.GRAPH_DATA = {
       "description": "白晋斌主导的统一多模态生成Backbone。基于离散扩散架构，将图像、视频、动作、文本统一到同一数学空间。多模态不是独立数据类型，而是共享同一套语法。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "VL_JEPA",
@@ -6635,10 +7651,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "HWM",
@@ -6648,10 +7666,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构"
-      ]
+        "JEPA 联合嵌入预测架构"
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "PointWorld",
@@ -6661,10 +7681,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "DiT_concept",
@@ -6673,11 +7695,13 @@ window.GRAPH_DATA = {
       "description": "谢赛宁与Bill Peebles共同提出的里程碑架构。首次将Transformer引入扩散模型，打破U-Net局限。成为OpenAI Sora、可灵等全球主流视频大模型核心底层地基。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "MeissonFlow",
@@ -6686,11 +7710,13 @@ window.GRAPH_DATA = {
       "description": "专注于下一代高效非自回归生成模型、Masked Diffusion架构攻坚的前沿研究网络。颜水成学术思想的产业化延伸，白晋斌等核心科学家主导Meissonic和Muddit等突破。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "VIMA",
@@ -6699,11 +7725,13 @@ window.GRAPH_DATA = {
       "description": "朱玉可/Jim Fan/姜云凡等共同推出的具身智能里程碑：VisuoMotor Attention model，多模态提示词控制机器人操作。英伟达GEAR实验室与UT Austin RPL联合研究。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Voyager",
@@ -6712,11 +7740,13 @@ window.GRAPH_DATA = {
       "description": "Jim Fan/姜云凡/王冠志等推出的里程碑：首个利用LLM在Minecraft中实现终身自主学习的游戏Agent（NeurIPS 2023杰出论文奖）。无需人类数据，通过代码生成+自我验证在无限开放世界中持续发现新技能。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "interactive_wm",
+      "group_name": "学习型世界模拟 · 可交互世界模型",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 可交互世界模型"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Cosmos_platform",
@@ -6725,11 +7755,13 @@ window.GRAPH_DATA = {
       "description": "英伟达通用物理基础模型平台（World Foundation Model Platform），刘洺堉/Jim Fan核心发起。为机器人、自动驾驶和智能工厂打造的物理仿真世界模型。学习摩擦力、重力、流体力学及碰撞体积，在虚拟世界实时生成具备真实物理反馈的轨迹与交互环境。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "UniAD",
@@ -6738,11 +7770,13 @@ window.GRAPH_DATA = {
       "description": "陈立/李弘扬等联合推出。CVPR 2023最佳论文奖。首次将全栈驾驶任务（感知、预测、规划）完美整合进单个神经网络，通过数据驱动让AI实时预测周围车辆行人未来几秒的空间运动意图。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Zhongyuan",
@@ -6751,11 +7785,13 @@ window.GRAPH_DATA = {
       "description": "智源研究院（BAAI）院长。2026年智源大会世界模型论坛主席。主持发布智源世界模型相关战略布局，推动ORCA世界基座模型等旗舰项目。组织「重构世界——中国大模型巅峰对话」等行业顶级论坛。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Liu_Yang_Kunlun",
@@ -6764,11 +7800,13 @@ window.GRAPH_DATA = {
       "description": "Skywork（昆仑万维）首席科学家。2026智源大会世界模型论坛演讲「Matrix-Game：可交互世界模型探索现状和未来」。致力于推动从视频生成到可交互世界模型的范式转变。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Gao_Shenyuan",
@@ -6777,11 +7815,13 @@ window.GRAPH_DATA = {
       "description": "香港科技大学博士。2026智源大会世界模型论坛演讲「通用机器人的规模化世界模型」。研究方向：大规模世界模型在通用机器人操作中的扩展与部署。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Hao",
@@ -6790,11 +7830,13 @@ window.GRAPH_DATA = {
       "description": "自变量机器人联合创始人兼CTO。2026智源大会世界模型论坛演讲「事件驱动的世界模型：迈向通用具身智能的预训练」。研究方向：以事件为核心表征构建世界模型，实现通用具身智能的鲁棒预训练。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Sun_Zhenguo",
@@ -6803,11 +7845,13 @@ window.GRAPH_DATA = {
       "description": "星源智联合创始人，智源研究院具身交互世界模型实验室负责人。2026智源大会世界模型论坛演讲「具身世界模型与多模态交互」。研究方向：具身世界模型、多模态交互、机器人操作。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yu_Zhiwei",
@@ -6816,11 +7860,13 @@ window.GRAPH_DATA = {
       "description": "智源研究院（BAAI）研究员。2026智源大会世界模型论坛联合主席及圆桌主持人。负责世界模型方向的前沿研究规划与学术组织。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Pengwei",
@@ -6829,11 +7875,13 @@ window.GRAPH_DATA = {
       "description": "智源具身模型研究中心负责人。2026智源大会具身智能论坛主席。核心演讲「ORCA：世界基座模型——像人一样学习世界」。致力于构建通用世界基座模型，打通感知-认知-行动全链条。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Luo_Jianlan",
@@ -6842,11 +7890,13 @@ window.GRAPH_DATA = {
       "description": "上海创智学院副教授，智元机器人首席科学家。2026智源大会具身智能论坛演讲「在真实部署中持续学习的机器人基础模型」。研究方向：具身基础模型的持续学习与真实世界部署。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Mu_Yao",
@@ -6855,11 +7905,13 @@ window.GRAPH_DATA = {
       "description": "上海交通大学助理教授。2026智源大会具身智能论坛演讲「RoboEvolve：生成式仿真驱动的具身智能自进化系统」。研究方向：利用生成式仿真实现具身智能的自主进化。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Donglin",
@@ -6868,11 +7920,13 @@ window.GRAPH_DATA = {
       "description": "西湖大学人工智能系副主任，西湖机器人科技（杭州）有限公司创始人。2026智源大会具身智能论坛演讲「机器人全身运动操作通用方法」。研究方向：机器人全身运动控制与通用操作。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Xia_Huaxia",
@@ -6881,11 +7935,13 @@ window.GRAPH_DATA = {
       "description": "灵心巧手首席科学家。2026智源大会具身智能论坛演讲「让灵巧手学会制造自己——机器人制造机器人的物理自进化路径」。研究方向：灵巧手操作、机器人自进化制造。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 物理仿真引擎"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Deng_Mingyang",
@@ -6894,11 +7950,13 @@ window.GRAPH_DATA = {
       "description": "MIT博士生。2026智源大会多模态论坛演讲「Generative Modeling via Drifting」。研究方向：生成式建模新范式、连续时间生成模型。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Zhao_Min",
@@ -6908,10 +7966,12 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Peng_Sida",
@@ -6921,10 +7981,12 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）"
-      ]
+        "空间智能与3D表征"
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Yang_Mengyue",
@@ -6933,11 +7995,13 @@ window.GRAPH_DATA = {
       "description": "伦敦大学学院（UCL）博士，布里斯托大学助理教授。2026智源大会AI自进化论坛演讲「开放场景下的因果世界理解：从表征学习到持续性自主优化」。研究方向：因果表征学习、开放世界的因果理解与自主优化。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yu_Chao",
@@ -6946,11 +8010,13 @@ window.GRAPH_DATA = {
       "description": "清华大学深圳国际研究生院助理教授。2026智源大会强化学习论坛主席。演讲「面向具身智能的高灵活大规模强化学习框架RLinf」。研究方向：具身智能RL、大规模强化学习框架。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Andrew_Barto",
@@ -6959,11 +8025,13 @@ window.GRAPH_DATA = {
       "description": "2024年图灵奖得主，强化学习奠基人。马萨诸塞大学安姆斯特分校计算机科学教授。与Richard Sutton合著《Reinforcement Learning: An Introduction》（强化学习圣经）。2026智源大会演讲「Rediscovering Reinforcement Learning」。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 生成式世界模拟"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "ORCA",
@@ -6972,11 +8040,13 @@ window.GRAPH_DATA = {
       "description": "智源研究院王鹏伟团队推出的世界基座模型。核心理念：像人一样学习世界。打通感知-认知-行动全链条，构建通用世界模型底座。2026智源大会具身智能论坛首次系统阐述。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 动作对齐"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Matrix_Game",
@@ -6985,11 +8055,13 @@ window.GRAPH_DATA = {
       "description": "刘扬（Skywork）主导的可交互世界模型探索项目。致力于打破传统视频生成的单向输出，构建可实时交互、可操控的神经世界环境。2026智源大会世界模型论坛重点披露。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）"
-      ]
+        "学习型世界模拟 · 隐空间动力学与规划"
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Xvariables",
@@ -6998,15 +8070,17 @@ window.GRAPH_DATA = {
       "description": "国内最早采用完全端到端路径的通用具身智能独角兽公司，估值突破百亿。CEO王潜（全球最早提出Attention机制研究者之一），CTO王昊。核心产品：WALL-WM事件驱动世界模型（以事件为边界做变长分割，统一语言/视觉/动作）、WALL-B新一代具身智能基础模型（原生多模态+物理世界观+自我进化）。融资：阿里巴巴、美团、字节跳动、小米、红杉中国等。2026年5月机器人进入首批志愿者家庭。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "具身智能",
         "世界模型",
         "端到端",
         "独角兽"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Agibot",
@@ -7015,15 +8089,17 @@ window.GRAPH_DATA = {
       "description": "2023年2月成立，上海。邓泰华（董事长兼CEO，前华为副总裁）与彭志辉/稚晖君（联合创始人/总裁/CTO，前华为天才少年，B站百大UP主）联合创立。估值约150亿元。2025年出货5,168台人形机器人，全球市场份额39%全球第一。核心产品：GO-1/GO-2启元具身基座大模型、远征系列人形机器人、灵犀系列交互机器人。2026年3月第10000台机器人下线。首席科学家罗剑岚。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "具身智能",
         "人形机器人",
         "独角兽",
         "量产"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "LingxinQiaoshou",
@@ -7032,14 +8108,16 @@ window.GRAPH_DATA = {
       "description": "专注灵巧手操作与具身智能的科技公司。夏华夏担任首席科学家。研究方向：灵巧手操作、机器人自进化制造、物理自进化路径。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "灵巧手",
         "具身智能",
         "自进化"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Westlake_Robotics",
@@ -7048,14 +8126,16 @@ window.GRAPH_DATA = {
       "description": "西湖大学孵化的人形机器人公司。王东林（西湖大学人工智能系副主任）创立。聚焦机器人全身运动操作与控制。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "人形机器人",
         "西湖大学",
         "运动控制"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Skywork",
@@ -7064,14 +8144,16 @@ window.GRAPH_DATA = {
       "description": "中国互联网公司，AI业务品牌为Skywork。刘扬担任Skywork首席科学家。在视频生成、可交互世界模型方向布局，代表项目Matrix-Game。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 生成式世界模拟",
         "视频生成",
         "世界模型",
         "AI"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Xpeng",
@@ -7080,14 +8162,16 @@ window.GRAPH_DATA = {
       "description": "中国智能电动汽车头部企业，成立于2014年。在自动驾驶世界模型方向深度布局。2026年4月发布X-World——基于视频扩散生成的可控多视角生成式世界模型，应用于闭环仿真测试与在线决策。正在研发720亿参数超大规模自研世界模型。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "智能驾驶",
         "世界模型",
         "具身智能"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "LiAuto",
@@ -7096,13 +8180,15 @@ window.GRAPH_DATA = {
       "description": "2015年成立，中国头部智能电动汽车企业。至简动力联合创始人贾鹏（前智能驾驶技术负责人/VLA+世界模型专家）和王凯（前CTO）均来自理想汽车。在端到端自动驾驶与世界模型方向有技术积累。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "智能驾驶",
         "世界模型"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "ByteDance_AI",
@@ -7111,14 +8197,16 @@ window.GRAPH_DATA = {
       "description": "字节跳动旗下AI研发力量。豆包大模型团队与魏云超共同开发VideoWorld（首个纯视觉世界模型）。冯佳时、林敏、王长虎等世界模型核心人物均曾任职或现任职于此。靳潇杰曾任字节跳动美国研究院创始成员及技术负责人。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 生成式世界模拟",
         "AI",
         "世界模型",
         "视频生成"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Tencent_AI",
@@ -7127,14 +8215,16 @@ window.GRAPH_DATA = {
       "description": "腾讯旗下AI研发力量。在视频生成、世界模型方向有布局。王井东现任腾讯AI Lab视觉计算中心总监。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 生成式世界模拟",
         "AI",
         "视频生成",
         "世界模型"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Peng_Zhihui",
@@ -7143,14 +8233,16 @@ window.GRAPH_DATA = {
       "description": "智元机器人联合创始人、总裁兼CTO。前华为「天才少年」、B站百大UP主。2023年联合创立智元机器人，主导GO-1/GO-2启元具身基座大模型研发，推动公司成为全球人形机器人出货量第一（2025年5,168台，全球份额39%）。2026年推动灵渠OS开源及元苼生态计划。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "具身智能",
         "人形机器人",
         "开源"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Deng_Taihua",
@@ -7159,13 +8251,15 @@ window.GRAPH_DATA = {
       "description": "智元机器人董事长兼CEO。前华为副总裁、计算产品线总裁。2023年联手彭志辉创立智元机器人，主导战略与商业化。2025年公司营收突破10.5亿元，2026年第10000台机器人下线。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "具身智能",
         "人形机器人"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Guo_Yandong",
@@ -7174,14 +8268,16 @@ window.GRAPH_DATA = {
       "description": "智平方AI² Robotics创始人兼CEO。普渡大学博士，前微软美国总部AI核心研究员，后任小鹏汽车首席科学家、OPPO首席科学家。2023年创立智平方，一年12轮融资，B轮超10亿元，估值突破100亿元。核心成果：GOVLA 1.0（全球首个全域全身VLA大模型，控制频率117.7Hz，超越Pi0达30%）。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "VLA",
         "具身智能",
         "独角兽"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Song_Yachen",
@@ -7190,14 +8286,16 @@ window.GRAPH_DATA = {
       "description": "VAST（Tripo）创始人兼CEO。1997年生，约翰霍普金斯大学本科，前MiniMax联合创始人、商汤科技。2023年创立VAST，A轮5000万美元（2026.03，阿里+恒旭资本领投）。核心产品：Tripo 3D大模型系列（H3.1/P1.0），650万+创作者，近1亿个3D模型生成，85%+客户来自海外。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 生成式世界模拟",
         "3D生成",
         "大模型",
         "创业"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Jia_Peng",
@@ -7206,14 +8304,16 @@ window.GRAPH_DATA = {
       "description": "至简动力（Simplexity Robotics）联合创始人兼CEO。前理想汽车智能驾驶技术负责人，VLA+世界模型专家。2025年7月联合创立至简动力，半年5轮累计20亿元融资，腾讯+阿里巴巴罕见同时押注。核心产品：LaST₀基座模型、TwinRL真机强化学习框架。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "VLA",
         "世界模型",
         "具身智能"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wang_Kai_LiAuto",
@@ -7222,13 +8322,15 @@ window.GRAPH_DATA = {
       "description": "至简动力（Simplexity Robotics）联合创始人兼董事长。前理想汽车CTO。2025年7月与贾鹏联合创立至简动力，公司半年内成为最年轻具身智能独角兽，估值超10亿美元。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "具身智能",
         "自动驾驶"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yu_Qian",
@@ -7237,14 +8339,16 @@ window.GRAPH_DATA = {
       "description": "轻舟智航（QCraft）创始人兼CEO。清华计算机本硕、南加州大学博士，前Google街景+Waymo感知关键模块Tech Lead。2019年创立轻舟智航，D轮1亿美元（2026.03，北汽集团等），累计5亿美元+。智驾系统搭载突破100万台。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "自动驾驶",
         "世界模型",
         "Waymo"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Wu_Di_VAST",
@@ -7254,13 +8358,15 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "3D生成",
         "大模型",
         "创业"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Zhang_Qixuan",
@@ -7270,13 +8376,15 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "3D生成",
         "大模型",
         "创业"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Bill_Peebles",
@@ -7285,14 +8393,16 @@ window.GRAPH_DATA = {
       "description": "DiT（Diffusion Transformers）架构共同提出者。与谢赛宁（Saining Xie）合作，首次将Transformer引入扩散模型，打破U-Net局限。DiT成为OpenAI Sora、可灵等全球主流视频大模型核心底层地基。现任MIT EECS博士生。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 生成式世界模拟",
         "DiT",
         "视频生成",
         "扩散模型"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Vladlen_Koltun",
@@ -7302,13 +8412,15 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "3D视觉",
         "SLAM",
         "Stanford"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Richard_Sutton",
@@ -7317,14 +8429,16 @@ window.GRAPH_DATA = {
       "description": "强化学习之父，2024年图灵奖热门候选人。阿尔伯塔大学教授，DeepMind杰出科学家。与Andrew Barto合著《Reinforcement Learning: An Introduction》（强化学习圣经）。提出TD学习、策略梯度等核心算法，深刻影响了基于模型的强化学习和世界模型研究。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "强化学习",
         "图灵奖",
         "DeepMind"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Raquel_Urtasun",
@@ -7333,14 +8447,16 @@ window.GRAPH_DATA = {
       "description": "Waabi创始人兼CEO，多伦多大学教授，Vector Institute联合创始人。前Uber ATG首席科学家。2021年创立Waabi，提出AI-first+仿真驱动自动驾驶路线。核心产品：Waabi World（生成式闭环仿真器）+ CoPilot4D（端到端可解释世界模型）。2024年获2亿美元B轮融资（Uber+Khosla领投，NVIDIA/保时捷/沃尔沃参投）。投资者包括Geoffrey Hinton、李飞飞、Pieter Abbeel。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "自动驾驶",
         "世界模型",
         "生成式仿真"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Ali_Agha",
@@ -7349,14 +8465,16 @@ window.GRAPH_DATA = {
       "description": "FieldAI创始人兼CEO。前NASA JPL机器人技术专家近十年，曾任职MIT、DeepMind、Google Brain、Tesla。2023年创立FieldAI，构建Field Foundation Models（FFMs）——\"物理优先\"通用机器人大脑。2025年8月获4.05亿美元融资，估值20亿美元。投资方：Bezos Expeditions、NVIDIA、Gates Frontier、Khosla Ventures、Temasek。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 物理仿真引擎",
         "机器人",
         "基础模型",
         "具身智能"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Bernt_Bornich",
@@ -7365,14 +8483,16 @@ window.GRAPH_DATA = {
       "description": "1X Technologies（前Halodi Robotics）创始人兼CEO。挪威裔，11岁受本田Asimo启发立志做人形机器人。2014年创立1X，专注家用消费级人形机器人。核心产品：NEO（5'6\"/66磅，肌腱驱动+柔软机身，$20,000售价）。2024年1月获1亿美元B轮（EQT Ventures领投，OpenAI参与）。2025年开放预购，2026年交付。认为家庭场景是通向AGI的关键。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "人形机器人",
         "家用机器人",
         "AGI"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Han_Xu",
@@ -7381,14 +8501,16 @@ window.GRAPH_DATA = {
       "description": "文远知行（WeRide）创始人兼CEO。UIUC博士（2007），师从黄煦涛（Thomas S. Huang）院士。前密苏里大学终身教授。2014年加入百度自动驾驶团队（吴恩达主持），2017年放弃终身教职创立文远知行。2026年发布WeRide GENESIS——物理AI世界模拟器，实现「以200TOPS算力达到2000TOPS效果」。在全球11国40+城市部署，持8国自动驾驶牌照。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 物理仿真引擎",
         "自动驾驶",
         "世界模型",
         "L4"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Tian_Qi",
@@ -7397,14 +8519,16 @@ window.GRAPH_DATA = {
       "description": "华为终端BG首席科学家，IEEE Fellow，国际欧亚科学院院士。UIUC博士（2002），师从黄煦涛（Thomas S. Huang）院士。前华为云AI首席科学家（主导盘古大模型，Nature正刊，Science 2023十大突破），前华为诺亚方舟实验室CV首席科学家。Google引用101,400+，h-index 135。2025年发表《世界模型：初步的探索和思考》讲座，聚焦3D/4D内容建模真实世界。技术覆盖终端手机、自动驾驶、网络运维等。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "计算机视觉",
         "世界模型",
         "盘古大模型"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "WeRide",
@@ -7413,15 +8537,17 @@ window.GRAPH_DATA = {
       "description": "2017年由韩旭（Tony Han）创立，全球领先的L4级自动驾驶科技公司。2026年1月发布WeRide GENESIS——融合Physical AI + Generative AI的通用仿真模型（世界模拟器），数分钟内生成全新城市驾驶环境，精准复刻极端长尾场景。内置AI场景/AI主体/AI指标/AI诊断四大模块。适配L2++至L4全等级车型。全球11国40+城市部署，8国自动驾驶牌照。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "自动驾驶",
         "世界模型",
         "L4",
         "仿真"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Huawei",
@@ -7430,15 +8556,17 @@ window.GRAPH_DATA = {
       "description": "全球领先的ICT基础设施和智能终端提供商。在AI领域深度布局自动驾驶（智能汽车解决方案BU）、世界模型、计算机视觉。田奇任终端BG首席科学家，主导盘古大模型（Nature正刊/中国科学十大进展）。华为昇腾深度参与北大深研院具身智能联合实验室。华为「天才少年计划」培养出彭志辉、王广润等世界模型相关核心人才。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "AI",
         "自动驾驶",
         "盘古大模型",
         "具身智能"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "WeRide_GENESIS",
@@ -7447,82 +8575,92 @@ window.GRAPH_DATA = {
       "description": "文远知行2026年1月发布的通用仿真模型——物理AI世界模拟器。融合Physical AI + Generative AI，贯通现实与虚拟仿真世界。数分钟生成高度真实的全新城市驾驶环境，精准复刻极端长尾场景。内置4大AI模块（场景/主体/指标/诊断）形成完整闭环迭代。适配L2++辅助驾驶至L4 Robotaxi全等级车型。韩旭称其如精饲料般高效，以200TOPS算力达到2000TOPS效果。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "世界模型",
         "仿真",
         "自动驾驶",
         "物理AI"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Bowen_Cheng",
       "name": "程博文 Bowen Cheng",
       "type": "person",
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "description": "UIUC ECE博士（2017-2020），师从黄煦涛（Thomas S. Huang）与Alexander Schwing，是黄煦涛关门弟子。Tesla Autopilot高级研究科学家（2022-2024），FSD v12端到端自动驾驶核心贡献者。2024年加入OpenAI后训练团队，GPT-4o感知与高级语音模式核心贡献者（o3/o4-mini/GPT-4.1核心贡献）。2025年加入Meta超级智能实验室（MSL）。研究愿景：构建多模态具身智能体——理解人类指令、使用工具执行任务、持续学习改进。",
       "degree": 5,
       "composite_weight": 0.032467532467532464,
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "自动驾驶",
         "多模态",
         "具身智能",
         "世界模型"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Andrew_Dai",
       "name": "戴明博 Andrew Dai",
       "type": "person",
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "phys_engine",
+      "group_name": "学习型世界模拟 · 物理仿真引擎",
       "description": "Elorian AI联合创始人兼CEO。剑桥CS本科、爱丁堡ML博士。前Google DeepMind研究员（2011-2025，14年），2023年被Jeff Dean亲自选拔领导Gemini预训练数据部门（含合成数据），团队规模数百人。2015年与Quoc V. Le合著Semi-supervised Sequence Learning（GPT方法论奠基作之一），合著GLaM（MoE架构先驱论文）。2026年1月离职创立Elorian，定位视觉推理驱动的物理世界AGI。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 物理仿真引擎",
         "视觉推理",
         "世界模型",
         "Gemini",
         "AGI"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yinfei_Yang",
       "name": "杨寅飞 Yinfei Yang",
       "type": "person",
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "description": "Elorian AI联合创始人。前Apple首席研究科学家、Google Research科学家。多模态表征学习专家，在视觉-语言联合嵌入方向有深厚积累。与Andrew Dai共同创立Elorian，构建能原生同时理解文本、图像、视频、音频的多模态视觉推理模型。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 生成式世界模拟",
         "多模态",
         "视觉推理",
         "表征学习"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Elorian",
       "name": "Elorian AI",
       "type": "company",
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "description": "2026年4月成立，Palo Alto。Andrew Dai（CEO）与Yinfei Yang联合创立。融资5500万美元（A轮），估值3亿美元。投资方：Striker Venture Partners、Menlo Ventures、Altimeter Capital、NVIDIA、Jeff Dean。核心理念：当前AI视觉智能仅相当于3岁儿童，Elorian致力于将视觉推理提升至成人水平。构建原生多模态模型（文本+图像+视频+音频），目标应用：机器人、建筑、汽车设计、GUI Agent。计划12个月内发布首个公开推理模型。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 生成式世界模拟",
         "视觉推理",
         "多模态",
         "物理世界",
         "AGI"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Manycore_Tech",
@@ -7532,13 +8670,15 @@ window.GRAPH_DATA = {
       "degree": 1,
       "composite_weight": 0.006493506493506494,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "空间智能",
         "IPO",
         "杭州六小龙"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "BAAI",
@@ -7548,13 +8688,15 @@ window.GRAPH_DATA = {
       "degree": 4,
       "composite_weight": 0.025974025974025976,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构",
+        "JEPA 联合嵌入预测架构",
         "研究机构",
         "世界模型",
         "开源"
-      ]
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "AISquare",
@@ -7563,15 +8705,17 @@ window.GRAPH_DATA = {
       "description": "2023年4月成立于深圳，生产力型通用智能机器人公司，深圳首个百亿级具身智能独角兽。创始人兼CEO郭彦东博士（前小鹏汽车/OPPO首席科学家）。自研全球首个全域全身VLA大模型GOVLA，硬件产品AlphaBot系列。2026年B轮融资超10亿元，估值超百亿，12个月内完成12轮融资。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "具身智能",
         "人形机器人",
         "独角兽",
         "VLA"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Geely",
@@ -7580,14 +8724,16 @@ window.GRAPH_DATA = {
       "description": "中国头部汽车集团，旗下拥有吉利、领克、极氪等品牌。2026年发布WAM世界行为模型（World Action Model），统一智能驾驶、智能座舱与底盘控制三大域，走WA（World Action）路线而非主流VLA路线，主张直接在物理动作空间建模世界知识。",
       "degree": 1,
       "composite_weight": 0.006493506493506494,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "自动驾驶",
         "世界行为模型",
         "WA"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Physis_v0_1",
@@ -7597,13 +8743,15 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "jepa",
-      "group_name": "路线一：JEPA 联合嵌入预测架构",
+      "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
-        "路线一：JEPA 联合嵌入预测架构",
+        "JEPA 联合嵌入预测架构",
         "世界基座模型",
         "2026",
         "智源"
-      ]
+      ],
+      "route_family": "jepa",
+      "route_family_name": "JEPA 联合嵌入预测架构"
     },
     {
       "id": "Omega_EVA",
@@ -7612,14 +8760,16 @@ window.GRAPH_DATA = {
       "description": "星源智能与智源研究院2026年6月联合发布的全球首个具身交互世界模型。采用「预演→验证→行动」闭环决策架构，参数量仅1.2B，在LIBERO基准上平均成功率98.6%。核心理念：世界模型不仅是观察者，更是行动的参与者与验证者。",
       "degree": 1,
       "composite_weight": 0.006493506493506494,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "具身智能",
         "交互世界模型",
         "2026"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "EvoPhys_World",
@@ -7628,15 +8778,17 @@ window.GRAPH_DATA = {
       "description": "北京大学2026年6月发布的5D世界模型，登顶斯坦福WorldScore榜单第一。提出「5D」概念：三维空间+时间+动作与因果维度。核心理念「知行合一」：一个基模两种形态——World Engine（万物可孪生）+ World Policy（万物可操控）。全程在国产摩尔线程MTT S5000 GPU上完成原生训练。",
       "degree": 1,
       "composite_weight": 0.006493506493506494,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "5D世界模型",
         "WorldScore",
         "2026",
         "北大"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Cosmos_3",
@@ -7645,15 +8797,17 @@ window.GRAPH_DATA = {
       "description": "NVIDIA于2026年6月GTC台北发布的全球首个开源全模态物理AI大模型。采用混合Transformer架构，原生融合文本、图像、视频、环境音与动作。三个版本：Super（高精度）、Nano（快速推理）、Edge（边缘部署）。在World Generation、Robot Action Policies等多项基准登顶。训练数据达20万亿token。",
       "degree": 6,
       "composite_weight": 0.03896103896103896,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 生成式世界模拟",
         "全模态",
         "2026",
         "开源",
         "NVIDIA"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "ABot_Earth",
@@ -7663,13 +8817,15 @@ window.GRAPH_DATA = {
       "degree": 1,
       "composite_weight": 0.006493506493506494,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "3D重建",
         "城市世界模型",
         "2026"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "HY_World2",
@@ -7679,14 +8835,16 @@ window.GRAPH_DATA = {
       "degree": 3,
       "composite_weight": 0.01948051948051948,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "3D世界模型",
         "开源",
         "2026",
         "腾讯"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "GOVLA",
@@ -7695,14 +8853,16 @@ window.GRAPH_DATA = {
       "description": "智平方原创的全球首个全域全身VLA大模型。GOVLA 0.0（RoboMamba）2024年6月开源，参数量仅为谷歌同类1/20，性能提升超80%，入选NeurIPS 2024。GOVLA 0.5（FiS-VLA）2025年6月发布，业界首个异构输入+异步频率双系统VLA，控制频率达117.7Hz，超越Pi0达30%。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "VLA",
         "具身智能",
         "开源"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "WAM_Geely",
@@ -7711,14 +8871,16 @@ window.GRAPH_DATA = {
       "description": "吉利汽车2026年发布的世界行为模型（World Action Model），统一智能驾驶、智能座舱与底盘控制三大域。走WA（World Action）路线，直接在物理动作空间建模世界知识，公开拒绝主流VLA范式。代表车企从被动使用AI到主动定义世界模型技术路线的产业趋势。",
       "degree": 1,
       "composite_weight": 0.006493506493506494,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "自动驾驶",
         "世界行为模型",
         "2026"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Huang_Xiaohuang",
@@ -7728,12 +8890,14 @@ window.GRAPH_DATA = {
       "degree": 2,
       "composite_weight": 0.012987012987012988,
       "group_id": "spatial",
-      "group_name": "路线二：空间智能（3D 世界模型）",
+      "group_name": "空间智能与3D表征",
       "tags": [
-        "路线二：空间智能（3D 世界模型）",
+        "空间智能与3D表征",
         "创始人",
         "空间智能"
-      ]
+      ],
+      "route_family": "spatial",
+      "route_family_name": "空间智能与3D表征"
     },
     {
       "id": "Hongyuan_Lu",
@@ -7742,13 +8906,15 @@ window.GRAPH_DATA = {
       "description": "95后AI创业者。本科/硕士毕业于帝国理工学院（ICL），香港中文大学NLP实验室博士（师从林伟教授）。博士期间发表14篇一作/通讯顶会论文，多篇高引，获顶会最佳论文奖。曾任职于微软、阿里巴巴、亚马逊。2023年6月创立脸谱心智（FaceMind），任CEO。提出LoopWM循环共享参数世界模型架构，其Adam's Law被Anthropic采用。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "创始人",
         "世界模型"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Yiran_Wei",
@@ -7757,13 +8923,15 @@ window.GRAPH_DATA = {
       "description": "剑桥大学博士，机器人小脑专家，深耕世界模型领域多年。脸谱心智（FaceMind）联合创始人兼CTO，负责端侧全模态模型与世界模型底层架构研发。",
       "degree": 1,
       "composite_weight": 0.006493506493506494,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "联合创始人",
         "CTO"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "FaceMind",
@@ -7772,13 +8940,15 @@ window.GRAPH_DATA = {
       "description": "世界模型创业公司，2023年6月成立于上海。自研LoopWM循环共享参数世界模型架构，突破长时序梯度衰减、数据稀缺、算力成本高等瓶颈。产品「叠叠社」（AI虚拟陪伴应用）作为世界模型能力的早期验证场。2024-2026年完成天使轮、Pre-A轮（星连资本领投、360超额跟投）融资，获英伟达官方点赞。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "世界模型",
         "端侧AI"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "LoopWM",
@@ -7787,13 +8957,15 @@ window.GRAPH_DATA = {
       "description": "脸谱心智（FaceMind）自研的循环共享参数世界模型架构。核心创新：通过循环共享参数机制破解长时序预测中的梯度衰减难题，同时显著降低数据需求和算力成本，支持端侧全模态部署。为叠叠社等应用提供底层世界模型能力，获英伟达官方点赞。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "世界模型架构",
         "循环神经网络"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Dacheng_Tao",
@@ -7802,13 +8974,15 @@ window.GRAPH_DATA = {
       "description": "澳大利亚科学院院士、欧洲科学院外籍院士，IEEE/ACM/AAAS Fellow。IEEE计算机学会技术成就奖获得者。曾任京东探索研究院创始院长、优必选AI首席科学家。发表超1200篇学术论文，被引逾14万次。2025年加入大晓机器人（ACE ROBOTICS），任首席科学家，主导开悟（Kairos）具身世界模型研发。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "latent_wm",
+      "group_name": "学习型世界模拟 · 隐空间动力学与规划",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 隐空间动力学与规划",
         "首席科学家",
         "具身智能"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "ACE_Robotics",
@@ -7817,14 +8991,16 @@ window.GRAPH_DATA = {
       "description": "具身智能独角兽企业，2025年7月成立于上海，商汤科技「1+X」分拆战略孵化。由商汤联合创始人王晓刚任董事长兼CEO，陶大程院士任首席科学家。自研开悟（Kairos）世界模型3.0——首个国内开源且商业应用的具身世界模型，在4项全球具身智能基准测试中取得SOTA。ACE研发范式以100万小时训练数据驱动。累计融资数亿美元，投资方包括蚂蚁集团、启明创投、吉利资本、深创投等。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "具身智能",
         "独角兽",
         "世界模型"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Kairos",
@@ -7833,14 +9009,16 @@ window.GRAPH_DATA = {
       "description": "大晓机器人（ACE ROBOTICS）自研的具身世界模型，国内首个开源且实现商业应用的具身世界模型。在4项全球具身智能基准测试中取得SOTA成绩。以ACE研发范式（以人为中心的环境式数据采集，100万小时训练数据）驱动。赋能道路巡检、无人物流仓、酒店、安防巡检等场景的具身智能应用。",
       "degree": 3,
       "composite_weight": 0.01948051948051948,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "具身世界模型",
         "开源",
         "SOTA"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Tianyu_Li",
@@ -7849,14 +9027,16 @@ window.GRAPH_DATA = {
       "description": "上海创智学院首批毕业生，复旦大学博士。华为量产自动驾驶ADS 4.0世界引擎方案核心开发者。入选2025年阿里云魔塔社区EAI学术新锐20人。2026年4月与李弘扬、陈立联合创立源策未来（Archon Robotics），任CEO。主导通用全身人形基座模型研发。",
       "degree": 2,
       "composite_weight": 0.012987012987012988,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "联合创始人",
         "CEO",
         "具身智能"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     },
     {
       "id": "Archon_Robotics",
@@ -7865,14 +9045,16 @@ window.GRAPH_DATA = {
       "description": "通用全身具身大脑公司，2026年4月成立于上海。由港大教授李弘扬（RSS Early Career Award首位华人学者）、李天羽（华为ADS 4.0世界引擎核心开发者）、陈立（UniAD最佳论文一作）联合创立。核心技术理念为Human Body Learning（人体学习），三层协同架构（大脑-中脑-小脑）。计划2026年下旬发布首个人形原生基座模型。2026年6月完成数亿元种子轮融资，真格基金、高榕创投、IDG资本、五源资本等投资。被业界称为「人形机器人时代的OpenAI」。",
       "degree": 4,
       "composite_weight": 0.025974025974025976,
-      "group_id": "sim",
-      "group_name": "路线三：学习仿真（生成视频 + RL + 基础设施）",
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
       "tags": [
-        "路线三：学习仿真（生成视频 + RL + 基础设施）",
+        "学习型世界模拟 · 动作对齐",
         "人形机器人",
         "基座模型",
         "具身智能"
-      ]
+      ],
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟"
     }
   ],
   "links": [

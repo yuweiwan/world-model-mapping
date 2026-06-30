@@ -23,9 +23,13 @@
     --person: #10b981;
     --group-jepa: #4f46e5;
     --group-spatial: #0891b2;
-    --group-sim: #d97706;
+    --group-latent_wm: #ca8a04;
+    --group-interactive_wm: #b45309;
+    --group-action_ground: #ea580c;
+    --group-gen_simulator: #dc2626;
+    --group-phys_engine: #78716c;
     --group-active_inf: #7c3aed;
-    --group-causal: #dc2626;
+    --group-causal: #db2777;
     --hover: #f2f5f9;
     --topbar-gradient: linear-gradient(135deg, rgba(255,255,255,0.92), rgba(240,246,252,0.92));
     --panel-bg: rgba(255,255,255,0.97);
@@ -51,9 +55,13 @@
     --person: #34d399;
     --group-jepa: #818cf8;
     --group-spatial: #22d3ee;
-    --group-sim: #fbbf24;
+    --group-latent_wm: #facc15;
+    --group-interactive_wm: #fbbf24;
+    --group-action_ground: #fb923c;
+    --group-gen_simulator: #f87171;
+    --group-phys_engine: #a8a29e;
     --group-active_inf: #a78bfa;
-    --group-causal: #f87171;
+    --group-causal: #f472b6;
     --hover: #243447;
     --topbar-gradient: linear-gradient(135deg, rgba(27,40,56,0.96), rgba(13,27,42,0.96));
     --panel-bg: rgba(27,40,56,0.98);
@@ -154,6 +162,10 @@
   .filter-btn[data-type="person"].active { border-color: var(--person); }
   .filter-btn[data-type="company"].active { border-color: var(--company); }
   .filter-btn[data-type="product_paper"].active { border-color: var(--product); }
+  .filter-btn.family-toggle { width: 100%; justify-content: flex-start; font-size: 10px; }
+  .sub-routes { display: flex; flex-wrap: wrap; gap: 6px; margin-left: 12px; padding-left: 8px; border-left: 2px solid var(--border); width: 100%; }
+  .sub-route { font-size: 9px; padding: 3px 8px; }
+  .sub-routes.collapsed { display: none; }
 
   /* Legend */
   .legend-toggle {
@@ -337,9 +349,16 @@
     <div class="sidebar-section">
       <div class="section-title">路线筛选</div>
       <div class="filter-btns" id="groupFilterBtns">
-        <button class="filter-btn active" data-group="jepa"><span class="dot" style="background:var(--group-jepa)"></span>JEPA</button>
-        <button class="filter-btn active" data-group="spatial"><span class="dot" style="background:var(--group-spatial)"></span>空间智能</button>
-        <button class="filter-btn active" data-group="sim"><span class="dot" style="background:var(--group-sim)"></span>学习仿真</button>
+        <button class="filter-btn active" data-group="jepa"><span class="dot" style="background:var(--group-jepa)"></span>JEPA 联合嵌入</button>
+        <button class="filter-btn active" data-group="spatial"><span class="dot" style="background:var(--group-spatial)"></span>空间智能与3D</button>
+        <button class="filter-btn family-toggle active" data-family="learning_sim" id="familyToggle" style="font-weight:600">▼ 学习型世界模拟</button>
+        <div class="sub-routes" id="subRoutes">
+          <button class="filter-btn active sub-route" data-group="latent_wm"><span class="dot" style="background:var(--group-latent_wm)"></span>隐空间动力学与规划</button>
+          <button class="filter-btn active sub-route" data-group="interactive_wm"><span class="dot" style="background:var(--group-interactive_wm)"></span>可交互世界模型</button>
+          <button class="filter-btn active sub-route" data-group="action_ground"><span class="dot" style="background:var(--group-action_ground)"></span>动作对齐</button>
+          <button class="filter-btn active sub-route" data-group="gen_simulator"><span class="dot" style="background:var(--group-gen_simulator)"></span>生成式世界模拟</button>
+          <button class="filter-btn active sub-route" data-group="phys_engine"><span class="dot" style="background:var(--group-phys_engine)"></span>物理仿真引擎</button>
+        </div>
         <button class="filter-btn active" data-group="active_inf"><span class="dot" style="background:var(--group-active_inf)"></span>主动推理</button>
         <button class="filter-btn active" data-group="causal"><span class="dot" style="background:var(--group-causal)"></span>因果推断</button>
       </div>
@@ -395,8 +414,10 @@
 var TYPE_COLORS = { person: '#34d399', company: '#f59e0b', product_paper: '#818cf8' };
 var TYPE_NAMES = { person: '人物', company: '公司/机构', product_paper: '产品/论文' };
 
-var GROUP_COLORS = { jepa: '#6366f1', spatial: '#06b6d4', sim: '#f59e0b', active_inf: '#a855f7', causal: '#ef4444' };
-var GROUP_NAMES = { jepa: 'JEPA 联合嵌入', spatial: '空间智能', sim: '学习仿真', active_inf: '主动推理', causal: '因果推断' };
+var GROUP_COLORS = { jepa: '#6366f1', spatial: '#06b6d4', latent_wm: '#eab308', interactive_wm: '#d97706', action_ground: '#f97316', gen_simulator: '#ef4444', phys_engine: '#78716c', active_inf: '#8b5cf6', causal: '#ec4899' };
+var GROUP_NAMES = { jepa: 'JEPA 联合嵌入', spatial: '空间智能与3D表征', latent_wm: '隐空间动力学与规划', interactive_wm: '可交互世界模型', action_ground: '动作对齐', gen_simulator: '生成式世界模拟', phys_engine: '物理仿真引擎', active_inf: '主动推理', causal: '因果推断' };
+var FAMILY_NAMES = { jepa: 'JEPA 联合嵌入预测架构', spatial: '空间智能与3D表征', learning_sim: '学习型世界模拟', active_inf: '主动推理', causal: '因果推断' };
+var ROUTE_FAMILY = { jepa: 'jepa', spatial: 'spatial', latent_wm: 'learning_sim', interactive_wm: 'learning_sim', action_ground: 'learning_sim', gen_simulator: 'learning_sim', phys_engine: 'learning_sim', active_inf: 'active_inf', causal: 'causal' };
 
 var REL_COLORS = {
   develops: '#818cf8', collaborates: '#60a5fa', related: '#9ca3af',
@@ -414,8 +435,8 @@ var REL_NAMES = {
 // ═══════════════════════════════════════════════════
 var TYPE_COLORS_LIGHT = { person: '#10b981', company: '#f59e0b', product_paper: '#6366f1' };
 var TYPE_COLORS_DARK  = { person: '#34d399', company: '#f59e0b', product_paper: '#818cf8' };
-var GROUP_COLORS_LIGHT = { jepa: '#4f46e5', spatial: '#0891b2', sim: '#d97706', active_inf: '#7c3aed', causal: '#dc2626' };
-var GROUP_COLORS_DARK  = { jepa: '#818cf8', spatial: '#22d3ee', sim: '#fbbf24', active_inf: '#a78bfa', causal: '#f87171' };
+var GROUP_COLORS_LIGHT = { jepa: '#4f46e5', spatial: '#0891b2', latent_wm: '#ca8a04', interactive_wm: '#b45309', action_ground: '#ea580c', gen_simulator: '#dc2626', phys_engine: '#78716c', active_inf: '#7c3aed', causal: '#db2777' };
+var GROUP_COLORS_DARK  = { jepa: '#818cf8', spatial: '#22d3ee', latent_wm: '#facc15', interactive_wm: '#fbbf24', action_ground: '#fb923c', gen_simulator: '#f87171', phys_engine: '#a8a29e', active_inf: '#a78bfa', causal: '#f472b6' };
 var REL_COLORS_LIGHT = {
   develops: '#6366f1', collaborates: '#3b82f6', related: '#6b7280',
   mentors: '#14b8a6', founded: '#f59e0b', works_at: '#10b981',
@@ -459,7 +480,7 @@ var cy = null;
 var graphData = null;
 var selectedNodeId = null;
 var activeFilters = new Set(['person', 'company', 'product_paper']);
-var activeGroupFilters = new Set(['jepa', 'spatial', 'sim', 'active_inf', 'causal']);
+var activeGroupFilters = new Set(['jepa', 'spatial', 'latent_wm', 'interactive_wm', 'action_ground', 'gen_simulator', 'phys_engine', 'active_inf', 'causal']);
 var activeTab = 'person';
 
 // ═══════════════════════════════════════════════════
@@ -758,16 +779,32 @@ function showDetail(node) {
     body += '<div class="db-desc">' + escapeHtml(raw.description) + '</div>';
   }
 
-  // Stats
-  body += '<div style="display:flex;gap:16px;margin-bottom:12px;font-size:10px;color:var(--text-dim)">';
+  // Stats line
+  body += '<div style="display:flex;gap:16px;margin-bottom:8px;font-size:10px;color:var(--text-dim)">';
   body += '<span>度数 ' + (d.degree || 0) + '</span>';
-  body += '<span>权重 ' + ((d.composite_weight||0)*100).toFixed(0) + '</span>';
-  // 路线 + 类型
-  body += '<div style="display:flex;gap:6px;align-items:center;margin-bottom:6px">';
-  body += '<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:' + groupColor + '"></span>';
-  body += '<span style="font-size:10px;color:var(--text-dim)">' + (raw.group_name||'').replace('路线','') + '</span>';
-  body += '<span style="display:inline-block;width:10px;height:10px;border-radius:50%;background:' + typeColor + ';margin-left:8px"></span>';
+  body += '<span>权重 ' + ((d.composite_weight||0)*100).toFixed(0) + '%</span>';
+  body += '</div>';
+
+  // 路线族 + 子路线 + 类型
+  body += '<div style="margin-bottom:8px">';
+  var famName = FAMILY_NAMES[ROUTE_FAMILY[d.group_id]] || '';
+  var routeName = (raw.group_name||'').replace('学习型世界模拟 · ', '');
+  if (ROUTE_FAMILY[d.group_id] === 'learning_sim') {
+    body += '<div style="font-size:9px;color:var(--text-soft);margin-bottom:4px">' + famName + '</div>';
+    body += '<div style="display:flex;align-items:center;gap:6px;margin-left:8px">';
+    body += '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:' + groupColor + '"></span>';
+    body += '<span style="font-size:10px;color:var(--text-dim)">' + routeName + '</span>';
+    body += '</div>';
+  } else {
+    body += '<div style="display:flex;align-items:center;gap:6px">';
+    body += '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:' + groupColor + '"></span>';
+    body += '<span style="font-size:10px;color:var(--text-dim)">' + routeName + '</span>';
+    body += '</div>';
+  }
+  body += '<div style="display:flex;align-items:center;gap:6px;margin-top:4px;margin-left:' + (ROUTE_FAMILY[d.group_id]==='learning_sim'?'8px':'0') + '">';
+  body += '<span style="display:inline-block;width:9px;height:9px;border-radius:50%;background:' + typeColor + '"></span>';
   body += '<span style="font-size:10px;color:var(--text-dim)">' + tn + '</span>';
+  body += '</div>';
   body += '</div>';
 
   // Tags
@@ -902,7 +939,21 @@ function setupFilters() {
   document.getElementById('groupFilterBtns').addEventListener('click', function(e) {
     var btn = e.target.closest('.filter-btn');
     if (!btn) return;
+    // 族折叠按钮
+    if (btn.classList.contains('family-toggle')) {
+      var sub = document.getElementById('subRoutes');
+      var arrow = btn.textContent.charAt(0);
+      if (sub.classList.contains('collapsed')) {
+        sub.classList.remove('collapsed');
+        btn.textContent = '▼ ' + btn.textContent.substring(2);
+      } else {
+        sub.classList.add('collapsed');
+        btn.textContent = '▶ ' + btn.textContent.substring(2);
+      }
+      return;
+    }
     var g = btn.dataset.group;
+    if (!g) return;
     if (activeGroupFilters.has(g)) { activeGroupFilters.delete(g); btn.classList.remove('active'); }
     else { activeGroupFilters.add(g); btn.classList.add('active'); }
     applyFilters();
@@ -927,12 +978,19 @@ function renderLegend() {
   var content = document.getElementById('legendContent');
   var html = '';
 
-  // 路线颜色
-  html += '<div class="section-title" style="margin-top:0">节点路线</div>';
-  var groupOrder = ['jepa', 'spatial', 'sim', 'active_inf', 'causal'];
-  groupOrder.forEach(function(g) {
+  // 路线颜色（9条子路线，按族分组）
+  html += '<div class="section-title" style="margin-top:0">技术路线 (9条)</div>';
+  var routeOrder = ['jepa', 'spatial', 'latent_wm', 'interactive_wm', 'action_ground', 'gen_simulator', 'phys_engine', 'active_inf', 'causal'];
+  var lastFamily = '';
+  routeOrder.forEach(function(g) {
+    var fam = ROUTE_FAMILY[g] || g;
+    if (fam !== lastFamily && fam === 'learning_sim') {
+      html += '<div style="font-size:9px;color:var(--text-soft);margin:3px 0 0 0">学习型世界模拟</div>';
+    }
+    lastFamily = fam;
     var c = GROUP_COLORS[g] || '#9ca3af';
-    html += '<div class="legend-item"><span class="legend-line" style="background:' + c + '"></span><span>' + GROUP_NAMES[g] + '</span></div>';
+    var indent = (fam === 'learning_sim') ? 'margin-left:8px;' : '';
+    html += '<div class="legend-item" style="' + indent + '"><span class="legend-line" style="background:' + c + '"></span><span>' + GROUP_NAMES[g] + '</span></div>';
   });
 
   // 边关系类型
