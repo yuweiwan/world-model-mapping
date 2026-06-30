@@ -167,6 +167,17 @@
   .sub-route { font-size: 9px; padding: 3px 8px; }
   .sub-routes.collapsed { display: none; }
 
+  /* Filter toggle (折叠筛选栏) */
+  .filter-toggle {
+    width: 100%; padding: 7px 0; background: none; border: none;
+    color: var(--text-dim); cursor: pointer; font-family: inherit;
+    font-size: 10px; text-align: left; letter-spacing: 0.5px;
+    text-transform: uppercase; display: flex; justify-content: space-between;
+    align-items: center;
+  }
+  .filter-toggle:hover { color: var(--text); }
+  .filter-body.collapsed { display: none; }
+
   /* Legend */
   .legend-toggle {
     width: 100%; padding: 7px 0; background: none; border: none;
@@ -338,17 +349,20 @@
     </div>
 
     <div class="sidebar-section">
-      <div class="section-title">类型筛选</div>
-      <div class="filter-btns" id="filterBtns">
-        <button class="filter-btn active" data-type="person"><span class="dot" style="background:var(--person)"></span>人物</button>
-        <button class="filter-btn active" data-type="company"><span class="dot" style="background:var(--company)"></span>公司/机构</button>
-        <button class="filter-btn active" data-type="product_paper"><span class="dot" style="background:var(--product)"></span>产品/论文</button>
+      <button class="filter-toggle" id="typeFilterToggle"><span>类型筛选</span><span id="typeFilterArrow">▼</span></button>
+      <div class="filter-body" id="typeFilterBody">
+        <div class="filter-btns" id="filterBtns">
+          <button class="filter-btn active" data-type="person"><span class="dot" style="background:var(--person)"></span>人物</button>
+          <button class="filter-btn active" data-type="company"><span class="dot" style="background:var(--company)"></span>公司/机构</button>
+          <button class="filter-btn active" data-type="product_paper"><span class="dot" style="background:var(--product)"></span>产品/论文</button>
+        </div>
       </div>
     </div>
 
     <div class="sidebar-section">
-      <div class="section-title">路线筛选</div>
-      <div class="filter-btns" id="groupFilterBtns">
+      <button class="filter-toggle" id="routeFilterToggle"><span>路线筛选</span><span id="routeFilterArrow">▼</span></button>
+      <div class="filter-body" id="routeFilterBody">
+        <div class="filter-btns" id="groupFilterBtns">
         <button class="filter-btn active" data-group="jepa"><span class="dot" style="background:var(--group-jepa)"></span>JEPA 联合嵌入</button>
         <button class="filter-btn active" data-group="spatial"><span class="dot" style="background:var(--group-spatial)"></span>空间智能与3D</button>
         <button class="filter-btn family-toggle active" data-family="learning_sim" id="familyToggle" style="font-weight:600">▼ 学习型世界模拟</button>
@@ -361,6 +375,7 @@
         </div>
         <button class="filter-btn active" data-group="active_inf"><span class="dot" style="background:var(--group-active_inf)"></span>主动推理</button>
         <button class="filter-btn active" data-group="causal"><span class="dot" style="background:var(--group-causal)"></span>因果推断</button>
+        </div>
       </div>
     </div>
 
@@ -1011,11 +1026,28 @@ function renderLegend() {
 
   content.innerHTML = html;
 
+  // 图例折叠
   document.getElementById('legendToggle').addEventListener('click', function() {
     var el = document.getElementById('legendContent');
     var arrow = document.getElementById('legendArrow');
     el.classList.toggle('open');
     arrow.textContent = el.classList.contains('open') ? '▼' : '▶';
+  });
+
+  // 类型筛选折叠
+  document.getElementById('typeFilterToggle').addEventListener('click', function() {
+    var el = document.getElementById('typeFilterBody');
+    var arrow = document.getElementById('typeFilterArrow');
+    el.classList.toggle('collapsed');
+    arrow.textContent = el.classList.contains('collapsed') ? '▶' : '▼';
+  });
+
+  // 路线筛选折叠
+  document.getElementById('routeFilterToggle').addEventListener('click', function() {
+    var el = document.getElementById('routeFilterBody');
+    var arrow = document.getElementById('routeFilterArrow');
+    el.classList.toggle('collapsed');
+    arrow.textContent = el.classList.contains('collapsed') ? '▶' : '▼';
   });
 }
 
