@@ -590,8 +590,8 @@ window.GRAPH_DATA = {
       "name": "空间智能",
       "type": "product_paper",
       "description": "核心理念：真正的理解需要显式的空间结构——几何、深度、持续性和从新视角重观测场景的能力——而非仅时序预测。这是一条不同于JEPA的赌注：不是学习抽象动力学，而是学习可被直接操控的3D环境结构化表征。",
-      "degree": 67,
-      "composite_weight": 0.432258064516129,
+      "degree": 68,
+      "composite_weight": 0.43870967741935485,
       "group_id": "spatial",
       "group_name": "空间智能与3D表征",
       "tags": [
@@ -1115,8 +1115,8 @@ window.GRAPH_DATA = {
       "name": "谢赛宁 Saining Xie",
       "type": "person",
       "description": "NYU助理教授，原Meta FAIR研究科学家。ConvNeXt、ResNeXt等核心架构作者。与Bill Peebles共同提出DiT（Diffusion Transformers）里程碑架构——首次将Transformer引入扩散模型，打破U-Net局限，成为OpenAI Sora、可灵等主流视频大模型核心底层地基。2026年初宣布加入AMI Labs，是LeCun团队核心成员。",
-      "degree": 5,
-      "composite_weight": 0.03225806451612903,
+      "degree": 6,
+      "composite_weight": 0.03870967741935484,
       "group_id": "jepa",
       "group_name": "JEPA 联合嵌入预测架构",
       "tags": [
@@ -6514,13 +6514,16 @@ window.GRAPH_DATA = {
       "id": "Li_Yiming",
       "name": "李一鸣 Li Yiming",
       "type": "person",
-      "description": "清华大学人工智能学院助理教授（2026年3月入职）。NYU博士，师从姚期智先生指导，NVIDIA博士生奖学金（全球仅10人），Google Scholar引用4,300+。研究方向：空间智能（Spatial Intelligence）、3D世界模型、具身导航。代表成果：DeepExplorer（首个隐空间世界模型驱动视觉探索框架，RSS 2023）、CLM（单卡GPU亿级3D高斯泼溅，ASPLOS 2026）、H*Bench（首个开放世界类人视觉搜索基准，CVPR 2026）。",
-      "degree": 2,
-      "composite_weight": 0.012903225806451613,
+      "description": "清华大学人工智能学院助理教授（2026年3月入职），1997年出生。NYU博士，师从姚期智先生，2024年度英伟达奖学金全球仅十位获得者之一，Google Scholar引用4,300+。与谢赛宁深度合作发表视觉推理成果，与英伟达联合输出多篇CVPR与NeurIPS亮点论文。研究方向：空间智能、3D世界模型、具身导航。创立厘清智能（Liqing Intelligence），任创始人兼CEO。代表成果：DeepExplorer（RSS 2023）、CLM（ASPLOS 2026）、H*Bench（CVPR 2026）。",
+      "degree": 4,
+      "composite_weight": 0.025806451612903226,
       "group_id": "spatial",
       "group_name": "空间智能与3D表征",
       "tags": [
-        "空间智能与3D表征"
+        "空间智能与3D表征",
+        "创始人",
+        "世界模型",
+        "具身智能"
       ],
       "route_family": "spatial",
       "route_family_name": "空间智能与3D表征"
@@ -9126,6 +9129,24 @@ window.GRAPH_DATA = {
         "强化学习",
         "自动驾驶安全",
         "2023"
+      ]
+    },
+    {
+      "id": "Liqing_Intelligence",
+      "name": "厘清智能 Liqing Intelligence",
+      "type": "company",
+      "description": "清华系世界模型初创公司，由1997年出生的清华博导李一鸣教授创立。定位「定义世界模型生态系统」——既做大脑式动作模型（预测推理），也做遵循物理一致性的世界模拟器。数据采集设备、数据管线、模型架构、物理引擎全栈自研。团队50余人，平均22岁，来自清华/北大/浙大/Berkeley/USC等名校。2026年完成数亿元种子轮融资，顺为资本、红杉中国、高瓴创投、峰瑞资本、星连资本等联合投资，智元机器人/灵心巧手等产业资本跟投。",
+      "degree": 2,
+      "composite_weight": 0.012903225806451613,
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
+      "route_family": "learning_sim",
+      "route_family_name": "学习型世界模拟",
+      "tags": [
+        "学习型世界模拟 · 动作对齐",
+        "世界模型",
+        "全栈自研",
+        "具身智能"
       ]
     }
   ],
@@ -17865,6 +17886,27 @@ window.GRAPH_DATA = {
       "relation_type": "related",
       "label": "物理AI测试环境→仿真引擎需求",
       "weight": 1
+    },
+    {
+      "source": "Li_Yiming",
+      "target": "Liqing_Intelligence",
+      "relation_type": "founded",
+      "label": "创始人 & CEO",
+      "weight": 5
+    },
+    {
+      "source": "Li_Yiming",
+      "target": "Saining_Xie",
+      "relation_type": "collaborates",
+      "label": "联合发表视觉推理成果 (NYU同期)",
+      "weight": 2
+    },
+    {
+      "source": "Liqing_Intelligence",
+      "target": "Spatial_Intel",
+      "relation_type": "related",
+      "label": "空间智能+世界模型→物理交互全栈系统",
+      "weight": 2
     }
   ]
 };
