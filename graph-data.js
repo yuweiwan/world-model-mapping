@@ -6425,8 +6425,8 @@ window.GRAPH_DATA = {
       "name": "仉尚航 Zhang Shanghang",
       "type": "person",
       "description": "北京大学计算机学院长聘系列助理教授、博导，博雅青年学者，北京智源人工智能研究院具身多模态大模型研究中心负责人。CMU博士（导师José Moura院士），UC Berkeley BAIR Lab博士后，硕士导师高文院士。CS Ranking北大学者首位，Google Scholar引用25,000+。研究方向：具身多模态大模型、4D世界模型。代表成果：Robo4D（4D世界模型）、RoboBrain具身大脑、RoboMamba具身小脑（NeurIPS 2024）、RoboMIND（全国首个通用具身智能数据集，下载量200万+）。AAAI 2021最佳论文奖（Informer，引用9,500+）。",
-      "degree": 4,
-      "composite_weight": 0.025806451612903226,
+      "degree": 5,
+      "composite_weight": 0.03225806451612903,
       "group_id": "spatial",
       "group_name": "空间智能与3D表征",
       "tags": [
@@ -9297,11 +9297,11 @@ window.GRAPH_DATA = {
     },
     {
       "id": "Chi_Xiaowei",
-      "name": "迟晓威 Xiaowei Chi",
+      "name": "池晓威 Xiaowei Chi",
       "type": "person",
-      "description": "香港科技大学博士生，师从郭毅可教授。与北京大学仉尚航教授密切合作。研究方向：具身世界模型。代表工作：EVA（ICML 2025，统一理解与生成的世界模型，结合7B VLM+1.5B视频扩散模型）、WoW（2025，14B全知具身世界模型，基于200万条真机交互轨迹训练，从1.3B到14B全系列开源）。提出SOPHIA自反范式（Predict→Critic→Refine），融合感知、预测、判断、反思与行动五大环节。",
-      "degree": 3,
-      "composite_weight": 0.01935483870967742,
+      "description": "香港科技大学博士生(2023年入学)，师从郭毅可教授。2024年底至2026年初任职北京亦庄人形机器人创新中心核心算法负责人。与北京大学仉尚航教授密切合作，HMI Lab核心成员。2026年4月创立莫刻机器人(MUKA Robotics)，蓝驰创投/至简动力投资。研究方向：具身世界模型、多模态生成模型。代表工作：WoW(2025，国内首个开源具身世界模型，14B参数，200万真机轨迹)、EVA(ICML 2025，统一理解与生成世界模型)。提出SOPHIA自反范式(Predict→Critic→Refine)。",
+      "degree": 6,
+      "composite_weight": 0.03870967741935484,
       "group_id": "action_ground",
       "group_name": "学习型世界模拟 · 动作对齐",
       "route_family": "learning_sim",
@@ -9464,8 +9464,8 @@ window.GRAPH_DATA = {
       "name": "EVA Embodied Video Anticipator (ICML 2025)",
       "type": "product_paper",
       "description": "迟晓威等发表于ICML 2025。统一理解与生成的具身世界模型：结合7B视觉语言模型（VLM）与1.5B视频扩散模型（VDM），采用分块自回归范式。提出Reflection of Generation（RoG）策略整合中间推理步骤实现自我纠正。EVA-Bench综合基准覆盖域内与OOD场景。开源代码。",
-      "degree": 2,
-      "composite_weight": 0.012903225806451613,
+      "degree": 3,
+      "composite_weight": 0.01935483870967742,
       "group_id": "action_ground",
       "group_name": "学习型世界模拟 · 动作对齐",
       "route_family": "learning_sim",
@@ -9481,9 +9481,9 @@ window.GRAPH_DATA = {
       "id": "WoW_Model",
       "name": "WoW World-Omniscient World Model (2025)",
       "type": "product_paper",
-      "description": "迟晓威等联合北京人形机器人创新中心/北大/港科大发布。14B参数全知具身世界模型，基于200万条真机交互轨迹训练（1.3B→2B→7B→14B全系列开源）。提出SOPHIA自反范式（Predict→Critic→Refine），融合感知、预测、判断、反思与行动五大闭环。支持跨机器人本体（UR5/Franka/AgileX双臂/灵巧手）零微调泛化。首次让AI通过交互涌现因果感知能力。",
-      "degree": 2,
-      "composite_weight": 0.012903225806451613,
+      "description": "池晓威等联合北京人形机器人创新中心/北大/港科大发布。14B参数全知具身世界模型，基于200万条真机交互轨迹训练（1.3B→2B→7B→14B全系列开源）。提出SOPHIA自反范式（Predict→Critic→Refine），融合感知、预测、判断、反思与行动五大闭环。支持跨机器人本体（UR5/Franka/AgileX双臂/灵巧手）零微调泛化。首次让AI通过交互涌现因果感知能力。",
+      "degree": 3,
+      "composite_weight": 0.01935483870967742,
       "group_id": "action_ground",
       "group_name": "学习型世界模拟 · 动作对齐",
       "route_family": "learning_sim",
@@ -10093,6 +10093,32 @@ window.GRAPH_DATA = {
       "description": "田柯宇等发表于NeurIPS 2024，获最佳论文奖(国内第二篇)。用粗到细多尺度token map替代传统光栅扫描，GPT式AR首次在图像生成超越扩散Transformer。FID 1.73/IS 350.2，推理快约20倍，清晰幂律缩放(相关系数-0.998)。GitHub 4.4k+ Star。蓝之炭的技术基础。",
       "degree": 2,
       "composite_weight": 0.012903225806451613,
+      "group_id": "gen_simulator",
+      "group_name": "学习型世界模拟 · 生成式世界模拟",
+      "tags": [
+        "学习型世界模拟 · 生成式世界模拟"
+      ]
+    },
+    {
+      "id": "MUKA_Robotics",
+      "name": "莫刻机器人 MUKA Robotics",
+      "type": "company",
+      "description": "池晓威2026年4月在北京海淀创立。WoW模型一作/港科大博士/95后创始人，蓝驰创投+至简动力投资。定位：面向真实物理世界的下一代通用机器人智能体系，以视觉基础泛化模型为核心。自研LJM潜联合条件世界模型，主打低成本、国产算力适配的机器人世界模型方案。核心观点：以人为中心采集视频-动作配对数据，2年内达上亿小时量级。",
+      "degree": 3,
+      "composite_weight": 0.01935483870967742,
+      "group_id": "action_ground",
+      "group_name": "学习型世界模拟 · 动作对齐",
+      "tags": [
+        "学习型世界模拟 · 动作对齐"
+      ]
+    },
+    {
+      "id": "Yike_Guo",
+      "name": "郭毅可 Yike Guo",
+      "type": "person",
+      "description": "香港科技大学首席副校长、计算机科学及工程学系讲席教授。英国皇家工程院院士、欧洲科学院院士。曾任帝国理工学院数据科学研究所所长。港科大人机智能实验室(HMI Lab)负责人。池晓威的博士导师(2023-)。研究方向：大数据分析、机器学习、AI for Science。",
+      "degree": 1,
+      "composite_weight": 0.0064516129032258064,
       "group_id": "gen_simulator",
       "group_name": "学习型世界模拟 · 生成式世界模拟",
       "tags": [
@@ -19444,6 +19470,41 @@ window.GRAPH_DATA = {
       "target": "D2RL_concept",
       "relation_type": "related",
       "label": "分子世界模型 vs 自动驾驶世界模型 / 同为物理AI分支",
+      "weight": 2
+    },
+    {
+      "source": "Chi_Xiaowei",
+      "target": "MUKA_Robotics",
+      "relation_type": "founded",
+      "label": "创始人/法人/实控人 (2026.4)",
+      "weight": 5
+    },
+    {
+      "source": "Yike_Guo",
+      "target": "Chi_Xiaowei",
+      "relation_type": "mentors",
+      "label": "博士导师 (HKUST, 2023-)",
+      "weight": 3
+    },
+    {
+      "source": "Zhang_Shanghang",
+      "target": "Chi_Xiaowei",
+      "relation_type": "collaborates",
+      "label": "HMI Lab长期密切合作 / WoW+EVA联合工作",
+      "weight": 4
+    },
+    {
+      "source": "MUKA_Robotics",
+      "target": "WoW_Model",
+      "relation_type": "develops",
+      "label": "WoW为核心技术基础 / 国产开源具身世界模型",
+      "weight": 3
+    },
+    {
+      "source": "MUKA_Robotics",
+      "target": "EVA_Model",
+      "relation_type": "develops",
+      "label": "EVA为技术积淀 / 统一理解与生成世界模型",
       "weight": 2
     }
   ]
