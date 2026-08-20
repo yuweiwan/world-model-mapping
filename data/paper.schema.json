@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://yuweiwan.github.io/world-model-mapping/data/paper.schema.json",
+  "title": "World Model Mapping Paper Record",
+  "type": "object",
+  "required": ["id", "title", "authors", "source", "publication", "taxonomy", "review", "provenance"],
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-z_]+:.+"},
+    "graph_node_id": {"type": "string"},
+    "title": {"type": "string", "minLength": 1},
+    "title_zh": {"type": "string"},
+    "authors": {"type": "array", "items": {"type": "string"}},
+    "affiliations": {"type": "array", "items": {"type": "string"}},
+    "abstract": {"type": "string"},
+    "summary_zh": {"type": "string"},
+    "contribution_zh": {"type": "string"},
+    "source": {
+      "type": "object",
+      "required": ["kind", "url"],
+      "properties": {
+        "kind": {"enum": ["arxiv", "openreview", "technical_report", "manual", "rss"]},
+        "external_id": {"type": "string"},
+        "url": {"type": "string", "format": "uri"},
+        "pdf_url": {"type": "string", "format": "uri"},
+        "doi": {"type": "string"}
+      }
+    },
+    "publication": {
+      "type": "object",
+      "required": ["status", "published_at"],
+      "properties": {
+        "status": {"enum": ["preprint", "submitted", "accepted", "published", "technical_report"]},
+        "venue": {"type": "string"},
+        "venue_id": {"type": "string"},
+        "published_at": {"type": "string", "format": "date-time"},
+        "updated_at": {"type": "string", "format": "date-time"}
+      }
+    },
+    "taxonomy": {
+      "type": "object",
+      "required": ["route_id", "topics", "relevance_score"],
+      "properties": {
+        "route_id": {"type": "string"},
+        "topics": {"type": "array", "items": {"type": "string"}},
+        "relevance_score": {"type": "number", "minimum": 0},
+        "relevance_reasons": {"type": "array", "items": {"type": "string"}}
+      }
+    },
+    "team_node_ids": {"type": "array", "items": {"type": "string"}},
+    "review": {
+      "type": "object",
+      "required": ["status"],
+      "properties": {
+        "status": {"enum": ["pending", "approved", "rejected"]},
+        "reviewed_by": {"type": "string"},
+        "reviewed_at": {"type": "string", "format": "date-time"},
+        "notes": {"type": "string"}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "required": ["discovered_at", "source_name", "evidence_urls"],
+      "properties": {
+        "discovered_at": {"type": "string", "format": "date-time"},
+        "source_name": {"type": "string"},
+        "evidence_urls": {"type": "array", "items": {"type": "string", "format": "uri"}}
+      }
+    }
+  }
+}

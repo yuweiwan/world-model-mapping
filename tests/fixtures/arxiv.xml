@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:arxiv="http://arxiv.org/schemas/atom">
+  <entry>
+    <id>http://arxiv.org/abs/2608.01234v2</id>
+    <updated>2026-08-11T12:00:00Z</updated>
+    <published>2026-08-10T12:00:00Z</published>
+    <title>A World Action Model for Generalist Robot Planning</title>
+    <summary>We study a world model for embodied AI and action-conditioned robot planning.</summary>
+    <author><name>Alice Example</name></author>
+    <author><name>Bob Example</name></author>
+    <category term="cs.RO" />
+    <arxiv:comment>Accepted at CoRL 2026</arxiv:comment>
+    <link title="pdf" href="http://arxiv.org/pdf/2608.01234v2" type="application/pdf" />
+  </entry>
+</feed>

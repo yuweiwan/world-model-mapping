@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "run_at": "2026-08-20T01:27:30Z",
+  "since": "2026-08-17T01:27:30Z",
+  "source_counts": {
+    "arxiv-physical-ai": 35,
+    "openreview-iclr-2026": 0,
+    "openreview-neurips-2025": 0,
+    "openreview-corl-2025": 0,
+    "manual-inbox": 0
+  },
+  "fetched": 35,
+  "queued": 0,
+  "duplicates": 35,
+  "ignored_low_score": 0,
+  "pending_total": 0,
+  "queued_ids": [],
+  "errors": []
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "items": [
+    {
+      "url": "https://arxiv.org/abs/2607.11689",
+      "note": "示例：手动发现的链接。processed_at 存在时不会重复处理。",
+      "processed_at": "2026-08-12T00:00:00Z",
+      "record_id": "arxiv:2607.11689"
+    },
+    {
+      "url": "https://generalistai.com/blog/gen-1.5",
+      "note": "来自具身智能之心 TechDaily 的线索；使用 Generalist AI 官方技术博客作为一手来源。",
+      "title": "GEN-1.5: Embodied Foundation Models are One-Shot Learners",
+      "authors": [
+        "Generalist Team"
+      ],
+      "abstract": "GEN-1.5 is an embodied foundation model that learns new closed-loop robotic skills from a single 3-12 second sensorimotor demonstration through physical prompting, without gradient updates. The model supports compositional prompting, zero-shot sim-to-real transfer, human-to-robot imitation, and few-shot adaptation with 1-10 gradient steps. Generalist reports 59% average success for one-shot in-context learning and 83% after ten-step adaptation across ten physical manipulation tasks.",
+      "published_at": "2026-08-19T00:00:00Z",
+      "venue": "Generalist AI Blog",
+      "status": "technical_report",
+      "processed_at": "2026-08-20T01:20:10Z",
+      "record_id": "manual:gen15embodiedfoundationmodelsareoneshotl"
+    }
+  ]
+}
