@@ -10,6 +10,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 
 from wm_pipeline import (  # noqa: E402
+    apply_llm_review,
     build_paper_graph,
     classify_record,
     load_config,
@@ -100,6 +101,25 @@ class PipelineTests(unittest.TestCase):
         self.assertIn("| 关系类型 | 2 种 |", stats)
         self.assertIn("| 已审核论文/技术报告 | 2 篇 |", stats)
 
+    def test_llm_review_is_shadow_advice_and_validates_fields(self) -> None:
+        record = {"taxonomy": {"route_id": "latent_wm", "topics": []}, "review": {"status": "pending"}}
+        value = {
+            "decision": "approve",
+            "confidence": 1.4,
+            "reason": "直接研究机器人动作条件世界模型",
+            "title_zh": "机器人世界模型",
+            "summary_zh": "摘要",
+            "contribution_zh": "贡献",
+            "route_id": "action_ground",
+            "topics": ["机器人", "世界模型"],
+        }
+        reviewed_at = dt.datetime(2026, 9, 5, tzinfo=dt.timezone.utc)
+        apply_llm_review(record, value, self.config["taxonomy"], "test-model", reviewed_at)
+        self.assertEqual(record["review"]["status"], "pending")
+        self.assertEqual(record["ai_review"]["decision"], "approve")
+        self.assertEqual(record["ai_review"]["confidence"], 1.0)
+        self.assertEqual(record["ai_review"]["mode"], "shadow")
+        self.assertEqual(record["taxonomy"]["route_id"], "action_ground")
     def test_repository_curated_data_is_valid(self) -> None:
         self.assertGreater(len(load_legacy_graph()["nodes"]), 500)
         errors, _warnings = validate_all(self.config)
