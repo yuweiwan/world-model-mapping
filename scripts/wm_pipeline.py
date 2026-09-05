@@ -446,19 +446,70 @@ def _extract_json_object(text: str) -> dict[str, Any]:
     return json.loads(text[start : end + 1])
 
 
-def enrich_with_llm(records: list[dict[str, Any]], config: dict[str, Any]) -> list[str]:
+def apply_llm_review(
+    record: dict[str, Any],
+    value: dict[str, Any],
+    allowed_routes: dict[str, Any],
+    model: str,
+    reviewed_at: dt.datetime,
+    *,
+    mode: str = "shadow",
+) -> None:
+    """Apply a validated LLM recommendation without changing human review state."""
+    record["title_zh"] = normalize_space(value.get("title_zh", ""))
+    record["summary_zh"] = normalize_space(value.get("summary_zh", ""))
+    record["contribution_zh"] = normalize_space(value.get("contribution_zh", ""))
+    if value.get("route_id") in allowed_routes:
+        record["taxonomy"]["route_id"] = value["route_id"]
+    if isinstance(value.get("topics"), list):
+        record["taxonomy"]["topics"] = [
+            normalize_space(item) for item in value["topics"] if normalize_space(item)
+        ][:12]
+
+    decision = normalize_space(value.get("decision", "manual")).lower()
+    if decision not in {"approve", "reject", "manual"}:
+        decision = "manual"
+    try:
+        confidence = float(value.get("confidence", 0))
+    except (TypeError, ValueError):
+        confidence = 0.0
+    record["ai_review"] = {
+        "mode": mode,
+        "decision": decision,
+        "confidence": round(min(1.0, max(0.0, confidence)), 3),
+        "reason": normalize_space(value.get("reason", ""))[:300],
+        "model": model,
+        "reviewed_at": isoformat(reviewed_at),
+    }
+
+
+def enrich_with_llm(
+    records: list[dict[str, Any]],
+    config: dict[str, Any],
+    *,
+    now: dt.datetime | None = None,
+) -> tuple[list[str], int]:
     api_key = os.environ.get("WM_LLM_API_KEY", "").strip()
     model = os.environ.get("WM_LLM_MODEL", "").strip()
     if not api_key or not model:
-        return []
+        return [], 0
     base_url = (os.environ.get("WM_LLM_BASE_URL") or "https://api.openai.com/v1").rstrip("/")
     allowed_routes = config.get("taxonomy", {})
+    review_config = config.get("ai_review", {})
+    mode = str(review_config.get("mode", "shadow"))
     errors = []
     maximum = int(config.get("max_llm_enrich_per_run", 20))
-    for record in records[:maximum]:
+    pending = [record for record in records if not record.get("ai_review")][:maximum]
+    reviewed = 0
+    reviewed_at = now or utc_now()
+    for record in pending:
         prompt = (
-            "你是 Physical AI 论文图谱编辑。根据标题和摘要输出严格 JSON，字段为 title_zh、summary_zh、"
-            "contribution_zh、route_id、topics。summary_zh 不超过 90 字，contribution_zh 不超过 70 字；"
+            "你是 Physical AI 论文图谱的保守审核编辑。判断论文是否应收录。收录范围包括：具身智能、机器人世界模型、"
+            "动作条件预测/仿真、机器人基础模型、视觉语言动作模型，以及直接服务于物理智能的空间推理、规划、控制和学习。"
+            "与机器人或物理智能没有直接关系的通用语言模型、金融、天气、纯网页任务等应拒绝；证据不足时选择 manual。"
+            "输出严格 JSON，字段为 decision、confidence、reason、title_zh、summary_zh、contribution_zh、route_id、topics。"
+            "decision 只能是 approve、reject、manual；confidence 是 0 到 1 的数字；reason 不超过 60 个汉字；"
+            "summary_zh 不超过 90 字，contribution_zh 不超过 70 字；"
             f"route_id 只能是 {list(allowed_routes)}。\n标题：{record['title']}\n摘要：{record.get('abstract', '')[:6000]}"
         )
         body = json.dumps(
@@ -466,6 +517,7 @@ def enrich_with_llm(records: list[dict[str, Any]], config: dict[str, Any]) -> li
                 "model": model,
                 "messages": [{"role": "user", "content": prompt}],
                 "temperature": 0.1,
+                "max_tokens": 700,
                 "response_format": {"type": "json_object"},
             }
         ).encode("utf-8")
@@ -478,16 +530,11 @@ def enrich_with_llm(records: list[dict[str, Any]], config: dict[str, Any]) -> li
             )
             response = json.loads(payload.decode("utf-8"))
             value = _extract_json_object(response["choices"][0]["message"]["content"])
-            record["title_zh"] = normalize_space(value.get("title_zh", ""))
-            record["summary_zh"] = normalize_space(value.get("summary_zh", ""))
-            record["contribution_zh"] = normalize_space(value.get("contribution_zh", ""))
-            if value.get("route_id") in allowed_routes:
-                record["taxonomy"]["route_id"] = value["route_id"]
-            if isinstance(value.get("topics"), list):
-                record["taxonomy"]["topics"] = [normalize_space(item) for item in value["topics"] if normalize_space(item)][:12]
+            apply_llm_review(record, value, allowed_routes, model, reviewed_at, mode=mode)
+            reviewed += 1
         except Exception as exc:
             errors.append(f"{record['id']}: {exc}")
-    return errors
+    return errors, reviewed
 
 
 def dedupe_key(record: dict[str, Any]) -> tuple[str, str]:
@@ -553,10 +600,13 @@ def collect_candidates(config: dict[str, Any], *, since_hours: int | None = None
         run_ids.add(record_id)
         run_titles.add(title_key)
 
-    errors.extend(f"llm: {message}" for message in enrich_with_llm(accepted, config))
     if accepted:
         queue_store["papers"].extend(accepted)
         queue_store["papers"].sort(key=lambda item: item["publication"].get("published_at", ""), reverse=True)
+
+    llm_errors, ai_reviewed = enrich_with_llm(queue_store["papers"], config, now=now)
+    errors.extend(f"llm: {message}" for message in llm_errors)
+    if accepted or ai_reviewed:
         queue_store["updated_at"] = isoformat(now)
         write_json(QUEUE_PATH, queue_store)
 
@@ -567,6 +617,11 @@ def collect_candidates(config: dict[str, Any], *, since_hours: int | None = None
                 item["record_id"] = processed[item["url"]]
         write_json(INBOX_PATH, inbox)
 
+    recommendation_counts = {"approve": 0, "reject": 0, "manual": 0}
+    for record in queue_store["papers"]:
+        decision = record.get("ai_review", {}).get("decision")
+        if decision in recommendation_counts:
+            recommendation_counts[decision] += 1
     report = {
         "schema_version": 1,
         "run_at": isoformat(now),
@@ -577,6 +632,9 @@ def collect_candidates(config: dict[str, Any], *, since_hours: int | None = None
         "duplicates": duplicates,
         "ignored_low_score": ignored_low_score,
         "pending_total": len(queue_store["papers"]),
+        "ai_reviewed": ai_reviewed,
+        "ai_pending": sum(1 for record in queue_store["papers"] if not record.get("ai_review")),
+        "ai_recommendations": recommendation_counts,
         "queued_ids": [record["id"] for record in accepted],
         "errors": errors,
     }

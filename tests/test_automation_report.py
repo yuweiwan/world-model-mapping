@@ -45,6 +45,7 @@ class AutomationReportTests(unittest.TestCase):
                     "title": "A Physical World Model",
                     "source": {"url": "https://arxiv.org/abs/1234.56789"},
                     "taxonomy": {"route_id": "latent_wm", "relevance_score": 8.5},
+                    "ai_review": {"decision": "approve", "confidence": 0.92, "reason": "直接研究物理世界建模"},
                 }
             ]
         }
@@ -52,6 +53,8 @@ class AutomationReportTests(unittest.TestCase):
         self.assertIn("A Physical World Model", rendered)
         self.assertIn("arxiv:1234.56789", rendered)
         self.assertIn("待审核总数：1", rendered)
+        self.assertIn("建议批准", rendered)
+        self.assertIn("置信度 92%", rendered)
 
 
 if __name__ == "__main__":
