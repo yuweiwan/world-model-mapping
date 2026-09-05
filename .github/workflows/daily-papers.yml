@@ -37,6 +37,8 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         shell: bash
         run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           base_branch="${{ github.event.repository.default_branch }}"
           git fetch origin "$base_branch" "$AUTOMATION_BRANCH" || git fetch origin "$base_branch"
           pr_number="$(gh pr list --state open --base "$base_branch" --head "$AUTOMATION_BRANCH" --json number --jq '.[0].number // empty')"
