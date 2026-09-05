@@ -1,0 +1,17 @@
+{
+  "count": 1,
+  "notes": [
+    {
+      "id": "openreview-example",
+      "cdate": 1786449600000,
+      "tmdate": 1786449600000,
+      "content": {
+        "title": {"value": "Learning Interactive World Models for Embodied Agents"},
+        "abstract": {"value": "An embodied AI agent learns an interactive environment and plans robot actions."},
+        "authors": {"value": ["Alice Example", "Carol Example"]},
+        "keywords": {"value": ["world models", "robotics"]},
+        "venue": {"value": "ICLR 2026 Poster"}
+      }
+    }
+  ]
+}

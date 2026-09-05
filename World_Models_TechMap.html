@@ -19,6 +19,8 @@
     --text-soft: #8a9baa;
     --accent: #0891b2;
     --product: #6366f1;
+    --paper: #2563eb;
+    --report: #0d9488;
     --company: #f59e0b;
     --person: #10b981;
     --group-jepa: #4f46e5;
@@ -51,6 +53,8 @@
     --text-soft: #5a6e85;
     --accent: #38bdf8;
     --product: #818cf8;
+    --paper: #60a5fa;
+    --report: #2dd4bf;
     --company: #f59e0b;
     --person: #34d399;
     --group-jepa: #818cf8;
@@ -162,6 +166,8 @@
   .filter-btn[data-type="person"].active { border-color: var(--person); }
   .filter-btn[data-type="company"].active { border-color: var(--company); }
   .filter-btn[data-type="product_paper"].active { border-color: var(--product); }
+  .filter-btn[data-type="paper"].active { border-color: var(--paper); }
+  .filter-btn[data-type="tech_report"].active { border-color: var(--report); }
   .filter-btn.family-toggle { width: 100%; justify-content: flex-start; font-size: 10px; }
   .sub-routes { display: flex; flex-wrap: wrap; gap: 4px; margin-left: 8px; padding-left: 6px; border-left: 2px solid var(--border); width: 100%; }
   .sub-route { font-size: 9px; padding: 3px 8px; }
@@ -177,6 +183,13 @@
   }
   .filter-toggle:hover { color: var(--text); }
   .filter-body.collapsed { display: none; }
+  .recency-control { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 4px; }
+  .recency-btn {
+    min-width: 0; padding: 4px 3px; border: 1px solid var(--border); border-radius: 5px;
+    background: transparent; color: var(--text-dim); font: inherit; font-size: 10px; cursor: pointer;
+  }
+  .recency-btn:hover { background: var(--hover); }
+  .recency-btn.active { border-color: var(--accent); color: var(--text); background: var(--hover); }
 
   /* Legend */
   .legend-toggle {
@@ -278,6 +291,16 @@
   }
   .detail-body .relation-item:hover { background: var(--hover); }
   .detail-body .relation-item .rel-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .paper-meta { display: grid; grid-template-columns: 68px minmax(0, 1fr); gap: 5px 8px; margin-bottom: 12px; font-size: 10.5px; }
+  .paper-meta dt { color: var(--text-soft); }
+  .paper-meta dd { color: var(--text-dim); overflow-wrap: anywhere; }
+  .paper-actions { display: flex; gap: 6px; margin-bottom: 14px; }
+  .paper-link {
+    display: inline-flex; align-items: center; padding: 5px 9px; border: 1px solid var(--border);
+    border-radius: 5px; color: var(--accent); text-decoration: none; font-size: 10px;
+  }
+  .paper-link:hover { background: var(--hover); }
+  .paper-contribution { padding: 9px 10px; margin-bottom: 12px; border-left: 2px solid var(--accent); background: var(--hover); color: var(--text-dim); line-height: 1.55; }
 
   /* Sidebar overlay for mobile */
   .sidebar-overlay {
@@ -329,9 +352,9 @@
     <span class="theme-icon-dark">🌙</span>
   </button>
   <div class="stats">
-    <span>616 实体</span>
-    <span>1275 关系</span>
-    <span>7 关系类型</span>
+    <span id="entityCount">-- 实体</span>
+    <span id="relationCount">-- 关系</span>
+    <span id="publicationCount">-- 论文更新</span>
   </div>
 </div>
 
@@ -354,8 +377,19 @@
         <div class="filter-btns" id="filterBtns">
           <button class="filter-btn active" data-type="person"><span class="dot" style="background:var(--person)"></span>人物</button>
           <button class="filter-btn active" data-type="company"><span class="dot" style="background:var(--company)"></span>公司/机构</button>
-          <button class="filter-btn active" data-type="product_paper"><span class="dot" style="background:var(--product)"></span>产品/论文</button>
+          <button class="filter-btn active" data-type="product_paper"><span class="dot" style="background:var(--product)"></span>产品/历史论文</button>
+          <button class="filter-btn active" data-type="paper"><span class="dot" style="background:var(--paper)"></span>论文</button>
+          <button class="filter-btn active" data-type="tech_report"><span class="dot" style="background:var(--report)"></span>技术报告</button>
         </div>
+      </div>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="section-title">论文时间</div>
+      <div class="recency-control" id="recencyBtns">
+        <button class="recency-btn active" data-days="all">全部</button>
+        <button class="recency-btn" data-days="7">近 7 天</button>
+        <button class="recency-btn" data-days="30">近 30 天</button>
       </div>
     </div>
 
@@ -388,7 +422,8 @@
       <div class="tabs" id="lbTabs">
         <button class="tab-btn active" data-tab="person">人物</button>
         <button class="tab-btn" data-tab="company">公司/机构</button>
-        <button class="tab-btn" data-tab="product_paper">产品/论文</button>
+        <button class="tab-btn" data-tab="product_paper">产品</button>
+        <button class="tab-btn" data-tab="publication">论文更新</button>
       </div>
       <div class="lb-list" id="lbList"></div>
     </div>
@@ -422,12 +457,13 @@
 <script src="cose-base.js"></script>
 <script src="cytoscape-fcose.js"></script>
 <script src="graph-data.js"></script>
+<script src="paper-data.js"></script>
 <script>
 // ═══════════════════════════════════════════════════
 // Constants
 // ═══════════════════════════════════════════════════
-var TYPE_COLORS = { person: '#34d399', company: '#f59e0b', product_paper: '#818cf8' };
-var TYPE_NAMES = { person: '人物', company: '公司/机构', product_paper: '产品/论文' };
+var TYPE_COLORS = { person: '#34d399', company: '#f59e0b', product_paper: '#818cf8', paper: '#60a5fa', tech_report: '#2dd4bf' };
+var TYPE_NAMES = { person: '人物', company: '公司/机构', product_paper: '产品/历史论文', paper: '论文', tech_report: '技术报告' };
 
 var GROUP_COLORS = { jepa: '#6366f1', spatial: '#06b6d4', latent_wm: '#eab308', interactive_wm: '#d97706', action_ground: '#f97316', gen_simulator: '#ef4444', phys_engine: '#78716c', active_inf: '#8b5cf6', causal: '#ec4899' };
 var GROUP_NAMES = { jepa: 'JEPA 联合嵌入', spatial: '空间智能与3D表征', latent_wm: '隐空间动力学与规划', interactive_wm: '可交互世界模型', action_ground: '动作对齐', gen_simulator: '生成式世界模拟', phys_engine: '物理仿真引擎', active_inf: '主动推理', causal: '因果推断' };
@@ -437,30 +473,30 @@ var ROUTE_FAMILY = { jepa: 'jepa', spatial: 'spatial', latent_wm: 'learning_sim'
 var REL_COLORS = {
   develops: '#818cf8', collaborates: '#60a5fa', related: '#9ca3af',
   mentors: '#2dd4bf', founded: '#f59e0b', works_at: '#34d399',
-  evolves_to: '#f472b6'
+  evolves_to: '#f472b6', authored_by: '#38bdf8', released_by: '#fbbf24'
 };
 var REL_NAMES = {
   develops: '开发/推动', collaborates: '合作', related: '关联',
   mentors: '指导', founded: '创办', works_at: '任职',
-  evolves_to: '演变'
+  evolves_to: '演变', authored_by: '作者', released_by: '团队发布'
 };
 
 // ═══════════════════════════════════════════════════
 // Theme — 双主题颜色映射
 // ═══════════════════════════════════════════════════
-var TYPE_COLORS_LIGHT = { person: '#10b981', company: '#f59e0b', product_paper: '#6366f1' };
-var TYPE_COLORS_DARK  = { person: '#34d399', company: '#f59e0b', product_paper: '#818cf8' };
+var TYPE_COLORS_LIGHT = { person: '#10b981', company: '#f59e0b', product_paper: '#6366f1', paper: '#2563eb', tech_report: '#0d9488' };
+var TYPE_COLORS_DARK  = { person: '#34d399', company: '#f59e0b', product_paper: '#818cf8', paper: '#60a5fa', tech_report: '#2dd4bf' };
 var GROUP_COLORS_LIGHT = { jepa: '#4f46e5', spatial: '#0891b2', latent_wm: '#ca8a04', interactive_wm: '#b45309', action_ground: '#ea580c', gen_simulator: '#dc2626', phys_engine: '#78716c', active_inf: '#7c3aed', causal: '#db2777' };
 var GROUP_COLORS_DARK  = { jepa: '#818cf8', spatial: '#22d3ee', latent_wm: '#facc15', interactive_wm: '#fbbf24', action_ground: '#fb923c', gen_simulator: '#f87171', phys_engine: '#a8a29e', active_inf: '#a78bfa', causal: '#f472b6' };
 var REL_COLORS_LIGHT = {
   develops: '#6366f1', collaborates: '#3b82f6', related: '#6b7280',
   mentors: '#14b8a6', founded: '#f59e0b', works_at: '#10b981',
-  evolves_to: '#ec4899'
+  evolves_to: '#ec4899', authored_by: '#0284c7', released_by: '#ca8a04'
 };
 var REL_COLORS_DARK = {
   develops: '#818cf8', collaborates: '#60a5fa', related: '#9ca3af',
   mentors: '#2dd4bf', founded: '#f59e0b', works_at: '#34d399',
-  evolves_to: '#f472b6'
+  evolves_to: '#f472b6', authored_by: '#38bdf8', released_by: '#fbbf24'
 };
 
 function currentTheme() {
@@ -494,9 +530,10 @@ function applyTheme(theme) {
 var cy = null;
 var graphData = null;
 var selectedNodeId = null;
-var activeFilters = new Set(['person', 'company', 'product_paper']);
+var activeFilters = new Set(['person', 'company', 'product_paper', 'paper', 'tech_report']);
 var activeGroupFilters = new Set(['jepa', 'spatial', 'latent_wm', 'interactive_wm', 'action_ground', 'gen_simulator', 'phys_engine', 'active_inf', 'causal']);
 var activeTab = 'person';
+var activeRecencyDays = null;
 
 // ═══════════════════════════════════════════════════
 // Helpers
@@ -511,8 +548,63 @@ function darken(hex, amt) {
 
 function escapeHtml(text) {
   var div = document.createElement('div');
-  div.appendChild(document.createTextNode(text));
+  div.appendChild(document.createTextNode(String(text == null ? '' : text)));
   return div.innerHTML;
+}
+
+function safeHttpUrl(value) {
+  try {
+    var url = new URL(value, location.href);
+    return (url.protocol === 'http:' || url.protocol === 'https:') ? url.href : '';
+  } catch (e) { return ''; }
+}
+
+function mergeGraphData(base, supplement) {
+  var result = { nodes: [], links: [], meta: supplement && supplement.meta ? supplement.meta : {} };
+  var nodeMap = {};
+  (base && base.nodes || []).forEach(function(node) {
+    var copy = Object.assign({}, node);
+    nodeMap[copy.id] = copy;
+    result.nodes.push(copy);
+  });
+  (supplement && supplement.nodes || []).forEach(function(node) {
+    if (nodeMap[node.id]) Object.assign(nodeMap[node.id], node);
+    else {
+      var copy = Object.assign({}, node);
+      nodeMap[copy.id] = copy;
+      result.nodes.push(copy);
+    }
+  });
+  var edgeKeys = new Set();
+  (base && base.links || []).concat(supplement && supplement.links || []).forEach(function(link) {
+    var key = [link.source, link.target, link.relation_type, link.label || ''].join('|');
+    if (edgeKeys.has(key)) return;
+    edgeKeys.add(key);
+    result.links.push(Object.assign({}, link));
+  });
+  return result;
+}
+
+function publicationDate(raw) {
+  var value = raw && (raw.published_at || raw.updated_at);
+  if (!value) return null;
+  var parsed = new Date(value);
+  return isNaN(parsed.getTime()) ? null : parsed;
+}
+
+function isWithinRecency(raw, days) {
+  if (!days) return true;
+  if (!raw || (raw.type !== 'paper' && raw.type !== 'tech_report')) return false;
+  var date = publicationDate(raw);
+  if (!date) return false;
+  return date.getTime() >= Date.now() - days * 86400000;
+}
+
+function updateStats() {
+  var publications = graphData.nodes.filter(function(node) { return node.type === 'paper' || node.type === 'tech_report'; }).length;
+  document.getElementById('entityCount').textContent = graphData.nodes.length + ' 实体';
+  document.getElementById('relationCount').textContent = graphData.links.length + ' 关系';
+  document.getElementById('publicationCount').textContent = publications + ' 论文更新';
 }
 
 function nodeRadius(raw) {
@@ -527,7 +619,7 @@ function init() {
     cytoscape.use(cytoscapeFcose);
   }
 
-  graphData = window.GRAPH_DATA;
+  graphData = mergeGraphData(window.GRAPH_DATA, window.PAPER_GRAPH_DATA);
   if (!graphData) {
     document.getElementById('loading').textContent = '数据加载失败';
     return;
@@ -546,6 +638,9 @@ function init() {
         group_id: n.group_id || '',
         group_name: n.group_name || '',
         tags: n.tags || [],
+        paper_id: n.paper_id || '',
+        published_at: n.published_at || '',
+        review_status: n.review_status || '',
         _raw: n
       }
     };
@@ -621,6 +716,10 @@ function init() {
         style: { 'label': 'data(label)', 'border-width': 2.5, 'border-color': '#ffffff', 'z-index': 25 }
       },
       {
+        selector: 'node[paper_id != ""]',
+        style: { 'border-width': 4 }
+      },
+      {
         selector: 'node.filtered-out',
         style: { 'display': 'none' }
       },
@@ -671,6 +770,7 @@ function init() {
   }).run();
 
   document.getElementById('loading').classList.add('hidden');
+  updateStats();
 
   // Events
   cy.on('zoom', updateLabels);
@@ -766,7 +866,7 @@ function showTooltip(x, y, name, type, desc) {
   var el = document.getElementById('tooltip');
   var tn = TYPE_NAMES[type] || type;
   var d = desc ? desc.substring(0, 90) + (desc.length > 90 ? '...' : '') : '';
-  el.innerHTML = '<div class="tt-name">' + name + '</div><div class="tt-type">' + tn + '</div>' + (d ? '<div class="tt-desc">' + d + '</div>' : '');
+  el.innerHTML = '<div class="tt-name">' + escapeHtml(name) + '</div><div class="tt-type">' + escapeHtml(tn) + '</div>' + (d ? '<div class="tt-desc">' + escapeHtml(d) + '</div>' : '');
   el.classList.add('visible');
   var r = document.getElementById('graphContainer').getBoundingClientRect();
   el.style.left = Math.min(x + 14, r.width - 250) + 'px';
@@ -792,6 +892,29 @@ function showDetail(node) {
   var body = '';
   if (raw.description) {
     body += '<div class="db-desc">' + escapeHtml(raw.description) + '</div>';
+  }
+
+  if (raw.paper_id) {
+    var statusNames = { preprint: '预印本', submitted: '投稿中', accepted: '已接收', published: '已发表', technical_report: '技术报告' };
+    var published = publicationDate(raw);
+    body += '<dl class="paper-meta">';
+    if (raw.title_en && raw.title_en !== raw.name) body += '<dt>英文标题</dt><dd>' + escapeHtml(raw.title_en) + '</dd>';
+    body += '<dt>发表状态</dt><dd>' + escapeHtml(statusNames[raw.publication_status] || raw.publication_status || '已审核') + '</dd>';
+    if (raw.venue) body += '<dt>会议/来源</dt><dd>' + escapeHtml(raw.venue) + '</dd>';
+    if (published) body += '<dt>发布日期</dt><dd>' + published.toISOString().slice(0, 10) + '</dd>';
+    if (raw.authors && raw.authors.length) body += '<dt>作者</dt><dd>' + escapeHtml(raw.authors.join('、')) + '</dd>';
+    if (raw.affiliations && raw.affiliations.length) body += '<dt>团队</dt><dd>' + escapeHtml(raw.affiliations.join('、')) + '</dd>';
+    body += '<dt>审核状态</dt><dd>' + (raw.review_status === 'approved' ? '已审核入图' : escapeHtml(raw.review_status || '')) + '</dd>';
+    body += '</dl>';
+    if (raw.contribution_zh) body += '<div class="paper-contribution"><strong>核心贡献：</strong>' + escapeHtml(raw.contribution_zh) + '</div>';
+    var sourceUrl = safeHttpUrl(raw.source_url);
+    var pdfUrl = safeHttpUrl(raw.pdf_url);
+    if (sourceUrl || pdfUrl) {
+      body += '<div class="paper-actions">';
+      if (sourceUrl) body += '<a class="paper-link" href="' + escapeHtml(sourceUrl) + '" target="_blank" rel="noopener noreferrer">查看原文</a>';
+      if (pdfUrl) body += '<a class="paper-link" href="' + escapeHtml(pdfUrl) + '" target="_blank" rel="noopener noreferrer">打开 PDF</a>';
+      body += '</div>';
+    }
   }
 
   // Stats line
@@ -825,11 +948,11 @@ function showDetail(node) {
   // Tags
   if (raw.tags && raw.tags.length > 1) {
     body += '<div class="db-section"><div class="db-label">标签</div>';
-    raw.tags.slice(1).forEach(function(t) { body += '<span class="tag">' + t + '</span>'; });
+    raw.tags.slice(1).forEach(function(t) { body += '<span class="tag">' + escapeHtml(t) + '</span>'; });
     body += '</div>';
   } else if (raw.tags && raw.tags.length === 1) {
     body += '<div class="db-section"><div class="db-label">标签</div>';
-    body += '<span class="tag">' + raw.tags[0] + '</span>';
+    body += '<span class="tag">' + escapeHtml(raw.tags[0]) + '</span>';
     body += '</div>';
   }
 
@@ -838,7 +961,7 @@ function showDetail(node) {
   if (connEdges.length > 0) {
     body += '<div class="db-section"><div class="db-label">关联关系 (' + connEdges.length + ')</div>';
     var shown = {};
-    var order = { mentors:1, founded:2, works_at:3, develops:4, collaborates:5, evolves_to:6, related:7 };
+    var order = { authored_by:1, released_by:2, mentors:3, founded:4, works_at:5, develops:6, collaborates:7, evolves_to:8, related:9 };
     var sorted = connEdges.sort(function(a, b) {
       return (order[a.data('relation_type')]||5) - (order[b.data('relation_type')]||5);
     });
@@ -854,8 +977,8 @@ function showDetail(node) {
       var nc = GROUP_COLORS[nb.data('group_id')] || '#9ca3af';
       body += '<div class="relation-item" data-node-id="' + nid + '" onclick="selectNode(\'' + nid + '\')">';
       body += '<span class="rel-dot" style="background:' + nc + '"></span>';
-      body += '<span>' + nb.data('label') + '</span>';
-      body += '<span style="color:var(--text-dim);margin-left:auto;font-size:9px">' + rn + '</span>';
+      body += '<span>' + escapeHtml(nb.data('label')) + '</span>';
+      body += '<span style="color:var(--text-dim);margin-left:auto;font-size:9px">' + escapeHtml(rn) + '</span>';
       body += '</div>';
     });
     body += '</div>';
@@ -919,15 +1042,16 @@ function setupSearch() {
     clearBtn.classList.add('visible');
 
     var results = graphData.nodes.filter(function(n) {
-      return n.name.toLowerCase().indexOf(q) >= 0;
+      var searchable = [n.name, n.title_en || '', n.description || '', (n.authors || []).join(' '), n.venue || ''].join(' ').toLowerCase();
+      return searchable.indexOf(q) >= 0;
     }).slice(0, 15);
 
     resultsEl.innerHTML = results.map(function(n) {
       var color = GROUP_COLORS[n.group_id] || '#9ca3af';
-      return '<div class="search-result-item" data-node-id="' + n.id + '">'
+      return '<div class="search-result-item" data-node-id="' + escapeHtml(n.id) + '">'
         + '<span class="dot" style="background:' + color + '"></span>'
-        + '<span class="name">' + n.name + '</span>'
-        + '<span class="sub">' + (TYPE_NAMES[n.type]||'') + '</span></div>';
+        + '<span class="name">' + escapeHtml(n.name) + '</span>'
+        + '<span class="sub">' + escapeHtml(TYPE_NAMES[n.type]||'') + '</span></div>';
     }).join('');
 
     resultsEl.querySelectorAll('.search-result-item').forEach(function(item) {
@@ -977,6 +1101,14 @@ function setupFilters() {
     else { activeGroupFilters.add(g); btn.classList.add('active'); }
     applyFilters();
   });
+  document.getElementById('recencyBtns').addEventListener('click', function(e) {
+    var btn = e.target.closest('.recency-btn');
+    if (!btn) return;
+    activeRecencyDays = btn.dataset.days === 'all' ? null : parseInt(btn.dataset.days, 10);
+    document.querySelectorAll('#recencyBtns .recency-btn').forEach(function(item) { item.classList.remove('active'); });
+    btn.classList.add('active');
+    applyFilters();
+  });
 }
 
 function applyFilters() {
@@ -984,7 +1116,8 @@ function applyFilters() {
   cy.nodes().forEach(function(n) {
     var typeOk = activeFilters.has(n.data('type'));
     var groupOk = activeGroupFilters.has(n.data('group_id'));
-    if (typeOk && groupOk) n.removeClass('filtered-out');
+    var recencyOk = isWithinRecency(n.data('_raw'), activeRecencyDays);
+    if (typeOk && groupOk && recencyOk) n.removeClass('filtered-out');
     else n.addClass('filtered-out');
   });
   updateLabels();
@@ -997,9 +1130,9 @@ function renderLegend() {
   var content = document.getElementById('legendContent');
   var html = '';
 
-  // 路线颜色（9条子路线，按族分组）
-  html += '<div class="section-title" style="margin-top:0">技术路线 (9条)</div>';
+  // 路线颜色（按族分组）
   var routeOrder = ['jepa', 'spatial', 'latent_wm', 'interactive_wm', 'action_ground', 'gen_simulator', 'phys_engine', 'active_inf', 'causal'];
+  html += '<div class="section-title" style="margin-top:0">技术路线 (' + routeOrder.length + '条)</div>';
   var lastFamily = '';
   routeOrder.forEach(function(g) {
     var fam = ROUTE_FAMILY[g] || g;
@@ -1013,9 +1146,9 @@ function renderLegend() {
   });
 
   // 边关系类型
-  html += '<div class="section-title" style="margin-top:8px">关系类型</div>';
   var items = [];
   for (var k in REL_NAMES) { items.push({ key: k, label: REL_NAMES[k] }); }
+  html += '<div class="section-title" style="margin-top:8px">关系类型 (' + items.length + '种)</div>';
   html += items.map(function(it) {
     var c = REL_COLORS[it.key] || '#9ca3af';
     return '<div class="legend-item"><span class="legend-line" style="background:' + c + '"></span><span>' + it.label + ' (' + it.key + ')</span></div>';
@@ -1071,17 +1204,24 @@ function setupTabs() {
 
 function renderLeaderboard() {
   var list = document.getElementById('lbList');
-  var filtered = graphData.nodes.filter(function(n) { return n.type === activeTab; });
-  filtered.sort(function(a, b) { return (b.degree||0) - (a.degree||0); });
+  var publicationTab = activeTab === 'publication';
+  var filtered = graphData.nodes.filter(function(n) {
+    return publicationTab ? (n.type === 'paper' || n.type === 'tech_report') : n.type === activeTab;
+  });
+  filtered.sort(function(a, b) {
+    if (publicationTab) return String(b.published_at || '').localeCompare(String(a.published_at || ''));
+    return (b.degree||0) - (a.degree||0);
+  });
   var top = filtered;
 
   list.innerHTML = top.map(function(n, i) {
     var color = GROUP_COLORS[n.group_id] || '#9ca3af';
-    return '<div class="lb-item" data-node-id="' + n.id + '">'
+    var count = publicationTab ? ((n.published_at || '').slice(0, 10) || n.venue || '') : (n.degree || 0);
+    return '<div class="lb-item" data-node-id="' + escapeHtml(n.id) + '">'
       + '<span class="rank">' + (i+1) + '</span>'
       + '<span class="dot" style="background:' + color + '"></span>'
-      + '<span class="lb-name">' + n.name + '</span>'
-      + '<span class="lb-count">' + (n.degree||0) + '</span></div>';
+      + '<span class="lb-name">' + escapeHtml(n.name) + '</span>'
+      + '<span class="lb-count">' + escapeHtml(count) + '</span></div>';
   }).join('');
 
   list.querySelectorAll('.lb-item').forEach(function(item) {

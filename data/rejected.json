@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-08-20T00:49:56Z",
+  "papers": [
+    {
+      "id": "arxiv:2608.16806",
+      "title": "When State Becomes an Attack Surface: State-Semantic Injection in LLM-Driven Embodied Agents",
+      "title_zh": "",
+      "authors": [
+        "Jiawei Liu",
+        "Jiacheng Guo",
+        "Tian Zhang",
+        "Yiwei Xu",
+        "Juan Wang",
+        "Jinlin Fan",
+        "Bowen Xiao",
+        "Chi Guo",
+        "Keyan Guo",
+        "Hongxin Hu"
+      ],
+      "affiliations": [],
+      "abstract": "Large Language Models (LLMs) have demonstrated capabilities in in-context learning, task decomposition, step-by-step reasoning, and code generation, driving their gradual evolution from text generation models into the core of agents capable of perceiving environments, invoking tools, and executing tasks. Traditional LLM Agents typically obtain information through webpages, documents, databases, or external tools and generate corresponding invocation sequences according to user goals; when this technology is further integrated with robotic systems, large language models begin to undertake functions such as task understanding, high-level planning, and behavioral decision-making. SayCan combines the task reasoning capability of language models with the affordances of robotic skills, while Code as Policies and ProgPrompt generate robot task plans through policy code and programmatic prompting, respectively, and VoxPoser uses language models and vision-language models to construct three-dimensional value maps to guide robotic manipulation \\cite{6,7,8,9}. Vision-language-action models such as PaLM-E, RT-2, and GR00T N1 further strengthen the connection among language, visual perception, and robotic actions \\cite{10,11,12}. In such LLM-driven embodied agents, the model not only needs to understand user instructions, but also needs to combine scene states, object attributes, spatial relations, and execution feedback to complete task grounding, and then hand the generated action plan to skill libraries, motion planners, or controllers for execution.",
+      "summary_zh": "",
+      "contribution_zh": "",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2608.16806",
+        "url": "https://arxiv.org/abs/2608.16806",
+        "pdf_url": "https://arxiv.org/pdf/2608.16806v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-08-17T17:02:07Z",
+        "updated_at": "2026-08-17T17:02:07Z"
+      },
+      "taxonomy": {
+        "route_id": "action_ground",
+        "topics": [
+          "cs.RO",
+          "cs.AI",
+          "vision-language-action",
+          "robot"
+        ],
+        "relevance_score": 5.5,
+        "relevance_reasons": [
+          "vision-language-action",
+          "robot"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "rejected",
+        "reviewed_by": "Jackie+Codex",
+        "reviewed_at": "2026-08-20T00:49:56Z",
+        "notes": "人工复核退回：当前摘要仅提供背景铺垫，缺少可核验的方法、实验与结果，暂不进入正式图谱。"
+      },
+      "provenance": {
+        "discovered_at": "2026-08-20T00:38:35Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2608.16806"
+        ],
+        "source_comment": "submitted to USENIX Security 2027"
+      }
+    },
+    {
+      "id": "arxiv:2608.16696",
+      "title": "UniTAC: Universal Task-Aware Compression via Weighted Distortion Measures",
+      "title_zh": "",
+      "authors": [
+        "Homa Esfahanizadeh",
+        "Matin Mortaheb",
+        "Jinfeng Du",
+        "Harish Viswanathan"
+      ],
+      "affiliations": [],
+      "abstract": "Physical AI systems such as autonomous vehicles and robots rely on timely exchange of high-dimensional sensory signals under tight bandwidth, latency, and energy budgets. Because the task driving downstream decisions evolves over time, a task-specific codec is brittle and retraining one per task is infeasible in the field. We propose UniTAC, a single learned image codec spanning universal (task-agnostic) to task-specialized operation, re-targeted at runtime without retraining. The task is abstracted as a per-component importance vector, derived, e.g., from gradient attribution of any downstream model, and transmitted as low-overhead side information that conditions both encoder and decoder. Trained once over a broad, randomized family of such vectors against weighted-reconstruction distortion, UniTAC keeps a fixed backbone and a single human-viewable reconstruction whose fidelity is steered to the active task by swapping the injected vector. We analyze the underlying weighted rate-distortion problem, characterizing when a diagonal weighted distortion is task-consistent and how weights relate to task sensitivity. Guided by this, we design a Vision Transformer (ViT) codec whose token-level conditioning natively realizes this weight-driven code. On a localized task at 0.034 bpp, a single UniTAC model reaches 91.4% accuracy, only 1.9% below a task-based codec (93.3%) and above universal codecs (76.9%).",
+      "summary_zh": "",
+      "contribution_zh": "",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2608.16696",
+        "url": "https://arxiv.org/abs/2608.16696",
+        "pdf_url": "https://arxiv.org/pdf/2608.16696v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-08-17T15:14:05Z",
+        "updated_at": "2026-08-17T15:14:05Z"
+      },
+      "taxonomy": {
+        "route_id": "phys_engine",
+        "topics": [
+          "cs.LG",
+          "cs.AI",
+          "cs.IT",
+          "cs.MM",
+          "physical ai",
+          "robot"
+        ],
+        "relevance_score": 5.5,
+        "relevance_reasons": [
+          "physical ai",
+          "robot"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "rejected",
+        "reviewed_by": "Jackie+Codex",
+        "reviewed_at": "2026-08-20T00:49:56Z",
+        "notes": "人工复核退回：核心是通用任务感知图像压缩，Physical AI 仅为应用场景，和图谱核心主题关联不足。"
+      },
+      "provenance": {
+        "discovered_at": "2026-08-20T00:38:35Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2608.16696"
+        ],
+        "source_comment": "9 pages"
+      }
+    },
+    {
+      "id": "arxiv:2608.17044",
+      "title": "The 10th AI City Challenge",
+      "title_zh": "",
+      "authors": [
+        "Zheng Tang",
+        "Shuo Wang",
+        "David C. Anastasiu",
+        "Ming-Ching Chang",
+        "Anuj Sharma",
+        "Quan Kong",
+        "Munkhjargal Gochoo",
+        "Jun-Wei Hsieh",
+        "Tomasz Kornuta",
+        "Zhedong Zheng",
+        "Renran Tian",
+        "Judah Goldfeder",
+        "Fulgencio Navarro",
+        "Yuxing Wang",
+        "Yizhou Wang",
+        "Sameer Satish Pusegaonkar",
+        "Anqi Li",
+        "Nalin Dadhich",
+        "Ridham Kachhadiya",
+        "Dhanishtha Patil",
+        "Haoquan Liang",
+        "Jiajun Li",
+        "Han Zhang",
+        "Yilin Zhao",
+        "Zaid Pervaiz Bhat",
+        "Shuyu Yang",
+        "Ashutosh Kumar",
+        "Rong Wang",
+        "Rafael Martin Nieto",
+        "Peter Christiansen",
+        "Ahmed Abduljawad",
+        "Mohanrasu Shanmugam",
+        "Nadeem Shaik",
+        "Sujit Biswas",
+        "Xunlei Wu",
+        "Vidya Murali",
+        "Rama Chellappa"
+      ],
+      "affiliations": [],
+      "abstract": "The 10th AI City Challenge, held with ECCV 2026, marks a decade of community benchmarking for intelligent transportation, smart cities, and physical AI. Since its 2017 start with vehicle detection, classification, and tracking, the challenge has grown into a broad benchmark suite for multi-camera perception, multimodal reasoning, synthetic-to-real learning, generative forecasting, and privacy-preserving evaluation. The 2026 edition continued this growth with 325 registered teams, up from 245 in 2025, and participation from 26 countries and regions, up from 15. Its six primary tracks cover multi-camera 3D perception, transportation safety captioning and VQA, traffic anomaly reasoning, text-based person anomaly search, generative traffic video forecasting, and cross-city object detection. Track 3 further includes two out-of-domain leaderboards, submitted as Tracks 7 and 8, for fisheye traffic-violation understanding and pedestrian situated-intent VQA. This paper summarizes the challenge setup, datasets, evaluation protocols, leaderboard results, and workshop papers. Across tracks, successful systems combine foundation models with geometric grounding, retrieval or reranking, synthetic-data design, domain adaptation, and controlled inference.",
+      "summary_zh": "",
+      "contribution_zh": "",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2608.17044",
+        "url": "https://arxiv.org/abs/2608.17044",
+        "pdf_url": "https://arxiv.org/pdf/2608.17044v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-08-17T18:42:49Z",
+        "updated_at": "2026-08-17T18:42:49Z"
+      },
+      "taxonomy": {
+        "route_id": "phys_engine",
+        "topics": [
+          "cs.CV",
+          "cs.AI",
+          "physical ai"
+        ],
+        "relevance_score": 5.0,
+        "relevance_reasons": [
+          "physical ai"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "rejected",
+        "reviewed_by": "Jackie+Codex",
+        "reviewed_at": "2026-08-20T00:49:56Z",
+        "notes": "人工复核退回：属于宽口径城市视觉挑战汇总，未形成具体世界模型或具身智能方法贡献。"
+      },
+      "provenance": {
+        "discovered_at": "2026-08-20T00:38:35Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2608.17044"
+        ],
+        "source_comment": "Summary of the 10th AI City Challenge Workshop in conjunction with ECCV 2026"
+      }
+    }
+  ]
+}

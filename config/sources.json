@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "lookback_hours": 72,
+  "min_relevance_score": 4.0,
+  "max_llm_enrich_per_run": 20,
+  "http": {
+    "timeout_seconds": 30,
+    "user_agent": "world-model-mapping/1.0 (https://github.com/yuweiwan/world-model-mapping)"
+  },
+  "sources": [
+    {
+      "id": "arxiv-physical-ai",
+      "name": "arXiv Physical AI / World Models",
+      "kind": "arxiv",
+      "enabled": true,
+      "query": "(all:\"world model\" OR all:\"world models\" OR all:\"world action model\" OR all:\"embodied AI\" OR all:\"physical AI\" OR all:\"vision-language-action\" OR all:\"robot foundation model\") AND (cat:cs.AI OR cat:cs.RO OR cat:cs.CV OR cat:cs.LG)",
+      "max_results": 100
+    },
+    {
+      "id": "openreview-iclr-2026",
+      "name": "ICLR 2026",
+      "kind": "openreview",
+      "enabled": true,
+      "venue_id": "ICLR.cc/2026/Conference",
+      "venue_name": "ICLR 2026",
+      "accepted_only": true,
+      "max_results": 300,
+      "search_terms": ["world model", "embodied", "vision-language-action", "physical ai"]
+    },
+    {
+      "id": "openreview-neurips-2025",
+      "name": "NeurIPS 2025",
+      "kind": "openreview",
+      "enabled": true,
+      "venue_id": "NeurIPS.cc/2025/Conference",
+      "venue_name": "NeurIPS 2025",
+      "accepted_only": true,
+      "max_results": 300,
+      "search_terms": ["world model", "embodied", "vision-language-action", "physical ai"]
+    },
+    {
+      "id": "openreview-corl-2025",
+      "name": "CoRL 2025",
+      "kind": "openreview",
+      "enabled": true,
+      "venue_id": "CoRL.cc/2025/Conference",
+      "venue_name": "CoRL 2025",
+      "accepted_only": true,
+      "max_results": 300,
+      "search_terms": ["world model", "embodied", "vision-language-action", "physical ai"]
+    }
+  ],
+  "taxonomy": {
+    "jepa": "JEPA 联合嵌入预测架构",
+    "spatial": "空间智能与3D表征",
+    "latent_wm": "隐空间动力学与规划",
+    "interactive_wm": "可交互世界模型",
+    "action_ground": "动作对齐",
+    "gen_simulator": "生成式世界模拟",
+    "phys_engine": "物理仿真引擎",
+    "active_inf": "主动推理",
+    "causal": "因果推断"
+  },
+  "keywords": [
+    {"term": "world model", "weight": 5.0, "routes": ["latent_wm"]},
+    {"term": "world models", "weight": 5.0, "routes": ["latent_wm"]},
+    {"term": "world action model", "weight": 6.0, "routes": ["action_ground"]},
+    {"term": "vision-language-action", "weight": 5.0, "routes": ["action_ground"]},
+    {"term": "vision language action", "weight": 5.0, "routes": ["action_ground"]},
+    {"term": "embodied ai", "weight": 4.0, "routes": ["action_ground"]},
+    {"term": "physical ai", "weight": 5.0, "routes": ["phys_engine"]},
+    {"term": "robot foundation model", "weight": 5.0, "routes": ["action_ground"]},
+    {"term": "embodied foundation model", "weight": 5.0, "routes": ["action_ground"]},
+    {"term": "robotics", "weight": 1.0, "routes": ["action_ground"]},
+    {"term": "robot", "weight": 0.5, "routes": ["action_ground"]},
+    {"term": "joint embedding predictive", "weight": 5.0, "routes": ["jepa"]},
+    {"term": "jepa", "weight": 5.0, "routes": ["jepa"]},
+    {"term": "spatial intelligence", "weight": 4.0, "routes": ["spatial"]},
+    {"term": "3d world", "weight": 3.0, "routes": ["spatial"]},
+    {"term": "interactive environment", "weight": 3.0, "routes": ["interactive_wm"]},
+    {"term": "action-conditioned", "weight": 3.0, "routes": ["action_ground"]},
+    {"term": "video generation", "weight": 2.0, "routes": ["gen_simulator"]},
+    {"term": "physics simulation", "weight": 4.0, "routes": ["phys_engine"]},
+    {"term": "active inference", "weight": 5.0, "routes": ["active_inf"]},
+    {"term": "causal world model", "weight": 5.0, "routes": ["causal"]}
+  ],
+  "negative_keywords": [
+    {"term": "large language model for code", "weight": 4.0},
+    {"term": "financial world model", "weight": 3.0},
+    {"term": "molecular language model", "weight": 2.0}
+  ],
+  "key_teams": [
+    {"node_id": "Meta_FAIR", "name": "Meta FAIR", "aliases": ["meta fair", "facebook ai research", "fundamental ai research"]},
+    {"node_id": "Google_DeepMind", "name": "Google DeepMind", "aliases": ["google deepmind", "deepmind"]},
+    {"node_id": "NVIDIA", "name": "NVIDIA", "aliases": ["nvidia research", "nvidia"]},
+    {"node_id": "World_Labs", "name": "World Labs", "aliases": ["world labs"]},
+    {"node_id": "Physical_Intelligence", "name": "Physical Intelligence", "aliases": ["physical intelligence"]},
+    {"node_id": "Ai2", "name": "Ai2", "aliases": ["allen institute for ai", "ai2"]},
+    {"node_id": "AMI_Labs", "name": "AMI Labs", "aliases": ["advanced machine intelligence labs", "ami labs"]}
+  ]
+}
