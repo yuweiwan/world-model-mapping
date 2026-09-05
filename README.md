@@ -394,21 +394,22 @@ python scripts/pipeline.py run --since-hours 72
 1. 运行完整流水线。
 2. 执行单元测试，并确认至少一个远程来源采集成功；全部来源失败时任务会明确失败。
 3. 无论是否发现候选，都保存 30 天的采集报告，便于排查数据源异常。
-4. 如果没有新候选，任务正常结束，不创建 PR。
+4. 如果没有新候选但仍有未分析记录，任务会补充 AI 审核建议；两者都没有时正常结束。
 5. 如果发现新候选，更新固定分支 `automation/daily-physical-ai-papers`。
 6. 所有未审核候选集中在同一个审核 PR，避免每天产生重复 PR。
-7. 审核人检查候选后再批准或拒绝。
+7. AI 为每条候选给出“建议批准 / 建议拒绝 / 人工复核”、置信度和理由。
+8. 审核人参考建议后再批准或拒绝。
 
 同一时间只允许一个每日任务运行，手动触发和定时触发不会互相覆盖。定时任务不会自动批准论文，也不会直接发布未经审核的内容。GitHub 的 schedule 只在默认分支上运行，因此工作流需要先合并到默认分支。
 
-## 可选中文摘要
+## 可选 AI 辅助审核与中文摘要
 
-不配置模型接口时，采集、分类、审核、导出和日报仍可完整运行。需要自动生成中文标题、摘要和贡献点时，配置以下环境变量：
+不配置模型接口时，采集、分类、人工审核、导出和日报仍可完整运行。配置 OpenAI 兼容接口后，系统会生成中文标题、摘要和贡献点，并为待审核论文给出批准、拒绝或人工复核建议。已有队列中尚未分析的记录也会自动补跑，已经分析的记录不会在每次任务中重复调用。
 
 ```powershell
 $env:WM_LLM_API_KEY = "your-api-key"
-$env:WM_LLM_MODEL = "your-model"
-$env:WM_LLM_BASE_URL = "https://api.example.com/v1"
+$env:WM_LLM_MODEL = "deepseek-v4-flash"
+$env:WM_LLM_BASE_URL = "https://api.deepseek.com"
 ```
 
 GitHub Actions 使用：
@@ -417,7 +418,7 @@ GitHub Actions 使用：
 - Variable：`WM_LLM_MODEL`
 - Variable：`WM_LLM_BASE_URL`
 
-接口不可用时会在采集报告的 `errors` 中记录 `llm` 错误，不影响原始元数据进入审核流程。
+AI 审核默认运行在 `shadow` 模式：建议会显示在审核 PR 中，但不会自动改变论文的 `pending` 状态，也不会直接发布。接口不可用时会在采集报告的 `errors` 中记录 `llm` 错误，不影响原始元数据进入人工审核流程。每次调用数量由 `max_llm_enrich_per_run` 控制。
 
 ## 常见问题
 

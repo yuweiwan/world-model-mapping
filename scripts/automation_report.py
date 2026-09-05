@@ -41,6 +41,9 @@ def assess_run(config: dict[str, Any], report: dict[str, Any]) -> dict[str, Any]
         "failed_sources": len(source_errors),
         "queued": int(report.get("queued", 0)),
         "pending": int(report.get("pending_total", 0)),
+        "ai_reviewed": int(report.get("ai_reviewed", 0)),
+        "ai_pending": int(report.get("ai_pending", 0)),
+        "ai_recommendations": report.get("ai_recommendations", {}),
         "fetched": int(report.get("fetched", 0)),
         "duplicates": int(report.get("duplicates", 0)),
         "errors": errors,
@@ -58,6 +61,13 @@ def render_run_summary(result: dict[str, Any], report: dict[str, Any]) -> str:
         f"- 获取记录：{result['fetched']}",
         f"- 新增候选：{result['queued']}",
         f"- 当前待审核：{result['pending']}",
+        f"- 本次 AI 分析：{result['ai_reviewed']}",
+        f"- 等待 AI 分析：{result['ai_pending']}",
+        "- AI 建议：批准 {approve} · 拒绝 {reject} · 人工复核 {manual}".format(
+            approve=result["ai_recommendations"].get("approve", 0),
+            reject=result["ai_recommendations"].get("reject", 0),
+            manual=result["ai_recommendations"].get("manual", 0),
+        ),
         f"- 重复记录：{result['duplicates']}",
     ]
     if result["errors"]:
@@ -89,10 +99,18 @@ def render_queue_summary(queue: dict[str, Any], report: dict[str, Any]) -> str:
         route = paper.get("taxonomy", {}).get("route_id", "unclassified")
         score = paper.get("taxonomy", {}).get("relevance_score", 0)
         linked_title = f"[{title}]({source_url})" if source_url else title
+        ai_review = paper.get("ai_review", {})
+        decision_labels = {"approve": "建议批准", "reject": "建议拒绝", "manual": "人工复核"}
+        decision = decision_labels.get(ai_review.get("decision"), "待分析")
+        confidence = ai_review.get("confidence")
+        confidence_text = f" · 置信度 {float(confidence):.0%}" if isinstance(confidence, (int, float)) else ""
+        reason = str(ai_review.get("reason", "")).strip()
+        reason_text = f" · {reason}" if reason else ""
         lines.extend(
             [
                 f"- [ ] **{linked_title}**",
                 f"  - ID: `{paper_id}` · 路线: `{route}` · 相关性: `{score}`",
+                f"  - AI建议: **{decision}**{confidence_text}{reason_text}",
             ]
         )
     lines.extend(
@@ -125,7 +143,7 @@ def command_assess(args: argparse.Namespace) -> int:
     if summary_path:
         with open(summary_path, "a", encoding="utf-8") as output:
             output.write(summary)
-    append_output({key: result[key] for key in ("healthy", "queued", "pending", "fetched")})
+    append_output({key: result[key] for key in ("healthy", "queued", "pending", "fetched", "ai_reviewed")})
     return 0 if result["healthy"] else 1
 
 

@@ -75,7 +75,7 @@ jobs:
           if-no-files-found: warn
           retention-days: 30
       - name: Update the review pull request
-        if: steps.collection.outputs.queued != '0'
+        if: steps.collection.outputs.queued != '0' || steps.collection.outputs.ai_reviewed != '0'
         env:
           GH_TOKEN: ${{ github.token }}
         shell: bash

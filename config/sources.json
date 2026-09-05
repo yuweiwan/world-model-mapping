@@ -2,7 +2,11 @@
   "schema_version": 1,
   "lookback_hours": 72,
   "min_relevance_score": 4.0,
-  "max_llm_enrich_per_run": 20,
+  "max_llm_enrich_per_run": 50,
+  "ai_review": {
+    "mode": "shadow",
+    "auto_apply": false
+  },
   "http": {
     "timeout_seconds": 30,
     "user_agent": "world-model-mapping/1.0 (https://github.com/yuweiwan/world-model-mapping)"
