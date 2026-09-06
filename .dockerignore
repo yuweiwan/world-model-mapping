@@ -1,0 +1,12 @@
+**
+!Dockerfile
+!deploy/
+!deploy/nginx.conf.template
+!index.html
+!World_Models_TechMap.html
+!graph-data.js
+!paper-data.js
+!cytoscape.min.js
+!layout-base.js
+!cose-base.js
+!cytoscape-fcose.js

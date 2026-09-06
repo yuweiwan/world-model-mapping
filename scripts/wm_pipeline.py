@@ -19,6 +19,7 @@ from collections import defaultdict
 from html.parser import HTMLParser
 from pathlib import Path
 from typing import Any, Iterable
+from zoneinfo import ZoneInfo, ZoneInfoNotFoundError
 
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -77,6 +78,29 @@ def normalize_space(value: Any) -> str:
 def normalize_title(value: str) -> str:
     value = unicodedata.normalize("NFKC", value).casefold()
     return re.sub(r"[^a-z0-9\u4e00-\u9fff]+", "", value)
+
+
+def normalize_authors(value: Any) -> list[str]:
+    """Normalize manual metadata without splitting a single author into characters."""
+    if isinstance(value, str):
+        value = [value]
+    if not isinstance(value, (list, tuple)):
+        return []
+    return [normalize_space(author) for author in value if normalize_space(author)]
+
+
+def configured_timezone(config: dict[str, Any]) -> ZoneInfo:
+    name = str(config.get("timezone", "UTC"))
+    try:
+        return ZoneInfo(name)
+    except ZoneInfoNotFoundError as exc:
+        raise ValueError(f"unknown timezone: {name}") from exc
+
+
+def local_date(value: dt.datetime, config: dict[str, Any]) -> dt.date:
+    if value.tzinfo is None:
+        value = value.replace(tzinfo=dt.timezone.utc)
+    return value.astimezone(configured_timezone(config)).date()
 
 
 def ascii_name(value: str) -> str:
@@ -345,7 +369,7 @@ def fetch_manual_page(item: dict[str, Any], config: dict[str, Any]) -> dict[str,
     title = item.get("title") or next(iter(metadata.get("citation_title", []) or metadata.get("og:title", [])), "")
     if not title:
         return None
-    authors = item.get("authors") or metadata.get("citation_author", [])
+    authors = normalize_authors(item.get("authors") or metadata.get("citation_author", []))
     abstract = item.get("abstract") or next(iter(metadata.get("citation_abstract", []) or metadata.get("description", []) or metadata.get("og:description", [])), "")
     published = item.get("published_at") or next(iter(metadata.get("citation_publication_date", []) or metadata.get("article:published_time", [])), "")
     parsed_published = parse_datetime(published) or utc_now()
@@ -354,7 +378,7 @@ def fetch_manual_page(item: dict[str, Any], config: dict[str, Any]) -> dict[str,
     return _base_record(
         record_id=f"manual:{external_id}",
         title=title,
-        authors=list(authors),
+        authors=authors,
         abstract=abstract,
         source={"kind": item.get("kind", "manual"), "external_id": external_id, "url": url, "pdf_url": pdf_url},
         publication={
@@ -499,10 +523,17 @@ def enrich_with_llm(
     mode = str(review_config.get("mode", "shadow"))
     errors = []
     maximum = int(config.get("max_llm_enrich_per_run", 20))
+    time_budget = int(config.get("max_llm_seconds_per_run", 900))
     pending = [record for record in records if not record.get("ai_review")][:maximum]
     reviewed = 0
     reviewed_at = now or utc_now()
+    started_at = time.monotonic()
     for record in pending:
+        if time_budget > 0 and time.monotonic() - started_at >= time_budget:
+            errors.append(
+                f"time budget of {time_budget}s reached; remaining records deferred to the next run"
+            )
+            break
         prompt = (
             "你是 Physical AI 论文图谱的保守审核编辑。判断论文是否应收录。收录范围包括：具身智能、机器人世界模型、"
             "动作条件预测/仿真、机器人基础模型、视觉语言动作模型，以及直接服务于物理智能的空间推理、规划、控制和学习。"
@@ -669,7 +700,7 @@ def review_records(*, action: str, record_ids: list[str], reviewer: str, route_i
     write_json(APPROVED_PATH if action == "approve" else REJECTED_PATH, destination)
     if action == "approve":
         export_graph_data(config=config, generated_at=now)
-        build_digest(target_date=now.date(), now=now)
+        build_digest(target_date=local_date(now, config), now=now, config=config)
     return {"action": action, "processed": [record["id"] for record in matched], "pending_total": len(queue["papers"])}
 
 
@@ -832,16 +863,23 @@ def update_readme_stats(*, config: dict[str, Any], base_graph: dict[str, Any], p
     README_PATH.write_text(before + block + after, encoding="utf-8")
 
 
-def build_digest(*, target_date: dt.date | None = None, now: dt.datetime | None = None) -> dict[str, Any]:
+def build_digest(
+    *,
+    target_date: dt.date | None = None,
+    now: dt.datetime | None = None,
+    config: dict[str, Any] | None = None,
+) -> dict[str, Any]:
     now = now or utc_now()
-    target_date = target_date or now.date()
+    config = config or load_config()
+    timezone = configured_timezone(config)
+    target_date = target_date or local_date(now, config)
     approved = read_json(APPROVED_PATH, {"papers": []})["papers"]
     queue = read_json(QUEUE_PATH, {"papers": []})["papers"]
 
     def on_date(record: dict[str, Any], field_path: tuple[str, str]) -> bool:
         value = record.get(field_path[0], {}).get(field_path[1])
         parsed = parse_datetime(value)
-        return bool(parsed and parsed.date() == target_date)
+        return bool(parsed and parsed.astimezone(timezone).date() == target_date)
 
     newly_approved = [record for record in approved if on_date(record, ("review", "reviewed_at"))]
     new_candidates = [record for record in queue if on_date(record, ("provenance", "discovered_at"))]
