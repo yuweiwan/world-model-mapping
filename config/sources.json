@@ -1,8 +1,10 @@
 {
   "schema_version": 1,
+  "timezone": "Asia/Shanghai",
   "lookback_hours": 72,
   "min_relevance_score": 4.0,
   "max_llm_enrich_per_run": 50,
+  "max_llm_seconds_per_run": 900,
   "ai_review": {
     "mode": "shadow",
     "auto_apply": false

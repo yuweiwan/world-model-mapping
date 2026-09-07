@@ -15,6 +15,8 @@ from wm_pipeline import (  # noqa: E402
     classify_record,
     load_config,
     load_legacy_graph,
+    local_date,
+    normalize_authors,
     parse_arxiv_feed,
     parse_openreview_payload,
     render_readme_stats,
@@ -120,6 +122,14 @@ class PipelineTests(unittest.TestCase):
         self.assertEqual(record["ai_review"]["confidence"], 1.0)
         self.assertEqual(record["ai_review"]["mode"], "shadow")
         self.assertEqual(record["taxonomy"]["route_id"], "action_ground")
+
+    def test_manual_author_string_is_kept_as_one_name(self) -> None:
+        self.assertEqual(normalize_authors("Alice Example"), ["Alice Example"])
+
+    def test_pipeline_date_uses_configured_timezone(self) -> None:
+        instant = dt.datetime(2026, 9, 5, 16, 30, tzinfo=dt.timezone.utc)
+        self.assertEqual(local_date(instant, self.config), dt.date(2026, 9, 6))
+
     def test_repository_curated_data_is_valid(self) -> None:
         self.assertGreater(len(load_legacy_graph()["nodes"]), 500)
         errors, _warnings = validate_all(self.config)

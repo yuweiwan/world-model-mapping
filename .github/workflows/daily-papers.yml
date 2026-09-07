@@ -96,9 +96,14 @@ jobs:
           if [[ -n "$pr_number" ]]; then
             gh pr edit "$pr_number" --body-file "$RUNNER_TEMP/daily-paper-pr.md"
           else
-            gh pr create \
+            if ! gh pr create \
               --base "${{ github.event.repository.default_branch }}" \
               --head "$AUTOMATION_BRANCH" \
               --title "Daily Physical AI paper review queue" \
-              --body-file "$RUNNER_TEMP/daily-paper-pr.md"
+              --body-file "$RUNNER_TEMP/daily-paper-pr.md"; then
+              compare_url="https://github.com/${GITHUB_REPOSITORY}/compare/${{ github.event.repository.default_branch }}...${AUTOMATION_BRANCH}?expand=1"
+              echo "::error::Review branch was pushed, but GitHub could not create the pull request. Enable 'Allow GitHub Actions to create and approve pull requests' in repository Actions settings, then open: $compare_url"
+              printf '\n## 需要仓库管理员处理\n\n审核分支已推送，但 GitHub 阻止了自动创建 PR。启用仓库 Actions 的 PR 权限后，可从这里创建：%s\n' "$compare_url" >> "$GITHUB_STEP_SUMMARY"
+              exit 1
+            fi
           fi

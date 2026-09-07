@@ -49,7 +49,7 @@ def main() -> int:
         print_json(export_graph_data(config=config)["meta"])
         return 0
     if args.command == "digest":
-        digest = build_digest()
+        digest = build_digest(config=config)
         print_json({key: digest[key] for key in ("date", "generated_at", "pending_total")})
         return 0
     if args.command == "validate":
@@ -59,7 +59,7 @@ def main() -> int:
     if args.command == "run":
         report = collect_candidates(config, since_hours=args.since_hours)
         graph = export_graph_data(config=config)
-        digest = build_digest()
+        digest = build_digest(config=config)
         errors, warnings = validate_all(config)
         print_json({"collection": report, "graph": graph["meta"], "digest": {"date": digest["date"], "pending_total": digest["pending_total"]}, "errors": errors, "warnings": warnings})
         return 1 if errors else 0
