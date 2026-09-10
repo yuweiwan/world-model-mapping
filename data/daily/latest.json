@@ -1,760 +1,51 @@
 {
   "schema_version": 1,
-  "date": "2026-09-09",
-  "generated_at": "2026-09-09T04:38:34Z",
+  "date": "2026-09-10",
+  "generated_at": "2026-09-10T04:37:01Z",
   "approved": [],
   "candidates": [
     {
-      "id": "arxiv:2609.09158",
-      "title": "TANGO: Humanoid Navigation in Cluttered Environments with a Whole-Body Vision-Language-Action Model",
-      "title_zh": "TANGO：基于全身视觉-语言-动作模型的杂乱环境人形机器人导航",
+      "id": "arxiv:2609.10540",
+      "title": "Programmable World Model",
+      "title_zh": "可编程世界模型",
       "authors": [
-        "Anqi Li",
-        "Yuxin Chen",
-        "Zhaobo Li",
-        "Zhuo Cao",
-        "Junli Ren",
-        "Masayoshi Tomizuka",
-        "Dhruv Shah"
+        "Zheng-Hui Huang",
+        "Guixu Lin",
+        "Jiacheng Lin",
+        "Yi-Chuan Huang",
+        "Ruihan Yu",
+        "Muyao Niu",
+        "Siqi Yang",
+        "Yu-Lun Liu",
+        "Yung-Yu Chuang",
+        "Kaipeng Zhang",
+        "Zhixiang Wang"
       ],
       "affiliations": [],
-      "abstract": "We study the problem of navigating cluttered indoor environments with a humanoid robot. Unlike conventional methods that model navigation as a 2D path planning problem, humanoid traversal in cluttered environments requires continuous geometry-aware whole-body adaptation, including coordinated arm placement, torso adjustment, and gait modulation for collision-free movement through complex 3D spaces. We introduce TANGO, the first whole-body vision-language navigation framework for language-conditioned humanoid traversal in cluttered environments. Given a natural-language instruction and egocentric RGB observations, TANGO directly predicts 29-DoF joint-space actions for downstream whole-body control. We train TANGO entirely in simulation by synthesizing diverse collision-free traversal behaviors via global path planning, kinematic whole-body motion generation, obstacle-aware motion editing, and RL-based tracking. This pipeline provides dynamically feasible action supervision for learning language-conditioned whole-body policies. In extensive simulation experiments, TANGO demonstrates state-of-the-art performance in vision-language navigation, while outperforming strong modular baselines in navigating challenging scenes requiring obstacle negotiation. Lastly, we deploy TANGO zero-shot on a Unitree G1 humanoid robot, and observe robust language-guided traversal in cluttered real-world scenes without training on any real-world navigation data.",
-      "summary_zh": "提出TANGO，首个全身视觉-语言导航框架，根据指令和RGB直接预测29自由度动作，在仿真中训练并在真实G1机器人上零样本部署，实现杂乱环境中的语言引导穿越。",
-      "contribution_zh": "首次将全身VLA用于人形导航，通过合成动态可行的动作监督学习策略，并在真实世界零样本验证。",
+      "abstract": "Recent video world models generate increasingly realistic and interactive visual experiences, yet lack reliable mechanisms for maintaining persistent world state and enforcing programmable rules over extended interactions. We introduce Programmable World Model, a framework that decouples world-state evolution from visual observation generation. An agent translates natural-language instructions into executable programs that specify entity states and state-transition rules, enabling direct control over individual entities and their interactions. A lightweight engine executes these programs to update and maintain an explicit, persistent global world state, including off-screen entities and non-visual attributes. To connect world state with visual generation, we introduce state-augmented 3D oriented bounding boxes (OBBs) as an intermediate representation. This representation, together with the target camera trajectory, is deterministically compiled into pixel-aligned spatiotemporal conditioning signals for a pretrained video model serving as the generative renderer. This design allows users to create playable games with predefined mechanics, direct control over individual entities, and persistent world state throughout gameplay. We further introduce CombatStateBench, a benchmark for evaluating programmable world models. On CombatStateBench, our method achieves 94% Count Accuracy and 98% State Accuracy, substantially outperforming existing interactive video world models while supporting coherent long-horizon generation. These results demonstrate the effectiveness of separating explicit state evolution from generative rendering for building persistent, programmable worlds.",
+      "summary_zh": "该工作将世界状态演化与视觉观测生成解耦，用自然语言生成程序维护持久实体状态，并通过3D OBB条件驱动预训练视频模型渲染，支持可玩交互与长时程生成。",
+      "contribution_zh": "提出可编程世界模型框架与CombatStateBench，实现显式持久状态、实体规则控制及高状态准确率交互生成。",
       "source": {
         "kind": "arxiv",
-        "external_id": "2609.09158",
-        "url": "https://arxiv.org/abs/2609.09158",
-        "pdf_url": "https://arxiv.org/pdf/2609.09158v1"
+        "external_id": "2609.10540",
+        "url": "https://arxiv.org/abs/2609.10540",
+        "pdf_url": "https://arxiv.org/pdf/2609.10540v1"
       },
       "publication": {
         "status": "preprint",
         "venue": "arXiv",
         "venue_id": "arXiv",
-        "published_at": "2026-09-08T17:59:55Z",
-        "updated_at": "2026-09-08T17:59:55Z"
-      },
-      "taxonomy": {
-        "route_id": "action_ground",
-        "topics": [
-          "humanoid navigation",
-          "vision-language-action model",
-          "whole-body control",
-          "cluttered environments",
-          "sim-to-real"
-        ],
-        "relevance_score": 6.75,
-        "relevance_reasons": [
-          "vision-language-action",
-          "robot"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.09158"
-        ]
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.95,
-        "reason": "具身人形机器人导航，使用VLA模型直接预测全身动作，符合具身智能范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.09155",
-      "title": "SyncWorld: Visual Calibration Enables World Models as Zero-Shot Simulators",
-      "title_zh": "SyncWorld：视觉校准使世界模型成为零样本模拟器",
-      "authors": [
-        "Yuncong Yang",
-        "Zhengtao Han",
-        "Furkan Ozyurt",
-        "Zeyuan Yang",
-        "Han Yang",
-        "Junyi Cao",
-        "Haoyu Zhen",
-        "Yilun Du",
-        "Chuang Gan"
-      ],
-      "affiliations": [],
-      "abstract": "World models are increasingly used as policy-in-the-loop imagination environments, where reliable rollouts require fine-grained controllability with respect to low-level robot actions. A key obstacle to scaling such models in robotics is that actions are not a universal language in pixel space: changes in visual environment, camera view, robot placement, or embodiment alter how the same numerical action manifests visually, leading to conflicting supervision under mixed training and brittle generalization at deployment. We introduce SyncWorld, an action-conditioned world model that serves as a zero-shot simulator across unseen environments without any additional training. SyncWorld leverages a visual calibration episode---paired frames and actions that showcase all the controllable degrees of freedom---to specify the setup-specific Action--Visual Mapping in context. Training with visual calibration contexts teaches the model to interpret actions through visual evidence and to leverage interaction history when explicit calibration is unavailable. Experiments show that SyncWorld can accurately simulate action outcomes in previously unseen settings, and that its capability of simulating rollouts enables test-time policy improvement without training.",
-      "summary_zh": "SyncWorld利用视觉校准片段定义动作-视觉映射，使动作条件世界模型能在未见环境中零样本模拟动作结果，支持测试时策略改进而无需训练。",
-      "contribution_zh": "提出以视觉校准上下文训练世界模型的方法，使其成为跨环境零样本动作模拟器，实现无训练的策略改进。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.09155",
-        "url": "https://arxiv.org/abs/2609.09155",
-        "pdf_url": "https://arxiv.org/pdf/2609.09155v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-08T17:59:47Z",
-        "updated_at": "2026-09-08T17:59:47Z"
-      },
-      "taxonomy": {
-        "route_id": "gen_simulator",
-        "topics": [
-          "世界模型",
-          "动作条件仿真",
-          "视觉校准",
-          "零样本模拟",
-          "策略改进"
-        ],
-        "relevance_score": 17.0,
-        "relevance_reasons": [
-          "world model",
-          "world models",
-          "robotics",
-          "robot",
-          "action-conditioned"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.09155"
-        ]
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "论文聚焦动作条件世界模型，实现零样本仿真，直接服务于机器人策略学习，符合收录范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.09119",
-      "title": "DeCAL: Towards Physically-Grounded Dexterous Vision-Language-Action Models via Contact-Aware Latent Co-Imagination",
-      "title_zh": "DeCAL：通过接触感知潜在共同想象实现物理接地的灵巧视觉-语言-动作模型",
-      "authors": [
-        "Yankai Fu",
-        "Ning Chen",
-        "Junkai Zhao",
-        "Heng Zhang",
-        "Guocai Yao",
-        "Pengwei Wang",
-        "Zhongyuan Wang",
-        "Shanghang Zhang"
-      ],
-      "affiliations": [],
-      "abstract": "Dexterous manipulation involves contact-rich and fine-grained interactions with the physical world, posing significant challenges for existing vision-language-action (VLA) models due to severe visual occlusions and complex contact dynamics. While recent works have incorporated tactile sensing into robotic manipulation, most approaches still rely on homogeneous multimodal fusion, lacking adaptive tactile integration and explicit modeling of physical dynamics. In this work, we present DeCAL, a physically-grounded dexterous vision-language-action model that unifies understanding, imagination and action generation for contact-rich dexterous manipulation. Built upon a Mixture-of-Transformers (MoT) architecture, DeCAL leverages specialized experts for each capability while enabling efficient information flow among them. To effectively leverage tactile information, we introduce Adaptive Visuo-Tactile Fusion that dynamically regulates tactile interactions via a contact-aware gating strategy. Furthermore, we propose Visuo-Tactile Latent Co-Imagination to jointly model visual and tactile dynamics, equipping the policy with implicit physical world knowledge. Experimental results show that DeCAL consistently achieves state-of-the-art performance across all tasks, attaining a 71% average success rate and an 83.4% progress success rate, while also demonstrating strong generalization to unseen scenarios. The website is available at https://aureleopku.github.io/DeCAL.",
-      "summary_zh": "提出DeCAL，基于混合Transformer架构，采用自适应视觉-触觉融合与接触感知门控，提出触觉-视觉潜在共同想象，为灵巧操作提供隐式物理知识，成功率领先。",
-      "contribution_zh": "首次统一理解、想象与动作生成，设计接触感知门控与共同想象机制，增强物理动态建模。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.09119",
-        "url": "https://arxiv.org/abs/2609.09119",
-        "pdf_url": "https://arxiv.org/pdf/2609.09119v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-08T17:47:43Z",
-        "updated_at": "2026-09-08T17:47:43Z"
-      },
-      "taxonomy": {
-        "route_id": "action_ground",
-        "topics": [
-          "dexterous manipulation",
-          "vision-language-action",
-          "tactile fusion",
-          "world model"
-        ],
-        "relevance_score": 6.75,
-        "relevance_reasons": [
-          "vision-language-action",
-          "robot"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.09119"
-        ]
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "面向接触丰富的灵巧操作，融合触觉与视觉并建模物理动态，属具身智能VLA范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.08855",
-      "title": "Earth System World Model for What-If Simulations: A Case Study for Terrestrial Ecosystems",
-      "title_zh": "用于假设模拟的地球系统世界模型：以陆地生态系统为例",
-      "authors": [
-        "Zhihao Wang",
-        "Ruichen Wang",
-        "Ruohan Li",
-        "Lei Ma",
-        "George Hurtt",
-        "Xiaowei Jia",
-        "Gengchen Mai",
-        "Shaowen Wang",
-        "Yiqun Xie"
-      ],
-      "affiliations": [],
-      "abstract": "Machine learning emulators have become essential for accelerating expensive Earth-system simulations, but most existing approaches remain passive forecasters: they reproduce simulator trajectories under prescribed forcings without an explicit interaction mechanism for user-specified interventions. This limits their use in interactive scientific workflows and Earth-system digital twins, where users often need to explore how a system would respond if selected state components were changed. We propose an action-conditioned world-modeling framework for Earth-system emulation that reformulates simulator trajectories as supervision for controllable state-transition learning. The key idea is transition-action pretraining: naturally observed state changes are treated as label-free action supervision, allowing the model to learn both prescribed dynamics and action-conditioned responses without manually annotated interventions. We further introduce masked response learning to infer unobserved variables under partial state edits and learn coupled system dependencies. We test this framework on ecosystem dynamics across six global regions and multiple stand ages. Experiments show that the model preserves competitive long-horizon emulation accuracy while enabling controllable structural interventions and coherent responses in coupled ecosystem-cycle variables. These results suggest a practical route from passive Earth-system emulators toward interactive, intervention-aware scientific surrogates.",
-      "summary_zh": "提出动作条件世界模型框架，将模拟轨迹重构为可控制的状态转移学习，实现交互式干预响应，并在全球生态系统模拟中验证。",
-      "contribution_zh": "提出过渡动作预训练与掩码响应学习，使仿真器支持干预式假设分析。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.08855",
-        "url": "https://arxiv.org/abs/2609.08855",
-        "pdf_url": "https://arxiv.org/pdf/2609.08855v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-08T15:06:34Z",
-        "updated_at": "2026-09-08T15:06:34Z"
-      },
-      "taxonomy": {
-        "route_id": "gen_simulator",
-        "topics": [
-          "地球系统模拟",
-          "世界模型",
-          "动作条件"
-        ],
-        "relevance_score": 9.25,
-        "relevance_reasons": [
-          "world model",
-          "action-conditioned"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.08855"
-        ],
-        "source_comment": "Accepted in SIGSPATIAL'26"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "reject",
-        "confidence": 0.9,
-        "reason": "与机器人或物理智能无直接关系，属通用地球系统仿真。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.08796",
-      "title": "Hi-FLoop: Hierarchical State-Feedback Loops for Multi-Timescale World Modeling",
-      "title_zh": "Hi-FLoop：多时间尺度世界建模的层次状态反馈循环",
-      "authors": [
-        "Rx Fan",
-        "Zhan H"
-      ],
-      "affiliations": [],
-      "abstract": "Multi-agent traffic simulation seeks diverse, coordinated, and physically realistic futures from maps and observed history. Long-horizon closed-loop generation must reconcile multiple decision time scales while its context evolves with generated states. Existing methods often unfold long futures from the initial scene and resolve intent, interaction, and motion monolithically, weakening cross-scale consistency and adaptation. We present HI-FLOOP, a branch-consistent multi-timescale state-feedback framework. Eight scene-level Worlds represent joint hypotheses, and all agents share the selected World identity throughout an 8-second rollout. Within the branch, an 8-second Goal anchors intent, a 2-second Preview coordinates interactions, and 1-second Control produces physical motion. Every 0.5-second commit feeds back only its executed prefix as new facts, while unexecuted hypotheses never enter factual memory. Joint Preview Interaction (JPI) induces a sparse directed future graph from Preview and uses conflict probabilities and signed arrival-time differences to gate interaction refinement. For generated-state recovery, a prefix-frozen A-to-B cascade lets frozen Model A generate 0-1 seconds, then transfers typed physical state, admissible context, and the branch index, but no latent state, to an independent Model B for re-encoding and 1-2-second recovery. On the full H-D public-validation split of 955 scenarios, one complete S1 run yields an Overall score of 0.689987 with the official evaluator. Under agent-centric oracle evaluation, HI-FLOOP achieves oracle-minADE@8 of 1.196636 m over the 8-second horizon and 0.526 m over the 6-second horizon.",
-      "summary_zh": "提出多智能体交通仿真框架，通过八秒场景级分支与不同时间尺度锚点协调意图、交互和运动，实现长时程闭环生成。",
-      "contribution_zh": "提出分支一致的多时间尺度状态反馈框架，利用前缀冻结恢复与联合预览交互优化生成一致性。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.08796",
-        "url": "https://arxiv.org/abs/2609.08796",
-        "pdf_url": "https://arxiv.org/pdf/2609.08796v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-08T14:25:11Z",
-        "updated_at": "2026-09-08T14:25:11Z"
-      },
-      "taxonomy": {
-        "route_id": "latent_wm",
-        "topics": [
-          "world model",
-          "traffic simulation",
-          "multi-agent",
-          "hierarchical",
-          "state-feedback"
-        ],
-        "relevance_score": 6.25,
-        "relevance_reasons": [
-          "world model"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.08796"
-        ],
-        "source_comment": "13 pages, 2 figures, and 6 tables"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "reject",
-        "confidence": 0.9,
-        "reason": "多智能体交通仿真，与机器人或物理智能无直接关联。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.08342",
-      "title": "VeriScene: Reconstructing Crime Scenes from Legal Evidence via World-Model Agent",
-      "title_zh": "VeriScene：通过世界模型代理从法律证据重建犯罪场景",
-      "authors": [
-        "Kevin Chuanpu Fu",
-        "Yongsen Zheng",
-        "Zee Kin Yeong",
-        "Kwok-Yan Lam"
-      ],
-      "affiliations": [],
-      "abstract": "World models take multimodal inputs like text, photos, and diagrams to generate dynamic scenes in accordance with the laws of physics, thus opening a compelling application: fusing multimodal legal evidence to re-create a crime scene and re-enact how an offence could have been committed. However, feeding the raw, unorganized evidence into a world model fails in forensic use: it silently drops evidence, glosses over contradictory testimony, and produces motion that violates the evidentiary record. This paper presents VeriScene, an agent that orchestrates the world model: it reconstructs crime scenes from forensic photographs and witness statements of varying reliability, keeping every claim traceable to evidence and every motion physically plausible. VeriScene iteratively fuses the evidence into a cited narrative under an auditing loop, verifies the hypothesized dynamics via probe rollouts in the world model with corrective constraint injection, and renders the offence as a re-enactment video from a fused keyframe. On a benchmark of 25 crime scenarios across 7 physically-driven case types (139 forensic-style photographs and 65 statements with planted unreliability), VeriScene attains 0.9014 evidence coverage and 0.7217 factual consistency (0-1 scale) on the 20 test scenes, outperforming an end-to-end multimodal-LLM baseline by 20.35% in factual consistency and 34.88% in temporal coherence, while generalizing across four LLM orchestration backends at USD 1.82 per scene.",
-      "summary_zh": "本文提出VeriScene，使用世界模型代理从法医照片和证人陈述重建犯罪场景。通过审计循环融合证据，用探针滚动和约束注入验证动态，生成重演视频。在25个场景基准上优于多模态LLM基线。",
-      "contribution_zh": "提出法律证据驱动的世界模型重建方法，实现证据可追溯和物理合理的动态模拟。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.08342",
-        "url": "https://arxiv.org/abs/2609.08342",
-        "pdf_url": "https://arxiv.org/pdf/2609.08342v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-08T07:14:44Z",
-        "updated_at": "2026-09-08T07:14:44Z"
-      },
-      "taxonomy": {
-        "route_id": "gen_simulator",
-        "topics": [
-          "世界模型",
-          "犯罪场景重建",
-          "多模态证据融合",
-          "物理仿真"
-        ],
-        "relevance_score": 10.0,
-        "relevance_reasons": [
-          "world model",
-          "world models"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.08342"
-        ]
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "reject",
-        "confidence": 0.9,
-        "reason": "犯罪现场重建应用，与机器人/物理智能无直接关系，不符合收录范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.08250",
-      "title": "CALIPER: Clean Scenes Cannot Rank Physical Inference in Pretrained Visual Representations",
-      "title_zh": "CALIPER：干净场景无法衡量预训练视觉表征中的物理推理",
-      "authors": [
-        "Aman Mehta",
-        "Riya Baviskar"
-      ],
-      "affiliations": [],
-      "abstract": "How far a pushed object slides depends on its mass and friction, which no single image reveals. Pretrained visual encoders are increasingly used as the perception front end of world models for manipulation, and their physical competence is assessed with perturbation benchmarks and linear probes, almost always in a clean, fixed-camera scene. We show that these assessments cannot distinguish an encoder that infers physics from one that does not. CALIPER (calibrate, then predict) is a direct test: an object of unknown mass and friction is struck twice at known speeds, a third strike is shown only up to the moment of contact, and a linear readout on frozen features must predict how far the object slides. Swapping in another object's calibration clips checks that the evidence is actually used. Across 2,000 simulated episodes and eight representations, from V-JEPA 2 to a randomly initialised ViT and raw pixels, calibration adds +0.50 R^2 and the swap removes it. Yet in the clean scene every representation lands within 0.02 R^2 of the ceiling set by true simulator state, because a fixed camera exposes the object's displacement directly in pixel coordinates. Resampling camera, lighting, and clutter for every clip spreads the same representations across 0.50 R^2; when the readout chooses a push speed for a goal distance, V-JEPA 2 misses by 4 mm and the random ViT by 20 mm, no better than ignoring the object. Linear probes track none of this: a change in frame aggregation moves a probe more than pretraining does, and erasing the probed mass direction from the same representation costs nothing in one scene and 0.35 R^2 in the other. Whether a benchmark can rank models is an empirical property, and we give three checks that establish it.",
-      "summary_zh": "针对推物场景，提出校准后预测的物理推理测试。通过更换校准剪辑验证特征使用，发现干净场景中所有表征均接近上限，重采样后差异显著。线性探针无法反映模型物理能力。",
-      "contribution_zh": "提出评估视觉表征物理推理的CALIPER方法，揭示干净场景的伪高表现，并给出验证基准有效性的三个检查。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.08250",
-        "url": "https://arxiv.org/abs/2609.08250",
-        "pdf_url": "https://arxiv.org/pdf/2609.08250v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-08T04:49:42Z",
-        "updated_at": "2026-09-08T04:49:42Z"
-      },
-      "taxonomy": {
-        "route_id": "action_ground",
-        "topics": [
-          "物理推理评估",
-          "视觉表征",
-          "世界模型",
-          "线性探针"
-        ],
-        "relevance_score": 15.0,
-        "relevance_reasons": [
-          "world model",
-          "world models",
-          "jepa"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.08250"
-        ]
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.7,
-        "reason": "论文聚焦物理推理评估，直接关系机器人感知与物理智能，符合收录范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.08230",
-      "title": "ActionSplice: In-Flight Action Editing for Interactive World Models",
-      "title_zh": "ActionSplice：交互式世界模型的飞行中动作编辑",
-      "authors": [
-        "Pardis Taghavi",
-        "Tingyu Guo",
-        "Jonas Lossner",
-        "Gaurav Pandey",
-        "Reza Langari"
-      ],
-      "affiliations": [],
-      "abstract": "Chunk-autoregressive video world models typically condition each generated chunk on one action. An action received during sampling must therefore wait for the next chunk, condition future solver evaluations on a state produced under the previous action, or trigger rollback that repeats completed evaluations. We introduce ActionSplice, an inference framework that formulates this problem as Counterfactual State Transport (CST). A lightweight corrector transports the interrupted backbone-native representation toward the matched state induced by the revised action at the same solver step. The world model and sampler remain frozen, and sampling resumes without replaying completed evaluations. The retargeting variant $\\mathrm{CST}*{R}$ updates the entire active chunk, while the temporal-splicing variant $\\mathrm{CST}*{T}$ preserves a temporal prefix and updates only the suffix. Across minWM-Wan Action2V and HY-WM1.5, $\\mathrm{CST}*{R}$ reduces rollback-relative LPIPS by 61.5% and 75.9% relative to direct condition swapping. $\\mathrm{CST}*{T}$ reduces suffix LPIPS by 56.1% and 77.5%, respectively, while providing $2.73\\times$ and $1.69\\times$ pixel-ready speedups over waiting. Under the HY-WorldPlay protocol, $\\mathrm{CST}_{R}$ obtains a PSNR of 25.66 dB, an SSIM of 0.6902, and an LPIPS of 0.1337 against the original rollout.",
-      "summary_zh": "提出ActionSplice推理框架，用于块自回归视频世界模型的动作编辑，通过反事实状态传输实现无需回滚的采样，兼容多种世界模型并显著提升速度。",
-      "contribution_zh": "提出动作编辑新方法，无需重新生成已完成片段，支持飞行中修改，降低延迟并保持保真度。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.08230",
-        "url": "https://arxiv.org/abs/2609.08230",
-        "pdf_url": "https://arxiv.org/pdf/2609.08230v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-08T04:21:36Z",
-        "updated_at": "2026-09-08T04:21:36Z"
+        "published_at": "2026-09-09T17:59:32Z",
+        "updated_at": "2026-09-09T17:59:32Z"
       },
       "taxonomy": {
         "route_id": "interactive_wm",
         "topics": [
           "世界模型",
-          "动作编辑",
-          "视频预测",
-          "交互式仿真",
-          "推理优化"
-        ],
-        "relevance_score": 12.5,
-        "relevance_reasons": [
-          "world model",
-          "world models"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.08230"
-        ],
-        "source_comment": "15 pages, 6 figures. Project page: https://pardistaghavi.github.io/actionsplice-website/"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "聚焦交互式世界模型的动作编辑，直接关联物理智能的预测与规划。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.08162",
-      "title": "WorldAgen: Unified State-Action Prediction with Test-Time World Model Training",
-      "title_zh": "WorldAgen：统一状态动作预测与测试时世界模型训练",
-      "authors": [
-        "Chi Wan",
-        "Kangrui Wang",
-        "Yuan Si",
-        "Pingyue Zhang",
-        "Manling Li"
-      ],
-      "affiliations": [],
-      "abstract": "How can vision-language-action (VLA) models adapt to new environments where world dynamics shift? While recent research has combined world modeling and action prediction to improve VLA performance, existing methods largely rely on pretraining on static datasets, without mechanisms for active adaptation at deployment time. As a result, these models often fail to generalize when deployed in unseen scenarios with novel object configurations or dynamics. We present WorldAgen, a unified framework that jointly learns world modeling and action prediction while enabling Test-Time Training (TTT) to adapt to new environments. WorldAgen employs a shared Transformer backbone with two heads: (1) a world model head that predicts future states from past state-action trajectories, and (2) an agent model head that predicts actions conditioned on task instructions. We design a Mixed Unidirectional Attention Mask to separate these two models. During test time, WorldAgen samples exploratory actions, collects ground-truth state transitions, and performs lightweight TTT updates to refine its world model. This adaptation improves the model's understanding of the environment and leads to more accurate action predictions. Experiments on the CALVIN and LIBERO benchmarks demonstrate that our baseline model achieves comparable, and in some cases superior, performance to current state-of-the-art approaches. Moreover, with TTT on a small number of samples, our method surpasses existing state-of-the-art models, highlighting the effectiveness of adapting world models at inference time.",
-      "summary_zh": "WorldAgen联合学习世界模型与动作预测，采用共享Transformer和双头结构，并通过混合单向注意力掩码分离任务。测试时以探索动作和轻量TTT更新世界模型，适应新环境，提升动作预测精度。在CALVIN和LIBERO上超越现有方法。",
-      "contribution_zh": "提出统一的世界模型与动作预测框架，引入测试时训练实现部署时自适应，在机器人操作基准上验证了有效性。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.08162",
-        "url": "https://arxiv.org/abs/2609.08162",
-        "pdf_url": "https://arxiv.org/pdf/2609.08162v1"
-      },
-      "publication": {
-        "status": "accepted",
-        "venue": "AAAI 2026",
-        "venue_id": "AAAI 2026",
-        "published_at": "2026-09-08T02:46:13Z",
-        "updated_at": "2026-09-08T02:46:13Z"
-      },
-      "taxonomy": {
-        "route_id": "interactive_wm",
-        "topics": [
-          "VLA",
-          "世界模型",
-          "测试时训练",
-          "机器人操作"
-        ],
-        "relevance_score": 16.25,
-        "relevance_reasons": [
-          "world model",
-          "world models",
-          "vision-language-action"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.08162"
-        ],
-        "source_comment": "Accepted to AAAI 2026"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "聚焦VLA与世界模型联合学习及测试时自适应，直接相关机器人操作和物理智能。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07874",
-      "title": "InfluenceField: A Differentiable Field with Interventionally Identifiable Causal Structure for Multimodal World Modeling",
-      "title_zh": "影响场：具有可干预识别因果结构的可微场用于多模态世界建模",
-      "authors": [
-        "Zihao Yang",
-        "Zijia Wang",
-        "Zhiqiu Huang"
-      ],
-      "affiliations": [],
-      "abstract": "Multimodal large language models often capture visual-linguistic correlations but struggle to predict how local visual interventions propagate and affect downstream answers. We introduce InfluenceField, an intervention-aware latent field inserted between the visual encoder and language decoder. It lifts patch features into a continuous spatial representation, propagates directed influence over multiple steps, and predicts local intervention effects through a shared transition operator. Training jointly optimizes language modeling, cross-environment invariance, counterfactual rollout supervision, and structural regularization. For a nonlinear finite-basis population model, we show that target-aligned interventional supervision, together with a one-step separation condition on the transition, restricts admissible representations to within-location reparameterizations, so that the directed dependency graph of the full transition is recovered exactly. A linear specialization gives an exact partial-coverage characterization and a finite-loss stability bound, and the field analysis derives the spatial profile of coefficient interventions together with a shared-channel calibration result. On CausalVQA, InfluenceField improves overall accuracy over its backbone by 13.1 percentage points, with the largest gains on the planning and hypothetical categories. Capacity-matched baselines and structural controls attribute the gains in robustness and factual-counterfactual consistency to the causal objectives rather than to added capacity.",
-      "summary_zh": "提出影响场，在多模态视觉编码器与语言解码器间插入干预感知潜在场，通过共享转移算子传播干预影响，结合多种因果目标训练，在CausalVQA上提升准确率13.1个百分点，尤其在规划和假设类别中。",
-      "contribution_zh": "构建干预感知潜在场，证明因果结构可识别性机制，并在视觉因果问答任务上展示提升，但未涉及物理智能场景。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07874",
-        "url": "https://arxiv.org/abs/2609.07874",
-        "pdf_url": "https://arxiv.org/pdf/2609.07874v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-07T18:36:20Z",
-        "updated_at": "2026-09-07T18:36:20Z"
-      },
-      "taxonomy": {
-        "route_id": "causal",
-        "topics": [
-          "world model",
-          "causal intervention",
-          "multimodal",
-          "visual QA"
-        ],
-        "relevance_score": 6.25,
-        "relevance_reasons": [
-          "world model"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07874"
-        ],
-        "source_comment": "22 pages, 3 figures"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "manual",
-        "confidence": 0.55,
-        "reason": "论文聚焦视觉语言因果推理，与机器人/物理交互无直接关联，但涉及世界模型与干预，需人工判定。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07838",
-      "title": "ComVLA: Communication-Aware Split Inference for VLA Models in 6G-Connected Robotics",
-      "title_zh": "ComVLA：6G连接机器人中VLA模型的通信感知拆分推理",
-      "authors": [
-        "Boliang Liu",
-        "Wint Yi Poe",
-        "Jingyun Di",
-        "Riccardo Trivisonno",
-        "Giuseppe Caire"
-      ],
-      "affiliations": [],
-      "abstract": "Connected robotics is an emerging 6G application where mobile robots follow natural-language instructions to manipulate physical objects. The Vision-Language-Action (VLA) models that enable this are too large to run on the robot; a common trend is to offload inference to the cloud. The wireless link, however, limits how much sensing data the edge can transmit per control step. Two recent lines address this constraint: semantic communication codecs compress sensor data but require channel-specific retraining, and VLA token pruners select tokens from image but ignore the channel. Our insight is that the dense semantic information contained in the language already indicates which visual tokens matter. We propose ComVLA, a framework that uses this language guidance to adapt the VLA token budget to the channel capacity. Transmitting 32 tokens instead of 512 on the LIBERO benchmark, ComVLA cuts inference compute by 74% and inference latency by 22% versus the original OpenVLA-OFT baseline, at a cost of 1.5 pp in average task success (95.4% vs. 96.9%), and it stays within the capacity budget under Rayleigh and Rician fading. These results demonstrate that co-designing VLA inference and wireless communication is a practical direction for 6G-connected robotics.",
-      "summary_zh": "面向6G连接机器人，提出ComVLA框架，利用语言语义指导视觉token预算，适配信道容量。相比OpenVLA-OFT，输入token从512降至32，推理计算减少74%，延迟降低22%，平均成功率仅降1.5个百分点，并满足衰落信道容量约束。",
-      "contribution_zh": "提出语言引导的token预算自适应方法，协同VLA推理与无线通信，显著降低计算与延迟，保持任务成功率，为6G机器人部署提供实用方案。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07838",
-        "url": "https://arxiv.org/abs/2609.07838",
-        "pdf_url": "https://arxiv.org/pdf/2609.07838v1"
-      },
-      "publication": {
-        "status": "accepted",
-        "venue": "IEEE GLOBECOM 2026",
-        "venue_id": "IEEE GLOBECOM 2026",
-        "published_at": "2026-09-07T18:00:14Z",
-        "updated_at": "2026-09-07T18:00:14Z"
-      },
-      "taxonomy": {
-        "route_id": "action_ground",
-        "topics": [
-          "VLA模型",
-          "拆分推理",
-          "语义通信",
-          "6G机器人",
-          "Token剪枝"
-        ],
-        "relevance_score": 6.88,
-        "relevance_reasons": [
-          "vision-language-action",
-          "robotics",
-          "robot"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07838"
-        ],
-        "source_comment": "6 pages, accepted to IEEE GLOBECOM 2026"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "VLA模型用于机器人操作，直接相关物理智能，通信感知协同设计有新意。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07719",
-      "title": "A radiographic world model for clinical reasoning and evidence generation",
-      "title_zh": "用于临床推理和证据生成的放射影像世界模型",
-      "authors": [
-        "Suyang Xi",
-        "Songtao Hu",
-        "Shansong Wang",
-        "Mojtaba Safari",
-        "Luke del Balzo",
-        "Ehsan Ul Karim",
-        "Mingzhe Hu",
-        "Kuo Zhang",
-        "Tonghe Wang",
-        "Ralph R. Weichselbaum",
-        "Xiaofeng Yang"
-      ],
-      "affiliations": [],
-      "abstract": "Medical imaging artificial intelligence (AI) is commonly developed as separate mappings from radiographs to diagnostic outputs or from clinical descriptions to generated images, although both arise from the same underlying radiographic state. A world-model formulation instead seeks to learn an internal representation of this state that can support both clinical readout and conditional simulation of radiographic observations. Here we introduce MedDream, a radiographic world model that learns a shared continuous latent state from paired chest radiograph-text observations for diagnostic reasoning and report-conditioned evidence generation. MedDream was pretrained on 2.65 million leakage-controlled chest radiograph-text pairs curated from 4.40 million candidates. Across eight clinical datasets and two independent reader cohorts, MedDream outperformed leading diagnostic and generative comparators. For diagnostic reasoning, MedDream showed strong generalization across disease recognition, label-scarce adaptation, severity assessment, and localization, while MedDream-supported review increased mean resident concordance with independent radiologist consensus from 56.3% to 63.0%. For evidence generation, MedDream produced radiographs that preserved clinically relevant pathology and improved downstream performance on held-out real data, with synthetic augmentation increasing external VinDr-CXR macro-AUROC from 76.4% to 81.4%. More importantly, conditioning generation on prespecified subgroup performance gaps enabled targeted evidence construction, increasing weighted F1 by 3.1 percentage points in Asian patients, whereas matched-volume unguided augmentation decreased it by 2.3 points. These findings establish radiographic world models as a path toward medical AI that learns clinically meaningful internal states for interpreting, simulating, and constructing evidence for clinical use.",
-      "summary_zh": "提出MedDream，利用胸部X光-文本对学习共享潜状态，支持诊断与报告条件影像生成，经大规模预训练和临床评估，在识别、定位和合成增强方面表现优越。",
-      "contribution_zh": "首次将世界模型范式引入放射影像，实现统一诊断与证据生成，验证了医学AI内部状态学习的临床价值。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07719",
-        "url": "https://arxiv.org/abs/2609.07719",
-        "pdf_url": "https://arxiv.org/pdf/2609.07719v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-07T16:33:02Z",
-        "updated_at": "2026-09-07T16:33:02Z"
-      },
-      "taxonomy": {
-        "route_id": "causal",
-        "topics": [
-          "medical imaging",
-          "world model",
-          "diagnostic reasoning"
+          "交互式视频生成",
+          "状态持久化",
+          "程序化规则",
+          "3D OBB"
         ],
         "relevance_score": 11.25,
         "relevance_reasons": [
@@ -768,64 +59,69 @@
         "notes": ""
       },
       "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
+        "discovered_at": "2026-09-10T04:35:22Z",
         "source_name": "arXiv Physical AI / World Models",
         "evidence_urls": [
-          "https://arxiv.org/abs/2609.07719"
-        ]
+          "https://arxiv.org/abs/2609.10540"
+        ],
+        "source_comment": "Homepage: https://alaya-lab.github.io/pwm GitHub: https://github.com/AlayaLab/pwm"
       },
       "ai_review": {
         "mode": "shadow",
-        "decision": "reject",
-        "confidence": 0.95,
-        "reason": "医学影像世界模型，与机器人或物理智能无直接关系，不在收录范围内。",
+        "decision": "approve",
+        "confidence": 0.82,
+        "reason": "提出可编程交互世界模型，显式维护持久状态并支持规则控制，属机器人世界模型范畴。",
         "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
+        "reviewed_at": "2026-09-10T04:35:19Z"
       }
     },
     {
-      "id": "arxiv:2609.07611",
-      "title": "AgentIdeaBench: Benchmarking Scientific Ideation in the Agent Era",
-      "title_zh": "",
+      "id": "arxiv:2609.10506",
+      "title": "DUET-DINO: Simultaneous Cross-View World Modeling for Latent Planning in Robot Manipulation",
+      "title_zh": "DUET-DINO：机器人操作中面向潜在规划的同步跨视图世界建模",
       "authors": [
-        "Yunxiang Mo",
-        "Tianshi Zheng",
-        "Yisen Gao",
-        "Rui Wang",
-        "Newt Nguyen Kim Hue Nam",
-        "Kelvin Kiu Wai Tam",
-        "Jiaxin Bai",
-        "Yangqiu Song",
-        "Ginny Wong",
-        "Simon See"
+        "Nisarga Nilavadi",
+        "Ralf Römer",
+        "Moritz Reuss",
+        "Michael Krawez",
+        "Tobias Jülg",
+        "Angela P. Schoellig",
+        "Rudolf Lioutikov",
+        "Wolfram Burgard"
       ],
       "affiliations": [],
-      "abstract": "Scientific ideation is the capacity to formulate novel and testable hypotheses from scientific evidence, and autonomous AI scientists depend on it. Existing evaluations largely assess it by asking models to generate ideas from a static, curated set of reference papers. That passive setup departs from the retrieval-and-reasoning workflow of modern AI scientists, and it becomes less discriminative as models improve. We introduce AgentIdeaBench, a multidisciplinary benchmark that evaluates scientific ideation under two matched settings, static observation and active exploration. We report matched Static-Active evaluations for 33 LLMs across 40 densely scored subfields spanning five disciplines, using a multidimensional, literature-verified scoring framework whose critics assess originality against retrieved prior art. Active exploration reveals considerably more capability headroom, and that headroom is unevenly distributed across models. Performance scales about twice as fast as under static observation, and the exploration gain is capability-gated, favoring the strongest models over the weakest. The gain reflects better grounding, improving feasibility, clarity, and specificity while leaving measured originality unchanged under our critics. We further explore Scientific World Modeling, a generation-time loop that refines a draft hypothesis through structured thought experiments. It benefits mid-capability models, and its impact diminishes among frontier models that appear to have internalized such reasoning patterns already. AgentIdeaBench gives future work on scientific ideation a measurement basis suited to the agent era.",
-      "summary_zh": "提出AgentIdeaBench，评估AI在科学假设生成上的能力，含静态观察和主动探索两种设置，发现主动探索增益大且与模型能力相关。",
-      "contribution_zh": "构建多学科科学创意基准，揭示主动探索的增长空间，但与物理智能无关。",
+      "abstract": "Action-conditioned latent world models predict future visual representations, enabling zero-shot goal-conditioned robot planning and control. However, their predictions for fine-grained spatial and rotational actions are unreliable for full 7-DoF end-effector control. To address this gap, we introduce DUET-DINO, a simultaneous cross-view latent world model that jointly learns action-conditioned predictions from static side- and wrist-camera observations through cross-view conditioning. By exploiting complementary global scene and gripper-centric information, DUET-DINO enables latent planning over the full 7-DoF action space. Across spatially diverse reach, orientation-intensive angled-reach, and multi-goal grasp-and-lift tasks, DUET-DINO consistently outperforms single-view and independent dual-view baselines, achieving 92% success on reach, 72.5% on angled-reach, and 60.0% on lift tasks. DUET-DINO is trained from scratch on DROID and RoboArena datasets and generalizes robustly under visual distribution shifts. We further show that while V-JEPA 2 wrist-view predictions underestimate visual dynamics induced by fine-grained actions, DINOv3 predictions better capture action-conditioned scene changes, leading to stronger downstream planning. The code and model checkpoints will be open-sourced. Project page: https://utn-air.github.io/DUET-DINO",
+      "summary_zh": "提出同步跨视图潜在世界模型，联合侧视与腕部相机做动作条件预测，支持全7自由度机器人操作规划，在到达、角度到达和抓放任务上优于单/双视图基线。",
+      "contribution_zh": "跨视图条件潜在世界模型，利用全局与腕部信息提升细粒度动作预测和规划成功率，并开源。",
       "source": {
         "kind": "arxiv",
-        "external_id": "2609.07611",
-        "url": "https://arxiv.org/abs/2609.07611",
-        "pdf_url": "https://arxiv.org/pdf/2609.07611v1"
+        "external_id": "2609.10506",
+        "url": "https://arxiv.org/abs/2609.10506",
+        "pdf_url": "https://arxiv.org/pdf/2609.10506v1"
       },
       "publication": {
         "status": "preprint",
         "venue": "arXiv",
         "venue_id": "arXiv",
-        "published_at": "2026-09-07T15:19:13Z",
-        "updated_at": "2026-09-07T15:19:13Z"
+        "published_at": "2026-09-09T17:41:38Z",
+        "updated_at": "2026-09-09T17:41:38Z"
       },
       "taxonomy": {
-        "route_id": "active_inf",
+        "route_id": "latent_wm",
         "topics": [
-          "科学创意",
-          "AI科学家",
-          "基准测试"
+          "机器人操作",
+          "潜在世界模型",
+          "跨视图世界模型",
+          "动作条件预测",
+          "7自由度控制"
         ],
-        "relevance_score": 5.0,
+        "relevance_score": 19.88,
         "relevance_reasons": [
-          "world model"
+          "world model",
+          "world models",
+          "robot",
+          "jepa",
+          "action-conditioned"
         ]
       },
       "team_node_ids": [],
@@ -834,59 +130,124 @@
         "notes": ""
       },
       "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
+        "discovered_at": "2026-09-10T04:35:22Z",
         "source_name": "arXiv Physical AI / World Models",
         "evidence_urls": [
-          "https://arxiv.org/abs/2609.07611"
+          "https://arxiv.org/abs/2609.10506"
         ],
-        "source_comment": "25 pages, 9 figures, 8 tables. Code and data: https://github.com/HKUST-KnowComp/AgentIdeaBench"
+        "source_comment": "Preprint, Project Page: https://utn-air.github.io/DUET-DINO"
       },
       "ai_review": {
         "mode": "shadow",
-        "decision": "reject",
-        "confidence": 0.95,
-        "reason": "科学创意基准，非物理智能或机器人相关，不属收录范围",
+        "decision": "approve",
+        "confidence": 0.96,
+        "reason": "机器人操作与潜在世界模型，直接服务物理智能规划控制。",
         "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
+        "reviewed_at": "2026-09-10T04:35:19Z"
       }
     },
     {
-      "id": "arxiv:2609.07581",
-      "title": "ICI-VLA: In-Context Imitation with Spatiotemporally Aligned Demonstrations for Vision-Language-Action Models",
-      "title_zh": "ICI-VLA：用于视觉语言动作模型的时空对齐示范上下文模仿",
+      "id": "arxiv:2609.10464",
+      "title": "Semigroup-JEPA: Latent Dynamics Consistency for Zero-Shot Physics Generalization",
+      "title_zh": "Semigroup-JEPA：面向零样本物理泛化的潜动力学一致性",
       "authors": [
-        "Songhua Yang",
-        "Ziyu Liu",
-        "Xuetao Li",
-        "Ruqi Xiao",
-        "Kangxin Zhu",
-        "Miao Li"
+        "Andy Zeyi Liu",
+        "Haoran Sun",
+        "Lucas Baker",
+        "Randall Balestriero",
+        "John Sous"
       ],
       "affiliations": [],
-      "abstract": "Vision-Language-Action (VLA) policies are commonly adapted to new manipulation settings through additional gradient updates, which limits rapid deployment when task-specific data or compute is scarce. We present ICI-VLA, a training and retrieval framework that equips a text-action VLM with few-shot test-time adaptation through in-context demonstrations. Unlike mainstream VLA designs based on action-specific multimodal fusion, ICI-VLA retains the native text-generation interface. ICI-VLA updates its parameters only during offline training; at inference, the policy remains fixed and conditions action generation on retrieved micro-demonstrations. The framework decomposes long trajectories into short, semantically labeled examples and trains an RD-Encoder with positives mined by Dynamic Time Warping (DTW), aligning the retrieved context with the phase and geometry of the current subtask. We further introduce Target Action Masking, a context-corruption objective designed to reduce direct action copying and increase reliance on the current observation. ICI-VLA reaches average success rates of 97.7% on LIBERO and 60.4% on RoboTwin 2.0, exceeding the highest reported baseline average on RoboTwin 2.0 by 19.3 percentage points. It also achieves 83.2% across four physical tasks. These results indicate that a fixed VLA policy can benefit from conditioning on spatiotemporally aligned demonstrations at test time.",
-      "summary_zh": "提出ICI-VLA框架，通过离线训练加测试时检索微示范，使固定VLA策略无需梯度更新即可适应新操作。该方法解耦长轨迹为短示例，用DTW挖掘正样本训练RD编码器，并设计目标动作掩蔽减少动作复制。在LIBERO和RoboTwin上取得高成功率。",
-      "contribution_zh": "提出一种基于检索和上下文示范的VLA测试时自适应框架，无需额外梯度更新，显著提升新任务泛化性能。",
+      "abstract": "Joint-Embedding Predictive Architecture (JEPA) world models learn a compact latent representation of the world that supports prediction and planning, but their capability to learn physics and generate physically realistic dynamics remains hitherto untested. In this work, we introduce SemiGroup-JEPA (SG-JEPA), which extends the LeWorldModel framework by supplying the parameter governing the physics to the temporal model via action-conditioning and jointly training an encoder and predictor through an autoregressive latent rollout. To evaluate the model's ability to generalize out of distribution, we design dynamical tasks under different gravitational fields that, despite obeying the same physical law, exhibit qualitatively different dynamics, ranging from floating motion in weak gravitational fields to rapid bouncing in strong ones. In contrast to DINO-WM, SG-JEPA reduces open-loop prediction error by up to 2 times on two-dimensional datasets, and increases control success rate up to 2.5 times for three-dimensional robotic datasets, for which we train independent diffusion policies. To explain this advantage, we develop a linear feature model that separates local law-conditioned error from its recursive amplification under rollout. Guided by this model, we find that back-propagating the multi-step rollout loss into the representation trains the encoder to keep the features that the predictor can carry forward, and that those are the features the dynamics depend on, so most of the gain comes from the encoder learning better features rather than from the predictor learning better dynamics. See project page at https://sg-jepa.github.io.",
+      "summary_zh": "SG-JEPA 在 LeWorldModel 基础上将物理参数经动作条件注入时序模型，联合训练编码器与预测器并做自回归潜 rollout；在变重力动力学和三维机器人任务上提升开环预测与控制成功率。",
+      "contribution_zh": "提出 SG-JEPA，用多步 rollout 损失训练编码器保留可传递且依赖动力学的特征，实现零样本物理泛化与机器人控制提升。",
       "source": {
         "kind": "arxiv",
-        "external_id": "2609.07581",
-        "url": "https://arxiv.org/abs/2609.07581",
-        "pdf_url": "https://arxiv.org/pdf/2609.07581v1"
+        "external_id": "2609.10464",
+        "url": "https://arxiv.org/abs/2609.10464",
+        "pdf_url": "https://arxiv.org/pdf/2609.10464v1"
       },
       "publication": {
         "status": "preprint",
         "venue": "arXiv",
         "venue_id": "arXiv",
-        "published_at": "2026-09-07T14:55:35Z",
-        "updated_at": "2026-09-07T14:55:35Z"
+        "published_at": "2026-09-09T17:08:13Z",
+        "updated_at": "2026-09-09T17:08:13Z"
+      },
+      "taxonomy": {
+        "route_id": "jepa",
+        "topics": [
+          "JEPA",
+          "世界模型",
+          "物理泛化",
+          "动作条件预测",
+          "机器人控制"
+        ],
+        "relevance_score": 16.75,
+        "relevance_reasons": [
+          "world model",
+          "world models",
+          "robot",
+          "jepa"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-09-10T04:35:22Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2609.10464"
+        ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.95,
+        "reason": "JEPA 世界模型、动作条件潜动力学与机器人控制直接相关，符合收录范围。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-10T04:35:19Z"
+      }
+    },
+    {
+      "id": "arxiv:2609.10405",
+      "title": "Frequency-Conditioned Flow Matching for Vision-Language-Action Models",
+      "title_zh": "面向视觉-语言-动作模型的频率条件化流匹配",
+      "authors": [
+        "Haochen Niu",
+        "Shengye Dong",
+        "Hao Liu",
+        "Peiwen Lin",
+        "Wang Chuang"
+      ],
+      "affiliations": [],
+      "abstract": "Robot actions are temporally correlated trajectories whose frequency components encode motion at different scales with highly non-uniform energy distributions. Yet Flow Matching--based vision-language-action (VLA) models typically generate actions in temporal coordinates, without explicitly modeling or systematically leveraging this frequency heterogeneity. We introduce \\emph{FreqFM}, a frequency-conditioned Flow Matching framework for VLA models. It raises action frequency from an implicit trajectory property to an explicit conditioning dimension that spans the entire generation pipeline. Concretely, in DCT frequency coordinates, FreqFM constructs a spectrum-matched source distribution, adaptively balances the objective across frequencies, and constrains per-frequency guidance residuals using the corresponding reference transport scales. FreqFM integrates into existing Flow Matching action experts without changing the VLA backbone. Across LIBERO, LIBERO-Plus, and VLA-Arena, FreqFM consistently improves performance, including a 9.3-point gain on LIBERO-Plus, and further demonstrates its effectiveness on six real-robot tasks.",
+      "summary_zh": "提出FreqFM，将动作频率作为显式条件引入流匹配VLA：在DCT频域构造谱匹配源分布、按频加权并约束引导残差，不改动主干，在LIBERO等及六个真机任务上稳定提升。",
+      "contribution_zh": "把动作频率提升为流匹配VLA的显式条件维度，提出谱匹配源分布、频域自适应加权与逐频引导约束，兼容现有动作专家。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2609.10405",
+        "url": "https://arxiv.org/abs/2609.10405",
+        "pdf_url": "https://arxiv.org/pdf/2609.10405v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-09-09T16:24:40Z",
+        "updated_at": "2026-09-09T16:24:40Z"
       },
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "VLA",
-          "in-context imitation",
-          "robotic manipulation",
-          "retrieval",
-          "few-shot adaptation"
+          "视觉语言动作模型",
+          "流匹配",
+          "动作生成",
+          "机器人操作",
+          "频率条件化"
         ],
         "relevance_score": 6.75,
         "relevance_reasons": [
@@ -900,61 +261,422 @@
         "notes": ""
       },
       "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
+        "discovered_at": "2026-09-10T04:35:22Z",
         "source_name": "arXiv Physical AI / World Models",
         "evidence_urls": [
-          "https://arxiv.org/abs/2609.07581"
-        ],
-        "source_comment": "9 pages, 6 figures"
+          "https://arxiv.org/abs/2609.10405"
+        ]
       },
       "ai_review": {
         "mode": "shadow",
         "decision": "approve",
-        "confidence": 0.95,
-        "reason": "论文直接针对机器人视觉语言动作模型，属具身智能范畴。",
+        "confidence": 0.9,
+        "reason": "面向VLA动作生成的频率条件化流匹配，直接服务机器人操作与控制。",
         "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
+        "reviewed_at": "2026-09-10T04:35:19Z"
       }
     },
     {
-      "id": "arxiv:2609.07532",
-      "title": "PhysReal: Learning Real-World Deformable Object Physics via Hybrid Constitutive Modeling",
-      "title_zh": "PhysReal：通过混合本构建模学习真实可变形物体物理",
+      "id": "arxiv:2609.10243",
+      "title": "FolDeX: A Physical-World Benchmark for Long-Horizon Robotic Manipulation of Deformable Objects",
+      "title_zh": "",
       "authors": [
-        "Yinan Deng",
-        "Jianqiao Song",
-        "Yisi Zhang",
-        "Yuhan Wang",
-        "Jiahui Wang",
-        "Yufeng Yue"
+        "Chenhuan Liu",
+        "Yi Xu",
+        "Feng Wu",
+        "Hanyang Wang",
+        "Wenxiao Kuai",
+        "Weihao Ding",
+        "Shan Wang",
+        "Yang Liu",
+        "Shuyong Gao",
+        "Wenqiang Zhang"
       ],
       "affiliations": [],
-      "abstract": "Learning physically plausible dynamics from visual observations is essential for interactive world models and embodied agents. However, modeling real-world deformable objects remains challenging because their dynamics often arise from complex, spatially heterogeneous material responses. To address this challenge, we propose PhysReal, a video-driven framework for learning and simulating the underlying physics of real deformable objects. PhysReal integrates a spatially varying hybrid expert-neural constitutive model with a differentiable MPM simulator and 3DGS renderer. Analytical expert models provide interpretable physical priors, while neural constitutive residuals capture material responses beyond predefined formulations. Spatially distributed patches parameterize the constitutive field, enabling a continuous representation of local material variations. To organize the identification of this model from sparse visual observations, we adopt a progressive curriculum that sequentially optimizes global material properties, spatially varying local parameters, and neural constitutive residuals, together with complementary motion and mask supervision. Extensive experiments on diverse deformable-object interactions demonstrate that PhysReal achieves superior performance in dynamic reconstruction and future-state prediction, while showing strong potential for downstream robotic applications.",
-      "summary_zh": "提出视频驱动框架PhysReal，结合空间变化混合本构模型、可微分MPM模拟器和3DGS渲染器，从稀疏视觉观测学习真实可变形物体的物理，实现动态重建和未来状态预测。",
-      "contribution_zh": "提出混合专家-神经本构模型结合可微分模拟器，以渐进课程从视频中辨识空间变化材料参数，显著提升真实变形预测。",
+      "abstract": "Embodied AI, including vision-language-action and world-action models, must operate reliably in the physical world. Yet methods that perform well in simulation can degrade substantially on real robots, especially in long-horizon deformable-object manipulation, where policies must track changing states and execute reliable multi-stage bimanual interactions. Existing real-robot benchmarks mainly focus on short-horizon rigid-object tasks and offer limited coverage of long-horizon deformable manipulation. We introduce FolDeX, a physical-world benchmark built entirely from real-robot data, with garment folding as its primary task. Since real-robot data collection is costly, FolDeX studies how heterogeneous physical experience can be reused efficiently. The benchmark is organized around four research axes: leveraging human intervention and recovery data collected during deployment; transferring data across tasks, including across garment categories and from rigid to deformable-object manipulation; reusing data across scenes with changes in lighting, background, and layout; and transferring data across robotic embodiments. FolDeX provides 2,000+ hours of real-robot data spanning 20+ tasks and 10+ embodiments. We also establish a fair real-robot evaluation platform for externally submitted policies, with standardized tasks, held-out physical objects, controlled initializations, and a unified execution protocol. The platform is publicly accessible at https://ai.midea.com/#/fold-challenge. We hope FolDeX will serve as a unified testbed for heterogeneous real-robot data reuse and reliable long-horizon deformable manipulation.",
+      "summary_zh": "",
+      "contribution_zh": "",
       "source": {
         "kind": "arxiv",
-        "external_id": "2609.07532",
-        "url": "https://arxiv.org/abs/2609.07532",
-        "pdf_url": "https://arxiv.org/pdf/2609.07532v1"
+        "external_id": "2609.10243",
+        "url": "https://arxiv.org/abs/2609.10243",
+        "pdf_url": "https://arxiv.org/pdf/2609.10243v1"
       },
       "publication": {
         "status": "preprint",
         "venue": "arXiv",
         "venue_id": "arXiv",
-        "published_at": "2026-09-07T14:11:57Z",
-        "updated_at": "2026-09-07T14:11:57Z"
+        "published_at": "2026-09-09T14:33:44Z",
+        "updated_at": "2026-09-09T14:33:44Z"
       },
       "taxonomy": {
-        "route_id": "phys_engine",
+        "route_id": "action_ground",
         "topics": [
-          "deformable object physics",
-          "hybrid constitutive model",
-          "differentiable MPM",
-          "3DGS",
-          "video-driven learning"
+          "cs.RO",
+          "vision-language-action",
+          "embodied ai",
+          "robot"
         ],
-        "relevance_score": 10.5,
+        "relevance_score": 9.62,
+        "relevance_reasons": [
+          "vision-language-action",
+          "embodied ai",
+          "robot"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-09-10T04:35:22Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2609.10243"
+        ]
+      }
+    },
+    {
+      "id": "arxiv:2609.09941",
+      "title": "HaWMPO: Hallucination-Aware World Model-based Policy Optimization for Generalist Robot Policy",
+      "title_zh": "HaWMPO：面向通用机器人策略的幻觉感知世界模型策略优化",
+      "authors": [
+        "Zengjue Chen",
+        "Peidong Liu",
+        "Jiawei Li",
+        "Qi Wang"
+      ],
+      "affiliations": [],
+      "abstract": "Generalist robot policies have demonstrated strong generalization across robotic manipulation tasks, yet their success rates remain limited in com- plex long-horizon scenarios. Recent methods improve Visual-Language-Action (VLA) policies through online reinforcement learning on real robots, but such training relies on costly physical interactions, suffers from low sample efficiency, and may introduce hardware and safety risks. World models offer a promising alternative by enabling policy optimization with imagined rollouts. However, long-horizon rollouts generated by world models often suffer from prediction hal- lucinations, producing biased state transitions that can mislead policy learning. To address this issue, we propose Hallucination-aware World Model-based Pol- icy Optimization (HaWMPO), a closed-loop reinforcement learning pipeline for VLA policy post-training with world models. Specifically, HaWMPO introduces an action-conditioned hallucination-aware model to estimate the reliability of gen- erated image sequences, and incorporates hallucination scores into group relative policy optimization through a Reward-Soft mechanism, suppressing unreliable ac- tion chunks during training. On the LIBERO benchmark, HaWMPO achieves the best average success rate, with gains of 15.0% over the base model and 2.8% over the strongest baseline; real-world experiments on a G1 robot further validate its effectiveness, raising the average success rate on two manipulation tasks from 67.5% to 80.0%.",
+      "summary_zh": "针对VLA在线强化学习成本高、世界模型长程推演易幻觉的问题，提出HaWMPO闭环后训练框架：用动作条件幻觉感知模型评估想象轨迹可靠性，以Reward-Soft抑制不可靠动作。LIBERO与真机验证有效。",
+      "contribution_zh": "提出幻觉感知世界模型与Reward-Soft机制，将幻觉分数引入GRPO，实现VLA在想象推演中的安全策略优化。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2609.09941",
+        "url": "https://arxiv.org/abs/2609.09941",
+        "pdf_url": "https://arxiv.org/pdf/2609.09941v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-09-09T09:33:25Z",
+        "updated_at": "2026-09-09T09:33:25Z"
+      },
+      "taxonomy": {
+        "route_id": "latent_wm",
+        "topics": [
+          "VLA",
+          "world model",
+          "reinforcement learning",
+          "robot manipulation",
+          "hallucination"
+        ],
+        "relevance_score": 14.88,
+        "relevance_reasons": [
+          "world model",
+          "world models",
+          "robot",
+          "action-conditioned"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-09-10T04:35:22Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2609.09941"
+        ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.9,
+        "reason": "面向VLA的幻觉感知世界模型策略优化，属机器人世界模型与VLA后训练，直接服务物理智能。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-10T04:35:19Z"
+      }
+    },
+    {
+      "id": "arxiv:2609.09925",
+      "title": "Time-Frequency Geometric Cross-Attention for Chunked Vision-Language-Action Models",
+      "title_zh": "面向分块视觉-语言-动作模型的时频几何交叉注意力",
+      "authors": [
+        "Shengye Dong",
+        "Haochen Niu",
+        "Hao Liu",
+        "Peiwen Lin",
+        "Chuang Wang",
+        "Shanmin Pang"
+      ],
+      "affiliations": [],
+      "abstract": "Modern vision-language-action (VLA) policies predict a whole chunk of actions: one to two seconds of coordinated motion emitted in a single forward pass. Yet an action chunk is essentially a short multivariate trajectory, but inside these models it is a sequence of generic per-timestep hidden tokens decoded by a linear head. This under-serves two motion structures. First, frequency: a chunk superimposes a smooth global trend and fine corrective motion across time scales, and a single token entangles them. Second, cross-phase geometry: motions of different phases (reach, contact, grasp adjustment, settling) unfold along very different, near-orthogonal directions in representation space, yet are tightly related for the task and arise across the time axis. Dot-product attention scores alignment by an inner product, so it favors aligned tokens and is least sensitive near orthogonality, leaving such relationships for the network to recover through a detour. We introduce Time-Frequency Geometric Cross-Attention (TFGCA), a drop-in module repairing both blind spots. TFGCA uses a per-dimension learnable stationary wavelet transform to decompose the action chunk into time-frequency tokens, and each time token retrieves information from them via a cross-attention that fuses the dot product (similarity) with the wedge-product magnitude (sensitive to near-orthogonality) through a learnable weight. A zero-initialized residual reproduces the base behavior at initialization, so it can be dropped onto a pretrained VLA and fine-tuned jointly. Relative to the same-source base, TFGCA improves in-distribution LIBERO by +1.5 on average, the OOD LIBERO-Plus by +6.3, the randomized average under RoboTwin domain randomization by +28.5, and the overall success rate on three real-robot AgiBot A2 tasks by +11.67 points, with larger gains out of distribution.",
+      "summary_zh": "提出TFGCA，以可学习小波将动作块分解为时频token，融合点积与楔积幅值做交叉注意力，捕捉近正交相位几何；零初始化残差可嵌入预训练VLA。在LIBERO、RoboTwin和真机上提升显著。",
+      "contribution_zh": "提出时频几何交叉注意力，修复VLA动作块的频率纠缠与跨相位近正交关系盲区，即插即用并显著提升分布内外泛化。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2609.09925",
+        "url": "https://arxiv.org/abs/2609.09925",
+        "pdf_url": "https://arxiv.org/pdf/2609.09925v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-09-09T09:16:49Z",
+        "updated_at": "2026-09-09T09:16:49Z"
+      },
+      "taxonomy": {
+        "route_id": "action_ground",
+        "topics": [
+          "视觉语言动作模型",
+          "机器人操作",
+          "动作分块",
+          "时频表示",
+          "交叉注意力",
+          "泛化"
+        ],
+        "relevance_score": 6.75,
+        "relevance_reasons": [
+          "vision-language-action",
+          "robot"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-09-10T04:35:22Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2609.09925"
+        ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.96,
+        "reason": "VLA动作分块建模与机器人操作验证，直接服务具身智能，建议收录。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-10T04:35:19Z"
+      }
+    },
+    {
+      "id": "arxiv:2609.09776",
+      "title": "Proof-Carrying Cognition: Closing the Verification Gap with Reality-Settled Reward",
+      "title_zh": "证明携带认知：以现实结算奖励弥合验证鸿沟",
+      "authors": [
+        "Eshwar Reddy M",
+        "Sourav Karmakar"
+      ],
+      "affiliations": [],
+      "abstract": "Frontier gains in language-model reasoning come from reinforcement learning on reasoning traces and are concentrated in domains with a cheap, sound verifier. We argue the field's binding constraint is the verification gap: no scalable, incorruptible reward for reasoning outside formal domains. We make four contributions. (1) Theory: in a joint-Gaussian model of best-of-N selection, verifier-gold correlation rho is the exact exchange rate between test-time compute and capability, and an unsound verifier pays a polynomial penalty N^(1/rho^2); a margin-free copula form predicts realized soundness of real LLM judges to 4% median error. (2) Demonstration: in program-synthesis testbeds with executable ground truth, including a pre-registered scaled replication, unsound verifiers lose Soundness-under-Pressure as optimization grows (0.94 to 0.32 at N=4096) while a sound verifier improves monotonically; reality-anchored settlement beats a frozen verifier under i.i.d. and adversarial pressure, driving the hacking gap from ~0.27 to ~0; soundness scales log-linearly with settled labels, with on-policy settlement ~10x more label-efficient than random labeling. With real LLM judges and unit-test execution as gold, a weak judge loses soundness under best-of-N (p<0.001), a stronger judge is more robust, and selection alone manufactures +0.53 hacking gaps from honest samples. Under real GRPO training, a frozen reward model traces the full overoptimization curve (executed reward collapses 90%) while the same model refit on a 10% settlement stream preserves 6x the executed reward. (3) Paradigm: proof-carrying cognition, where reasoning steps are typed probabilistic claims priced by a self-built world model trained only on held-out reality and settled by proper scoring rules. (4) Benchmark: we specify Soundness-under-Pressure as the headline metric for a reality-settled reasoning benchmark.",
+      "summary_zh": "论文指出语言模型推理的瓶颈是验证鸿沟，提出以现实结算的奖励替代不可靠验证器，并在程序合成、LLM评判与GRPO训练中验证其抑制奖励作弊、提升可扩展性的效果。",
+      "contribution_zh": "提出验证鸿沟理论、现实锚定结算范式与Soundness-under-Pressure基准，证明可靠验证器可换取测试时算力收益。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2609.09776",
+        "url": "https://arxiv.org/abs/2609.09776",
+        "pdf_url": "https://arxiv.org/pdf/2609.09776v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-09-09T06:24:53Z",
+        "updated_at": "2026-09-09T06:24:53Z"
+      },
+      "taxonomy": {
+        "route_id": "causal",
+        "topics": [
+          "语言模型推理",
+          "奖励验证",
+          "强化学习",
+          "程序合成",
+          "奖励作弊"
+        ],
+        "relevance_score": 5.0,
+        "relevance_reasons": [
+          "world model"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-09-10T04:35:22Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2609.09776"
+        ],
+        "source_comment": "21 pages, 13 figures"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "reject",
+        "confidence": 0.9,
+        "reason": "聚焦语言模型推理的验证鸿沟与奖励结算，与机器人或物理智能无直接关联，建议拒收。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-10T04:35:19Z"
+      }
+    },
+    {
+      "id": "arxiv:2609.09757",
+      "title": "Arti-JEPA: Adapting Video World Model to Real-Time MRI of the Vocal Tract for Speech-Production Analysis",
+      "title_zh": "",
+      "authors": [
+        "Hong Nguyen",
+        "Sean Foley",
+        "Christina Hagedorn",
+        "Yijing Lu",
+        "Sudarsana Reddy Kadiri",
+        "Dani Byrd",
+        "Shrikanth Narayanan"
+      ],
+      "affiliations": [],
+      "abstract": "Real-time MRI (rtMRI) captures the dynamics of the entire vocal tract during speech, but labeled data are scarce and the modality - single-slice, grayscale, low-resolution - differs substantially from the natural videos that video foundation models are trained on. We introduce Arti-JEPA, a joint embedding predictive architecture to model vocal tract rtMRI by continuing its self-supervised objective on about 62h of unlabelled vocal-tract videos, and evaluate the frozen representation on three tasks: cross-domain phoneme prediction (on typical speakers), fluent-vs-disfluent classification (a corpus containing stuttered speech), and characterizing pre/post-operative transfer (after partial glossectomy). Three key findings emerge. (1) A temporal video prior decisively outperforms per-frame image encoders, and latent prediction (V-JEPA) is at least as strong as pixel reconstruction (VideoMAE), with the edge on fine-grained phonemes. (2) Domain adaptation is \\emph{task-dependent}: it roughly doubles cross-domain phoneme prediction $κ$ (to 0.352) but does not help binary stuttering classification. (3) Arti-JEPA was able to recover phoneme signal from pre/post glossectomy speech --- an in-domain probe decodes patients at least as well as a typical speaker, indicating that the residual transfer gap is cross-speaker/domain misalignment, not surgical signal loss, and post-operative decoding does not fall below performance on pre-operative speech. Together, these position a frozen, domain-adapted rtMRI encoder as a reusable measurement tool for articulatory and clinical speech science.",
+      "summary_zh": "",
+      "contribution_zh": "",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2609.09757",
+        "url": "https://arxiv.org/abs/2609.09757",
+        "pdf_url": "https://arxiv.org/pdf/2609.09757v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-09-09T05:58:40Z",
+        "updated_at": "2026-09-09T05:58:40Z"
+      },
+      "taxonomy": {
+        "route_id": "jepa",
+        "topics": [
+          "cs.SD",
+          "cs.CV",
+          "world model",
+          "joint embedding predictive",
+          "jepa"
+        ],
+        "relevance_score": 17.5,
+        "relevance_reasons": [
+          "world model",
+          "joint embedding predictive",
+          "jepa"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-09-10T04:35:22Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2609.09757"
+        ]
+      }
+    },
+    {
+      "id": "arxiv:2609.09627",
+      "title": "Seven Sources of Physical AI Capability Formation",
+      "title_zh": "",
+      "authors": [
+        "Gang Chen"
+      ],
+      "affiliations": [],
+      "abstract": "Capabilities relevant to Physical AI can arise from materially different formation histories, yet existing taxonomies organized by morphology, architecture, learning algorithm, task, or domain do not directly answer what gives rise to a capability. We define a capability-formation source as a factor materially contributing to capability formation, distinct from components or construction steps. We identify seven non-exclusive sources: Recorded-Experience (RE), Predictive-Modeling (PM), Evaluative-Interaction (EI), Surrogate-Environment (SE), Mechanism-Grounded (MG), Embodied-Coupling (EC), and Evolution-Driven (ED) Formation. Using reconstructive induction with theoretical saturation, we traced a research matrix to primary studies, deduplicated the literature, set coding rules, and conducted three rounds of maximum-difference and negative-case sampling. Challenges included curriculum and self-supervised learning, active inference, open-ended and developmental learning, planning and search, neuro-symbolic architectures, digital twins, generative physical world models, and morphology-control co-design. Within the scope and criteria fixed as of September 4, 2026, all 49 evidence records were explainable by the seven sources individually or in combination. No R1-R3 challenge produced an irreducible eighth source, and R3 required no new core definition or substantive boundary rule. We therefore claim theoretical saturation within the stated scope, not logical completeness or exhaustive future coverage. The framework distinguishes similarity in observed capability from similarity in how it was formed, supporting analysis of explanation, transfer, replication, dependencies, governance evidence, and geoeconomic foundations.",
+      "summary_zh": "",
+      "contribution_zh": "",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2609.09627",
+        "url": "https://arxiv.org/abs/2609.09627",
+        "pdf_url": "https://arxiv.org/pdf/2609.09627v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-09-09T02:38:44Z",
+        "updated_at": "2026-09-09T02:38:44Z"
+      },
+      "taxonomy": {
+        "route_id": "latent_wm",
+        "topics": [
+          "cs.AI",
+          "world model",
+          "world models",
+          "physical ai",
+          "active inference"
+        ],
+        "relevance_score": 21.25,
+        "relevance_reasons": [
+          "world model",
+          "world models",
+          "physical ai",
+          "active inference"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-09-10T04:35:22Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2609.09627"
+        ]
+      }
+    },
+    {
+      "id": "arxiv:2609.09597",
+      "title": "Compact Visuotactile World Models for Lifting: Prediction, Reward Alignment, and Force Constraints",
+      "title_zh": "面向抓举的紧凑视觉触觉世界模型：预测、奖励对齐与力约束",
+      "authors": [
+        "Qinzhen Ma",
+        "Sida Peng"
+      ],
+      "affiliations": [],
+      "abstract": "Accurate contact prediction is useful for robotic manipulation only if it supports effective decisions. We investigate this connection using a compact, randomly initialized visuotactile world model, trajectory-level uncertainty calibration, and behavior-initialized actor-critic learning in imagination. On 160 MuJoCo Lift episodes, adding touch reduces endpoint-force prediction error from 1.058 to 0.228 N and interval-peak error from 2.724 to 0.523 N across three training seeds. However, tactile persistence achieves lower errors of 0.095 and 0.498 N, respectively. Two exploratory control rounds comprise 680 executions on 40 independent test initial conditions. A matched reward revision on fresh test environments increases in-distribution 10 cm lifting success from 20.0% to 93.3%, while success within an 8 N per-finger budget reaches only 33.3%, compared with 70.0% for force feedback. Calibration margins reduce force violations at the cost of task completion. In a separate study of public GelSight recordings, a force regressor achieves 0.04234 N error, but frame-level calibration covers only 15.80% of complete trajectories; trajectory-level calibration raises this to 87.36% at nominal 90% coverage. Together, these findings distinguish improvements in sensing and task reward from improvements in force-constrained control. The evidence is limited to public sensing records and simulator execution, without a demonstrated transfer between them.",
+      "summary_zh": "论文用紧凑视觉触觉世界模型与想象中actor-critic，在MuJoCo Lift中研究触觉对接触力预测、奖励对齐和力约束控制的影响。",
+      "contribution_zh": "揭示触觉提升接触力预测但持续触觉更强；发现奖励修订显著提升抓举成功率，但力约束下成功率受限，需区分感知、奖励与控制改进。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2609.09597",
+        "url": "https://arxiv.org/abs/2609.09597",
+        "pdf_url": "https://arxiv.org/pdf/2609.09597v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-09-09T01:50:54Z",
+        "updated_at": "2026-09-09T01:50:54Z"
+      },
+      "taxonomy": {
+        "route_id": "latent_wm",
+        "topics": [
+          "视觉触觉世界模型",
+          "接触力预测",
+          "机器人抓举",
+          "力约束控制",
+          "actor-critic"
+        ],
+        "relevance_score": 13.0,
         "relevance_reasons": [
           "world model",
           "world models",
@@ -967,520 +689,62 @@
         "notes": ""
       },
       "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
+        "discovered_at": "2026-09-10T04:35:22Z",
         "source_name": "arXiv Physical AI / World Models",
         "evidence_urls": [
-          "https://arxiv.org/abs/2609.07532"
+          "https://arxiv.org/abs/2609.09597"
         ],
-        "source_comment": "Project website: https://physreal.github.io/anonymous_web"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "涉及真实可变形物体物理学习与仿真，直接面向机器人交互和世界模型，符合收录范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07470",
-      "title": "Measuring Language Transfer in Robot Policies: Adding Greek to a Cosmos3 Vision-Language-Action Policy",
-      "title_zh": "测量机器人策略中的语言迁移：向Cosmos3视觉语言动作策略添加希腊语",
-      "authors": [
-        "Ayoub Kirouane",
-        "Georgios Giaples",
-        "Christos Petrocheilos"
-      ],
-      "affiliations": [],
-      "abstract": "Robot foundation models are trained and evaluated predominantly in English, and robot demonstration corpora do not exist for most languages. We study the addition of Greek to an open vision-language-action stack using only machine-rephrased instructions and no architecture changes. The main challenge is measurement rather than translation. Several plausible instruments produce false conclusions: a color-histogram metric rewards noise, a single-goal benchmark scores 84.6% under correct Greek and 82.6% under deliberately wrong instructions, training loss fails to predict Greek success, and single-run comparisons are dominated by seed variation. On a discriminative ninety-task suite with three seeds per arm, a multilingual text tower without Greek demonstrations remains at its wrong-instruction floor, while Greek-only training exceeds its control by at most 2.7 points. Bilingual training yields a consistent 6.7-7.1 point margin over its control and reaches about two fifths of English performance. The policy also overfits the translator's phrasing; training on seven phrasings per task approximately halves this penalty. Warm-starting from a language-adapted world model and unfreezing the text tower both degrade performance. The results support two practical requirements for low-resource robot-policy localization: build a guaranteed null before trusting a metric, and replicate low-resource-language results across seeds.",
-      "summary_zh": "针对机器人基础模型主要用英语训练，研究向VLA策略添加希腊语。发现测量比翻译更难，提出判别性九任务套件与双语训练方法。",
-      "contribution_zh": "揭示机器人策略语言迁移评测陷阱，证明双语训练优于单语，提出低资源语言适配实用建议。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07470",
-        "url": "https://arxiv.org/abs/2609.07470",
-        "pdf_url": "https://arxiv.org/pdf/2609.07470v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-07T13:24:23Z",
-        "updated_at": "2026-09-07T13:24:23Z"
-      },
-      "taxonomy": {
-        "route_id": "action_ground",
-        "topics": [
-          "vision-language-action",
-          "language transfer",
-          "evaluation"
-        ],
-        "relevance_score": 16.88,
-        "relevance_reasons": [
-          "world model",
-          "vision-language-action",
-          "robot foundation model",
-          "robot"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07470"
-        ],
-        "source_comment": "22 pages, 16 figures, 6 tables. Model and reproduction information: https://huggingface.co/KIEFERSA/Sophea-Nano-Policy-LIBERO-Greek-v1"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "直接研究视觉语言动作模型的多语言迁移，属于物理智能收录范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07328",
-      "title": "PV-WM: A Heterogeneous Micro-Macro World Model for Articulated Pedestrian-Vehicle Co-Rollout",
-      "title_zh": "PV-WM：用于行人与车辆协同展开的异构微观-宏观世界模型",
-      "authors": [
-        "Haozhuang Chi",
-        "Jingsong Liang",
-        "Ziying Song",
-        "Lei Yang",
-        "Shihao Li",
-        "Haoruo Zhang",
-        "Chen Lv"
-      ],
-      "affiliations": [],
-      "abstract": "Local pedestrian-vehicle forecasting spans heterogeneous physical scales: pedestrians combine root locomotion with articulated motion, whereas vehicles are rigid bodies described by kinematic state and oriented extent. Existing road-agent forecasters typically omit pedestrian articulation, while pose forecasters leave vehicle futures outside the learned rollout. We introduce PV-WM, a history-only world model over structured post-perception tracks. It recurrently advances pedestrian root motion, 15-joint articulation, and learned vehicle states within a synchronized heterogeneous state. The generated pedestrian and vehicle chunks supply the next recurrent boundary; vehicle boxes are reconstructed from predicted center and heading with observed extent, and P-V geometry is recomputed after every transition. Relative to a matched one-shot complete-state predictor, recurrent execution reduces Root ADE by 12.7% and MPJPE by 14.8%. Feedback interventions show that later predictions depend on the content, temporal order, and pedestrian identity of generated articulation. Across 824 aligned Waymo contexts, with 797 providing valid future vehicle support, PV-WM reduces Root ADE by 5.2%, MPJPE by 7.6%, P-V distance error by 11.9%, and oriented-box closest-approach error by 5.8% relative to a validation-selected Modular Specialist. The single-network model uses 57.1% fewer parameters, 96.5% lower average FLOPs per local scene, and 25.5% lower measured p95 latency. PV-WM unifies this heterogeneous future state while preserving type-specific pedestrian and vehicle dynamics.",
-      "summary_zh": "提出异构世界模型，循环预测行人根运动、15关节姿态与车辆状态，同步更新场景几何，相比基线降低预测误差并提升效率。",
-      "contribution_zh": "统一行人-车辆异构状态预测，显著减少参数和延迟，提高协同未来预测准确性。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07328",
-        "url": "https://arxiv.org/abs/2609.07328",
-        "pdf_url": "https://arxiv.org/pdf/2609.07328v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-07T10:45:26Z",
-        "updated_at": "2026-09-07T10:45:26Z"
-      },
-      "taxonomy": {
-        "route_id": "interactive_wm",
-        "topics": [
-          "世界模型",
-          "联合预测",
-          "自动驾驶",
-          "行人姿态",
-          "车辆运动"
-        ],
-        "relevance_score": 6.25,
-        "relevance_reasons": [
-          "world model"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07328"
-        ]
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.8,
-        "reason": "面向自动驾驶行人车辆协同预测的世界模型，与物理智能直接相关，应收录。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07299",
-      "title": "World Models Under Asynchronous Sensor Observations",
-      "title_zh": "异步传感器观测下的世界模型",
-      "authors": [
-        "Akash Anand",
-        "Abhay Anand",
-        "Yash Vishe"
-      ],
-      "affiliations": [],
-      "abstract": "Learned world models typically assume that observations arrive synchronously, an abstraction inherited from simulators that return a complete state vector at each environment step. Physical sensing instead operates at heterogeneous rates, leaving most observation channels stale at any given instant. Interpolating stale channels introduces measurements that were never observed, while downsampling to the slowest sensor discards valid measurements. A natural alternative is to zero-order-hold the most recent reading and provide the known sampling schedule to the model through two features, staleness and time-to-refresh. We test this prediction using transformer world models across three regimes of increasing causal coupling: open-loop rollouts in continuous-control locomotion, closed-loop model-predictive planning in which each learned model serves as the planner dynamics, and a linear latched-actuator system in which refresh events apply a zero-order-held command to the plant. Our findings show that the effectiveness of time-to-refresh depends on the causal role of the sampling schedule, specifically when refresh events affect the system rather than merely report its state. These results establish when sampling schedules provide useful information for predictive world models operating under asynchronous physical observations.",
-      "summary_zh": "世界模型常假设观测同步到达，但物理传感器速率各异。作者提出用零阶保持和采样时间特征，在连续控制与规划任务中验证，表明时间刷新特征仅在刷新影响系统时有效。",
-      "contribution_zh": "系统分析了异步采样模式对世界模型预测的影响，识别了刷新时间特征有效的因果条件，为物理系统建模提供了实用指导。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07299",
-        "url": "https://arxiv.org/abs/2609.07299",
-        "pdf_url": "https://arxiv.org/pdf/2609.07299v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-07T10:17:17Z",
-        "updated_at": "2026-09-07T10:17:17Z"
-      },
-      "taxonomy": {
-        "route_id": "interactive_wm",
-        "topics": [
-          "世界模型",
-          "异步观测",
-          "机器人控制",
-          "模型预测规划"
-        ],
-        "relevance_score": 12.5,
-        "relevance_reasons": [
-          "world model",
-          "world models"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07299"
-        ],
-        "source_comment": "13 pages, 2 figures. All authors contributed equally"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.85,
-        "reason": "研究异步传感器下世界模型，直接关联机器人感知与控制，属于物理智能范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07135",
-      "title": "NutriBench-Kitchen: Benchmarking Embodied AI for Nutrition Management",
-      "title_zh": "营养厨房基准：用于营养管理的具身AI基准测试",
-      "authors": [
-        "Yulin Wei",
-        "Xiangchen Wang",
-        "Jianhui Pan",
-        "Jinyu Xiao",
-        "Zheng Tan",
-        "Ruozai Tian",
-        "Guanhua Chen",
-        "Feng Zheng"
-      ],
-      "affiliations": [],
-      "abstract": "An embodied kitchen assistant must do more than recognize food in isolated frames. It must track ingredient states over time and integrate visual observations with recipe and nutritional knowledge to support constraint-aware decision-making. We formalize this capability as \\emph{Embodied Nutrition Management}: perceiving nutrition-relevant events, maintaining a persistent food state, and using it for knowledge-grounded planning. Existing benchmarks evaluate static food understanding or embodied cooking actions, but do not measure whether an agent can continuously update and use nutrition-relevant states in dynamic kitchens. To fill this gap, we introduce \\textbf{NutriBench-Kitchen}, a benchmark containing 1,500 manually verified question--answer pairs from 160 cooking videos. It covers five task families: Ingredient Entry, Memory Management, Recipe Query, Long-Term Planning, and Short-Term Planning, spanning food-state construction, maintenance, knowledge retrieval, and decision-making across different planning horizons. Evaluations of proprietary and open-source large vision-language models reveal a substantial gap from human performance, particularly in quantitative ingredient estimation, long-term state tracking, and reasoning under interacting constraints. We further introduce \\textbf{Nutri-Vgent}, a diagnostic long-video agent with separate episodic, food-state, and recipe memories. Its consistent improvements demonstrate the value of explicit state representations and structured memory for nutrition management. Together, NutriBench-Kitchen and Nutri-Vgent provide a testbed for studying persistent state tracking and knowledge-grounded reasoning in dynamic kitchens. Code is available at https://github.com/V1ol1n/NutriBench-Kitchen.",
-      "summary_zh": "提出互身营养管理基准NutriBench-Kitchen，含160个烹饪视频中1500个QA对，涵盖状态跟踪和规划。评测多种LVLM并引入带结构化记忆的代理Nutri-Vgent，验证显式状态表示的价值。",
-      "contribution_zh": "构建具身营养管理基准与带多记忆的代理，揭示LVLM在持续状态跟踪与约束推理上的不足。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07135",
-        "url": "https://arxiv.org/abs/2609.07135",
-        "pdf_url": "https://arxiv.org/pdf/2609.07135v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-07T07:34:33Z",
-        "updated_at": "2026-09-07T07:34:33Z"
-      },
-      "taxonomy": {
-        "route_id": "latent_wm",
-        "topics": [
-          "具身智能",
-          "营养管理",
-          "状态跟踪",
-          "视觉语言模型",
-          "规划",
-          "基准测试"
-        ],
-        "relevance_score": 5.0,
-        "relevance_reasons": [
-          "embodied ai"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07135"
-        ],
-        "source_comment": "17 pages, 4 figures, ECCV"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.83,
-        "reason": "内容属具身智能在动态厨房中的状态跟踪与规划，符合收录范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07126",
-      "title": "Beyond Task Success: Stage-Wise Reliability of World Model Planning under Sensing Degradation",
-      "title_zh": "超越任务成功：感知退化下世界模型规划的分阶段可靠性",
-      "authors": [
-        "Geonmyeong Lee",
-        "Byoung-Tak Zhang"
-      ],
-      "affiliations": [],
-      "abstract": "In world model planning, sensing inputs pass through an encoder and predictor before affecting planner decisions, so final task success alone cannot reveal where sensing disturbances attenuate or persist in the pipeline. We apply 10 visual and temporal sensing degradations to a world model planner and track their effects across representation, future prediction, planner preference, and physical outcome using paired evaluation on the same 50 tasks. The relative impact of degradations was not preserved across stages: large representation shifts could attenuate downstream, while smaller initial shifts could persist to the outcome, and internal-response ordering did not directly match physical-outcome ordering. Temporal degradations also showed distinct patterns: even with similar overall changes in observation history, responses differed substantially with the location of corrupted information and the planner's actual exposure. This non-uniform stage-wise response was also observed in secondary evaluations with another manipulation task and a different world model. Stage-wise diagnosis can therefore identify where sensing disturbances attenuate or persist and help prioritize subsequent model verification and sensing mitigation.",
-      "summary_zh": "对世界模型规划器施加10种感知退化，通过配对评估追踪其在表征、预测、规划者偏好和物理结果各阶段的影响，发现退化影响跨阶段非均匀传导。",
-      "contribution_zh": "提出分阶段诊断方法，揭示感知退化在世界模型规划管道中的衰减或持续模式，有助于模型验证与传感缓解。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07126",
-        "url": "https://arxiv.org/abs/2609.07126",
-        "pdf_url": "https://arxiv.org/pdf/2609.07126v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-07T07:19:37Z",
-        "updated_at": "2026-09-07T07:19:37Z"
-      },
-      "taxonomy": {
-        "route_id": "latent_wm",
-        "topics": [
-          "world model",
-          "planning",
-          "sensing degradation",
-          "reliability",
-          "robotics"
-        ],
-        "relevance_score": 6.25,
-        "relevance_reasons": [
-          "world model"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07126"
-        ],
-        "source_comment": "8 pages, 3 figures, 2 tables"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "研究世界模型规划在感知退化下的可靠性，直接关联物理智能中的规划与鲁棒性。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07094",
-      "title": "CASCADE: A Spatio-Temporal-Causal Reasoning Representation and Dataset for Driving",
-      "title_zh": "CASCADE：驾驶场景的时空因果推理表示与数据集",
-      "authors": [
-        "Jenny Schmalfuss",
-        "Despoina Paschalidou",
-        "Simon Gerstenecker",
-        "German Ros",
-        "Jose M. Alvarez"
-      ],
-      "affiliations": [
-        "NVIDIA"
-      ],
-      "abstract": "Reasoning is a promising route to the generalization that autonomous driving requires in the long tail, as it can infer how the elements of a scene depend on one another and traverse those dependencies to conclusions beyond what is observed. Yet it is hard to tell whether a model's conclusions follow the scene's dependencies, because no driving representation makes them explicit enough to test against. Text-based reasoning traces lack spatio-temporal grounding, spatio-temporal scene graphs lack causal links, and reasoning annotations at scale are increasingly model-generated and hard to verify. To this end, we introduce CASCADE (Causal Spatio-Temporal Analysis of Driving Environments), which encompasses two components: (1) a structured scene representation for reasoning in driving scenes and (2) a human-annotated dataset built on it. For every actor that interacts with the ego vehicle, the CASCADE representation records frame-by-frame, for as long as the actor is visible, what action is taken, where it occurs, and how it depends on the actions and states of others. The resulting structure makes reasoning predictions machine-verifiable: they can be scored against it element by element, without relying on (M)LLM judges. The CASCADE dataset provides comprehensive human annotations for 2,066 driving clips of the PhysicalAI dataset, with over 34K elements that establish the spatio-temporal and causal context of each scene, including 8.6K time-stamped ego and agent actions, 3.7K causal links and 2.9K potential influences, and 6.1K annotations for agents, objects, traffic lights, and environments. Being entirely human-annotated, CASCADE provides the reference for this comparison: benchmarking the reasoning abilities of Physical AI models, and verifying the quality of automatically generated reasoning labels. The CASCADE dataset is available at https://huggingface.co/datasets/nvidia/cascade.",
-      "summary_zh": "CASCADE 提出一种结构化的驾驶场景表示，逐帧记录车辆动作、位置及因果依赖，并构建人工标注数据集，含2066个驾驶片段、3.7K因果链接等，支持物理AI模型的推理能力验证与标注质量评估。",
-      "contribution_zh": "提出可验证的驾驶因果推理表示，并发布大规模人工标注的时空因果数据集，为物理AI推理评测提供基准。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07094",
-        "url": "https://arxiv.org/abs/2609.07094",
-        "pdf_url": "https://arxiv.org/pdf/2609.07094v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-07T06:32:55Z",
-        "updated_at": "2026-09-07T06:32:55Z"
-      },
-      "taxonomy": {
-        "route_id": "causal",
-        "topics": [
-          "因果推理",
-          "时空表示",
-          "自动驾驶",
-          "数据集",
-          "物理AI"
-        ],
-        "relevance_score": 5.0,
-        "relevance_reasons": [
-          "physical ai"
-        ]
-      },
-      "team_node_ids": [
-        "NVIDIA"
-      ],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07094"
-        ]
+        "source_comment": "8 pages, 2 figures. Code and tabulated results included as ancillary material"
       },
       "ai_review": {
         "mode": "shadow",
         "decision": "approve",
         "confidence": 0.92,
-        "reason": "驾驶场景的时空因果推理数据集，直接服务于物理智能中的自动驾驶与因果推理，符合收录范围。",
+        "reason": "直接研究视觉触觉世界模型、接触预测与力约束控制，属机器人世界模型与具身操作。",
         "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
+        "reviewed_at": "2026-09-10T04:35:19Z"
       }
     },
     {
-      "id": "arxiv:2609.07051",
-      "title": "TrojanWorld: Backdooring World-Model Agents via Imagination Steering",
-      "title_zh": "TrojanWorld：通过想象引导对世界模型代理进行后门攻击",
+      "id": "arxiv:2609.09591",
+      "title": "Modality-Decoupled Federated Learning for Privacy-Preserving Embodied Intelligence in 6G",
+      "title_zh": "面向6G隐私保护具身智能的模态解耦联邦学习",
       "authors": [
-        "Wenkai Huang",
-        "Siyuan Liang",
-        "Gaolei Li",
-        "Yiming Li",
-        "Tianhao Peng",
-        "Jianhua Li",
-        "Dacheng Tao"
-      ],
-      "affiliations": [
-        "Google DeepMind"
-      ],
-      "abstract": "World models increasingly serve as the predictive core of model-based reinforcement learning agents, enabling them to simulate future dynamics and reason over imagined trajectories before acting. Their substantial training demands make pretrained world models attractive for distribution and reuse, exposing downstream systems to model supply chain threats. Backdoor attacks offer a targeted and stealthy means of exploiting such supply chains, yet their threat to interactive world-model agents remains largely unexplored. To fill this gap, we present TrojanWorld, a backdoor framework for world-model agents that induces attacker-specified behavior by steering internal imagination. A physical object placed in the scene acts as the trigger, enabling deployment-time activation through the agent's native observation pipeline without digitally manipulating the observation stream. To achieve effective, stealthy, and persistent control, TrojanWorld combines Decision-Reflective Induction to steer trigger-conditioned imagination toward attacker-specified actions using decision feedback, Clean Behavior Anchoring to preserve trigger-free predictive and behavioral fidelity, and Causal Propagation to sustain the induced preference along subsequent trajectories after the trigger disappears. Together, these mechanisms establish an end-to-end attack chain from physical perception through corrupted imagination to malicious action selection. Experiments with the TD-MPC2, DreamerV3, and R2-Dreamer systems across the DeepMind Control, MetaWorld, MyoSuite, and RoboDesk benchmarks show that under trigger activation, TrojanWorld achieves a target-action deviation as low as 0.026 while retaining at least 98.8% of the corresponding clean performance. Even after trigger removal, the compromised agent can remain trapped in the induced behavioral trajectory, continuing to execute attacker-specified actions.",
-      "summary_zh": "针对世界模型代理的后门攻击框架，通过物理场景中的物体触发，操纵内部想象诱导恶意行为。在TD-MPC2、DreamerV3等系统和多个机器人基准上验证了攻击有效性与隐蔽性。",
-      "contribution_zh": "首次系统研究世界模型代理的后门攻击，提出想象引导与因果传播机制，在物理实体上实现可部署的触发与持续控制。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07051",
-        "url": "https://arxiv.org/abs/2609.07051",
-        "pdf_url": "https://arxiv.org/pdf/2609.07051v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-07T05:14:10Z",
-        "updated_at": "2026-09-07T05:14:10Z"
-      },
-      "taxonomy": {
-        "route_id": "latent_wm",
-        "topics": [
-          "world model",
-          "backdoor attack",
-          "model-based RL",
-          "robotics",
-          "imagination steering"
-        ],
-        "relevance_score": 10.0,
-        "relevance_reasons": [
-          "world model",
-          "world models"
-        ]
-      },
-      "team_node_ids": [
-        "Google_DeepMind"
-      ],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07051"
-        ]
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "直接研究机器人世界模型的后门攻击，关联物理智能与安全，应收录。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07049",
-      "title": "Large Discrete Policy: Advancing Explicit Behavior Modeling with Stochastic Iterative Scoring",
-      "title_zh": "大型离散策略：通过随机迭代评分推进显式行为建模",
-      "authors": [
-        "Zhenxin Li",
-        "Nadine Chang",
-        "Xinglong Sun",
-        "Jingde Chen",
-        "Wenhao Yao",
-        "Zi Wang",
-        "Maying Shen",
-        "Yu-Gang Jiang",
-        "Zuxuan Wu",
-        "Shiyi Lan",
-        "Jose M. Alvarez"
+        "Zhuodong Liu",
+        "Xiangyu Li",
+        "Chunhong Yuan",
+        "Hongyang Du",
+        "Bodong Shang",
+        "Qingqing Wu",
+        "Tony Q. S. Quek",
+        "Mohsen Guizani"
       ],
       "affiliations": [],
-      "abstract": "Behavior policies are often formulated as continuous generative models, whose iterative denoising processes are expressive but difficult to interpret and prone to producing implausible actions. We propose the Large Discrete Policy (LDiP), a fully discrete behavior modeling framework that selects actions from a large vocabulary of physically plausible candidates. Rather than perturbing actions, LDiP improves expressivity through stochastic iterative scoring: it progressively re-scores and prunes candidates with score-space stochasticity, enabling fine-grained ranking and exploration among plausible actions while preserving an explicit decision process. Across end-to-end planning, closed-loop driving, robotic manipulation, and vision-language-action settings, LDiP consistently outperforms strong discrete and continuous baselines in autonomous driving, and exceeds or matches continuous generative policies in robotic manipulation. These results show that discrete policies, when equipped with effective scoring mechanisms, offer an expressive, plausible, and interpretable alternative for behavior modeling. Project website: https://zhenxinli.net/LargeDiscretePolicy/.",
-      "summary_zh": "提出大型离散策略LDiP，从物理合理动作词汇中迭代评分与剪枝候选，实现显式可解释的离散行为建模。在自动驾驶、机器人操作及视觉语言动作任务上超过连续基线，验证离散策略的有效性。",
-      "contribution_zh": "提出随机迭代评分离散行为建模框架，在多个物理智能任务中超越或匹配连续生成策略，提供可解释且表达力强的替代方案。",
+      "abstract": "Sixth-generation (6G) wireless networks are expected to provide a key infrastructure for large-scale embodied intelligence, where heterogeneous robots collaborate through low-latency connectivity, edge intelligence, and distributed sensing. Vision-language-action (VLA) models offer a foundation by integrating visual perception, language understanding, and action generation into a unified closed-loop policy. However, training and adapting VLA models to distributed robotic agents introduce challenges in privacy protection, communication efficiency, and model heterogeneity. Existing federated learning (FL) methods overlook the intrinsic differences among vision, language, and action pathways in parameter scale, privacy exposure, update dynamics, and tolerance to compression or perturbation. To address this issue, this article proposes FedMVLA, a modality-decoupled FL framework for privacy-preserving embodied intelligence in 6G networks. FedMVLA incorporates three mechanisms: modality-aware federated aggregation (MAFA), modality-aware privacy allocation (MAPA), and modality-aware communication compression (MACO), together with a modality-sliced transport design that routes the precision-critical action stream through a protected ultra-reliable low-latency slice. A case study on federated robotic manipulation over the Third Generation Partnership Project (3GPP)-based wireless substrate, covering fading, co-channel interference, and malicious jamming, shows that FedMVLA achieves an 84.8% task success rate, exceeds FedAvg by 22.2 percentage points, sustains a widening margin when scaling to 128 clients across eight cells, and reduces the schedule-averaged per-client uplink model-update payload by 95.6% (approximately 96%), while keeping the 95th percentile (p95) of the round-critical uplink completion time near 1.5s.",
+      "summary_zh": "提出FedMVLA模态解耦联邦学习框架，按视觉、语言、动作分别聚合、分配隐私与压缩，并用切片保障动作流低延迟。3GPP仿真下联邦机器人操作成功率84.8%，上行开销降低约96%。",
+      "contribution_zh": "针对VLA视觉、语言、动作三模态差异，提出模态解耦联邦聚合、隐私分配与通信压缩，提升隐私保护与通信效率。",
       "source": {
         "kind": "arxiv",
-        "external_id": "2609.07049",
-        "url": "https://arxiv.org/abs/2609.07049",
-        "pdf_url": "https://arxiv.org/pdf/2609.07049v1"
+        "external_id": "2609.09591",
+        "url": "https://arxiv.org/abs/2609.09591",
+        "pdf_url": "https://arxiv.org/pdf/2609.09591v1"
       },
       "publication": {
         "status": "preprint",
         "venue": "arXiv",
         "venue_id": "arXiv",
-        "published_at": "2026-09-07T05:12:52Z",
-        "updated_at": "2026-09-07T05:12:52Z"
+        "published_at": "2026-09-09T01:36:44Z",
+        "updated_at": "2026-09-09T01:36:44Z"
       },
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "离散策略",
-          "行为建模",
-          "机器人操作",
-          "自动驾驶",
-          "视觉语言动作"
+          "federated learning",
+          "VLA",
+          "embodied intelligence",
+          "6G",
+          "robot manipulation",
+          "privacy-preserving"
         ],
         "relevance_score": 5.5,
         "relevance_reasons": [
@@ -1494,59 +758,260 @@
         "notes": ""
       },
       "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
+        "discovered_at": "2026-09-10T04:35:22Z",
         "source_name": "arXiv Physical AI / World Models",
         "evidence_urls": [
-          "https://arxiv.org/abs/2609.07049"
-        ]
+          "https://arxiv.org/abs/2609.09591"
+        ],
+        "source_comment": "This article has been accepted for publication in IEEE Wireless Commnunications Magazine"
       },
       "ai_review": {
         "mode": "shadow",
         "decision": "approve",
-        "confidence": 0.95,
-        "reason": "该论文提出离散行为策略，并在机器人和自动驾驶任务中验证，属于具身智能与机器人学习范围。",
+        "confidence": 0.72,
+        "reason": "面向VLA模型的联邦学习框架，直接服务机器人操作等具身智能，属收录范围。",
         "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
+        "reviewed_at": "2026-09-10T04:35:19Z"
       }
     },
     {
-      "id": "arxiv:2609.07047",
-      "title": "MEMOBench: A Process Level Memory Benchmark for Robotic Manipulation",
-      "title_zh": "MEMOBench：机器人操作过程级记忆基准",
+      "id": "arxiv:2609.09528",
+      "title": "MotionBlind: Probing the Illusion of Motion Understanding in Video-LLMs",
+      "title_zh": "MotionBlind：探究视频大模型的运动理解错觉",
       "authors": [
-        "Haiyang Sun",
-        "Haoxiao Wang",
-        "Junming Chen",
-        "Weicheng Fang",
-        "Zihao Su",
-        "Jingkun Yi",
-        "Wenyou Yi",
-        "Hao Chen",
-        "Zhou Zhao"
+        "Dhairya Bhatia",
+        "Bishoy Galoaa",
+        "Oliver Fritsche",
+        "Shahid Kamal",
+        "Muhammad Obaidullah Abdul Salam",
+        "Umer Saleem",
+        "Om Rastogi",
+        "Frania Felix Chettiar",
+        "Nesli Erdogmus",
+        "Sarah Ostadabbas"
       ],
       "affiliations": [],
-      "abstract": "Robotic manipulation often requires acting on information that is no longer visible, yet Vision-Language-Action policies are usually evaluated when the current observation largely determines the next action. Existing robotic memory benchmarks expose this gap, but they still rely mainly on final task success and therefore conflate forgetting with manipulation failure. We present \\textbf{MEMOBench}, a benchmark for process level memory evaluation in robotic manipulation. MEMOBench includes 30 history dependent tasks, 1{,}500 expert demonstrations, and 4{,}200 executable checkpoint instances from 84 templates. Each checkpoint pairs coarse to fine language with a simulator predicate and labels one memory operation: Storage, Update, or Compression. These annotations define Memory Storage Rate, Memory Update Rate, and Memory Compression Rate, which measure memory fidelity alongside task success. Across standard and memory augmented VLA policies, the strongest memory module baseline reaches only 31.9\\% average success rate, and high storage often coexists with weak update and compression. Checkpoint language also supervises semantic, contrastive, and framewise memory alignment objectives, yielding modest gains across different memory operations. MEMOBench provides a diagnostic evaluation suite and training supervision for memory grounded robotic policies. The project page is available at https://github.com/Collab-Gen/MEMOBench.",
-      "summary_zh": "提出MEMOBench基准，含30个记忆依赖任务、1500条专家演示及4200个可执行检查点，标注存储、更新、压缩三类记忆操作，并给出对应评估指标，用于诊断和训练VLA策略的记忆能力。",
-      "contribution_zh": "首个过程级机器人记忆基准，细粒度标注记忆操作并支持训练监督。",
+      "abstract": "Video large language models (Video-LLMs) are increasingly used as the perceptual front end of world models, a role that assumes they can read motion: how fast something moves, which way it travels, how hard it is pushed. We show they cannot. A Video-LLM can watch two clips of the same person in the same room, name every object in both, and still fail to say which clip moves faster. We introduce MotionBlind, a contrastive benchmark of self-recorded video for physically grounded motion(speed, magnitude, and direction), the variables a world model must predict. Each instance is a pair of near-identical clips that differ only in motion. Each clip carries two complementary yes/no questions, giving four items per instance, and a model earns credit only if all four are correct. We report Instance Accuracy(IAcc), which has a 6.25% chance floor. Single-frame, appearance, and language-only shortcuts all collapse to it. MotionBlind complements the recent TimeBlind benchmark. We run a controlled study of six open and two frontier Video-LLMs, varying whether the video is present, whether frames are shown in the correct temporal order, and how frames are sampled (1 to 24 frames, four selection strategies). Open models sit near the 6.25% floor, and scale does not help. Removing the video drops every model to zero IAcc, and shuffling frames collapses IAcc to chance, so the task genuinely needs video in order. Neither more frames nor smarter frame selection closes the gap, because these change which frames are seen, not whether motion is read. Only Gemini3.1 Pro clears the benchmark overall, and even it fails on speed. A frontend that cannot tell two speeds of the same action apart is not yet a trustworthy source of supervision, reward, or evaluation for a world model.",
+      "summary_zh": "提出MotionBlind对比基准，用仅速度、幅度、方向不同的成对自录视频，四问答严格判分检验Video-LLM是否真懂运动。六开源两前沿模型多接近6.25%随机下限，仅Gemini3.1 Pro整体通过且速度项失败。",
+      "contribution_zh": "构建物理运动（速度、幅度、方向）对比评测与全对判分协议，揭示视频大模型运动理解盲区，证明加帧与改进采样均无效。",
       "source": {
         "kind": "arxiv",
-        "external_id": "2609.07047",
-        "url": "https://arxiv.org/abs/2609.07047",
-        "pdf_url": "https://arxiv.org/pdf/2609.07047v1"
+        "external_id": "2609.09528",
+        "url": "https://arxiv.org/abs/2609.09528",
+        "pdf_url": "https://arxiv.org/pdf/2609.09528v1"
       },
       "publication": {
         "status": "preprint",
         "venue": "arXiv",
         "venue_id": "arXiv",
-        "published_at": "2026-09-07T05:06:20Z",
-        "updated_at": "2026-09-07T05:06:20Z"
+        "published_at": "2026-09-08T23:15:20Z",
+        "updated_at": "2026-09-08T23:15:20Z"
       },
       "taxonomy": {
-        "route_id": "interactive_wm",
+        "route_id": "action_ground",
         "topics": [
-          "robotic manipulation",
-          "memory benchmark",
-          "VLA policies"
+          "视频大模型",
+          "运动理解",
+          "评测基准",
+          "世界模型感知前端"
+        ],
+        "relevance_score": 10.0,
+        "relevance_reasons": [
+          "world model",
+          "world models"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-09-10T04:35:22Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2609.09528"
+        ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "manual",
+        "confidence": 0.55,
+        "reason": "视频大模型运动理解基准，与世界模型感知相关，但无机器人或物理任务",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-10T04:35:19Z"
+      }
+    },
+    {
+      "id": "arxiv:2609.09418",
+      "title": "Valerant: An Automatic Navigable Game Map Generator via Action-Conditioned World Model Exploration",
+      "title_zh": "Valerant：基于动作条件世界模型探索的自动可导航游戏地图生成器",
+      "authors": [
+        "Yiran Qiao",
+        "Feng Wang",
+        "Jing Ma"
+      ],
+      "affiliations": [],
+      "abstract": "World Action Models (WAMs) couple predictive world modeling with action generation, allowing anticipated future states to guide agent behavior. Although WAMs are rapidly advancing embodied AI, general-purpose counterparts remain largely unexplored in games. Existing game-oriented approaches often combine action-conditioned world models with external policies and reward functions to realize WAM-like decision-making, yet they operate mainly in 2D visual observation space and do not instantiate persistent 3D geometry. Extending this paradigm to 3D games introduces a distinct challenge. In autonomous driving and robotics, the physical environment exists independently of the model, providing a persistent 3D world in which selected actions can be executed. Games have no such external substrate; the virtual world itself must be instantiated. Most playable games require a persistent and navigable space, while 3D games additionally require explicit geometry that supports movement and interaction. Action-conditioned video rollouts provide visual observations but not this spatial representation. We present \\textsc{Valerant}, a training-free framework that transforms a pretrained action-conditioned world model into a WAM for exploring and constructing 3D game maps. By coupling predictive visual rollouts with SLAM-based spatial reconstruction and exploration-driven action selection, \\textsc{Valerant} progressively transforms a single image into a persistent 3D game map. This framework extends WAM-based interaction beyond 2D visual simulation and offers a new approach to reducing manual effort in 3D game-map creation.",
+      "summary_zh": "Valerant无需训练，将预训练动作条件世界模型转为WAM，结合视觉回滚、SLAM重建与探索驱动动作选择，从单图生成持久3D游戏地图。",
+      "contribution_zh": "将WAM扩展至3D游戏，实现单图到可导航3D地图的自动生成，降低人工构建成本。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2609.09418",
+        "url": "https://arxiv.org/abs/2609.09418",
+        "pdf_url": "https://arxiv.org/pdf/2609.09418v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-09-08T20:17:48Z",
+        "updated_at": "2026-09-08T20:17:48Z"
+      },
+      "taxonomy": {
+        "route_id": "gen_simulator",
+        "topics": [
+          "world model",
+          "action-conditioned",
+          "spatial reconstruction",
+          "SLAM",
+          "3D map generation",
+          "game environment"
+        ],
+        "relevance_score": 29.5,
+        "relevance_reasons": [
+          "world model",
+          "world models",
+          "world action model",
+          "embodied ai",
+          "robotics",
+          "robot",
+          "3d world",
+          "action-conditioned"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-09-10T04:35:22Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2609.09418"
+        ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.75,
+        "reason": "动作条件世界模型结合SLAM构建3D游戏地图，属具身世界模型与空间推理，与物理智能相关。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-10T04:35:19Z"
+      }
+    },
+    {
+      "id": "arxiv:2609.09396",
+      "title": "VANTAGE-Bench: Evaluating the Infrastructure AI Gap in Vision-Language Models",
+      "title_zh": "",
+      "authors": [
+        "Zaid Pervaiz Bhat",
+        "Nimra Nayyar",
+        "Arihant Jain",
+        "Lap Fung Chan",
+        "John Suchanek",
+        "Yu Wang",
+        "Varun Praveen",
+        "Tomasz Kornuta",
+        "Vidya Nariyambut Murali"
+      ],
+      "affiliations": [],
+      "abstract": "As Vision-Language Models (VLMs) advance toward physical deployment, the focus has remained on action-oriented Embodied AI evaluated on subject-centric consumer video. This overlooks a pervasive class of Physical AI: Infrastructure AI, which relies on fixed cameras for open-loop insights like safety monitoring and operational logging. We introduce VANTAGE-Bench, a benchmark measuring this \"Infrastructure AI Gap.\" It spans three operational domains (Logistics, Transportation, and Smart Spaces), unifies image and video evaluation across semantic, spatial, temporal, and spatio-temporal capabilities, and moves beyond multiple-choice to eight task formulations including dense captioning and spatio-temporal grounding. It adds a single-pass trajectory protocol for Single Object Tracking and, to our knowledge, the first such evaluation on fixed-camera infrastructure video, scored against specialist trackers. Annotation spans three regimes over 3,346 media assets: 3,342 video-task annotations, 4,281 image-grounding annotations, and 27,404 detection boxes. Evaluating 17 models zero-shot, we find the shortfall relative to consumer-centric benchmarks is concentrated, not general. Event verification, referring expressions, and temporal localization fall roughly 9 to 24 points at every model scale, while video question answering stays within 5.3 points of VideoMME and 2D spatial pointing shows no shortfall against BLINK. The temporal pillar is weakest in absolute terms: no system exceeds 55.7 mIoU on temporal localization or 37.3 SODA_c on dense video captioning. On tracking, frontier models come within roughly 5 points of specialist trackers over short horizons but separate as the horizon extends. Open-weight models lead 2D object localization outright, so neither scale nor proprietary access explains the pattern. Data, evaluation harness, and leaderboard: https://vantage-bench.org/",
+      "summary_zh": "",
+      "contribution_zh": "",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2609.09396",
+        "url": "https://arxiv.org/abs/2609.09396",
+        "pdf_url": "https://arxiv.org/pdf/2609.09396v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-09-08T19:50:25Z",
+        "updated_at": "2026-09-08T19:50:25Z"
+      },
+      "taxonomy": {
+        "route_id": "phys_engine",
+        "topics": [
+          "cs.CV",
+          "cs.AI",
+          "embodied ai",
+          "physical ai"
+        ],
+        "relevance_score": 9.0,
+        "relevance_reasons": [
+          "embodied ai",
+          "physical ai"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-09-10T04:35:22Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2609.09396"
+        ],
+        "source_comment": "23 pages, 2 figures, 14 tables. Project page: https://vantage-bench.org/; dataset: https://huggingface.co/datasets/nvidia/PhysicalAI-VANTAGE-Bench;"
+      }
+    },
+    {
+      "id": "arxiv:2609.09250",
+      "title": "No Free Checker: A Survey of Verifiers for Robot Policies",
+      "title_zh": "没有免费的检查器：机器人策略验证器综述",
+      "authors": [
+        "Yang Wan",
+        "Xihang Yue",
+        "Zhirui Liu",
+        "Ziyuan Chu",
+        "Shuxun Wang",
+        "Yuhan Chen",
+        "Xiaonan Jiang",
+        "Xukun Zhu",
+        "Yubo Dong",
+        "Linchao Zhu"
+      ],
+      "affiliations": [],
+      "abstract": "A verifier for robot policies reads a candidate behavior and returns a score for how well it did, used both to evaluate vision-language-action policies and to train them. Verifiers range from success detectors and reward models to runtime monitors, safety filters, and temporal-logic specifications. We survey roughly 150 verifiers and compare them along two properties. Availability is how much a verdict costs, how early in a rollout the verdict arrives, and how often a verdict can be asked for. Availability rises as verdicts get cheaper, earlier, and denser. Credibility is how much a high score tells us about the task. Credibility falls as the judgment becomes gameable and self-serving. We group the verifiers by who supplies the judgment: human verifiers, rule-based and formal verifiers, learned and pretrained verifiers, and model-intrinsic verifiers. Across the four families, we find that credibility falls as availability rises. Regardless of who supplies the judgment, there is no free checker. We then examine what validates a verifier itself, and how much a high score tells us. Three measures appear in the literature: agreement with human labels, the performance of the policy it trains, and behavior under reward hacking. We close with nine metrics that make a verifier claim checkable, and coordinates for the verifiers still to be built.",
+      "summary_zh": "综述约150种机器人策略验证器，涵盖成功率检测、奖励模型、运行时监控与安全过滤器，按四类供给者分组，指出可用性上升则可信度下降的权衡。",
+      "contribution_zh": "系统梳理策略验证器的可用性与可信度维度，提出九项可核查指标并给出未来验证器构建方向。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2609.09250",
+        "url": "https://arxiv.org/abs/2609.09250",
+        "pdf_url": "https://arxiv.org/pdf/2609.09250v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-09-08T13:52:59Z",
+        "updated_at": "2026-09-08T13:52:59Z"
+      },
+      "taxonomy": {
+        "route_id": "action_ground",
+        "topics": [
+          "机器人策略验证",
+          "奖励模型",
+          "VLA",
+          "运行时监控",
+          "奖励攻击"
         ],
         "relevance_score": 5.62,
         "relevance_reasons": [
@@ -1560,439 +1025,64 @@
         "notes": ""
       },
       "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
+        "discovered_at": "2026-09-10T04:35:22Z",
         "source_name": "arXiv Physical AI / World Models",
         "evidence_urls": [
-          "https://arxiv.org/abs/2609.07047"
-        ]
+          "https://arxiv.org/abs/2609.09250"
+        ],
+        "source_comment": "Survey. 31 pages, 5 figures, 7 tables, 187 references. Covers reward models, success and failure detection, temporal-logic and formal verification, world-model evaluation, and reward hacking. Project page: https://github.com/ZJUSCL/Awesome-Robot-Verifier"
       },
       "ai_review": {
         "mode": "shadow",
         "decision": "approve",
-        "confidence": 0.9,
-        "reason": "针对机器人操作记忆评估，直接服务于具身智能，过程级诊断与基准有价值。",
+        "confidence": 0.82,
+        "reason": "机器人策略验证器综述，直接服务VLA评估与训练，属具身智能核心范围。",
         "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
+        "reviewed_at": "2026-09-10T04:35:19Z"
       }
     },
     {
-      "id": "arxiv:2609.07006",
-      "title": "GIFT: Goal-Injected Fine-Tuning for Efficient Manipulation Policy Adaptation",
-      "title_zh": "GIFT：目标注入微调用于高效操作策略适应",
+      "id": "arxiv:2609.04355",
+      "title": "VLA-Precision: Asymmetric Co-Bootstrapping for Efficient Real-World Online RL of Vision-Language-Action Models",
+      "title_zh": "VLA-Precision：面向视觉-语言-动作模型高效真实世界在线强化学习的非对称协同自举",
       "authors": [
-        "Xiaoyuan Fang",
-        "Shuo Feng",
-        "Yuxuan Wang",
-        "Enhua Cheng",
-        "Peng Zhou",
-        "Piji Li"
+        "Chenyu Su",
+        "Zhaolong Shen",
+        "Yuan Qian",
+        "Chen Qian",
+        "Rui Zhang",
+        "Feng Yan",
+        "Weixing Chen",
+        "Fei Zhang",
+        "Jiamin Wang",
+        "Shuang Cong",
+        "Weiwei Shang"
       ],
       "affiliations": [],
-      "abstract": "Compared with relying solely on initial observations and language instructions, predicting goal images with generative models as high-level visual guidance can significantly enhance the robustness of Vision-Language-Action (VLA) models. However, most existing foundation models have not systematically incorporated goal image conditioning due to the high computational training cost. To this end, we propose Goal-Injected Fine-Tuning (GIFT), a lightweight and efficient fine-tuning framework that seamlessly integrates generated goal images into multiple representative pretrained VLA models. Our approach introduces goal image features into observations via a zero-initialized convolution which progressively grows parameters from zero and prevents harmful noise from disrupting the pretrained policy during fine-tuning. As training proceeds, goal information is gradually incorporated, enabling efficient goal understanding without disrupting model stability. We further introduce a refined image editing method to generate semantically and visually consistent goal images from initial observations and task instructions. Experiments show that goal-aware VLA models achieve substantial performance gains across tasks: with only a single epoch of fine-tuning, GIFT outperforms the base model by 6.0% and 13.4% on two SIMPLER settings, and by 4.7% on LIBERO, demonstrating both efficiency and effectiveness.",
-      "summary_zh": "提出GIFT框架，将生成的目标图像注入预训练VLA模型，通过零初始化卷积渐进整合目标信息，实现轻量级高效微调，显著提升多个操作基准任务性能。",
-      "contribution_zh": "提出轻量级微调方法，将生成目标图像特征渐进融入VLA模型，仅需单轮微调即大幅提升操作策略表现。",
+      "abstract": "Pretrained vision-language-action (VLA) models enable broad manipulation but remain unreliable in tasks demanding precision and repeatability. Applying real-world online reinforcement learning (RL) to VLA post-training enables autonomous trial-and-error improvement beyond demonstrations alone, but exposes two bottlenecks: 1) unreliable value signals can induce policy drift; 2) large-VLA overhead constrains throughput and sample efficiency. To address these challenges, we present VLA-Precision, an efficient real-world online RL framework featuring the Asymmetric Co-Bootstrapping (ACoB) algorithm and the ACoB-Stream architecture. Specifically, ACoB establishes asymmetric co-bootstrapping across timescales: early intervention-guided behavioral learning rapidly improves policy performance while enhancing online experience quality. As autonomous experience accumulates, global return propagation and local preference ranking progressively calibrate value estimates, yielding relative action advantages for reference-regularized policy improvement while suppressing drift. To enable ACoB on large VLAs, we develop ACoB-Stream, a closed-loop experience--policy architecture that establishes invariant-state decoupling and on-demand streaming as design principles, delivering up to 10.9$\\times$ improvements in throughput and computational efficiency. Extensive evaluations on nine high-precision chemistry tasks across four categories and four robot embodiments show that VLA-Precision achieves 98.3\\% mean success rate in 45.8 min/task, with 27.6 s episodes running at 1.2$\\times$ and 1.8$\\times$ the speeds of VLA and RL baselines. Resources are available at https://vla-precision.github.io.",
+      "summary_zh": "提出真实世界在线强化学习框架VLA-Precision，含非对称协同自举算法ACoB与流式架构ACoB-Stream，抑制策略漂移并提升吞吐效率，在九项高精度化学任务上达98.3%平均成功率。",
+      "contribution_zh": "非对称协同自举算法与流式经验-策略架构，实现VLA在线RL的稳定策略改进，吞吐与计算效率最高提升10.9倍。",
       "source": {
         "kind": "arxiv",
-        "external_id": "2609.07006",
-        "url": "https://arxiv.org/abs/2609.07006",
-        "pdf_url": "https://arxiv.org/pdf/2609.07006v1"
+        "external_id": "2609.04355",
+        "url": "https://arxiv.org/abs/2609.04355",
+        "pdf_url": "https://arxiv.org/pdf/2609.04355v2"
       },
       "publication": {
         "status": "preprint",
         "venue": "arXiv",
         "venue_id": "arXiv",
-        "published_at": "2026-09-07T03:56:49Z",
-        "updated_at": "2026-09-07T03:56:49Z"
+        "published_at": "2026-09-03T18:19:36Z",
+        "updated_at": "2026-09-09T09:42:55Z"
       },
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
           "视觉语言动作模型",
-          "操作策略微调",
-          "目标图像生成",
-          "零初始化卷积"
-        ],
-        "relevance_score": 5.0,
-        "relevance_reasons": [
-          "vision-language-action"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07006"
-        ],
-        "source_comment": "20 pages, 12 figures, accepted by EMNLP2026"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "针对VLA模型的操作策略适应，属于物理智能范畴",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.07002",
-      "title": "WM-Craftnet: World Synesthesia Model for Generalizable and Robust Dexterous In-Hand Manipulation",
-      "title_zh": "WM-Craftnet：面向通用且鲁棒灵巧手内操作的世界联觉模型",
-      "authors": [
-        "Jie Yin",
-        "Zeyuan Zhao",
-        "Xiaojing Tan",
-        "Yang Liu",
-        "Chiyu Wang",
-        "Xinyang Gu"
-      ],
-      "affiliations": [],
-      "abstract": "Generalizable and robust dexterous in-hand manipulation requires a policy to infer object pose, geometry, contact, and potential slip from partial and noisy observations. Although recent tactile and visuotactile RL methods achieve strong in-hand rotation in controlled settings, their robustness often degrades under pose shifts, force disturbances, and object variation. We propose WM-Craftnet, a world-model-conditioned framework that learns compact action-conditioned latent dynamics from proprioception, depth, tactile sensing, and actions, supervised by multimodal reconstruction and reward prediction. Rather than using the world model for latent imagination or policy optimization, WM-Craftnet uses the learned World Synesthesia Model (WSM) as recurrent task context for an asymmetric actor--critic policy. Importantly, WSM is trained to reconstruct clean depth targets from noisy depth inputs, providing a denoised geometric state for real-robot deployment. Ablations over recurrent baselines, auxiliary heads, tactile masking, and WSM modality heads show that predictive world modeling, clean-depth supervision, and tactile contact cues all shape the learned state. A WSM pretrained on nine \\(z\\)-axis objects serves as a reusable prior for \\(49\\)-object downstream policy learning. This context improves multi-object rotation, with quantitative and qualitative evidence for unseen-object, perturbation-recovery, and sim-to-real transfer.",
-      "summary_zh": "提出WM-Craftnet，从本体感觉、深度、触觉和动作中学习动作条件潜在动态，以多模态重建和奖励预测监督。世界模型作为策略的循环上下文，并重建干净深度以支持真实部署，提升多物体旋转与扰动恢复能力。",
-      "contribution_zh": "提出世界联觉模型（WSM）为策略提供预测性上下文，结合触觉线索与干净深度重建，实现了49物体灵巧操作及sim-to-real迁移。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.07002",
-        "url": "https://arxiv.org/abs/2609.07002",
-        "pdf_url": "https://arxiv.org/pdf/2609.07002v1"
-      },
-      "publication": {
-        "status": "accepted",
-        "venue": "CoRL2026",
-        "venue_id": "CoRL2026",
-        "published_at": "2026-09-07T03:48:06Z",
-        "updated_at": "2026-09-07T03:48:06Z"
-      },
-      "taxonomy": {
-        "route_id": "latent_wm",
-        "topics": [
-          "具身智能",
+          "在线强化学习",
           "机器人操作",
-          "世界模型",
-          "触觉感知",
-          "视觉-触觉强化学习"
-        ],
-        "relevance_score": 8.5,
-        "relevance_reasons": [
-          "world model",
-          "robot",
-          "action-conditioned"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.07002"
-        ],
-        "source_comment": "Accepted to CoRL2026. Project website: https://wmcraftnet.github.io/"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.95,
-        "reason": "论文聚焦灵巧手操作，结合世界模型、触觉与视觉，直接服务于物理智能的机器人学习，符合收录范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.06837",
-      "title": "BinauralVAE: Spatial Audio Reconstruction For World Models",
-      "title_zh": "BinauralVAE：面向世界模型的空间音频重建",
-      "authors": [
-        "Luis Vitor Zerkowski",
-        "Luiz Velho"
-      ],
-      "affiliations": [],
-      "abstract": "Embodied artificial intelligence has historically very much relied on visual perception, leading to a proliferation of multiple vision-centric world models. However, this reliance fails to capture spatial understanding in its entirety and can even present vulnerabilities in environments with visual occlusions, low-light conditions, or blackouts-scenarios, where acoustic information becomes a critical alternative for spatial awareness and navigation. Despite its potential, research into realistic spatial audio and particularly the development of audio-centric world models remains sparse. In this technical report, we introduce BinauralVAE: a flexible, open-source pipeline (https://github.com/Luizerko/BinauralVAE) that explores multiple models for spatialized audio reconstruction, progressing from fundamental baselines to advanced, mathematically grounded architectures. Our approach evaluates various Variational Autoencoder architectures -- including complex-valued variants -- to learn robust latent representations of binaural signals. Developed alongside AudioWorldSim, our methodology leverages realistic acoustic data captured as a simulated robot navigates an environment. This pipeline establishes a foundation for state representation in a future audio-based world model, designed to map the direct causal connection between navigational actions and their resulting acoustic consequences, and helping to enable sound as an essential complementary modality for spatial knowledge acquisition.",
-      "summary_zh": "双耳音频VAE重建，为具身智能提供空间听觉。基于仿真机器人导航数据，学习鲁棒潜在表征，支撑未来音频世界模型。",
-      "contribution_zh": "开源双耳音频重建流程，比较多种VAE架构，为基础世界模型提供声学状态表征。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.06837",
-        "url": "https://arxiv.org/abs/2609.06837",
-        "pdf_url": "https://arxiv.org/pdf/2609.06837v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-06T21:20:36Z",
-        "updated_at": "2026-09-06T21:20:36Z"
-      },
-      "taxonomy": {
-        "route_id": "spatial",
-        "topics": [
-          "spatial audio",
-          "world model",
-          "embodied AI",
-          "VAE",
-          "robot navigation"
-        ],
-        "relevance_score": 13.0,
-        "relevance_reasons": [
-          "world model",
-          "world models",
-          "robot"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.06837"
-        ],
-        "source_comment": "17 pages, 7 figures"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.85,
-        "reason": "直接相关：面向具身智能的音频空间重建，构建机器人世界模型基础。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.06823",
-      "title": "Generalist Open-World Temporal Perception",
-      "title_zh": "通用开放世界时间感知",
-      "authors": [
-        "Cristian Sminchisescu"
-      ],
-      "affiliations": [],
-      "abstract": "The next generation of artificial intelligence systems will likely be natively temporal and multimodal in both inputs and outputs: able to converse, perceive, predict, reason, and synthesize through a shared world representation. Realizing this requires a temporal perceptual substrate integrating sensory streams, language, and structured outputs within a multimodal world model. We seek a generalist open-world perceptual system that represents biological forms, natural physical structures, and artifacts, and their interactions, as a coherent, temporally persistent process. The model should infer geometry, articulation, semantics, interaction structure, and uncertainty from raw multimodal streams; maintain identity through occlusion and viewpoint change; generalize across species, forms, mechanisms, and materials; and abstain or expand its ontology when encountering the unknown. The objective is a structured world state supporting understanding, prediction, counterfactual reasoning, and controllable synthesis. Recent work suggests that some cross-modal and reasoning-like capabilities can emerge from large-scale generative video pretraining, reminiscent of language-model scaling. Yet these capabilities are often accessed through language probes or expressed through photorealistic video, leaving explicit semantic, geometric, or temporal structure largely unexposed. This paper articulates an alternative and complementary paradigm: perception and synthesis as distinct conditionings within a shared Generalist Open-World Temporal Perception Architecture (GOWTPA). Recognition, structured prediction, and simulation arise as different conditionings of the same generative substrate, while reasoning and embodiment-specific policies build upon the resulting world state. This positions generalist temporal perception as a potential foundation layer for broader multimodal intelligence and physical AI.",
-      "summary_zh": "提出通用开放世界时间感知架构（GOWTPA），将识别、结构化预测和仿真作为共享生成基底的多种条件，支持几何、语义、交互结构推断，服务于物理AI与多模态智能。",
-      "contribution_zh": "提出将感知与合成统一于同一生成子层的新型范式，强调显式时空结构，作为物理AI的基础感知层。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.06823",
-        "url": "https://arxiv.org/abs/2609.06823",
-        "pdf_url": "https://arxiv.org/pdf/2609.06823v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-06T20:38:08Z",
-        "updated_at": "2026-09-06T20:38:08Z"
-      },
-      "taxonomy": {
-        "route_id": "latent_wm",
-        "topics": [
-          "世界模型",
-          "多模态感知",
-          "时间感知",
-          "具身智能",
-          "空间推理"
-        ],
-        "relevance_score": 10.0,
-        "relevance_reasons": [
-          "world model",
-          "physical ai"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.06823"
-        ],
-        "source_comment": "42 pages, 4 figures"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "论文提出通用开放世界时间感知架构，作为物理AI和具身智能的感知基础，直接相关。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.06820",
-      "title": "Diagnosing and Dynamically Filtering Occupancy World Models for Active Mapping",
-      "title_zh": "诊断并动态过滤占用视图模型以实现主动建图",
-      "authors": [
-        "Jiahui Zhang",
-        "Gongbo Liang",
-        "Yu Zhang"
-      ],
-      "affiliations": [],
-      "abstract": "Active mapping requires a robot to select camera viewpoints that efficiently reconstruct an unknown 3D scene. To reason about unobserved regions, recent systems use pretrained occupancy networks as world models that complete missing geometry. The predicted structure contributes to expected coverage gain and constrains feasible robot motion. Consequently, occupancy errors can change both what the robot chooses to explore and where it is able to move. We diagnose these effects by holding the planner fixed and varying only the occupancy representation provided to it. We consider planning without completion, with learned occupancy, with false positives removed by a ground truth oracle, with false negatives restored by an oracle, and with ground truth occupancy. Our experiments show that correcting false positives or false negatives alone does not consistently improve final coverage. This finding reveals a gap between occupancy accuracy and downstream planning performance. Ground truth occupancy provides a much larger improvement in coverage efficiency than in endpoint coverage, suggesting that planning and reachability remain important bottlenecks even when the geometric world model is accurate. Based on these findings, we introduce a dynamic filtering strategy that preserves predictions in unexplored space while suppressing repeatedly unsupported occupancy using online observations. Preliminary examples show that this strategy can redirect viewpoint selection toward reachable surfaces that would otherwise remain unobserved.",
-      "summary_zh": "主动建图需机器人选择视角重建未知场景。本文用占用网络作世界模型补齐几何，诊断其误差对规划的影响，并发现纠正假阳性/假阴性并不一致提升覆盖，地面真值显著改善覆盖效率。据此提出动态过滤策略，抑制在线观测中反复不支持的预测。",
-      "contribution_zh": "系统评估占用世界模型误差对主动建图的影响，揭示精度与规划表现的差距，并提出利用在线观测过滤不可靠占用的动态策略，提升视角选择质量。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.06820",
-        "url": "https://arxiv.org/abs/2609.06820",
-        "pdf_url": "https://arxiv.org/pdf/2609.06820v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-06T20:29:17Z",
-        "updated_at": "2026-09-06T20:29:17Z"
-      },
-      "taxonomy": {
-        "route_id": "spatial",
-        "topics": [
-          "active mapping",
-          "occupancy world model",
-          "robot planning",
-          "spatial reasoning"
-        ],
-        "relevance_score": 13.0,
-        "relevance_reasons": [
-          "world model",
-          "world models",
-          "robot"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.06820"
-        ],
-        "source_comment": "Accepted by IEEE IROS 2026 Workshop on WORLDS: World Models and Spatial Intelligence for Physical AI"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.85,
-        "reason": "机器人主动建图，以占用世界模型驱动视角选择与规划，属空间智能，贴合图谱范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.06578",
-      "title": "Learning to Use Imagination: Progress-Conditioned Future Utilization for World Action Models",
-      "title_zh": "学习使用想象：面向世界动作模型的进度条件化未来利用",
-      "authors": [
-        "Yijie Zhu",
-        "Zitong Yu",
-        "Wei Li",
-        "Hui Ma",
-        "Wen Li",
-        "Rui Shao",
-        "Liqiang Nie"
-      ],
-      "affiliations": [],
-      "abstract": "World Action Models (WAMs) extend Vision-Language-Action (VLA) models by incorporating future visual dynamics into action generation. However, existing WAMs often utilize imagined futures with limited adaptation to evolving execution progress, potentially introducing distracting or unreliable predictive cues. This limitation arises from two empirically identified forms of non-uniformity in future utility: (i) at the inter-progress level, the utility of imagined futures varies across execution stages as control demands change; and (ii) at the intra-progress level, individual future latents exhibit heterogeneous relevance within the same progress state. To address these limitations, we propose ProWAM, a Progress-Conditioned World Action Model that introduces execution progress as an explicit intermediate representation for adaptive imagination utilization. ProWAM comprises two tightly coupled components: (1) To obtain a reliable representation of execution progress, we propose the Self-Supervised Dual-Temporal Progress Encoder (SS-DTPE). SS-DTPE couples short-term action-observation interaction modeling with long-term recurrent progress aggregation to capture recent execution feedback and accumulated task history. (2) Conditioned on the progress representation from SS-DTPE, we propose the Hierarchical Progress-Conditioned Imagination Modulation (HPIM) to adapt imagination utilization to execution progress. HPIM operates at two complementary levels: an inter-progress global modulation mechanism adapts future utilization across execution stages, while an intra-progress relevance mechanism differentiates individual future latents within each progress state. Extensive experiments demonstrate consistent gains over strong VLA and WAM baselines.",
-      "summary_zh": "提出ProWAM，通过自监督双时间进度编码器获取执行进度，并用层级进度条件化想象调制自适应利用未来视觉线索，提升VLA和WAM在机器人任务中的性能。",
-      "contribution_zh": "提出进度条件化世界动作模型，识别未来效用的非均匀性，并设计双组件机制自适应调节想象利用，实验验证优于基线。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.06578",
-        "url": "https://arxiv.org/abs/2609.06578",
-        "pdf_url": "https://arxiv.org/pdf/2609.06578v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-06T12:46:20Z",
-        "updated_at": "2026-09-06T12:46:20Z"
-      },
-      "taxonomy": {
-        "route_id": "interactive_wm",
-        "topics": [
-          "World Action Model",
-          "Vision-Language-Action",
-          "Future Imagination",
-          "Progress Representation"
-        ],
-        "relevance_score": 12.5,
-        "relevance_reasons": [
-          "world action model",
-          "vision-language-action"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.06578"
-        ],
-        "source_comment": "Submitted to IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI). Project page: https://github.com/JiuTian-VL/ProWAM"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.9,
-        "reason": "论文改进世界动作模型，融合未来视觉动态与VLA，属于具身智能和机器人基础模型，直接相关。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.06508",
-      "title": "VLA-Corrector: Stage-Aware Observable State Understanding for Prompt-Based Closed-Loop Recovery of Vision-Language-Action Policies",
-      "title_zh": "VLA-Corrector：基于阶段感知可观测状态理解的提示式VLA策略闭环恢复",
-      "authors": [
-        "Chang Song",
-        "Bin Qian",
-        "Yan Feng",
-        "Zhijie Song"
-      ],
-      "affiliations": [],
-      "abstract": "Long-horizon robot manipulation with Vision-Language-Action (VLA) policies remains vulnerable to execution-time deviations, as final task success provides little information for diagnosing and correcting failures caused by action noise, object displacement, or goal misalignment. We introduce a stage-aware failure verification and Prompt Recovery framework that enables closed-loop correction of a fixed VLA policy without parameter updates or privileged simulator states. The framework introduces an observable-history-based Learned Verifier that jointly estimates manipulation progress and execution risk by temporally modeling multi-view visual observations, proprioceptive states, and executed actions. To provide interpretable task understanding, we represent manipulation execution through semantic progress stages, including approach, alignment, grasp, transport, and placement, and identify stage-specific failure patterns. Upon detecting abnormal execution, the framework preserves the original instruction and generates a stage-conditioned recovery prompt, allowing the same frozen VLA policy to produce corrective actions. Extensive multi-round evaluations on LIBERO and LIBERO Plus demonstrate that the proposed approach substantially improves closed-loop reliability under diverse perturbations. Without access to privileged object or goal coordinates, the Learned Verifier achieves recovery performance close to that of the privileged rule-based verifier in the evaluated settings. These results show that observable visual-proprioceptive-action history is sufficient to infer latent task states and enable practical failure recovery for existing VLA policies.",
-      "summary_zh": "针对VLA长程操作偏差，提出阶段感知故障验证与恢复框架。不更新参数，用可观测历史学习验证器估计进度与风险，生成阶段条件提示校正。",
-      "contribution_zh": "提出可观测历史Learned Verifier及语义阶段提示机制，显著提升LIBERO与LIBERO Plus闭环操作鲁棒性。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.06508",
-        "url": "https://arxiv.org/abs/2609.06508",
-        "pdf_url": "https://arxiv.org/pdf/2609.06508v1"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-06T09:50:30Z",
-        "updated_at": "2026-09-06T09:50:30Z"
-      },
-      "taxonomy": {
-        "route_id": "action_ground",
-        "topics": [
-          "视觉语言动作模型",
-          "闭环恢复",
-          "具身操作",
-          "故障检测"
+          "精细控制",
+          "训练效率"
         ],
         "relevance_score": 6.75,
         "relevance_reasons": [
@@ -2006,86 +1096,22 @@
         "notes": ""
       },
       "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
+        "discovered_at": "2026-09-10T04:35:22Z",
         "source_name": "arXiv Physical AI / World Models",
         "evidence_urls": [
-          "https://arxiv.org/abs/2609.06508"
-        ]
+          "https://arxiv.org/abs/2609.04355"
+        ],
+        "source_comment": "17 pages, 14 figures"
       },
       "ai_review": {
         "mode": "shadow",
         "decision": "approve",
         "confidence": 0.95,
-        "reason": "直接涉及VLA机器人策略的闭环恢复，属于具身智能与VLA模型范畴。",
+        "reason": "面向VLA模型真实世界在线强化学习，用于机器人精细操作，属具身智能与动作学习核心范围。",
         "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
-      }
-    },
-    {
-      "id": "arxiv:2609.04264",
-      "title": "Spectral-Target Physical Latent Structuring for JEPA-Style World Models",
-      "title_zh": "面向JEPA风格世界模型的谱目标物理潜在结构化",
-      "authors": [
-        "Penghao Zhu",
-        "Salvatore Penachio",
-        "Kaustav Mukherjee",
-        "Aneesh Jonelagadda"
-      ],
-      "affiliations": [],
-      "abstract": "Latent world models have become increasingly popular as a method to predict and plan in latent space rather than pixel space. Recent architectures, such as LeWorldModel (LeWM), jointly train the encoder and predictor using regularization techniques like SIGReg to prevent representation collapse. Even with such regularization preventing representation collapse, we identify a new world model failure mode of physical representation laziness, particularly noted in highly dynamic environments. For these lazy cases, the learned latent states do not collapse but nonetheless fail to represent key physical properties, causing ubiquitous downstream planning failure. To resolve this issue, we propose training-time auxiliary supervision with a lightweight \"Fourier auxiliary head\", which enforces physically-informed structuring of the latent space with no additional inference-time cost and can be generalized to any environment. Experimentally, we show that the auxiliary head substantially improves planning success rates in dynamic environments where the baseline LeWM exhibits physical representation laziness. It also leads to modest improvements in other environments, even when the baseline does not exhibit physical representation laziness. We further observe superior planning performance being accompanied by higher latent space correlations with key physical properties, indicating both the ability of our method to physically structure latent states and the potential planning-side benefit to the learned representation being physically structured. We also see in low-data regimes, auxiliary supervision is particularly impactful in increasing success rate. These findings support the use of our Fourier auxiliary head method to improve both overall success rate and data efficiency, while avoiding representation laziness in latent world models.",
-      "summary_zh": "提出JEPA世界模型的物理表示懒惰问题：动态环境下潜变量未反映关键物理属性，导致规划失败；用傅里叶辅助头监督训练来结构化潜在空间，无推理开销。实验显示提升动态场景规划成功率与数据效率。",
-      "contribution_zh": "发现并定义物理表示懒惰模式；提出傅里叶辅助头做谱目标结构化，避免表征塌缩，显著提高动态环境下规划成功率及低数据率性能。",
-      "source": {
-        "kind": "arxiv",
-        "external_id": "2609.04264",
-        "url": "https://arxiv.org/abs/2609.04264",
-        "pdf_url": "https://arxiv.org/pdf/2609.04264v2"
-      },
-      "publication": {
-        "status": "preprint",
-        "venue": "arXiv",
-        "venue_id": "arXiv",
-        "published_at": "2026-09-02T18:05:06Z",
-        "updated_at": "2026-09-07T02:13:27Z"
-      },
-      "taxonomy": {
-        "route_id": "jepa",
-        "topics": [
-          "世界模型",
-          "JEPA",
-          "潜在空间",
-          "物理表示",
-          "规划"
-        ],
-        "relevance_score": 18.75,
-        "relevance_reasons": [
-          "world model",
-          "world models",
-          "jepa"
-        ]
-      },
-      "team_node_ids": [],
-      "review": {
-        "status": "pending",
-        "notes": ""
-      },
-      "provenance": {
-        "discovered_at": "2026-09-09T04:35:43Z",
-        "source_name": "arXiv Physical AI / World Models",
-        "evidence_urls": [
-          "https://arxiv.org/abs/2609.04264"
-        ],
-        "source_comment": "9 pages, 4 figures; minor typo fixes"
-      },
-      "ai_review": {
-        "mode": "shadow",
-        "decision": "approve",
-        "confidence": 0.95,
-        "reason": "聚焦JEPA世界模型的物理表征结构，解决物理属性缺失导致的规划失败，直接符合物理智能收录范围。",
-        "model": "deepseek-v4-flash",
-        "reviewed_at": "2026-09-09T04:35:40Z"
+        "reviewed_at": "2026-09-10T04:35:19Z"
       }
     }
   ],
-  "pending_total": 69
+  "pending_total": 86
 }
