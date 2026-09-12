@@ -1,46 +1,28 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-11T04:32:51Z",
-  "since": "2026-09-08T04:32:51Z",
+  "run_at": "2026-09-12T04:29:12Z",
+  "since": "2026-09-09T04:29:12Z",
   "source_counts": {
-    "arxiv-physical-ai": 39,
+    "arxiv-physical-ai": 27,
     "openreview-iclr-2026": 0,
     "openreview-neurips-2025": 0,
     "openreview-corl-2025": 0,
     "manual-inbox": 0
   },
-  "fetched": 39,
-  "queued": 11,
-  "duplicates": 25,
+  "fetched": 27,
+  "queued": 0,
+  "duplicates": 24,
   "ignored_low_score": 3,
   "pending_total": 97,
-  "ai_reviewed": 8,
-  "ai_pending": 7,
+  "ai_reviewed": 6,
+  "ai_pending": 1,
   "ai_recommendations": {
-    "approve": 76,
-    "reject": 11,
+    "approve": 81,
+    "reject": 12,
     "manual": 3
   },
-  "queued_ids": [
-    "arxiv:2609.11875",
-    "arxiv:2609.11737",
-    "arxiv:2609.11697",
-    "arxiv:2609.11548",
-    "arxiv:2609.11499",
-    "arxiv:2609.11445",
-    "arxiv:2609.11310",
-    "arxiv:2609.10986",
-    "arxiv:2609.10954",
-    "arxiv:2609.10915",
-    "arxiv:2609.10706"
-  ],
+  "queued_ids": [],
   "errors": [
-    "llm: arxiv:2609.11737: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.11697: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.11499: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.11310: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.10915: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.10706: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.09396: LLM response did not contain a JSON object"
+    "llm: arxiv:2609.11499: LLM response did not contain a JSON object"
   ]
 }

@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-11T04:32:51Z",
+  "updated_at": "2026-09-12T04:29:12Z",
   "papers": [
     {
       "id": "arxiv:2609.11875",
@@ -72,7 +72,7 @@
     {
       "id": "arxiv:2609.11737",
       "title": "ORCH: Organizational Principles Enable Collective Intelligence in Embodied AI",
-      "title_zh": "",
+      "title_zh": "ORCH：组织原则实现具身AI中的集体智能",
       "authors": [
         "Zhengran Ji",
         "Jonathan Hyun",
@@ -80,8 +80,8 @@
       ],
       "affiliations": [],
       "abstract": "Collective intelligence depends not only on the capabilities of individual members, but also on how those members are organized. Yet artificial multi-agent systems are typically assembled using fixed organizational structures, even when the physical tasks they perform impose fundamentally different coordination requirements. Here we show that principles from human organization theory can be operationalized to organize large, heterogeneous collectives of embodied artificial agents. We introduce ORCH (Organizing Roles and Coordination Hierarchies), which constructs task-specific hierarchical organizations by combining pooled interdependence for work that can proceed concurrently with sequential interdependence for work governed by prerequisite relationships. Across 25 wildfire-response missions spanning reconnaissance, rescue, transportation, resource management, containment and suppression, we evaluated teams of up to 50 heterogeneous agents using eight large language models. Organizations constructed using these principles consistently outperformed four representative embodied multi-agent approaches across mission outcome, execution efficiency, exploration and computational resource use. Human-designed ORCH organizations improved final score by 63.97% and execution efficiency by 74.29% on average relative to the four prior frameworks. Organizations generated automatically by language models improved these measures by 43.63% and 52.53%, respectively. These advantages persisted across missions and underlying language models. Notably, collective performance was not monotonically determined by model scale. Analysis of long-horizon missions showed that hierarchical organization enabled teams to preserve concurrent activity within specialized groups while coordinating ordered transitions between mission phases.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出ORCH，用人类组织理论为异构具身智能体构建任务特定层级组织；在25个野火响应任务中评估最多50个智能体，性能显著优于四种多智能体方法，且集体表现不随模型规模单调提升。",
+      "contribution_zh": "将组织理论操作化为具身多智能体协调框架，验证层级组织对长时程物理任务中并发与顺序协调的有效性。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.11737",
@@ -98,11 +98,11 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.MA",
-          "cs.AI",
-          "cs.LG",
-          "cs.RO",
-          "embodied ai"
+          "具身智能",
+          "多智能体组织",
+          "层级协调",
+          "长时程规划",
+          "野火响应"
         ],
         "relevance_score": 5.0,
         "relevance_reasons": [
@@ -120,12 +120,20 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2609.11737"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.8,
+        "reason": "聚焦具身多智能体组织与协调，直接服务物理任务规划与控制，建议收录。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-12T04:29:12Z"
       }
     },
     {
       "id": "arxiv:2609.11697",
       "title": "ActSafeGuard: Differentiable and Training-Aligned Constraint Enforcement for Flow-Matching Policies",
-      "title_zh": "",
+      "title_zh": "ActSafeGuard：面向流匹配策略的可微且训练对齐的约束强制执行",
       "authors": [
         "Jianming Ma",
         "Rongjun Jin",
@@ -136,8 +144,8 @@
       ],
       "affiliations": [],
       "abstract": "Vision-Language-Action (VLA) and World-Action Models (WAMs) have demonstrated strong capabilities in general-purpose robotic manipulation, yet their generated actions may violate hard physical constraints and therefore be unsafe or infeasible for deployment. Existing safety approaches either optimize statistical safety objectives without deterministic per-step guarantees or correct unsafe actions only during inference, creating a mismatch between policy training and execution. We introduce ActSafeGuard, a differentiable and training-aligned safeguard layer for flow-matching based policies. ActSafeGuard integrates hard action feasibility into policy learning, not merely treating safety as an inference-time external component. Through an analytical ray-scaling operator design, ActSafeGuard enables boundary-aware gradients to guide the model to naturally learn constrained manifolds. Extensive experiments on multiple standard foundation backbones ($π_{0.5}$ and Fast-WAM) across various tasks demonstrate that ActSafeGuard consistently achieves a $100\\%$ step safety rate while fully preserving or even boosting task success rates, providing a scalable and minimally invasive solution for safe embodied AI deployment.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "针对VLA与世界动作模型生成动作可能违反硬物理约束的问题，提出可微、训练对齐的安全防护层，通过解析射线缩放算子将动作可行性融入策略学习，而非仅在推理时修正。",
+      "contribution_zh": "用解析射线缩放算子为流匹配策略提供边界感知梯度，使模型自然学习约束流形，实现100%逐步安全率且不降任务成功率。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.11697",
@@ -154,11 +162,11 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.RO",
-          "cs.AI",
-          "vision-language-action",
-          "embodied ai",
-          "robot"
+          "VLA",
+          "flow matching",
+          "safety constraint",
+          "robot manipulation",
+          "policy learning"
         ],
         "relevance_score": 9.5,
         "relevance_reasons": [
@@ -179,6 +187,14 @@
           "https://arxiv.org/abs/2609.11697"
         ],
         "source_comment": "8 pages, 4 figures"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.9,
+        "reason": "面向VLA/世界动作模型的流匹配策略安全约束层，属具身智能与动作生成范畴，方法可训练对齐且有实验验证。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-12T04:29:12Z"
       }
     },
     {
@@ -369,7 +385,7 @@
     {
       "id": "arxiv:2609.11310",
       "title": "Your Model Already Knows Don't Teach It, Learn to Ask It: Soft Prompting for Few-Shot Adaptation of Vision-Language Models",
-      "title_zh": "",
+      "title_zh": "你的模型已知道，别教它，学会提问：视觉语言模型少样本适配的软提示",
       "authors": [
         "Gautam Rajendrakumar Gare",
         "Siyi Li",
@@ -382,8 +398,8 @@
       ],
       "affiliations": [],
       "abstract": "We address few-shot object detection with vision-language models (VLMs) in out-of-domain settings such as aerial, industrial, and medical imagery, using only ten annotated images for supervision. Existing adaptation methods are discrete prompt optimization and LoRA fine-tuning. We revisit a third option: soft prompting, where a small number of continuous prompt tokens are optimized while the pretrained backbone remains frozen. We identify two key design choices. First, placing prompt tokens at the cross-modal boundary between visual and text tokens outperforms other placements (10.0 vs. 8.4 mAP). Second, initializing prompts from the empty space token outperforms semantic and random initialization. With these choices, one to three learned tokens (7,168 parameters on average) match the best LoRA configuration on Roboflow20-VL (14.2 mAP, 10-shot) while training over 20,000x fewer parameters. Soft prompting remains harder to optimize, exhibiting higher variance across random seeds. Unlike LoRA, however, it causes no forgetting: the LoRA rank matching our accuracy reduces NaturalBench VQA accuracy by 35% relative, rising to 56% at the largest rank, whereas soft prompting leaves pretrained performance unchanged. The learned tokens behave like prompts rather than weights. They transfer to a newer model without retraining (+0.8 mAP on Qwen3.5-9B) and can be verbalized into readable prompts competitive with prompt-search methods (matching DetPO and outperforming GEPA). The approach also extends beyond detection. On RoboCasa manipulation tasks, the frozen $π_{0.5}$ vision-language-action policy benefits from soft prompting, matching the LoRA baseline on two of three tasks when tokens are placed at the gradient bottleneck. These results suggest modern VLMs already encode much of what is needed for specialized domains; the challenge is learning how to ask.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出软提示适配视觉语言模型：在跨模态边界插入少量可学习token并冻结主干，10-shot检测匹配LoRA且参数少两万倍、无遗忘，提示可迁移可言语化，并适配冻结的π0.5 VLA策略。",
+      "contribution_zh": "指出提示token位置（跨模态边界）与空空间token初始化是关键设计；1–3个token即可匹配LoRA检测精度且无遗忘，并用于冻结VLA策略适配。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.11310",
@@ -400,12 +416,11 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.CV",
-          "cs.AI",
-          "cs.LG",
-          "eess.IV",
-          "stat.ML",
-          "vision-language-action"
+          "soft prompting",
+          "few-shot adaptation",
+          "VLA",
+          "vision-language model",
+          "robot manipulation"
         ],
         "relevance_score": 5.0,
         "relevance_reasons": [
@@ -423,6 +438,14 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2609.11310"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.65,
+        "reason": "含冻结π0.5 VLA策略在RoboCasa操作上的适配实验，属视觉语言动作模型范围，虽主体为通用VLM检测适配。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-12T04:29:12Z"
       }
     },
     {
@@ -550,7 +573,7 @@
     {
       "id": "arxiv:2609.10915",
       "title": "IMLE-VLA: Fast Single-Step Action Generation for Vision-Language-Action Policies",
-      "title_zh": "",
+      "title_zh": "IMLE-VLA：面向视觉-语言-动作策略的快速单步动作生成",
       "authors": [
         "Kian Hosseinkhani",
         "Qinhe Peng",
@@ -564,8 +587,8 @@
       ],
       "affiliations": [],
       "abstract": "Vision-language-action (VLA) policies leverage pretrained vision-language backbones to achieve strong cross-task generalization. A leading design couples this backbone with a dedicated continuous action head trained via diffusion or flow matching. However, such heads rely on iterative multi-step sampling, for example 10 Euler steps in $π_{0.5}$. This creates an inference bottleneck that produces stop-and-go movement in the robot and slower task completion. We introduce IMLE-VLA, which replaces the iterative action head with a single-step conditional generator trained via conditional Implicit Maximum Likelihood Estimation (cIMLE). The cIMLE objective promotes multimodal action coverage, avoiding the mode collapse of naive regression heads while eliminating multi-step sampling entirely. When IMLE-VLA is applied to $π_{0.5}$, it increases inference frequency 3.67x (55 Hz vs. 15 Hz), enabling up to 11x higher action throughput. On the 40-task LIBERO benchmark, IMLE-VLA achieves the highest average success rate (98.0%) among all baselines while leading in inference frequency. Under the test-time perturbations of LIBERO-plus, IMLE-VLA retains $π_{0.5}$'s robustness while other baselines degrade sharply, confirming that the cIMLE head preserves generalization. Real-world experiments on a Franka Emika Panda across four tasks demonstrate smoother motion (2.2x to 3.0x lower jerk) and faster task completion, with IMLE-VLA outperforming $π_{0.5}$ on every task and reducing average VLA inference time per episode by 3.9x to 6.6x. Videos and code are available at https://kianhk6.github.io/IMLE-VLA/",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出IMLE-VLA，用条件隐式最大似然估计替换扩散/流匹配动作头，实现单步动作生成，在LIBERO与真机上提升推理频率与平滑度并保持泛化。",
+      "contribution_zh": "用cIMLE单步条件生成替代多步采样动作头，避免模式崩溃，将π0.5推理频率提升3.67倍，成功率与鲁棒性不降。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.10915",
@@ -582,10 +605,11 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.RO",
-          "cs.CV",
-          "vision-language-action",
-          "robot"
+          "VLA",
+          "单步动作生成",
+          "cIMLE",
+          "机器人操作",
+          "策略学习"
         ],
         "relevance_score": 6.75,
         "relevance_reasons": [
@@ -605,12 +629,20 @@
           "https://arxiv.org/abs/2609.10915"
         ],
         "source_comment": "8 pages, 5 figures, 5 tables. Accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) 2026. Project page: https://kianhk6.github.io/IMLE-VLA/"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.96,
+        "reason": "VLA动作头单步生成，直接服务机器人控制，属收录范围。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-12T04:29:12Z"
       }
     },
     {
       "id": "arxiv:2609.10706",
       "title": "HuRo: Robotizing Human Videos for Scalable VLA Pretraining",
-      "title_zh": "",
+      "title_zh": "HuRo：将人类视频机器人化以实现可扩展的VLA预训练",
       "authors": [
         "Jinho Jeong",
         "Se June Joo",
@@ -622,8 +654,8 @@
       ],
       "affiliations": [],
       "abstract": "Human video datasets have emerged as a compelling alternative to expensive real-robot data, offering rich diversity at scale. To bridge the human-to-robot embodiment gap, existing approaches either robotize videos in task-matched settings or address observation and action alignment separately at scale. In this work, we systematically examine whether robotized human videos can provide effective and scalable supervision for pretraining vision-language-action (VLA) policies. To this end, we develop a robotization pipeline that converts heterogeneous human videos into robot-aligned observations and action trajectories while inferring missing intermediate signals across annotation levels. Using this pipeline, we construct the HuRo dataset, comprising about 630K robotized episodes and 142M processed frames from five human-video sources. Across four real-world manipulation tasks, increasing robotized pretraining scale improves overall completion from 51.5% to 80.3% and OOD completion under spatial and visual shifts from 34.9% to 72.2%. Ablations further show that visual robotization improves OOD robustness and that end-to-end pretraining with retargeted actions outperforms visual-only transfer. Code and data are released on our website: https://3587jjh.github.io/HuRo.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出将异构人类视频转换为机器人对齐观测与动作轨迹的机器人化流程，构建约63万回合、1.42亿帧的HuRo数据集，并验证其可扩展预训练VLA策略。",
+      "contribution_zh": "构建约63万回合的机器人化人类视频数据集HuRo，验证扩大机器人化预训练可提升真实操作性能与OOD鲁棒性，且端到端动作重定向优于纯视觉迁移。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.10706",
@@ -640,11 +672,11 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.RO",
-          "cs.CV",
-          "cs.LG",
-          "vision-language-action",
-          "robot"
+          "VLA预训练",
+          "人类视频机器人化",
+          "机器人操作",
+          "动作重定向",
+          "具身智能"
         ],
         "relevance_score": 5.62,
         "relevance_reasons": [
@@ -664,6 +696,14 @@
           "https://arxiv.org/abs/2609.10706"
         ],
         "source_comment": "Accepted at CoRL 2026"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.92,
+        "reason": "将人类视频机器人化并构建大规模VLA预训练数据，直接服务具身操作与视觉语言动作模型。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-12T04:29:12Z"
       }
     },
     {
@@ -1602,7 +1642,7 @@
     {
       "id": "arxiv:2609.09396",
       "title": "VANTAGE-Bench: Evaluating the Infrastructure AI Gap in Vision-Language Models",
-      "title_zh": "",
+      "title_zh": "VANTAGE-Bench：评估视觉语言模型中的基础设施AI差距",
       "authors": [
         "Zaid Pervaiz Bhat",
         "Nimra Nayyar",
@@ -1616,8 +1656,8 @@
       ],
       "affiliations": [],
       "abstract": "As Vision-Language Models (VLMs) advance toward physical deployment, the focus has remained on action-oriented Embodied AI evaluated on subject-centric consumer video. This overlooks a pervasive class of Physical AI: Infrastructure AI, which relies on fixed cameras for open-loop insights like safety monitoring and operational logging. We introduce VANTAGE-Bench, a benchmark measuring this \"Infrastructure AI Gap.\" It spans three operational domains (Logistics, Transportation, and Smart Spaces), unifies image and video evaluation across semantic, spatial, temporal, and spatio-temporal capabilities, and moves beyond multiple-choice to eight task formulations including dense captioning and spatio-temporal grounding. It adds a single-pass trajectory protocol for Single Object Tracking and, to our knowledge, the first such evaluation on fixed-camera infrastructure video, scored against specialist trackers. Annotation spans three regimes over 3,346 media assets: 3,342 video-task annotations, 4,281 image-grounding annotations, and 27,404 detection boxes. Evaluating 17 models zero-shot, we find the shortfall relative to consumer-centric benchmarks is concentrated, not general. Event verification, referring expressions, and temporal localization fall roughly 9 to 24 points at every model scale, while video question answering stays within 5.3 points of VideoMME and 2D spatial pointing shows no shortfall against BLINK. The temporal pillar is weakest in absolute terms: no system exceeds 55.7 mIoU on temporal localization or 37.3 SODA_c on dense video captioning. On tracking, frontier models come within roughly 5 points of specialist trackers over short horizons but separate as the horizon extends. Open-weight models lead 2D object localization outright, so neither scale nor proprietary access explains the pattern. Data, evaluation harness, and leaderboard: https://vantage-bench.org/",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出VANTAGE-Bench基准，评测VLM在固定摄像头基础设施视频（物流、交通、智能空间）上的语义、空间、时序能力，含8类任务与单目标跟踪协议。17个模型零样本评测显示在事件验证、指代与时间定位上存在集中性短板。",
+      "contribution_zh": "构建固定摄像头基础设施AI基准，覆盖多域多任务与跟踪评测，揭示VLM在该场景的能力缺口。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.09396",
@@ -1632,12 +1672,13 @@
         "updated_at": "2026-09-08T19:50:25Z"
       },
       "taxonomy": {
-        "route_id": "phys_engine",
+        "route_id": "spatial",
         "topics": [
-          "cs.CV",
-          "cs.AI",
-          "embodied ai",
-          "physical ai"
+          "vision-language models",
+          "benchmark",
+          "infrastructure AI",
+          "spatio-temporal grounding",
+          "tracking"
         ],
         "relevance_score": 9.0,
         "relevance_reasons": [
@@ -1657,6 +1698,14 @@
           "https://arxiv.org/abs/2609.09396"
         ],
         "source_comment": "23 pages, 2 figures, 14 tables. Project page: https://vantage-bench.org/; dataset: https://huggingface.co/datasets/nvidia/PhysicalAI-VANTAGE-Bench;"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "reject",
+        "confidence": 0.78,
+        "reason": "基础设施监控VLM基准，非机器人或具身智能，不直接服务物理智能。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-12T04:29:12Z"
       }
     },
     {
