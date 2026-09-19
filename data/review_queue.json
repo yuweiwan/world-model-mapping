@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-18T04:37:25Z",
+  "updated_at": "2026-09-19T04:32:36Z",
   "papers": [
     {
       "id": "arxiv:2609.20776",
@@ -139,7 +139,7 @@
     {
       "id": "arxiv:2609.20756",
       "title": "OPTED: On-Policy Fine-Tuning for End-to-End Driving using a Render-Free Teacher",
-      "title_zh": "",
+      "title_zh": "OPTED：使用无渲染教师的端到端驾驶在线策略微调",
       "authors": [
         "Damiano Da Col",
         "Maximilian Igl",
@@ -152,8 +152,8 @@
       ],
       "affiliations": [],
       "abstract": "As scaling pre-training data alone yields diminishing returns, post-training is becoming increasingly important across physical AI domains such as autonomous driving. End-to-end driving policies are pre-trained in open loop with behavior cloning on human demonstrations. However, compounding errors during closed-loop deployment can take the vehicle outside the training data distribution, increasing the risk of safety-critical incidents. Closed-loop post-training can mitigate this risk but requires costly simulation for sensor-based policies. We propose OPTED (on-policy fine-tuning for end-to-end driving) which decouples reinforcement learning from the post-training of the end-to-end policy: a privileged teacher is trained using RL on vectorized inputs (HD-map and bounding boxes). This teacher then provides supervision to the pre-trained student during closed-loop post-training. We apply OPTED to two camera-based models, TransFuser and VaVAM, and fine-tune them in AlpaSim, using neural reconstructions (3DGS) of real driving logs. Driving scores increase by factors of 1.6$\\times$ and 9.5$\\times$, respectively. In controlled experiments OPTED matches closed-loop performance with approximately three orders of magnitude fewer simulator interactions than direct RL post-training, while staying closer to the human prior. Project page: https://01dami23.github.io/opted/",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "预训练端到端驾驶策略闭环部署时易累积误差。OPTED先用矢量化输入训练特权教师，再在闭环后训练中监督学生，无需昂贵渲染仿真，显著提升驾驶得分并减少交互。",
+      "contribution_zh": "提出无渲染特权教师的在线策略微调框架，解耦强化学习与端到端策略后训练，在真实驾驶日志的3DGS重建中微调相机策略。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.20756",
@@ -168,12 +168,14 @@
         "updated_at": "2026-09-17T17:41:51Z"
       },
       "taxonomy": {
-        "route_id": "phys_engine",
+        "route_id": "action_ground",
         "topics": [
-          "cs.RO",
-          "cs.CV",
-          "cs.LG",
-          "physical ai"
+          "autonomous_driving",
+          "end_to_end_driving",
+          "reinforcement_learning",
+          "on_policy_finetuning",
+          "closed_loop",
+          "physical_ai"
         ],
         "relevance_score": 5.0,
         "relevance_reasons": [
@@ -192,6 +194,14 @@
           "https://arxiv.org/abs/2609.20756"
         ],
         "source_comment": "9 pages, 5 figures"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.92,
+        "reason": "端到端驾驶属物理智能，闭环策略微调与控制学习直接相关。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-19T04:32:36Z"
       }
     },
     {
@@ -1109,7 +1119,7 @@
     {
       "id": "arxiv:2609.19579",
       "title": "Recovering Aggressively Pruned Vision-Language-Action Models with Offline Hidden-State Distillation",
-      "title_zh": "",
+      "title_zh": "通过离线隐藏状态蒸馏恢复激进剪枝的视觉-语言-动作模型",
       "authors": [
         "Chiyoung Kim",
         "Sanghyuk Roy Choi",
@@ -1117,8 +1127,8 @@
       ],
       "affiliations": [],
       "abstract": "Vision-language-action (VLA) models let robots follow language instructions, but their language backbones of several billion parameters are the main obstacle to running them on robot hardware. Structured pruning reduces that backbone, and removing 63% of it from OpenVLA-OFT drops LIBERO-Long success from 93.2% to 0.8%. A recent approach restores such a model with supervised fine-tuning followed by reinforcement learning, which needs online rollouts and hundreds of GPU-hours. We recover most of the lost success entirely offline. Width pruning narrows the blocks but keeps the residual stream at its original size, so teacher and student hidden states have the same shape and are matched directly, without a projector. Training against a cache built in one teacher pass lifts the 63%-reduced student to within 3.5 points of the teacher in about 8 GPU-hours. A sweep over nine ratios locates where the recovery objective starts to matter. Up to 45% reduction the two do not differ significantly on OpenVLA-OFT. Hidden-state distillation then adds +2.1 to +4.5 points there between 63% and 87%, and +9.4 to +22.1 points on CogACT from 63% onward. At 81% on CogACT, a tripled recovery budget narrows the distilled student's gap to the teacher to 3.9 points on average, while supervised recovery stays more than 20 points below. At matched compression, width pruning yields higher success and depth pruning lower latency. On a 6-DoF manipulator, the distilled student at 72% reduction reaches 77.5% success against 59.5% for supervised recovery, runs 2.23x faster on-board than the teacher, and uses 62% less memory.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "针对VLA语言主干过大难以部署，提出离线隐藏状态蒸馏恢复宽度剪枝模型。在OpenVLA-OFT和CogACT高压缩率下显著提升成功率，约8 GPU小时接近教师，并在6自由度机械臂上更快更省显存。",
+      "contribution_zh": "提出无需在线采样和投影器的离线隐藏状态蒸馏来恢复剪枝VLA；系统验证压缩率及宽度/深度剪枝权衡，并展示真实机械臂部署收益。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.19579",
@@ -1135,9 +1145,11 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.RO",
-          "vision-language-action",
-          "robot"
+          "视觉语言动作模型",
+          "模型剪枝",
+          "知识蒸馏",
+          "机器人操作",
+          "具身智能"
         ],
         "relevance_score": 6.75,
         "relevance_reasons": [
@@ -1157,6 +1169,14 @@
           "https://arxiv.org/abs/2609.19579"
         ],
         "source_comment": "Preprint"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.92,
+        "reason": "研究VLA模型剪枝后的离线隐藏状态蒸馏恢复，直接服务机器人操作与部署。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-19T04:32:36Z"
       }
     },
     {
@@ -1423,7 +1443,7 @@
     {
       "id": "arxiv:2609.19142",
       "title": "PointZero: 3D Point Track Completion for Learning Transferable 3D Dynamics",
-      "title_zh": "",
+      "title_zh": "PointZero：面向可迁移三维动力学学习的3D点轨迹补全",
       "authors": [
         "Bardienus P. Duisterhof",
         "Kaifeng Zhang",
@@ -1436,8 +1456,8 @@
       ],
       "affiliations": [],
       "abstract": "World models endow perceptual systems with the ability to predict how scenes evolve under interaction. They are most beneficial when trained on diverse volumes of data, to instill a rich prior into downstream applications. Existing methods typically require robot action labels to learn action-conditioned 3D dynamics, which excludes web video data from the training pool. We study 3D point track completion as a pre-training objective for learning transferable 3D dynamics without robot data. Given a single RGB-D observation and sparse partial 3D trajectories (tracks), we predict future 3D tracks of all observed points. We show this objective produces a rich 3D dynamics prior, without requiring robot action labels. We contribute a diverse dataset of 2.9 million synthetic frames spanning deformable, articulated, and rigid objects, and use it to train PointZero. We show that a flexible and expressive transformer, PointZero, outperforms prior methods on the same data. We demonstrate the utility of our pre-training objective by post-training PointZero for two downstream applications: (1) action-conditioned 3D dynamics prediction and (2) imitation learning. When fine-tuned to condition on end-effector pose, PointZero outperforms the baselines on the recent PGND 3D dynamics benchmark. When fine-tuned to predict robot actions and 3D tracks, PointZero outperforms or matches the baselines on 6/7 simulated and real-world robot manipulation tasks. We furthermore evaluate training PointZero from scratch to isolate the benefits of our proposed architecture from those of our proposed pre-training objective and dataset. We release the dataset, checkpoints, and full training recipe.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出无需机器人动作标签的3D点轨迹补全预训练目标，构建290万合成帧数据集，训练PointZero，在动作条件3D动力学预测与模仿学习下游任务上超越或持平基线。",
+      "contribution_zh": "无需动作标签的3D点轨迹补全预训练；290万合成帧数据集；PointZero在PGND及6/7机器人操作任务上优于或持平基线。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.19142",
@@ -1454,12 +1474,12 @@
       "taxonomy": {
         "route_id": "latent_wm",
         "topics": [
-          "cs.CV",
-          "cs.RO",
-          "world model",
           "world models",
-          "robot",
-          "action-conditioned"
+          "3D point tracks",
+          "dynamics prediction",
+          "imitation learning",
+          "robot manipulation",
+          "pre-training"
         ],
         "relevance_score": 13.5,
         "relevance_reasons": [
@@ -1481,6 +1501,14 @@
           "https://arxiv.org/abs/2609.19142"
         ],
         "source_comment": "https://pointzero-wm.github.io/"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.95,
+        "reason": "收录：面向具身世界模型与3D动力学，直接服务机器人操作与模仿学习。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-19T04:32:36Z"
       }
     },
     {
@@ -5480,7 +5508,7 @@
     {
       "id": "arxiv:2609.16071",
       "title": "Schema-Adaptive Action-Conditioned JEPA for Cross-Machine CNC Transfer under Partial Sensor Overlap",
-      "title_zh": "",
+      "title_zh": "面向部分传感器重叠下跨机床迁移的模式自适应动作条件JEPA",
       "authors": [
         "Ayoub Louaye Bouaziz",
         "Matthieu Ostertag",
@@ -5488,8 +5516,8 @@
       ],
       "affiliations": [],
       "abstract": "Cross-machine deployment of industrial world models requires transfer across changes in dynamics, sensing interfaces, sampling regimes, and control units. We study a schema-adaptive action-conditioned Joint-Embedding Predictive Architecture (SAAC-JEPA) for CNC dynamics, where the source machine has 17 canonical sensor channels and the target shares only 10. Evaluation uses group-disjoint source splits, source-only normalization, held-out self-supervised validation, unit audits, and a sealed target test after model locking. Across five seeds, JEPA pretraining gives no clean-source forecasting gain: scratch and pretrained-body models obtain \\(\\mathrm{RMSE}=0.811\\pm0.022\\) and \\(0.813\\pm0.022\\). A source-only search over 20 candidates selects a schema-consistent action-conditioned JEPA after seven-seed stability checks. On the confirmatory target pass, the locked model reaches zero-shot \\(\\mathrm{RMSE}=0.546\\), \\(R^2=0.012\\), and \\(\\mathrm{NLL}=0.52\\), outperforming persistence but not RevIN-equipped PatchTST and iTransformer baselines (\\(0.503\\) and \\(0.498\\)). A pre-declared paired ablation shows that RevIN in the same architecture improves RMSE to \\(0.495\\pm0.004\\) over three seeds, but degrades target calibration (\\(\\mathrm{NLL}=20.6\\)) on stationary context windows. A pre-lock adaptation sweep further reduces RMSE to \\(0.520\\) with limited target support. These results show that source-domain forecasting accuracy alone is insufficient to assess industrial predictive representations, and that cross-machine adaptation under partial sensor overlap is a distinct evaluation axis.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "研究CNC动力学的模式自适应动作条件JEPA跨机床迁移（源17通道、目标10通道）。JEPA预训练无干净源收益；锁定模型零样本RMSE 0.546，胜持续性但不及PatchTST；RevIN降RMSE却损害标定。",
+      "contribution_zh": "提出部分传感器重叠下跨机迁移的评估轴，表明源域预测精度不足以评价工业预测表征。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.16071",
@@ -5504,14 +5532,13 @@
         "updated_at": "2026-09-13T15:10:06Z"
       },
       "taxonomy": {
-        "route_id": "latent_wm",
+        "route_id": "jepa",
         "topics": [
-          "cs.LG",
-          "cs.AI",
-          "world model",
-          "world models",
-          "jepa",
-          "action-conditioned"
+          "动作条件世界模型",
+          "跨机床迁移",
+          "JEPA",
+          "工业控制",
+          "传感器迁移"
         ],
         "relevance_score": 20.0,
         "relevance_reasons": [
@@ -5533,6 +5560,14 @@
           "https://arxiv.org/abs/2609.16071"
         ],
         "source_comment": "Code, configuration files, the twenty candidate specifications, and the audit scripts are available at : https://github.com/ostertagmatthieu- dev/saac- jepa ; Animated versions of the schematics are on the project page: https://ostertagmatthieu-dev.github.io/saac-jepa/"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.62,
+        "reason": "动作条件JEPA用于物理机床动力学与跨机控制迁移，属物理智能建模范围。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-19T04:32:36Z"
       }
     },
     {
@@ -5673,14 +5708,14 @@
     {
       "id": "arxiv:2609.14146",
       "title": "When Faster VLA Deployment Changes Closed-Loop Behavior: Task Success-Latency Analysis of SmolVLA Across PyTorch and ONNX Variants",
-      "title_zh": "",
+      "title_zh": "更快的VLA部署如何改变闭环行为：SmolVLA在PyTorch与ONNX变体下的任务成功率-延迟分析",
       "authors": [
         "Rafiqul Islam"
       ],
       "affiliations": [],
       "abstract": "Vision-language-action (VLA) deployment can reduce inference latency while changing closed-loop task behavior. We evaluate HuggingFaceVLA/smolvla_libero on an RTX 2060 (6 GB) in LIBERO Spatial and Object (MuJoCo 3.3.2, LeRobot 0.6.1, seed 42), comparing PyTorch+AMP with ONNX Runtime CUDA Execution Provider (CUDA EP). The main evaluation uses 100 episodes/suite; a paired rollout uses 300 episodes/suite. PyTorch+AMP reaches 70.0%/88.0% Spatial/Object success at 1181 ms p99. Requested-FP16 and requested-INT8 ONNX reduce tether-inspect p99 to 601 ms and 532 ms, while Spatial success falls to 41.0% and 40.0% and Object remains at 89.0%. A graph audit shows those artifacts are byte-identical FP32 graphs, so the requested-INT8 row is not operator-level INT8 quantization. A static language-width ablation (16/24/32 tokens) yields Spatial success of 41.0%, 75.0%, and 71.0%; widths 24 and 32 recover much of the Spatial drop while Object success and uniform-bench latency stay approximately stable. Width-24 ONNX Spatial success is comparable to the PyTorch+AMP baseline at roughly half the latency (Wilson intervals overlap; two-proportion chi-squared p=0.53). Context width is an important contributor in this stack; it does not account for every PyTorch-vs-ONNX difference. Deployment evaluation should jointly report latency, artifact inspection, interface constraints, and closed-loop success. Code: https://github.com/rafiqul713/smolvla-libero-onnx.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "在LIBERO Spatial/Object上评测SmolVLA的PyTorch+AMP与ONNX CUDA部署，考察延迟、图审计、语言宽度对闭环成功率的影响，并用配对回合验证。",
+      "contribution_zh": "发现ONNX提速伴随空间任务成功率下降，量化图非真实INT8，指出上下文宽度是关键因素，主张联合报告延迟、制品审计与闭环成功。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.14146",
@@ -5697,10 +5732,11 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.RO",
-          "cs.LG",
-          "vision-language-action",
-          "robot"
+          "VLA",
+          "部署优化",
+          "ONNX",
+          "闭环评测",
+          "LIBERO"
         ],
         "relevance_score": 5.5,
         "relevance_reasons": [
@@ -5720,6 +5756,14 @@
           "https://arxiv.org/abs/2609.14146"
         ],
         "source_comment": "6 pages. Code: https://github.com/rafiqul713/smolvla-libero-onnx"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.86,
+        "reason": "VLA部署与闭环行为分析，直接服务机器人策略落地。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-19T04:32:36Z"
       }
     },
     {
