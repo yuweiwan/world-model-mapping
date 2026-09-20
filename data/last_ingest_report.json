@@ -1,30 +1,28 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-19T04:32:36Z",
-  "since": "2026-09-16T04:32:36Z",
+  "run_at": "2026-09-20T04:49:23Z",
+  "since": "2026-09-17T04:49:23Z",
   "source_counts": {
-    "arxiv-physical-ai": 54,
+    "arxiv-physical-ai": 17,
     "openreview-iclr-2026": 0,
     "openreview-neurips-2025": 0,
     "openreview-corl-2025": 0,
     "manual-inbox": 0
   },
-  "fetched": 54,
+  "fetched": 17,
   "queued": 0,
-  "duplicates": 50,
-  "ignored_low_score": 4,
+  "duplicates": 16,
+  "ignored_low_score": 1,
   "pending_total": 185,
-  "ai_reviewed": 5,
-  "ai_pending": 3,
+  "ai_reviewed": 2,
+  "ai_pending": 1,
   "ai_recommendations": {
-    "approve": 159,
+    "approve": 161,
     "reject": 20,
     "manual": 3
   },
   "queued_ids": [],
   "errors": [
-    "llm: arxiv:2609.19669: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.17372: LLM response did not contain a JSON object",
     "llm: arxiv:2609.17325: LLM response did not contain a JSON object"
   ]
 }
