@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-26T04:51:16Z",
+  "updated_at": "2026-09-27T05:13:13Z",
   "papers": [
     {
       "id": "arxiv:2609.30264",
@@ -214,15 +214,15 @@
     {
       "id": "arxiv:2609.30187",
       "title": "Ego-Exo4D Human Meshes Dataset: 4D Human Motion Reconstruction for Ego-Exo Captures",
-      "title_zh": "",
+      "title_zh": "自我-外部视角4D人体网格数据集：用于自我-外部捕获的4D人体运动重建",
       "authors": [
         "Abhiram Maddukuri",
         "Georgios Pavlakos"
       ],
       "affiliations": [],
       "abstract": "Ego-Exo4D is a large-scale dataset providing synchronized egocentric and multi-view exocentric video, a rich resource for skill learning and assessment, procedural activity understanding, and embodied AI. However, the dataset ships with only sparse 3D human pose annotations, and reconstructing dense human motion from its multi-view captures is nontrivial. To this end, we present Ego-Exo4D-HM, a large-scale dataset of 4D human motion reconstructions for Ego-Exo4D's captures, and release the accompanying reconstruction pipeline. The code, dataset, and documentation can be found at https://abhiram824.github.io/egoexo4d_human_meshes.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出Ego-Exo4D-HM，为Ego-Exo4D提供大规模4D人体运动重建数据集，并发布重建流程。该数据集含同步自我中心与多视角外部视频，可支持技能学习、活动理解与具身AI。",
+      "contribution_zh": "发布大规模4D人体运动重建数据集及配套重建管道，将Ego-Exo4D的稀疏3D姿态扩展为密集人体运动网格。",
       "source": {
         "kind": "arxiv",
         "external_id": "2609.30187",
@@ -237,11 +237,13 @@
         "updated_at": "2026-09-24T17:30:36Z"
       },
       "taxonomy": {
-        "route_id": "action_ground",
+        "route_id": "spatial",
         "topics": [
-          "cs.CV",
-          "cs.RO",
-          "embodied ai"
+          "4D人体运动",
+          "人体网格重建",
+          "Ego-Exo4D",
+          "具身AI",
+          "技能学习"
         ],
         "relevance_score": 4.0,
         "relevance_reasons": [
@@ -260,6 +262,14 @@
           "https://arxiv.org/abs/2609.30187"
         ],
         "source_comment": "Project website: https://abhiram824.github.io/egoexo4d_human_meshes"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.75,
+        "reason": "为具身AI数据集提供4D人体运动重建，支持技能学习与活动理解，属具身智能数据资源。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-09-27T05:13:13Z"
       }
     },
     {
