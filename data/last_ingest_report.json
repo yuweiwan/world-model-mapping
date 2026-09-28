@@ -1,28 +1,44 @@
 {
   "schema_version": 1,
-  "run_at": "2026-09-27T05:13:13Z",
-  "since": "2026-09-24T05:13:13Z",
+  "run_at": "2026-09-28T05:17:13Z",
+  "since": "2026-09-25T05:17:13Z",
   "source_counts": {
-    "arxiv-physical-ai": 13,
+    "arxiv-physical-ai": 16,
     "openreview-iclr-2026": 0,
     "openreview-neurips-2025": 0,
     "openreview-corl-2025": 0,
     "manual-inbox": 0
   },
-  "fetched": 13,
-  "queued": 0,
-  "duplicates": 12,
-  "ignored_low_score": 1,
-  "pending_total": 329,
-  "ai_reviewed": 1,
-  "ai_pending": 2,
+  "fetched": 16,
+  "queued": 14,
+  "duplicates": 2,
+  "ignored_low_score": 0,
+  "pending_total": 343,
+  "ai_reviewed": 13,
+  "ai_pending": 3,
   "ai_recommendations": {
-    "approve": 290,
-    "reject": 32,
+    "approve": 301,
+    "reject": 34,
     "manual": 5
   },
-  "queued_ids": [],
+  "queued_ids": [
+    "arxiv:2609.31394",
+    "arxiv:2609.31349",
+    "arxiv:2609.31313",
+    "arxiv:2609.31281",
+    "arxiv:2609.31162",
+    "arxiv:2609.31161",
+    "arxiv:2609.31133",
+    "arxiv:2609.31048",
+    "arxiv:2609.30996",
+    "arxiv:2609.30965",
+    "arxiv:2609.30946",
+    "arxiv:2609.30913",
+    "arxiv:2609.30868",
+    "arxiv:2609.30833"
+  ],
   "errors": [
+    "llm: arxiv:2609.31161: LLM response did not contain a JSON object",
     "llm: arxiv:2609.29166: LLM response did not contain a JSON object",
     "llm: arxiv:2609.17325: LLM response did not contain a JSON object"
   ]
