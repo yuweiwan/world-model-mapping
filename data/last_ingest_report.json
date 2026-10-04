@@ -1,38 +1,39 @@
 {
   "schema_version": 1,
-  "run_at": "2026-10-03T05:12:22Z",
-  "since": "2026-09-30T05:12:22Z",
+  "run_at": "2026-10-04T05:46:00Z",
+  "since": "2026-10-01T05:46:00Z",
   "source_counts": {
-    "arxiv-physical-ai": 88,
+    "arxiv-physical-ai": 24,
     "openreview-iclr-2026": 0,
     "openreview-neurips-2025": 0,
     "openreview-corl-2025": 0,
     "manual-inbox": 0
   },
-  "fetched": 88,
+  "fetched": 24,
   "queued": 0,
-  "duplicates": 80,
-  "ignored_low_score": 8,
+  "duplicates": 22,
+  "ignored_low_score": 2,
   "pending_total": 594,
-  "ai_reviewed": 39,
-  "ai_pending": 58,
+  "ai_reviewed": 38,
+  "ai_pending": 20,
   "ai_recommendations": {
-    "approve": 476,
-    "reject": 54,
+    "approve": 509,
+    "reject": 59,
     "manual": 6
   },
   "queued_ids": [],
   "errors": [
-    "llm: arxiv:2610.02160: LLM response did not contain a JSON object",
     "llm: arxiv:2610.02054: LLM response did not contain a JSON object",
     "llm: arxiv:2609.39604: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.38984: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.38733: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.38641: LLM response did not contain a JSON object",
     "llm: arxiv:2609.38504: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.36471: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.35936: LLM response did not contain a JSON object",
     "llm: arxiv:2609.35249: LLM response did not contain a JSON object",
-    "llm: arxiv:2609.34608: LLM response did not contain a JSON object"
+    "llm: arxiv:2609.34608: LLM response did not contain a JSON object",
+    "llm: arxiv:2609.34199: LLM response did not contain a JSON object",
+    "llm: arxiv:2609.34144: LLM response did not contain a JSON object",
+    "llm: arxiv:2609.33581: LLM response did not contain a JSON object",
+    "llm: arxiv:2609.33575: LLM response did not contain a JSON object",
+    "llm: arxiv:2609.33412: LLM response did not contain a JSON object",
+    "llm: arxiv:2609.33378: LLM response did not contain a JSON object",
+    "llm: arxiv:2609.33269: LLM response did not contain a JSON object"
   ]
 }
