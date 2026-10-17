@@ -1,19 +1,27 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-20T01:27:30Z",
-  "since": "2026-08-17T01:27:30Z",
+  "run_at": "2026-10-17T04:18:23Z",
+  "since": "2026-10-14T04:18:23Z",
   "source_counts": {
-    "arxiv-physical-ai": 35,
     "openreview-iclr-2026": 0,
     "openreview-neurips-2025": 0,
     "openreview-corl-2025": 0,
     "manual-inbox": 0
   },
-  "fetched": 35,
+  "fetched": 0,
   "queued": 0,
-  "duplicates": 35,
+  "duplicates": 0,
   "ignored_low_score": 0,
-  "pending_total": 0,
+  "pending_total": 961,
+  "ai_reviewed": 50,
+  "ai_pending": 1,
+  "ai_recommendations": {
+    "approve": 846,
+    "reject": 102,
+    "manual": 12
+  },
   "queued_ids": [],
-  "errors": []
+  "errors": [
+    "arxiv-physical-ai: request failed after 3 attempts: https://export.arxiv.org/api/query?search_query=%28all%3A%22world+model%22+OR+all%3A%22world+models%22+OR+all%3A%22world+action+model%22+OR+all%3A%22embodied+AI%22+OR+all%3A%22physical+AI%22+OR+all%3A%22vision-language-action%22+OR+all%3A%22robot+foundation+model%22%29+AND+%28cat%3Acs.AI+OR+cat%3Acs.RO+OR+cat%3Acs.CV+OR+cat%3Acs.LG%29&start=0&max_results=100&sortBy=submittedDate&sortOrder=descending: The read operation timed out"
+  ]
 }
