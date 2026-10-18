@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-17T04:18:23Z",
+  "updated_at": "2026-10-18T04:24:19Z",
   "papers": [
     {
       "id": "arxiv:2610.22364",
@@ -11528,7 +11528,7 @@
     {
       "id": "arxiv:2610.13172",
       "title": "RoleWorld: Knowledge Transfer in World Modeling with Functional Role Abstractions",
-      "title_zh": "",
+      "title_zh": "RoleWorld：基于功能角色抽象的世界建模知识迁移",
       "authors": [
         "Boyuan Xiao",
         "Pu Wang",
@@ -11537,8 +11537,8 @@
       ],
       "affiliations": [],
       "abstract": "World models enable large language model (LLM) agents to anticipate action effects and make informed decisions. For generalization, it is desirable for such world models to transfer efficiently to new environments with similar interaction structure and underlying dynamics. Recent approaches encode world dynamics as symbolic rules or executable programs, whose compositional structure in principle affords transfer, but still organize such knowledge around environment-specific objects. To address this limitation, we introduce RoleWorld, a symbolic world modeling approach which uses reusable prototypes and environment-specific parameter values as functional role abstractions to represent how objects behave in interactions. From interaction trajectories, a teacher LLM extracts role prototypes and executable transition rules defined over role instances, together with a skill that guides the actor LLM to use role information in decision making. In a target world, without the teacher, the actor uses this skill together with its current role assignments and parameter estimates, and actively tests a role instance hypothesis through interaction when its uncertainty affects the current decision. Feedback from each action refines role assignments and estimates parameter values online, with no LLM parameter updates and the transition rules held fixed. Experiments on MARS benchmark show that RoleWorld enables robust generalization across environments with significantly altered object behavior, suggesting that functional role abstractions can serve as an effective component for knowledge transfer in world modeling. Project Page: https://future-item.github.io/RoleWorld.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出RoleWorld，用可复用角色原型与环境参数表示对象交互行为，由教师LLM提取转移规则和技能，使行动者LLM在新环境中在线分配角色并主动测试假设，实现世界模型知识迁移。",
+      "contribution_zh": "以功能角色抽象组织符号世界模型，并让智能体通过主动交互在线细化角色与参数，提升跨环境泛化。",
       "source": {
         "kind": "arxiv",
         "external_id": "2610.13172",
@@ -11555,9 +11555,10 @@
       "taxonomy": {
         "route_id": "latent_wm",
         "topics": [
-          "cs.AI",
-          "world model",
-          "world models"
+          "LLM智能体",
+          "符号世界模型",
+          "知识迁移",
+          "主动交互"
         ],
         "relevance_score": 11.25,
         "relevance_reasons": [
@@ -11576,6 +11577,14 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2610.13172"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "reject",
+        "confidence": 0.78,
+        "reason": "通用LLM智能体符号世界模型，未涉及机器人或物理具身系统，建议拒收。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-10-18T04:24:19Z"
       }
     },
     {
