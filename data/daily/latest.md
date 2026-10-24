@@ -1,8 +1,8 @@
-# 世界模型与 Physical AI 每日更新 · 2026-10-22
+# 世界模型与 Physical AI 每日更新 · 2026-10-24
 
 - 今日审核入图：0
-- 今日新增候选：33
-- 待审核总数：1099
+- 今日新增候选：23
+- 待审核总数：1122
 
 ## 已审核入图
 
@@ -10,39 +10,29 @@
 
 ## 待审核候选
 
-- `arxiv:2610.30136` [Agentic World Action Models](https://arxiv.org/abs/2610.30136) · 相关性 14.0
-- `arxiv:2610.30129` [Rethinking Video Autoencoders for Interactive World Models](https://arxiv.org/abs/2610.30129) · 相关性 13.0
-- `arxiv:2610.30125` [PhysiCalWorld: In-Context Physics Calibration for World Models](https://arxiv.org/abs/2610.30125) · 相关性 15.5
-- `arxiv:2610.30120` [ALPS: Visual State Encoders for World Models](https://arxiv.org/abs/2610.30120) · 相关性 17.5
-- `arxiv:2610.30117` [CW-WAM: A Structured Contact-Wrench World Action Model for Force-Sensitive Manipulation](https://arxiv.org/abs/2610.30117) · 相关性 7.5
-- `arxiv:2610.30097` [AtomicRL: Atomic Reinforcement Learning for Long-Horizon Robotic Manipulation](https://arxiv.org/abs/2610.30097) · 相关性 5.62
-- `arxiv:2610.30044` [SP-HLM: Sparse-Pose-Driven Motion Generation and Whole-Body Control for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.30044) · 相关性 5.5
-- `arxiv:2610.29989` [Looking Ahead: Modeling Future Evolution in Autoregressive Video Generation](https://arxiv.org/abs/2610.29989) · 相关性 12.5
-- `arxiv:2610.29915` [CausalAlign: Causal Alignment of Video Generation Models for Consistent Ego-Motion](https://arxiv.org/abs/2610.29915) · 相关性 8.5
-- `arxiv:2610.29866` [GeoMem-VLA: Internalizing 3D Scene Understanding into Temporal Memory for Vision-Language-Action Models](https://arxiv.org/abs/2610.29866) · 相关性 9.75
-- `arxiv:2610.29829` [Robot Generalization Beyond Volume: The Diversity Path via Zero-Shot Capabilities](https://arxiv.org/abs/2610.29829) · 相关性 6.62
-- `arxiv:2610.29730` [Post-hoc Epistemic Uncertainty for Vision-Language-Action Policies](https://arxiv.org/abs/2610.29730) · 相关性 6.75
-- `arxiv:2610.29692` [FlowVLA: Learning Flow-Aware Physical Completion for Quantitative Robotic Pouring](https://arxiv.org/abs/2610.29692) · 相关性 5.62
-- `arxiv:2610.29677` [Toward Recursive Self-Improvement in Physical AI](https://arxiv.org/abs/2610.29677) · 相关性 6.75
-- `arxiv:2610.29560` [From VLM Planners to Robotic Agents: Self-Evolving Harnesses for History-Dependent Manipulation](https://arxiv.org/abs/2610.29560) · 相关性 5.62
-- `arxiv:2610.29435` [Events, Not Pixels: Where World Models Get the Return Wrong](https://arxiv.org/abs/2610.29435) · 相关性 12.5
-- `arxiv:2610.29408` [LiveAct: Towards Real-Time Multi-Agent World Models with Heterogeneous Action Interfaces](https://arxiv.org/abs/2610.29408) · 相关性 13.0
-- `arxiv:2610.29329` [Plan First, Act Later: Streaming Reasoning for Executable Memory in Robot Control](https://arxiv.org/abs/2610.29329) · 相关性 5.62
-- `arxiv:2610.29308` [LLM-Based Exogenous World Modeling for Dynamic Scheduling](https://arxiv.org/abs/2610.29308) · 相关性 6.25
-- `arxiv:2610.29282` [Relational Geometry Forcing for World Action Models](https://arxiv.org/abs/2610.29282) · 相关性 8.0
-- `arxiv:2610.29264` [Training in Deployment: Human-in-the-loop Online Post-Training for Robot Manipulation](https://arxiv.org/abs/2610.29264) · 相关性 5.62
-- `arxiv:2610.29244` [Failure Modes of Vision-Language Models for Human Activity Understanding in Thermal HRI](https://arxiv.org/abs/2610.29244) · 相关性 6.5
-- `arxiv:2610.29203` [NavBind: Diagnosing Instruction-Action Binding at Route Forks in Navigation VLAs](https://arxiv.org/abs/2610.29203) · 相关性 5.0
-- `arxiv:2610.29168` [How Representational Priors Shape Generalization in World Action Models](https://arxiv.org/abs/2610.29168) · 相关性 17.5
-- `arxiv:2610.29161` [SimPT: An Automated Simulation Framework for Intervention-Based VLA Post-Training](https://arxiv.org/abs/2610.29161) · 相关性 5.5
-- `arxiv:2610.29139` [Steering Black-Box Large Language Model Agents with Pitfall Anticipation World Model](https://arxiv.org/abs/2610.29139) · 相关性 11.25
-- `arxiv:2610.29088` [Causal world models under physical parameter shifts](https://arxiv.org/abs/2610.29088) · 相关性 19.25
-- `arxiv:2610.29061` [OccJEPA: Occlusion as Masking for Amodal Video Segmentation](https://arxiv.org/abs/2610.29061) · 相关性 16.25
-- `arxiv:2610.28945` [Self-Improving Agents with World Model Predictive Paths](https://arxiv.org/abs/2610.28945) · 相关性 6.25
-- `arxiv:2610.28880` [Real2Sem2Real: 3D Semantic Augmentations for Robot Learning from a Single Human RGB Demonstration](https://arxiv.org/abs/2610.28880) · 相关性 5.62
-- `arxiv:2610.28827` [WorldStream: Streaming Interactive 3D Worlds with Hierarchical Planning and Persistent State](https://arxiv.org/abs/2610.28827) · 相关性 8.75
-- `arxiv:2610.28779` [Second Thoughts: Exploring and Planning through Comparative Imagination in World Models](https://arxiv.org/abs/2610.28779) · 相关性 12.5
-- `arxiv:2610.28753` [Understanding the Inner Workings of a State-Space Foundation Model for Limit Order Books](https://arxiv.org/abs/2610.28753) · 相关性 5.0
+- `arxiv:2610.31670` [Sensorimotor Alignment: A Platonic Proxy for Embodied Policy Success](https://arxiv.org/abs/2610.31670) · 相关性 11.5
+- `arxiv:2610.31668` [Reading, Writing, Sharing, and Interacting with the World through Video](https://arxiv.org/abs/2610.31668) · 相关性 10.0
+- `arxiv:2610.31617` [DiffDreamer: Coupling World Models with Differentiable Simulation for Agile Quadrotor Control](https://arxiv.org/abs/2610.31617) · 相关性 13.0
+- `arxiv:2610.31613` [Progress Probes $P^2$: Lightweight Runtime Monitoring for Vision-Language-Action Models](https://arxiv.org/abs/2610.31613) · 相关性 6.25
+- `arxiv:2610.31569` [Echo: Coupled Action and Task Status Signal Denoising for Vision Language Action Models](https://arxiv.org/abs/2610.31569) · 相关性 6.75
+- `arxiv:2610.31474` [Skeleton-Grounded Latent Action Model for Robot World Models](https://arxiv.org/abs/2610.31474) · 相关性 13.12
+- `arxiv:2610.31429` [PhysTrace: Interpretable Temporal Evaluation of Physical Consistency in Video Generative Models](https://arxiv.org/abs/2610.31429) · 相关性 6.0
+- `arxiv:2610.31427` [FastHarness: Experience-Driven Review Scheduling for Vision-Language-Action Policies](https://arxiv.org/abs/2610.31427) · 相关性 7.75
+- `arxiv:2610.31423` [FocusVLA: Future-Intent Guided Dynamic View Routing for Vision-Language-Action Models](https://arxiv.org/abs/2610.31423) · 相关性 6.75
+- `arxiv:2610.31194` [Inside-JEPA: From Prediction to Relational Grounding in Latent World Models](https://arxiv.org/abs/2610.31194) · 相关性 19.25
+- `arxiv:2610.31166` [Memory before Goal: Role of Pre-History Memory for Humanoid Loco-Manipulation](https://arxiv.org/abs/2610.31166) · 相关性 5.5
+- `arxiv:2610.31066` [Dual Exam: Controlled Evaluation of Multimodal Agents and World Models](https://arxiv.org/abs/2610.31066) · 相关性 12.5
+- `arxiv:2610.30988` [In-Context Learning World Models for Robot Dual-Arm Manipulation of Soft Garment with Partial Observations](https://arxiv.org/abs/2610.30988) · 相关性 16.12
+- `arxiv:2610.30953` [Measuring the Reasoning-Action Coupling in Driving Vision-Language-Action Models through Counterfactuals](https://arxiv.org/abs/2610.30953) · 相关性 6.25
+- `arxiv:2610.30814` [DRILL: Training World Models to Improve Policies, Not Predict Pixels](https://arxiv.org/abs/2610.30814) · 相关性 17.5
+- `arxiv:2610.30789` [An Introduction to World Models for Generalist Agents](https://arxiv.org/abs/2610.30789) · 相关性 12.5
+- `arxiv:2610.30781` [DeXplicit: Making Physical State Explicit in Dexterous Manipulation World Models](https://arxiv.org/abs/2610.30781) · 相关性 18.0
+- `arxiv:2610.30732` [SmolVLA-MoE: Sparse Mixture-of-Experts for Efficient Multi-Task Robotic Manipulation](https://arxiv.org/abs/2610.30732) · 相关性 5.62
+- `arxiv:2610.30724` [Learning from Next-Frame Prediction: Towards Unified and Scalable Visual Representation Learning](https://arxiv.org/abs/2610.30724) · 相关性 10.0
+- `arxiv:2610.30657` [Anticipating Social Consequences with Distributional World Models](https://arxiv.org/abs/2610.30657) · 相关性 12.5
+- `arxiv:2610.30488` [From Single-Actor Environments to Multi-Actor Event Worlds: Can LLMs Be Event World Models?](https://arxiv.org/abs/2610.30488) · 相关性 12.5
+- `arxiv:2610.30438` [Tactile-Based Robotic Manipulation: From Mechanics-Driven to Data-Driven Perspectives](https://arxiv.org/abs/2610.30438) · 相关性 5.62
+- `arxiv:2610.30320` [Self-Distilling Future Video Representations for World Action Models](https://arxiv.org/abs/2610.30320) · 相关性 10.0
 
 ## 审核命令
 
