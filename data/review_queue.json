@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-28T05:32:29Z",
+  "updated_at": "2026-10-29T05:40:17Z",
   "papers": [
     {
       "id": "arxiv:2610.37666",
@@ -952,7 +952,7 @@
     {
       "id": "arxiv:2610.37037",
       "title": "Zooming without Zooming v2: From Seeing Details to Connecting Evidence for Generalizable Multimodal Perception",
-      "title_zh": "",
+      "title_zh": "免缩放的缩放 v2：从看见细节到连接证据的泛化多模态感知",
       "authors": [
         "Lai Wei",
         "Yatai Li",
@@ -970,8 +970,8 @@
       ],
       "affiliations": [],
       "abstract": "Multimodal perception forms the foundation of multimodal intelligence. In particular, spatial perception and multimodal long-context understanding are two pivotal tasks that underpin embodied AI and multimodal agents. However, synthesizing targeted, high-quality training data for these tasks remains difficult and costly. Our key insight is that these tasks share an underlying capability, which we call connecting evidence: identifying relevant visual facts, binding them to the correct entities, recovering their relations, and composing them into an answer. Crucially, targeted training data are far easier to synthesize for this capability than for these tasks themselves. To strengthen this capability, we propose EvidenceConnect, an easy-to-implement data synthesis framework that uses zoomed views of related regions within a single image to generate questions requiring comparison, aggregation, or chaining of visual evidence. To ensure quality, a reference answer is retained only when independent VLMs agree on it, and region-ablation tests discard questions whose answer survives the removal of selected regions. We then train base VLMs on the resulting data with RLVR, obtaining Zooming without Zooming v2 (ZwZ2). Although the synthesized data are not tailored to any downstream benchmark, ZwZ2 improves fine-grained and spatial perception, with further gains on embodied spatial reasoning, multimodal long-context understanding, multimodal agent tasks, and general visual reasoning. These results establish EvidenceConnect as an effective framework for supervising evidence connection and suggest that strengthening this shared capability leads to more generalizable multimodal perception.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出 EvidenceConnect 数据合成框架：用同图放大视图生成需要比较、聚合、链式连接视觉证据的问题，经多 VLM 一致性过滤与区域消融筛选，再以 RLVR 训练得 ZwZ2，提升细粒度与空间感知及长上下文理解。",
+      "contribution_zh": "将空间感知与长上下文理解归纳为可低成本合成的“连接证据”共享能力，设计数据生成与过滤机制，并验证该能力训练可泛化至具身空间推理等任务。",
       "source": {
         "kind": "arxiv",
         "external_id": "2610.37037",
@@ -986,13 +986,13 @@
         "updated_at": "2026-10-27T11:11:53Z"
       },
       "taxonomy": {
-        "route_id": "action_ground",
+        "route_id": "spatial",
         "topics": [
-          "cs.CV",
-          "cs.AI",
-          "cs.CL",
-          "cs.LG",
-          "embodied ai"
+          "多模态感知",
+          "空间感知",
+          "数据合成",
+          "VLM 强化学习",
+          "具身空间推理"
         ],
         "relevance_score": 4.0,
         "relevance_reasons": [
@@ -1010,6 +1010,14 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2610.37037"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "manual",
+        "confidence": 0.55,
+        "reason": "偏通用多模态感知数据合成，仅间接涉及具身空间推理，归属边界不清",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-10-29T05:40:17Z"
       }
     },
     {
@@ -3456,7 +3464,7 @@
     {
       "id": "arxiv:2610.34251",
       "title": "Variational Cognitive Memory Abstraction for Long-Horizon Vision-Language-Action Models",
-      "title_zh": "",
+      "title_zh": "面向长时程视觉-语言-动作模型的变分认知记忆抽象",
       "authors": [
         "Xinyu Liu",
         "Daiying Tian",
@@ -3470,8 +3478,8 @@
       ],
       "affiliations": [],
       "abstract": "Vision-Language-Action (VLA) models have shown remarkable success in robotic manipulation, yet their ability to execute long-horizon tasks remains limited by insufficient long- term memory modeling. Existing methods either rely on implicit temporal representations within policy networks, where historical information can be gradually diluted, or maintain explicit memory buffers that suffer from redundancy, noise accumulation, and inefficient retrieval. In this paper, we propose CogMemory, a novel variational cognitive memory framework that enables VLA systems to selectively preserve and reuse task-relevant historical information. Our approach encodes multimodal trajectories into compact latent memory representations through a selective state- space memory encoder, multi-slot temporal abstraction, and variational information compression. During action generation, dynamic cross-attention retrieval with gated fusion adaptively incorporates relevant memories into policy prediction. With merely 3.45M additional parameters, CogMemory stays lightweight and seamlessly fits both early- and intermediate-fusion VLA backbones. Extensive experiments on long-horizon robotic manipulation benchmarks demonstrate consistent improvements across diverse VLA backbones.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出CogMemory，用选择性状态空间编码、多槽时序抽象和变分压缩将多模态轨迹转为紧凑潜记忆，并通过动态交叉注意力与门控融合在动作生成中检索复用，提升长时程机器人操作。",
+      "contribution_zh": "提出轻量变分认知记忆框架，仅增3.45M参数，可无缝接入早期或中期融合VLA骨干，并在长时程操作基准上稳定提升多种VLA。",
       "source": {
         "kind": "arxiv",
         "external_id": "2610.34251",
@@ -3488,9 +3496,11 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.AI",
-          "vision-language-action",
-          "robot"
+          "视觉语言动作模型",
+          "长时程机器人操作",
+          "认知记忆",
+          "变分压缩",
+          "具身智能"
         ],
         "relevance_score": 6.75,
         "relevance_reasons": [
@@ -3509,12 +3519,20 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2610.34251"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.88,
+        "reason": "面向VLA长时程机器人操作的记忆建模，属具身智能与动作生成范畴",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-10-29T05:40:17Z"
       }
     },
     {
       "id": "arxiv:2610.34186",
       "title": "HuGe: Scaling Humanoid Generalist Vision-Language-Action Models with Egocentric Experience",
-      "title_zh": "",
+      "title_zh": "HuGe：利用第一人称经验扩展人形通用视觉-语言-动作模型",
       "authors": [
         "Yang Liu",
         "Jiacheng Liu",
@@ -3536,8 +3554,8 @@
       ],
       "affiliations": [],
       "abstract": "Extending Vision-Language-Action models (VLAs) to humanoid robots requires coordinated whole-body control and diverse demonstrations that are costly to collect in real-world scenarios. Although egocentric human demonstrations provide a complementary source of task experience, differences in visual embodiment and missing robot proprioception complicate transfer to humanoid policies. To address these challenges, we introduce HuGe, a family of Humanoid Generalist VLAs pre-trained on over 2,000 hours of egocentric human and robot data. Specifically, HuGe employs three existing representative VLA architectures to predict latent motion tokens for a pretrained whole-body controller, together with hand-control signals. Based on this, we introduce a three-stage training pipeline that combines egocentric pre-training, humanoid adaptation, and downstream fine-tuning. To facilitate transfer across embodiments, we construct pseudo-proprioceptive states through simulation playback during pre-training and modify arm appearance in egocentric observations through re-rendering during downstream fine-tuning. With this pipeline, HuGe achieves the state-of-the-art on simulation benchmark HumanoidArena. Furthermore, real-world experiments on the Unitree G1 indicate that augmenting robot demonstrations with visually adapted egocentric demonstrations significantly increases success on a pick-and-drop task.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出HuGe系列人形通用VLA，基于超2000小时第一人称人类与机器人数据预训练，通过三阶段流程实现跨具身迁移，在HumanoidArena取得最优并在Unitree G1真实任务验证。",
+      "contribution_zh": "构建人形通用VLA预训练与迁移流程，利用伪本体感觉和视觉重渲染弥合人类示教与机器人控制差异，提升全身操作性能。",
       "source": {
         "kind": "arxiv",
         "external_id": "2610.34186",
@@ -3554,9 +3572,11 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.RO",
-          "vision-language-action",
-          "robot"
+          "vision-language-action models",
+          "humanoid robots",
+          "egocentric learning",
+          "cross-embodiment transfer",
+          "whole-body control"
         ],
         "relevance_score": 6.75,
         "relevance_reasons": [
@@ -3575,12 +3595,20 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2610.34186"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.97,
+        "reason": "人形机器人通用VLA，利用第一人称人类数据预训练并迁移到全身控制，属具身智能核心范畴。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-10-29T05:40:17Z"
       }
     },
     {
       "id": "arxiv:2610.34108",
       "title": "RoboDuo: Attempt, Check and Atomic Recovery through Code for Vision-Language-Action Models",
-      "title_zh": "",
+      "title_zh": "RoboDuo：面向视觉语言动作模型的尝试、检查与代码化原子恢复",
       "authors": [
         "Jie Wang",
         "Bo Zhang",
@@ -3589,8 +3617,8 @@
       ],
       "affiliations": [],
       "abstract": "Vision-Language-Action (VLA) models map a language instruction and the current observation directly to actions, without checking whether the instruction has been completed. For long-horizon tasks, a single failed step therefore goes unnoticed and leaves the whole task unfinished. Such failed episodes, however, often end with the task partially complete. Moreover, the unfinished steps are reusable atomic skills that recur across demonstrations. A failed attempt can thus be recovered by composing with atomic skills. We propose RoboDuo, a closed-loop dual-system framework that uses code as the interface between a coding agent and two VLAs. The agent writes a program that lets a full-task VLA attempt the whole task and checks whether it is complete; on failure, an atomic VLA finishes the remaining steps. Since the agent emits no actions and only decides which VLA for execution, RoboDuo wraps an existing full-task VLA without updating its weights. To train the atomic VLA and the coding agent with the completion-checking ability, we build LIBERO-Atomic, LIBERO-Code, and LIBERO-Judge from a single set of LIBERO demonstrations. RoboDuo consistently improves X-VLA and $π_{0.5}$ on LIBERO and LIBERO-PRO, with the largest gains on long-horizon tasks, and recovers failed rollouts of a frozen full-task VLA on a real robot.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出RoboDuo双系统闭环框架，以代码为接口：编码智能体调用全任务VLA尝试并检查完成度，失败时由原子VLA接续完成剩余技能。基于LIBERO构建原子、代码与评判数据集，在仿真和真实机器人上提升长程任务成功率。",
+      "contribution_zh": "无需更新全任务VLA权重，用代码编排尝试-检查-原子恢复闭环；构建LIBERO-Atomic/Code/Judge数据集，在仿真与真实机器人上稳定提升X-VLA与π0.5的长程成功率。",
       "source": {
         "kind": "arxiv",
         "external_id": "2610.34108",
@@ -3607,10 +3635,12 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.RO",
-          "cs.CV",
-          "vision-language-action",
-          "robot"
+          "视觉语言动作模型",
+          "长程机器人操作",
+          "双系统闭环",
+          "代码即策略",
+          "原子技能恢复",
+          "任务完成度检查"
         ],
         "relevance_score": 6.75,
         "relevance_reasons": [
@@ -3629,12 +3659,20 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2610.34108"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.88,
+        "reason": "面向VLA长程操作的双系统闭环框架，以代码编排尝试-检查-原子恢复，直接服务机器人操作，符合收录范围。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-10-29T05:40:17Z"
       }
     },
     {
       "id": "arxiv:2610.33894",
       "title": "WMEval: Evaluating Interactive World Models Grounded on Physical Simulations",
-      "title_zh": "",
+      "title_zh": "WMEval：评估基于物理仿真的交互式世界模型",
       "authors": [
         "Lanxiang Hu",
         "Yixin Huang",
@@ -3655,8 +3693,8 @@
       ],
       "affiliations": [],
       "abstract": "Interactive world models hold immense potential for high-stakes applications in robotics, game engines, and immersive digital twins, yet existing benchmarks primarily focus on perceptual similarity rather than the physical-causal coherence essential for real-world utility. We introduce WMEval, a comprehensive benchmark that evaluates interactive world models against Unity-based physical simulations. By leveraging Unity as a high-fidelity ground-truth oracle, we shift evaluation beyond perceptual visual assessment toward the objective state-based verification required for downstream applications. Spanning 9 diverse scenes, WMEval assesses action controllability, scene and character consistency, prompt adherence, kinematics, fluid mechanics, physical causality, and lighting. By executing matched action sequences in both the simulator and the world model, WMEval enables evaluation at both the perceptual level and the physical-causal level, using simulator-derived states as reference. Experiments on state-of-the-art models reveal significant room for improvement in dimensions that remain hidden by standard perceptual metrics but are vital for real-world deployments. Our code is available at: https://github.com/hao-ai-lab/WMEval.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出 WMEval 基准，以 Unity 物理仿真作为真实状态参照，在 9 个场景中通过匹配动作序列评估交互式世界模型的动作可控性、一致性、运动学、流体、物理因果与光照，超越感知相似度。",
+      "contribution_zh": "构建基于物理仿真的交互式世界模型评测基准，引入状态级物理因果验证，揭示感知指标掩盖的关键缺陷。",
       "source": {
         "kind": "arxiv",
         "external_id": "2610.33894",
@@ -3671,13 +3709,14 @@
         "updated_at": "2026-10-27T10:57:14Z"
       },
       "taxonomy": {
-        "route_id": "latent_wm",
+        "route_id": "interactive_wm",
         "topics": [
-          "cs.CV",
-          "world model",
-          "world models",
-          "robotics",
-          "robot"
+          "交互式世界模型",
+          "物理仿真",
+          "基准评测",
+          "机器人",
+          "物理因果",
+          "动作可控性"
         ],
         "relevance_score": 14.0,
         "relevance_reasons": [
@@ -3698,6 +3737,14 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2610.33894"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.92,
+        "reason": "面向机器人交互式世界模型的物理仿真基准，属核心收录范围",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-10-29T05:40:17Z"
       }
     },
     {
