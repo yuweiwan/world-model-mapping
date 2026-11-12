@@ -1,47 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-11-11T06:04:02Z",
-  "since": "2026-11-08T06:04:02Z",
+  "run_at": "2026-11-12T07:03:38Z",
+  "since": "2026-11-09T07:03:38Z",
   "source_counts": {
-    "arxiv-physical-ai": 55,
+    "arxiv-physical-ai": 39,
     "openreview-iclr-2026": 0,
     "openreview-neurips-2025": 1,
     "openreview-corl-2025": 0,
     "manual-inbox": 0
   },
-  "fetched": 56,
-  "queued": 18,
-  "duplicates": 35,
+  "fetched": 40,
+  "queued": 0,
+  "duplicates": 37,
   "ignored_low_score": 3,
   "pending_total": 1439,
-  "ai_reviewed": 17,
-  "ai_pending": 1,
+  "ai_reviewed": 1,
+  "ai_pending": 0,
   "ai_recommendations": {
-    "approve": 1258,
+    "approve": 1259,
     "reject": 159,
     "manual": 21
   },
-  "queued_ids": [
-    "arxiv:2611.14488",
-    "arxiv:2611.14432",
-    "arxiv:2611.14420",
-    "arxiv:2611.14419",
-    "arxiv:2611.14383",
-    "arxiv:2611.14365",
-    "arxiv:2611.14092",
-    "arxiv:2611.14048",
-    "arxiv:2611.13818",
-    "arxiv:2611.13592",
-    "arxiv:2611.13528",
-    "arxiv:2611.13348",
-    "arxiv:2611.13229",
-    "arxiv:2611.13160",
-    "arxiv:2611.13113",
-    "arxiv:2611.13030",
-    "arxiv:2611.08577",
-    "openreview:h6xQClTm4W"
-  ],
-  "errors": [
-    "llm: arxiv:2611.13528: LLM response did not contain a JSON object"
-  ]
+  "queued_ids": [],
+  "errors": []
 }
