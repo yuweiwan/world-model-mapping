@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-13T06:32:53Z",
+  "updated_at": "2026-11-14T06:11:42Z",
   "papers": [
     {
       "id": "arxiv:2611.17318",
@@ -1684,7 +1684,7 @@
     {
       "id": "arxiv:2611.15101",
       "title": "CFGComposer: Compositional Audio-Text-to-Motion Generation via Copula Score Correction",
-      "title_zh": "",
+      "title_zh": "CFGComposer：基于Copula分数校正的组合式音频-文本到动作生成",
       "authors": [
         "Pengyang Shi",
         "Jinlu Zhang",
@@ -1694,8 +1694,8 @@
       ],
       "affiliations": [],
       "abstract": "Generating whole-body gestures that are simultaneously rhythmically synchronized with speech audio and semantically aligned with text descriptions is a fundamental challenge in embodied AI and social robotics. We tackle this Audio-Text-to-Motion (AT2M) problem by composing two independently-trained diffusion models at inference time and refine bias in joint inference by modeling the copula score $s_I$. A rigorous theoretical analysis reveals that naive epsilon blending corresponds to a Product-of-Experts formulation that omits the copula score $s_I$: the cross-modal interaction between audio and text that neither marginal model can capture. We propose CFGComposer: a jointly-trained AT2M diffusion model that estimates $s_I$ via a CFG analogy and injects it as an $ε$-space correction. Experiments on BEAT demonstrate best-in-class semantic fidelity (SRGR $0.9916$, FID $27.18$) with GT-level beat alignment (BA $0.1826$ vs. GT $0.1743$), and 76-83% win rate in blind pairwise human evaluation against all prior methods. Physical deployment on a Unitree G1 humanoid confirms direct sim-to-real transfer.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "推理时组合音频与文本扩散模型，用Copula分数校正ε混合缺失的跨模态交互，生成节奏同步、语义对齐的全身动作；BEAT上语义与节拍指标最佳，并部署于Unitree G1人形。",
+      "contribution_zh": "指出朴素ε混合等价于缺失Copula分数的专家乘积，提出以CFG类比估计该分数并注入校正的联合训练音频-文本到动作扩散模型。",
       "source": {
         "kind": "arxiv",
         "external_id": "2611.15101",
@@ -1712,11 +1712,11 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.SD",
-          "cs.AI",
-          "embodied ai",
-          "robotics",
-          "robot"
+          "音频-文本到动作生成",
+          "扩散模型组合",
+          "全身手势生成",
+          "人形机器人",
+          "sim-to-real"
         ],
         "relevance_score": 5.5,
         "relevance_reasons": [
@@ -1736,6 +1736,14 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2611.15101"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.62,
+        "reason": "面向社交机器人全身手势生成，并在人形机器人上完成迁移验证，属具身动作生成",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-14T06:11:42Z"
       }
     },
     {
