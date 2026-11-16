@@ -1,8 +1,542 @@
 {
   "schema_version": 1,
-  "date": "2026-11-14",
-  "generated_at": "2026-11-14T06:11:56Z",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T06:19:04Z",
   "approved": [],
-  "candidates": [],
-  "pending_total": 1475
+  "candidates": [
+    {
+      "id": "arxiv:2611.18562",
+      "title": "Training Reasoning Models in Simulation to Natively Use Real Robots",
+      "title_zh": "在仿真中训练推理模型以原生使用真实机器人",
+      "authors": [
+        "Jiaming Tang",
+        "Zhuoyang Zhang",
+        "Junxian Guo",
+        "Fangzhou Zhao",
+        "Yilong Zhao",
+        "Zekai Li",
+        "Xingyang Li",
+        "Yuyang Zhao",
+        "Song Bian",
+        "Zhijian Liu",
+        "Song Han"
+      ],
+      "affiliations": [],
+      "abstract": "Robot-use agents (RUAs) have emerged as a promising approach to general-purpose robot control. However, strong performance has so far been achieved only by frontier proprietary models such as GPT-6 Astra and Claude Fable 5.2, whereas open-weight models remain substantially less capable. We show that an open-weight 27B reasoning model can be trained to use real robots natively through reinforcement learning, entirely in simulation and without demonstrations. Like a computer-use agent (CUA), the model observes the environment, reasons in a chain of thought, and generates the next end-effector pose, without any harness. We build a Post-training Engine for Agentic Robotics (PEAR) and use it to train the model on simulated robot tasks at scale with robot-use reinforcement learning (RURL), mirroring how frontier models acquire computer use. We find that the skills acquired in simulation generalize well beyond the training tasks: they transfer to an unseen robot, to the real world, and to novel instructions. After training on LIBERO and RoboDojo in simulation, the model succeeds in 60% of our trials on a real dual-arm robot, whereas the base model succeeds in none. On LIBERO, training raises the success rate from 1.6% to 74.4%, approaching GPT-6 Astra and GPT-6.1 Sol at maximum reasoning effort. Compared with $π_{0.5}$, a vision-language-action model fine-tuned on demonstrations, our model is substantially more robust to changes in the task itself. On LIBERO-Pro, $π_{0.5}$ succeeds in only 0.75% of episodes when assigned a new task in a familiar scene whereas our model succeeds in 57.4%. Finally, the model retains its general capabilities, with no measurable degradation on nine reasoning, coding and vision benchmarks. These results highlight robot-use reinforcement learning as a promising component of foundation-model post-training.",
+      "summary_zh": "提出PEAR训练引擎与机器人使用强化学习RURL，在仿真中无示教训练开源27B推理模型，直接输出末端位姿；技能可迁移到未见机器人、真实双臂机器人与新指令。",
+      "contribution_zh": "构建智能体机器人后训练引擎与RURL方法，实现纯仿真RL训练的开源模型，真实双臂任务成功率60%，LIBERO从1.6%升至74.4%。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2611.18562",
+        "url": "https://arxiv.org/abs/2611.18562",
+        "pdf_url": "https://arxiv.org/pdf/2611.18562v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-11-13T18:59:02Z",
+        "updated_at": "2026-11-13T18:59:02Z"
+      },
+      "taxonomy": {
+        "route_id": "action_ground",
+        "topics": [
+          "机器人基础模型",
+          "视觉语言动作模型",
+          "仿真到真实迁移",
+          "强化学习后训练",
+          "具身推理智能体"
+        ],
+        "relevance_score": 6.62,
+        "relevance_reasons": [
+          "vision-language-action",
+          "robotics",
+          "robot"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-11-16T06:18:25Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2611.18562"
+        ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.91,
+        "reason": "仿真中强化学习训练推理模型原生操控真机，属机器人基础模型与动作生成范畴",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-16T06:18:22Z"
+      }
+    },
+    {
+      "id": "arxiv:2611.18484",
+      "title": "From AI-Enabled Remote Patient Monitoring Toward Agentic Robotics: Embodiment, Governance, and Care Integration",
+      "title_zh": "从AI远程患者监测迈向具身智能体机器人：具身性、治理与护理整合",
+      "authors": [
+        "Ivana Ragusa",
+        "Lorenzo Guiducci",
+        "Filippo Cavallo"
+      ],
+      "affiliations": [],
+      "abstract": "AI-enabled remote patient monitoring is evolving beyond passive data collection toward agentic AI systems that interpret patient states, coordinate care, and initiate action across domestic and clinical settings. This structured scoping review finds that mature agentic care has not yet emerged: Most systems remain human led, while stronger decision-action coupling and embodied AI remain largely confined to prototypes and pilots. Healthcare robotics makes the transition from monitoring to action especially visible by translating AI-generated recommendations and decisions into speech, movement, prompting, physical assistance, escalation, and care coordination, making embodiment, clinical integration, human oversight, and governance fundamental design requirements. Further progress requires safe and interoperable care architectures in which intelligent components operate through clinically validated and accountable workflows. We propose agentic robotics as a future direction for supervised systems embedded in the care ecosystem, connecting AI agents and robots with clinicians, caregivers, and patients through auditable workflows that can be interrupted and remain subject to human oversight and explicit AI governance.",
+      "summary_zh": "范围综述指出成熟智能体护理尚未出现，多数系统仍由人主导；医疗机器人把AI建议转化为语音、移动、身体辅助与护理协调，凸显具身、临床整合、人类监督与治理要求。",
+      "contribution_zh": "提出将智能体机器人作为受监督、可审计、可中断并嵌入护理生态的未来方向，强调治理与临床整合。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2611.18484",
+        "url": "https://arxiv.org/abs/2611.18484",
+        "pdf_url": "https://arxiv.org/pdf/2611.18484v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-11-13T17:59:40Z",
+        "updated_at": "2026-11-13T17:59:40Z"
+      },
+      "taxonomy": {
+        "route_id": "action_ground",
+        "topics": [
+          "healthcare robotics",
+          "agentic AI",
+          "embodiment",
+          "human oversight",
+          "AI governance",
+          "care integration"
+        ],
+        "relevance_score": 5.88,
+        "relevance_reasons": [
+          "embodied ai",
+          "robotics",
+          "robot"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-11-16T06:18:25Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2611.18484"
+        ],
+        "source_comment": "34 pages, 6 figures, 3 tables. Accepted for publication in Annual Review of Control, Robotics, and Autonomous Systems, Volume 10 (2027)"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "manual",
+        "confidence": 0.55,
+        "reason": "医疗护理情境的机器人综述，偏治理与整合，与核心机器人学习/世界模型关系间接，需人工判定。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-16T06:18:22Z"
+      }
+    },
+    {
+      "id": "arxiv:2611.18458",
+      "title": "When to Trust Simulated Patient Responses:Support-Gated World Models for Vasopressor Decision Support",
+      "title_zh": "何时信任模拟患者响应：用于升压药决策支持的支持门控世界模型",
+      "authors": [
+        "Yifan Jin",
+        "Tao Liu"
+      ],
+      "affiliations": [],
+      "abstract": "Clinical world models expose language-model agents to predicted patient responses, but simulations can be unreliable for poorly supported treatments or unfamiliar hospitals. We introduce Support-Gated World-Model decision support, a lightweight extension of a propose--simulate--refine agent. A recurrent dynamics ensemble predicts short-horizon physiological responses to documented norepinephrine dose categories, while a behavior model estimates observational action support. The interface withholds predictions with insufficient support or excessive ensemble disagreement and abstains when no candidate qualifies. Evaluation on eICU-CRD includes 70 hospitals and 30,700 decision transitions, with 14 hospitals held out for testing. At 62.0% factual-transition coverage, joint gating yields a MAP mean absolute error of 7.3 mmHg, compared with 9.2 mmHg for random selection at the same coverage. The gated agent achieves 60.0% agreement with recorded actions at 81.0% decision coverage, compared with 55.0% agreement and 99.5% coverage for an ungated ensemble agent. Component ablations show lower factual risk with joint gating than with either gate alone.These results characterize a reliability--coverage trade-off in selective clinical simulation; they do not identify individualized treatment effects or establish improved patient outcomes.",
+      "summary_zh": "提出支持门控的临床世界模型决策支持，用循环动力学集成预测去甲肾上腺素剂量后的生理响应，并由行为模型评估动作支持度，低支持或高分歧时弃权。",
+      "contribution_zh": "在eICU-CRD上验证门控可降低预测误差并提升决策一致性，刻画临床仿真的可靠性—覆盖率权衡。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2611.18458",
+        "url": "https://arxiv.org/abs/2611.18458",
+        "pdf_url": "https://arxiv.org/pdf/2611.18458v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-11-13T17:28:25Z",
+        "updated_at": "2026-11-13T17:28:25Z"
+      },
+      "taxonomy": {
+        "route_id": "latent_wm",
+        "topics": [
+          "临床世界模型",
+          "选择性预测",
+          "决策支持"
+        ],
+        "relevance_score": 12.5,
+        "relevance_reasons": [
+          "world model",
+          "world models"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-11-16T06:18:25Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2611.18458"
+        ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "reject",
+        "confidence": 0.88,
+        "reason": "临床血压决策支持，非机器人或具身物理智能，超出图谱范围。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-16T06:18:22Z"
+      }
+    },
+    {
+      "id": "arxiv:2611.18397",
+      "title": "Gamer: A Generalist Vision-Language-Action Foundation Model for Long-Horizon Real-Time Game Agent",
+      "title_zh": "Gamer：面向长时程实时游戏智能体的通用视觉-语言-动作基础模型",
+      "authors": [
+        "Run Luo",
+        "Kuan Zhang",
+        "Qi Deng",
+        "Yukun Chen",
+        "Zhihao Yang",
+        "Yufei Zhang",
+        "Renrong Hu",
+        "Yi Zhang",
+        "Guiyu Ma",
+        "Tianyu Fan",
+        "Longze Chen",
+        "Hao Sun",
+        "Jiaming Li",
+        "Jiaming Yang",
+        "Xiaohao Liu",
+        "Tao Tan",
+        "Minzheng Wang",
+        "Hangtian Jia",
+        "Shuai Yuan",
+        "Lvdi Wang",
+        "Xiao Liu",
+        "Chao Ma",
+        "Yuting Zou",
+        "Yinhe Zheng",
+        "Xiaobo Xia",
+        "Dawei Jiang",
+        "Shaoqing Ren"
+      ],
+      "affiliations": [],
+      "abstract": "We introduce Gamer, a generalist agent framework built for long-horizon tasks in complex interactive environments. Its end-to-end architecture combines perception, memory management, and multi-step reasoning. A shared training and deployment pipeline supports interaction with both conventional 2D graphical interfaces and complex 3D simulated worlds. We first continue pre-training on a dataset constructed from tens of thousands of hours of device-level keyboard and mouse interaction. These trajectories span simulated games and embodied environments, allowing the model to learn environmental dynamics across both physical and virtual domains. Sparse-thinking instruction tuning then substantially reduces redundant computation while preserving the reasoning needed for complex decisions. We train the policy for long-horizon interaction with a stable multi-turn reinforcement learning method that addresses finite context windows, accumulated rollout errors, and sparse rewards. For real-time interaction, a cloud-edge inference engine serves numerous simulated game environments concurrently, supports unbounded-context execution, and keeps online inference latency low. Across multiple challenging 3D open-world games, Gamer demonstrates solid generalization and operational efficiency comparable to skilled players. It also achieves competitive results on a range of conventional 2D game benchmarks. These results suggest that even repetitive keyboard and mouse trajectories can support substantial gains from scaling data and learning algorithms. Training on these trajectories helps Gamer learn complex skills more steadily in environments with both physical and digital properties. This approach offers a path toward generalist agents that can interact across digital and physical worlds.",
+      "summary_zh": "提出通用VLA智能体Gamer，融合感知、记忆与多步推理，支持2D界面和3D模拟世界；用大规模键鼠轨迹预训练、稀疏思考微调和多轮强化学习，并以云边推理实现低延迟长时程交互。",
+      "contribution_zh": "构建面向长时程游戏交互的通用VLA框架，结合大规模键鼠轨迹预训练、稳定多轮强化学习与云边实时推理。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2611.18397",
+        "url": "https://arxiv.org/abs/2611.18397",
+        "pdf_url": "https://arxiv.org/pdf/2611.18397v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-11-13T16:39:30Z",
+        "updated_at": "2026-11-13T16:39:30Z"
+      },
+      "taxonomy": {
+        "route_id": "action_ground",
+        "topics": [
+          "视觉语言动作模型",
+          "游戏智能体",
+          "长时程交互",
+          "强化学习",
+          "具身智能"
+        ],
+        "relevance_score": 9.25,
+        "relevance_reasons": [
+          "vision-language-action",
+          "interactive environment"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-11-16T06:18:25Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2611.18397"
+        ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "manual",
+        "confidence": 0.78,
+        "reason": "游戏智能体为主，是否直接服务物理智能证据不足",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-16T06:18:22Z"
+      }
+    },
+    {
+      "id": "arxiv:2611.18393",
+      "title": "WeatherDreamer: Learning a World Model from Multimodal Earth Observations",
+      "title_zh": "WeatherDreamer：从多模态地球观测中学习世界模型",
+      "authors": [
+        "Kate Duffy",
+        "Elise Penn",
+        "Tristan Ballard",
+        "August Posch",
+        "Thomas J. Vandal"
+      ],
+      "affiliations": [],
+      "abstract": "Machine learning weather models now rival operational global forecasts but still start from analyses produced by separate, expensive data assimilation (DA) systems, which for global models are typically updated every six hours. Observation-to-observation models avoid this dependence, but most omit the recursive filtering cycle that lets DA systems carry a background state through sparse, irregular observations. We introduce WeatherDreamer, a world model that learns this cycle end-to-end from 18 global observing systems, without reanalysis. It infers a latent state from observations, carries it forward hour by hour with learned dynamics, corrects it each hour with new observations, and can predict what any of its observing systems would measure at any location. At held-out stations, its ensembles beat NOAA's Global Ensemble Forecast System (GEFS) for temperature, dew point and wind out to 12 h and are better calibrated than GEFS and the ECMWF ensemble. Precipitation, cloud-top height and solar irradiance, never inputs at inference, are inferred with skill matching or exceeding operational products at short leads. Against the first guess of NOAA's Gridpoint Statistical Interpolation (GSI) DA system, WeatherDreamer's short-range departures are within 10% of GSI's at surface stations and within 25% for moisture-sensitive microwave channels, but up to five times larger for temperature-sounding channels. Never given observation errors, its learned update assumes errors close to known instrument and retrieval errors of microwave sounders and scatterometer winds. WeatherDreamer also separates viewing geometry from atmospheric state, recovering 83-96% of observed limb darkening and producing seamless nadir-view imagery. Producing an hourly global analysis in about 1.5 minutes on one GPU, WeatherDreamer shows that assimilation and forecasting can be learned together directly from observations.",
+      "summary_zh": "提出从18个全球观测系统端到端学习资料同化与预报循环的天气世界模型，推断并逐小时更新潜状态，可预测各观测系统测量值，短期集合预报优于GEFS。",
+      "contribution_zh": "将资料同化与预报统一为可学习的观测到观测循环，无需再分析，实现单GPU小时级全球分析。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2611.18393",
+        "url": "https://arxiv.org/abs/2611.18393",
+        "pdf_url": "https://arxiv.org/pdf/2611.18393v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-11-13T16:37:49Z",
+        "updated_at": "2026-11-13T16:37:49Z"
+      },
+      "taxonomy": {
+        "route_id": "latent_wm",
+        "topics": [
+          "天气世界模型",
+          "资料同化",
+          "多模态地球观测"
+        ],
+        "relevance_score": 6.25,
+        "relevance_reasons": [
+          "world model"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-11-16T06:18:25Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2611.18393"
+        ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "reject",
+        "confidence": 0.98,
+        "reason": "天气观测与数据同化世界模型，非机器人或物理智能，超出收录范围。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-16T06:18:22Z"
+      }
+    },
+    {
+      "id": "arxiv:2611.18372",
+      "title": "Vision-Language-Action Models: A Life-Cycle Survey of Design, Training and Deployment",
+      "title_zh": "视觉-语言-动作模型：设计、训练与部署全生命周期综述",
+      "authors": [
+        "Suvarna Kadam",
+        "Soran Parsa"
+      ],
+      "affiliations": [],
+      "abstract": "Vision-language-action (VLA) models adapt web-pretrained vision-language models to output robot actions, so that web knowledge carries over to physical control. In under 4 years the field has moved from RT-2, the first VLA, to open models that fine-tune on a single consumer GPU and to proprietary generalists that clean unseen homes. This survey reviews 88 works from December 2022 to October 2026, mainly on manipulation and navigation, plus humanoid control, world-action models and evaluation. We follow a VLA through its life cycle, from model design to training and deployment, along seven axes. Model design covers (a) inputs and memory, what the model observes; (b) architecture, how its pipeline is built; (c) action output, how it produces motor commands; and (d) intermediate predictions, what else it predicts, from reasoning steps to future observations. Training covers (e) pretraining data, the mix of robot, web, human and simulated data, and (f) post-training, adaptation to the target robot. Deployment covers (g) real-time execution, keeping pace with the robot. We analyse 22 models on these axes and report their training data, model size, inference speed and hardware. Three trends emerge: (i) training data has broadened, from about 10,000 hours of teleoperated robot data ($π_0$) to 23,000 community-collected episodes (SmolVLA) and 20,000 hours of egocentric human video (GR00T N1.7); (ii) model sizes have split: most recent models have 3-7 billion parameters, while a new group under one billion runs on consumer GPUs; and (iii) generalist VLAs are emerging that handle both manipulation and navigation, such as UniVLA and Qwen-VLA. We also compare VLAs with world-action models, which predict future observations as well as actions. We review evidence that some VLAs with near-perfect benchmark scores fail when objects or the camera move slightly, and open up further research questions.",
+      "summary_zh": "综述2022年末至2026年88项VLA工作，沿输入与记忆、架构、动作输出、中间预测、预训练数据、后训练、实时执行七轴分析22个模型的规模、数据与推理速度，并讨论基准失效问题。",
+      "contribution_zh": "提出VLA全生命周期七轴分类框架，横向对比22个模型的训练数据、参数规模与硬件，总结数据扩展、模型双极分化与通才化三大趋势，并辨析世界-动作模型。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2611.18372",
+        "url": "https://arxiv.org/abs/2611.18372",
+        "pdf_url": "https://arxiv.org/pdf/2611.18372v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-11-13T16:17:00Z",
+        "updated_at": "2026-11-13T16:17:00Z"
+      },
+      "taxonomy": {
+        "route_id": "action_ground",
+        "topics": [
+          "vision-language-action",
+          "robot manipulation",
+          "navigation",
+          "humanoid control",
+          "world-action models",
+          "embodied AI",
+          "survey"
+        ],
+        "relevance_score": 6.75,
+        "relevance_reasons": [
+          "vision-language-action",
+          "robot"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-11-16T06:18:25Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2611.18372"
+        ],
+        "source_comment": "43 pages, 9 figures, 11 tables"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.96,
+        "reason": "系统综述VLA模型设计训练部署，涵盖操作导航与人形控制，属具身智能核心",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-16T06:18:22Z"
+      }
+    },
+    {
+      "id": "arxiv:2611.18176",
+      "title": "ESI: An Embodied Self-Improvement Flywheel for LLM-VLA Agents",
+      "title_zh": "ESI：面向LLM-VLA智能体的具身自我改进飞轮",
+      "authors": [
+        "Yundi Cai",
+        "Zihan Wang",
+        "Chenxi Han",
+        "Yi Cheng",
+        "Houde Liu",
+        "Zilei Wang"
+      ],
+      "affiliations": [],
+      "abstract": "Independently pretrained language models and vision-language-action (VLA) policies provide complementary building blocks for embodied agents, but connecting them does not automatically produce coordinated behavior. The VLA may generate actions that diverge from the LLM's intended subtask and, upon regaining control after a correction, undo the promising state restored by the LLM. We introduce ESI (Embodied Self-Improvement), an automated flywheel that uses environmental interaction to align reasoning and action. ESI treats the modular agent as the unit of post-training, repeatedly refining the prompts that guide the LLM, the shared skill interface that expresses its intent, and the VLA parameters that realize that intent, then redeploying these components together. Our key insight is that collaboration itself can supply supervision for improving this interface. The LLM's subtask decisions provide semantic supervision for what the policy should execute, while its effective corrections and subsequent student continuations provide action-level supervision for recovery and handoff. The student also learns from its own effective execution, allowing locally useful experience to contribute even when the overall episode fails. On ten selected RoboDojo tasks, ESI achieves a mean Score of 62.03 and a mean success rate of 49.41% using an LLM-VLA agent without generating task-specific control code. On both metrics, it outperforms the published reference results of all hybrid embodied agents, including the Agent+WAM system GO-3 Nano Preview (47.27 Score and 36.60% success), as well as all compared code-based methods.",
+      "summary_zh": "提出ESI具身自我改进飞轮，通过环境交互联合优化LLM提示、共享技能接口与VLA参数，利用协作过程产生语义和动作级监督以对齐推理与执行，在RoboDojo十项任务上优于混合具身智能体基线。",
+      "contribution_zh": "将模块化LLM-VLA智能体作为后训练单元，以协作交互自监督对齐语义意图与动作执行，实现无需任务专用控制代码的自我改进。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2611.18176",
+        "url": "https://arxiv.org/abs/2611.18176",
+        "pdf_url": "https://arxiv.org/pdf/2611.18176v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-11-13T13:44:42Z",
+        "updated_at": "2026-11-13T13:44:42Z"
+      },
+      "taxonomy": {
+        "route_id": "action_ground",
+        "topics": [
+          "具身智能",
+          "视觉语言动作模型",
+          "机器人学习",
+          "LLM-VLA",
+          "自我改进",
+          "动作对齐"
+        ],
+        "relevance_score": 5.0,
+        "relevance_reasons": [
+          "vision-language-action"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-11-16T06:18:25Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2611.18176"
+        ],
+        "source_comment": "Technical report. 25 pages, 7 figures. Code: https://github.com/Embodied-Self-Improvement/ESI"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.94,
+        "reason": "聚焦LLM-VLA具身智能体的交互式后训练与动作对齐，属机器人学习核心范围。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-16T06:18:22Z"
+      }
+    },
+    {
+      "id": "arxiv:2611.17831",
+      "title": "V-JEPA-LM: Video-Language Models That Read Dynamics Beyond Static, Text-Aligned Representations",
+      "title_zh": "V-JEPA-LM：超越静态文本对齐表征的视频语言模型",
+      "authors": [
+        "Keuntae Kim",
+        "Dongjun Kim",
+        "Yong Suk Choi"
+      ],
+      "affiliations": [],
+      "abstract": "World-model video encoders such as V-JEPA learn how scenes change (direction, speed, order, state) from video alone. To answer questions, they are joined to a language model trained on captions and question-answer pairs. But each caption or question names only a few attributes of a clip, so the model learns to retrieve those attributes rather than to read the clip, and the dynamics the encoder carries go unused: on the same items, a linear probe reads speed from frozen V-JEPA features at 87% while the VLM answers at chance. We show where dynamics lives in a frozen encoder: in a subspace shared across videos for predictive encoders such as V-JEPA, but not as a shared component of frame-wise, text-aligned encoders such as SigLIP. We then build counterfactual supervision that makes the language model read it: pixel transformations turn public videos into answer-balanced variants whose answers are set by the transformation and differ only in the change. Trained in a single stage on 4.53M public samples with 32 visual tokens per frame, where open video LLMs use several stages, 9M to 172M samples and 64 to 256 tokens per frame on average, the resulting V-JEPA-LM models (1B to 8B, Qwen3 and Llama) lead every size class in average score across eleven video benchmarks; our 4B model scores 72.1, against 61.1 for the best open 4B and 64.8 for the best open 8B model. A controlled encoder x supervision study shows that the encoder decides what can be read and the supervision what is read: at a matched budget, counterfactual supervision adds 4.5 points on average and 38 on the speed questions of natural benchmarks. Code and models: https://github.com/kkt94/Llama-V-JEPA-LM.",
+      "summary_zh": "提出V-JEPA-LM，将冻结的V-JEPA视频编码器与语言模型结合，并用反事实监督让模型读取视频中的方向、速度、顺序和状态变化；在多个视频基准上取得领先。",
+      "contribution_zh": "定位冻结编码器中的动力学子空间，构建反事实监督，实现单阶段训练的高效视频语言模型。",
+      "source": {
+        "kind": "arxiv",
+        "external_id": "2611.17831",
+        "url": "https://arxiv.org/abs/2611.17831",
+        "pdf_url": "https://arxiv.org/pdf/2611.17831v1"
+      },
+      "publication": {
+        "status": "preprint",
+        "venue": "arXiv",
+        "venue_id": "arXiv",
+        "published_at": "2026-11-13T07:05:22Z",
+        "updated_at": "2026-11-13T07:05:22Z"
+      },
+      "taxonomy": {
+        "route_id": "jepa",
+        "topics": [
+          "V-JEPA",
+          "视频世界模型",
+          "动力学表征",
+          "视频语言模型",
+          "反事实监督"
+        ],
+        "relevance_score": 6.25,
+        "relevance_reasons": [
+          "jepa"
+        ]
+      },
+      "team_node_ids": [],
+      "review": {
+        "status": "pending",
+        "notes": ""
+      },
+      "provenance": {
+        "discovered_at": "2026-11-16T06:18:25Z",
+        "source_name": "arXiv Physical AI / World Models",
+        "evidence_urls": [
+          "https://arxiv.org/abs/2611.17831"
+        ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.78,
+        "reason": "研究V-JEPA世界模型编码器的视频动力学表征，属JEPA/世界模型范畴。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-16T06:18:22Z"
+      }
+    }
+  ],
+  "pending_total": 1483
 }
