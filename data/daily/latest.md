@@ -1,8 +1,8 @@
-# 世界模型与 Physical AI 每日更新 · 2026-11-18
+# 世界模型与 Physical AI 每日更新 · 2026-11-19
 
 - 今日审核入图：0
-- 今日新增候选：40
-- 待审核总数：1554
+- 今日新增候选：51
+- 待审核总数：1605
 
 ## 已审核入图
 
@@ -10,46 +10,57 @@
 
 ## 待审核候选
 
-- `arxiv:2611.23118` [Auditing a Learned Simulator for Legged Robots: The Robotic World Model on ANYmal D](https://arxiv.org/abs/2611.23118) · 相关性 6.88
-- `arxiv:2611.23070` [PAIR: Bringing Household Robots into the Smart Home](https://arxiv.org/abs/2611.23070) · 相关性 4.62
-- `arxiv:2611.22998` [Residual-Guided Lightweight Reinforcement Learning for Risk-Aware Trajectory Selection with a Frozen World Model](https://arxiv.org/abs/2611.22998) · 相关性 11.25
-- `arxiv:2611.22994` [Making Future-Predictive Representations Actionable](https://arxiv.org/abs/2611.22994) · 相关性 6.5
-- `arxiv:2611.22981` [SpikWM: Efficient End-to-End Spiking World Modeling for Visual Planning](https://arxiv.org/abs/2611.22981) · 相关性 11.25
-- `arxiv:2611.22954` [Sim2CBF: From Forward Simulations to Implicit Control Barrier Function Safety Filtering without Model Derivatives](https://arxiv.org/abs/2611.22954) · 相关性 10.5
-- `arxiv:2611.22925` [Code World Model 2.0: Towards Infinite Controllable Video Generation](https://arxiv.org/abs/2611.22925) · 相关性 8.75
-- `arxiv:2611.22880` [Learning Agent-Centric Vision-Language-Action World Models for Autonomous Driving](https://arxiv.org/abs/2611.22880) · 相关性 18.75
-- `arxiv:2611.22878` [Outcome-Balanced PPO and Policy-Induced Flow Rectification for Flow-Based VLA Policies](https://arxiv.org/abs/2611.22878) · 相关性 5.0
-- `arxiv:2611.22761` [Network-Exposed Configuration Attacks on LLM-Controlled Social Robots](https://arxiv.org/abs/2611.22761) · 相关性 5.62
-- `arxiv:2611.22736` [RefCloth: Transferable Adversarial Tablecloths for Vision-Language-Action Models](https://arxiv.org/abs/2611.22736) · 相关性 6.25
-- `arxiv:2611.22733` [Evolve in Panorama, Render in View: Panoramic World State Evolution for Video World Models](https://arxiv.org/abs/2611.22733) · 相关性 12.5
-- `arxiv:2611.22691` [Making the World React Realistically: A Closed-Loop Interactive World Model for Autonomous Driving](https://arxiv.org/abs/2611.22691) · 相关性 11.25
-- `arxiv:2611.22686` [CascadeJEPA: Enhancing 3D Geometric Representations via Spatially Coupled Cascaded Prediction](https://arxiv.org/abs/2611.22686) · 相关性 11.25
-- `arxiv:2611.22669` [Beyond the Camera: A Tri-Modal Driving World Model for Future RGB, Thermal, and LiDAR Forecasting in Adverse Weather](https://arxiv.org/abs/2611.22669) · 相关性 11.25
-- `arxiv:2611.22666` [VSpark: Speculative Decoding for Autoregressive Vision-Language-Action Models](https://arxiv.org/abs/2611.22666) · 相关性 6.75
-- `arxiv:2611.22592` [Distilling World Action Models for Efficient Bimanual Manipulation via Anchored Path Matching](https://arxiv.org/abs/2611.22592) · 相关性 8.0
-- `arxiv:2611.22584` [InteractVLA: Turning VLAs into Interactive Tools for Agentic Robotic Manipulation](https://arxiv.org/abs/2611.22584) · 相关性 5.62
-- `arxiv:2611.22561` [Plausible Videos Can Lead to Poor Decisions: Diagnosing and CURE-ing World Models for Planning](https://arxiv.org/abs/2611.22561) · 相关性 15.5
-- `arxiv:2611.22543` [JointGV: Structure-Aware Correction of Visual World Models with Parallel Graph Dynamics for Long-Horizon Modeling](https://arxiv.org/abs/2611.22543) · 相关性 13.0
-- `arxiv:2611.22537` [Testing World Models on Actions They Have Never Seen: Held-Out Plans, Forecast Accuracy and Price Rules in Retail](https://arxiv.org/abs/2611.22537) · 相关性 20.5
-- `arxiv:2611.22497` [Towards Data-Efficient, Real-Time World Models](https://arxiv.org/abs/2611.22497) · 相关性 12.5
-- `arxiv:2611.22491` [Progress Predicts Policy](https://arxiv.org/abs/2611.22491) · 相关性 5.5
-- `arxiv:2611.22483` [Manufacturing Differential Sparsity: Planner-Hardware Co-Design for Efficient World Model Planning](https://arxiv.org/abs/2611.22483) · 相关性 16.25
-- `arxiv:2611.22470` [Escaping Latent Traps by Remembering: Training-Free Episodic Kernel Repulsion for World-Model Planning](https://arxiv.org/abs/2611.22470) · 相关性 15.0
-- `arxiv:2611.22453` [VoxelSBFL: Voxel-Level Spectrum-Based Failure Prediction for Vision-Language-Action Models](https://arxiv.org/abs/2611.22453) · 相关性 6.75
-- `arxiv:2611.22432` [Think Once, Act Fast: Cost-Effective Recursive Self-Improvement for Decision Model Harness](https://arxiv.org/abs/2611.22432) · 相关性 10.0
-- `arxiv:2611.22395` [CoBoVLA: Decoupling Language from Action with Discrete Codes for Robust and Interpretable Robot Manipulation](https://arxiv.org/abs/2611.22395) · 相关性 5.62
-- `arxiv:2611.22367` [FailureGen: Scalable Robot Failure Data Generation with World Models](https://arxiv.org/abs/2611.22367) · 相关性 16.12
-- `arxiv:2611.22356` [SR-VLA: Stall-Reduced VLA Execution via Predicted-Input Lookahead and Selective KV Cache Repair](https://arxiv.org/abs/2611.22356) · 相关性 8.0
-- `arxiv:2611.22314` [Inertial Video World Models](https://arxiv.org/abs/2611.22314) · 相关性 16.0
-- `arxiv:2611.22295` [Similar Is Not Useful: Selecting In-Context Demonstrations by Closed-Loop Utility](https://arxiv.org/abs/2611.22295) · 相关性 5.0
-- `arxiv:2611.22294` [Perception into Imagination: Executable Memory for World Models](https://arxiv.org/abs/2611.22294) · 相关性 17.5
-- `arxiv:2611.22151` [EgoHandWAM: Probing the Role of Hand Motion in Egocentric World Action Modeling](https://arxiv.org/abs/2611.22151) · 相关性 8.0
-- `arxiv:2611.22136` [Big Brains, Tiny Board: Pupavision, an Agentic Physical AI Instrument for Monitoring Drosophila Pupariation and Lifecycle Transitions](https://arxiv.org/abs/2611.22136) · 相关性 6.25
-- `arxiv:2611.22077` [ReLAP: Latent Action Pretraining through Recurrent Video Prediction in JEPA Space](https://arxiv.org/abs/2611.22077) · 相关性 11.75
-- `arxiv:2611.22001` [DreamFAR: Real-Time and Long-Horizon Interaction with Diverse Objects](https://arxiv.org/abs/2611.22001) · 相关性 12.5
-- `arxiv:2611.21882` [WM-Quant: Rollout-Aware Post-Training Quantization for JEPA-Style World Models](https://arxiv.org/abs/2611.21882) · 相关性 18.75
-- `arxiv:2611.21846` [Can a World Model Predict a Deepfake Video? A Consistency Margin Prior for Deepfake Detection](https://arxiv.org/abs/2611.21846) · 相关性 11.25
-- `arxiv:2611.21782` [Every Camera Grows Up: Camera-Height Regression in Interactive Video World Models](https://arxiv.org/abs/2611.21782) · 相关性 13.0
+- `arxiv:2611.24940` [$Z$-sight: Unifying Vision-Language-Action and Latent World Modeling](https://arxiv.org/abs/2611.24940) · 相关性 24.0
+- `arxiv:2611.24925` [Render the Robot, Generate the World: One Video World Model Across Embodiments](https://arxiv.org/abs/2611.24925) · 相关性 11.88
+- `arxiv:2611.24869` [WorldRuler: Interactive World Modeling under Configurable Rules](https://arxiv.org/abs/2611.24869) · 相关性 13.25
+- `arxiv:2611.24864` [NereidVLA: Learning to Understand and Navigate the Underwater World](https://arxiv.org/abs/2611.24864) · 相关性 5.5
+- `arxiv:2611.24840` [Does the Action Matter? Probing Action-Conditioned Semantic Forecasting as a World Model for Autonomous Driving](https://arxiv.org/abs/2611.24840) · 相关性 15.0
+- `arxiv:2611.24836` [DiWALI: Diffusion Policy Learning in World Models via Latent Action Inference from Human and Robot Play](https://arxiv.org/abs/2611.24836) · 相关性 13.12
+- `arxiv:2611.24816` [RoboMorpher: Scaling Robot Morphology Representations for Cross-Embodiment Action Prediction](https://arxiv.org/abs/2611.24816) · 相关性 5.62
+- `arxiv:2611.24789` [HINT-WAM: Hindsight-Informed Training for World Action Models](https://arxiv.org/abs/2611.24789) · 相关性 8.0
+- `arxiv:2611.24778` [Counterfactual World Models: JEPAs That Reason About "What If"](https://arxiv.org/abs/2611.24778) · 相关性 18.75
+- `arxiv:2611.24731` [HandWorldBench: A Unified Benchmark for Hand-Centric World Models](https://arxiv.org/abs/2611.24731) · 相关性 12.5
+- `arxiv:2611.24585` [SHAPE: Discrete Supervision and Parallel Continuous Streams for Learning Dexterous Manipulation from Egocentric Human Data](https://arxiv.org/abs/2611.24585) · 相关性 5.5
+- `arxiv:2611.24512` [Comparing Each Generation with Independent Siblings Gives Video World Model Post-Training a Proper Objective for Outcome Frequencies](https://arxiv.org/abs/2611.24512) · 相关性 11.75
+- `arxiv:2611.24494` [RECLAIM: Robot-Vision-Informed Adversarial Patch Defense via Embodied Attention Feedback](https://arxiv.org/abs/2611.24494) · 相关性 5.62
+- `arxiv:2611.24470` [When to Refine: Selective Search for Frozen Visual World Models](https://arxiv.org/abs/2611.24470) · 相关性 12.5
+- `arxiv:2611.24457` [ShoWorld: Shape-Faithful Multi-Hypothesis Occupancy World Model](https://arxiv.org/abs/2611.24457) · 相关性 11.25
+- `arxiv:2611.24455` [Homeward: No Place Like the Training View](https://arxiv.org/abs/2611.24455) · 相关性 5.5
+- `arxiv:2611.24409` [Risk-Triggered Search: Behavior-Preserving Safe Control](https://arxiv.org/abs/2611.24409) · 相关性 18.0
+- `arxiv:2611.24408` [StrideWorld: Benchmarking Scene Rigidity and Action Consistency in Interactive Video World Model](https://arxiv.org/abs/2611.24408) · 相关性 11.25
+- `arxiv:2611.24384` [Enhancing Active Learning Performance with Initial Data Selection Based on Foundation Models](https://arxiv.org/abs/2611.24384) · 相关性 5.0
+- `arxiv:2611.24360` [Towards Pose-Robust Few-Shot Vision-Language-Action Models](https://arxiv.org/abs/2611.24360) · 相关性 6.75
+- `arxiv:2611.24327` [Pixel2Perspective: A Benchmark for Multi-Modal and Multi-View Generalization in Vision-Language Models](https://arxiv.org/abs/2611.24327) · 相关性 4.0
+- `arxiv:2611.24249` [From Points to Trajectories: Rethinking Multimodal Alignment for Physical Events](https://arxiv.org/abs/2611.24249) · 相关性 5.0
+- `arxiv:2611.24247` [Allocentric Memory, Egocentric Acting: A Dual-Frame VLA for Urban Aerial Navigation](https://arxiv.org/abs/2611.24247) · 相关性 5.0
+- `arxiv:2611.24244` [CommDreamer: Radio-Geometric World Models for Mapless Cellular-Connected UAV Trajectory Planning](https://arxiv.org/abs/2611.24244) · 相关性 12.5
+- `arxiv:2611.24229` [ProbeShare: Probing a Few, Sharing Across Many for Fast World-Model Planning](https://arxiv.org/abs/2611.24229) · 相关性 10.5
+- `arxiv:2611.24222` [Target-Consistent Action Guidance via Semi-Unbalanced Optimal Transport for Drifting World Models](https://arxiv.org/abs/2611.24222) · 相关性 16.0
+- `arxiv:2611.24193` [WM^MLLM: Turning MLLMs into World Models](https://arxiv.org/abs/2611.24193) · 相关性 12.5
+- `arxiv:2611.24192` [TrajWAM: Trajectory-Conditioned Future Learning for Vision-Language Driving](https://arxiv.org/abs/2611.24192) · 相关性 6.0
+- `arxiv:2611.24187` [Worth Another Look:Constrained World-Model Planning for Visual Inspection](https://arxiv.org/abs/2611.24187) · 相关性 6.5
+- `arxiv:2611.24178` [Adaptive Action Horizon Selection via Flow-Field Uncertainty](https://arxiv.org/abs/2611.24178) · 相关性 5.5
+- `arxiv:2611.24171` [Efficient World-Model Planning via Physics-Guided Search Distillation](https://arxiv.org/abs/2611.24171) · 相关性 10.0
+- `arxiv:2611.24115` [Embodied Graph: A Relational World Model for Long-Horizon Tasks](https://arxiv.org/abs/2611.24115) · 相关性 11.25
+- `arxiv:2611.24077` [AeroRSI: Recursive Self-Improvement for Aerial Vision-Language Navigation](https://arxiv.org/abs/2611.24077) · 相关性 5.0
+- `arxiv:2611.24074` [SemPhys: Semantic-Physical Co-Learning for Humanoid Motion Generation via Differentiable World Models](https://arxiv.org/abs/2611.24074) · 相关性 13.0
+- `arxiv:2611.24062` [JEPA Dots: Dual-Latent World Model for Language-Guided Robot Control](https://arxiv.org/abs/2611.24062) · 相关性 18.12
+- `arxiv:2611.24011` [WAM-Policy: World Action Models with On-Policy Distillation for Quadrupedal Loco-Manipulation](https://arxiv.org/abs/2611.24011) · 相关性 8.0
+- `arxiv:2611.23974` [LaST1.0: A Unified Latent World-Action Model with Control-Centric SpatioTemporal Reasoning](https://arxiv.org/abs/2611.23974) · 相关性 5.5
+- `arxiv:2611.23963` [CoRA-VTLA: Contact-Guided Attention and Queryable Response Memory for Tactile Post-Training](https://arxiv.org/abs/2611.23963) · 相关性 5.5
+- `arxiv:2611.23961` [3DTouch: A Tactile-aware VLA Model with 3D Geometric Relations for Dexterous Manipulation](https://arxiv.org/abs/2611.23961) · 相关性 5.5
+- `arxiv:2611.23953` [MitoWorld: A Stochastic World Model of the Single-Cell Cycle under Genetic Perturbation](https://arxiv.org/abs/2611.23953) · 相关性 6.25
+- `arxiv:2611.23926` [GTI: Grounding Task Intent Throughout Long-Horizon VLA Manipulation](https://arxiv.org/abs/2611.23926) · 相关性 5.5
+- `arxiv:2611.23843` [RePlan-VLA: Progress-Aware Replanning for Long-Horizon Vision-Language-Action Models](https://arxiv.org/abs/2611.23843) · 相关性 6.75
+- `arxiv:2611.23803` [CoT-WAM: Collaborative Training of Vision-Language Models and World-Action Models via Plan Latents](https://arxiv.org/abs/2611.23803) · 相关性 6.5
+- `arxiv:2611.23727` [GTA: Generative Tower of Agents for Scalable Holonic Scene Generation](https://arxiv.org/abs/2611.23727) · 相关性 5.0
+- `arxiv:2611.23714` [ExecGap: Exploiting Command-Execution Gap for Patch Attacks on Vision-Language-Action Models](https://arxiv.org/abs/2611.23714) · 相关性 6.75
+- `arxiv:2611.23685` [Measuring the Conservatism of Latent Safety Filters for World Models](https://arxiv.org/abs/2611.23685) · 相关性 12.5
+- `arxiv:2611.23676` [Finetuning VLAs for Dexterous Manipulation: The Right Checkpoint Is All You Need](https://arxiv.org/abs/2611.23676) · 相关性 5.5
+- `arxiv:2611.23620` [How Uncertain Is My Action? Self-Correcting Visual Planning with Frozen World Models](https://arxiv.org/abs/2611.23620) · 相关性 13.0
+- `arxiv:2611.23517` [RageVLA: Augmentation-Trained Perception and Action for State-of-the-Art Robustness on LIBERO](https://arxiv.org/abs/2611.23517) · 相关性 5.0
+- `arxiv:2611.23499` [BiCAT: Bimanual Coordination Action Tokenization](https://arxiv.org/abs/2611.23499) · 相关性 5.5
+- `arxiv:2611.23491` [GRID-UAV: Geometry and Ray-depth Integrated Decision-making for Unmanned Aerial Vehicles](https://arxiv.org/abs/2611.23491) · 相关性 5.0
 
 ## 审核命令
 
