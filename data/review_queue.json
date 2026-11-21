@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-20T07:05:20Z",
+  "updated_at": "2026-11-21T06:58:08Z",
   "papers": [
     {
       "id": "arxiv:2611.26615",
@@ -3361,7 +3361,7 @@
     {
       "id": "arxiv:2611.25204",
       "title": "Identity World Model: Recognizing People in an Imagined Latent World",
-      "title_zh": "",
+      "title_zh": "身份世界模型：在想象的潜空间中识别人",
       "authors": [
         "Dingqiang Ye",
         "Kartik Narayan",
@@ -3369,8 +3369,8 @@
       ],
       "affiliations": [],
       "abstract": "Whole-body human recognition has advanced rapidly with large vision models. However, existing methods remain fragile under real-world variations, as they tie identity to transient cues such as clothing, texture, pose, or viewpoint. We argue that a robust recognizer should not merely learn to ignore these cues, but imagine how a person would be represented if they changed. To this end, we propose IDWorld, an identity world model: just as a latent world model predicts the features of a scene after an action, IDWorld predicts how a person would be represented under a changed condition. In a single forward pass, IDWorld imagines these counterfactual features under shared canonical conditions, such as the same outfit, a fixed view, or a bare silhouette, without rendering any pixels. Compared with explicit imagination in pixels, this latent imagination keeps nearly the same accuracy while being over 11x faster, at 5.9 ms per frame. Since each imagined condition has its own strengths, IDWorld then fuses them adaptively, weighting each condition for every probe-gallery pair. Extensive experiments show that IDWorld achieves state-of-the-art results on CCPG and CCGR-MINI, outperforms the compared methods on MEVID, and generalizes best to CASIA-B* and SUSTech1K, with the best mAP on CCVID. These results suggest identity world models offer a simple yet effective path to robust recognition. Code will be released.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出IDWorld，用潜空间世界模型预测人物在服装、视角等条件变化下的反事实特征，无需渲染像素，实现鲁棒全身行人识别。",
+      "contribution_zh": "将潜世界模型用于身份识别，单次前向预测多条件反事实特征并自适应融合，速度提升逾11倍。",
       "source": {
         "kind": "arxiv",
         "external_id": "2611.25204",
@@ -3387,9 +3387,9 @@
       "taxonomy": {
         "route_id": "latent_wm",
         "topics": [
-          "cs.CV",
-          "world model",
-          "world models"
+          "行人重识别",
+          "身份世界模型",
+          "潜空间预测"
         ],
         "relevance_score": 11.25,
         "relevance_reasons": [
@@ -3408,12 +3408,20 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2611.25204"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "reject",
+        "confidence": 0.96,
+        "reason": "面向行人身份识别，与机器人、具身智能或物理智能无直接关系",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-21T06:58:08Z"
       }
     },
     {
       "id": "arxiv:2611.25194",
       "title": "MADJEPA: Enhanced Multi-Stage Joint-Embedding Predictive Architecture for Medical Anomaly Detection",
-      "title_zh": "",
+      "title_zh": "MADJEPA：用于医学异常检测的增强多阶段联合嵌入预测架构",
       "authors": [
         "Ioana-Sabina Stoian",
         "Florinel-Alin Croitoru",
@@ -3424,8 +3432,8 @@
       ],
       "affiliations": [],
       "abstract": "Anomaly detection in medical images is a complex task, requiring the development of a robust model using only healthy patient data. Without access to labeled data, modern approaches typically employ self-supervised learning to obtain a model of normality. Since world models promise to build strong internal representations of their environment, we consider them as suitable candidates for the medical anomaly detection environment, namely medical investigations of healthy patients. To this end, we propose MADJEPA, a medical anomaly detector based on an enhanced multi-stage joint-embedding predictive architecture (JEPA). We design a multi-stage training pipeline to produce a robust detector: (1) image-based JEPA (I-JEPA) training aims to learn a strong representation of normal training data; (2) target encoder distillation aims to modulate over-generalization of I-JEPA representations to abnormal data; (3) pseudo-anomaly classification aims to calibrate anomaly predictions by learning a tight boundary around the normal data manifold. To demonstrate our design, we carry out comprehensive experiments on six datasets covering various medical image domains (e.g.~MRI, OCT, X-ray, histopathology), comparing our MADJEPA with numerous state-of-the-art methods. The results show that our carefully designed world model, MADJEPA, attains competitive results, ranking first on three datasets. Our ablation studies further confirm the utility of each training stage, indicating that I-JEPA alone is not sufficient to obtain competitive results in medical anomaly detection. We publicly release our code at https://github.com/Sabina085/madjepa.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出基于增强多阶段JEPA的医学影像异常检测器，仅用健康样本训练，结合I-JEPA预训练、目标编码器蒸馏与伪异常分类。",
+      "contribution_zh": "设计多阶段JEPA训练流程，增强正常表征并校准异常边界，在六个医学影像数据集上验证。",
       "source": {
         "kind": "arxiv",
         "external_id": "2611.25194",
@@ -3440,14 +3448,11 @@
         "updated_at": "2026-11-18T21:15:01Z"
       },
       "taxonomy": {
-        "route_id": "latent_wm",
+        "route_id": "jepa",
         "topics": [
-          "eess.IV",
-          "cs.AI",
-          "cs.LG",
-          "world model",
-          "world models",
-          "jepa"
+          "医学影像",
+          "异常检测",
+          "JEPA"
         ],
         "relevance_score": 16.25,
         "relevance_reasons": [
@@ -3468,12 +3473,20 @@
           "https://arxiv.org/abs/2611.25194"
         ],
         "source_comment": "Accepted at WACV 2027"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "reject",
+        "confidence": 0.9,
+        "reason": "医学影像异常检测，与机器人及物理智能无直接关系。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-21T06:58:08Z"
       }
     },
     {
       "id": "arxiv:2611.25134",
       "title": "GEMS: Generation and Experience Memory for Subgoal-Guided Long-Horizon World Model Planning",
-      "title_zh": "",
+      "title_zh": "GEMS：面向子目标引导长程世界模型规划的生成与经验记忆",
       "authors": [
         "Yangchen Zhao",
         "Ali Payani",
@@ -3481,8 +3494,8 @@
       ],
       "affiliations": [],
       "abstract": "Visual world models enable effective short-horizon goal-conditioned planning, such as reaching nearby targets and pushing objects over short distances, by predicting candidate action outcomes and comparing their representations with a goal representation. However, extending this approach to long-horizon tasks is challenging: prediction errors accumulate over extended rollouts, while latent-space similarity to distant goals provides limited guidance for ranking candidate outcomes. Existing methods address these limitations by introducing intermediate subgoals, either generated by learned models or selected from experience memory. Generated subgoals can contain hallucinations or be inaccurate in aspects such as object positions and timing. Memory-based approaches are constrained by experience coverage and may lack precise guidance for selecting appropriate intermediate states from stored observations. We introduce GEMS, which generates temporally structured subgoals to guide action search and state selection from Latent Experience Memory (LEM). A distance gate determines whether predicted outcomes are evaluated against the generated subgoal or the selected memory state. Experiments across six tasks and task suites spanning manipulation, navigation, and reaching demonstrate the effectiveness of GEMS for long-horizon planning. GEMS outperforms state-of-the-art world-model planning baselines across different manipulation settings, achieving success rates of 92.8% on Cube, 68.4% on Push-T, and 54.1% on Meta-World. It improves over the strongest evaluated baseline on these tasks by 24.0, 7.3, and 22.2 percentage points, respectively. These results demonstrate that generated subgoals and experience memory can jointly strengthen long-horizon planning with a frozen world model.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出GEMS，将时间结构化的生成子目标与潜在经验记忆选择结合，并用距离门控评估预测结果，缓解长程 rollout 误差累积，提升操作、导航和到达任务成功率。",
+      "contribution_zh": "联合生成子目标与潜经验记忆，引入距离门控选择评估目标，在冻结世界模型上显著提升长程机器人规划性能。",
       "source": {
         "kind": "arxiv",
         "external_id": "2611.25134",
@@ -3499,10 +3512,12 @@
       "taxonomy": {
         "route_id": "latent_wm",
         "topics": [
-          "cs.RO",
-          "cs.CV",
           "world model",
-          "world models"
+          "long-horizon planning",
+          "subgoal generation",
+          "experience memory",
+          "robot manipulation",
+          "navigation"
         ],
         "relevance_score": 11.25,
         "relevance_reasons": [
@@ -3521,6 +3536,14 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2611.25134"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.95,
+        "reason": "面向机器人长程规划的世界模型方法，结合子目标生成与经验记忆，实验覆盖操作与导航，符合收录范围。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-21T06:58:08Z"
       }
     },
     {
@@ -4143,7 +4166,7 @@
     {
       "id": "arxiv:2611.24999",
       "title": "PsyWorld: Profile-Conditioned World Modeling for Human Behavior Prediction",
-      "title_zh": "",
+      "title_zh": "PsyWorld：面向人类行为预测的画像条件世界建模",
       "authors": [
         "Ziyuan Qin",
         "Yang Qiao",
@@ -4153,8 +4176,8 @@
       ],
       "affiliations": [],
       "abstract": "Understanding how stable psychometric traits and time-varying states jointly inform behavior is an important problem in computational behavioral science. Existing personalized agents commonly condition actions directly on a static profile, leaving realized state transitions unused as an explicit source of supervision. We introduce a profile-conditioned state world model that uses observed environment--behavior state transitions to learn transition-informed representations for behavioral prediction. During training, a posterior encoder quantizes realized transitions, while a prior predicts the resulting codes from the psychometric profile and pre-transition context. The prior code and predicted next state then condition macro-level behavior and simulator-grounded execution. Thus, the world model provides structured transition supervision instead of treating personality as a direct action descriptor. We evaluate the framework in VEET, a controlled behavioral simulator with human trajectories, and in AgentSociety as a structurally different synthetic environment. A participant-disjoint split of 240 training, 25 validation, and 48 test participants evaluates generalization to unseen people. On VEET, the model reaches 0.904 Top-1 accuracy (95\\% CI: [0.895, 0.913]) and 0.0033 Macro KL. Ablations associate continuous next-state modeling with most of the Top-1 gain, while discrete codes and prior alignment mainly improve Top-3 and distributional alignment. These results establish transition-informed world-model supervision as useful for subject-generalized behavior prediction, without implying causal psychological mechanisms or calibrated long-horizon state dynamics.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "提出画像条件的状态世界模型，用环境—行为状态转移学习表征，结合心理画像先验预测宏观行为与模拟器执行，并在VEET和AgentSociety评估未见参与者泛化。",
+      "contribution_zh": "以真实状态转移监督替代静态画像直接条件化，提升受试者泛化的行为预测。",
       "source": {
         "kind": "arxiv",
         "external_id": "2611.24999",
@@ -4171,8 +4194,10 @@
       "taxonomy": {
         "route_id": "latent_wm",
         "topics": [
-          "cs.LG",
-          "world model"
+          "人类行为预测",
+          "心理测量画像",
+          "状态世界模型",
+          "行为仿真"
         ],
         "relevance_score": 6.25,
         "relevance_reasons": [
@@ -4191,6 +4216,14 @@
           "https://arxiv.org/abs/2611.24999"
         ],
         "source_comment": "Accepted to the KDD 2027 AI for Sciences Track"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "reject",
+        "confidence": 0.87,
+        "reason": "聚焦人类行为预测与心理画像，不直接服务机器人或物理智能。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-21T06:58:08Z"
       }
     },
     {
@@ -4599,7 +4632,7 @@
     {
       "id": "arxiv:2611.24455",
       "title": "Homeward: No Place Like the Training View",
-      "title_zh": "",
+      "title_zh": "Homeward：没有比训练视角更好的归宿",
       "authors": [
         "Mingyang Lyu",
         "Yinqian Sun",
@@ -4615,8 +4648,8 @@
       ],
       "affiliations": [],
       "abstract": "Vision-language-action (VLA) policies implicitly assume that third-person cameras remain fixed at their data-collection poses; once a camera is bumped, remounted, or swapped at deployment, task success degrades precipitously even though the underlying task and robot remain unchanged. We present Homeward, a training-free, plug-and-play observation adapter that canonicalizes observations from an uncalibrated deployment camera back into the training view for frozen VLA policies. Our design stems from a closed-loop diagnostic paradox in simulation: while re-rendering perturbed views into the training camera with oracle geometry recovers much of the lost performance, substituting an off-the-shelf feed-forward 3D foundation model can leave the policy worse off than applying no correction at all. This degradation concentrates on the thin, articulated robot arm, which feed-forward depth prediction tears and scatters - yet the arm's exact 3D state is already known from robot kinematics. Homeward exploits this asymmetry: it estimates what is unknown - camera parameters and static scene depth - from the live RGB frame and a single training-view reference, and renders what is known - the moving robot links - directly from the kinematic model. Evaluated across $\\sim$300,000 closed-loop episodes spanning four frozen VLAs, Homeward boosts success across all 1,599 camera variants of LIBERO-Plus from 62.5%, 76.5%, 68.0%, and 3.6% to 77.6%, 95.1%, 91.2%, and 26.4% for OpenVLA-OFT, $π_{0.5}$, $π_0$, and OpenVLA, respectively. Without any scene fine-tuning or deployment camera calibration, Homeward extends to 6-DoF random placements, focal-length changes, and, with per-step pose estimation, continuous intra-episode camera drift, while matching or surpassing a calibrated, scene-trained view-synthesis baseline on three of four policies on LIBERO-Plus.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "针对部署相机偏移导致VLA操作失败的问题，提出免训练观测适配器Homeward，从单帧RGB与训练视角参考估计相机与静态场景深度，并用机器人运动学渲染机械臂，将观测回正到训练视角。",
+      "contribution_zh": "揭示前馈深度模型破坏细长机械臂几何，提出分离已知运动学与未知场景的视角规范化方法，在LIBERO-Plus大量相机变体上显著提升多种VLA成功率。",
       "source": {
         "kind": "arxiv",
         "external_id": "2611.24455",
@@ -4631,11 +4664,13 @@
         "updated_at": "2026-11-18T14:01:38Z"
       },
       "taxonomy": {
-        "route_id": "action_ground",
+        "route_id": "spatial",
         "topics": [
-          "cs.RO",
-          "vision-language-action",
-          "robot"
+          "视觉-语言-动作模型",
+          "相机视角鲁棒性",
+          "机器人操作",
+          "观测适配",
+          "运动学渲染"
         ],
         "relevance_score": 5.5,
         "relevance_reasons": [
@@ -4655,6 +4690,14 @@
           "https://arxiv.org/abs/2611.24455"
         ],
         "source_comment": "22 pages, including supplementary material"
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.93,
+        "reason": "面向冻结VLA的相机视角规范化适配器，直接提升机器人操作鲁棒性，属具身智能范畴。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-21T06:58:08Z"
       }
     },
     {
@@ -6897,7 +6940,7 @@
     {
       "id": "arxiv:2611.23491",
       "title": "GRID-UAV: Geometry and Ray-depth Integrated Decision-making for Unmanned Aerial Vehicles",
-      "title_zh": "",
+      "title_zh": "GRID-UAV：面向无人机的几何与射线深度融合决策",
       "authors": [
         "Anas Anwarul Haq Khan",
         "Amrin Kareem",
@@ -6907,8 +6950,8 @@
       ],
       "affiliations": [],
       "abstract": "Vision-language-action models (VLAs) encode images with 2D encoders that capture little 3D structure. A common approach is to feed the policy estimated depth, but a UAV chooses its own altitude, must judge distances tens of meters away, where monocular depth is less reliable, and must relate its forward and downward views. On long aerial routes, adding depth features directly brings no significant gain (42.5% vs. 42.6% success), so we study how 3D information should be given to the policy. Analyzing flight failures, we find that two forms of 3D grounding fail in opposite ways: explicit 3D lifting of depth collides less on the way but more often fails to finish at the target, while implicit alignment with a 3D geometry model finishes more often but collides more. We propose GRID, which combines both: (1) it lifts monocular depth into ray-corrected 3D positions in the UAV's frame for both cameras, and (2) during training only, it aligns its visual features with a frozen multi-view geometry model, at no inference cost. GRID adding explicit lifting to implicit alignment significantly increases how often the policy reaches the target ($61.5\\% \\rightarrow 69.5\\%$, $p<0.001$), and adding implicit alignment to explicit lifting significantly increases how often it completes the task once there ($57.7\\% \\rightarrow 61.4\\%$, $p<0.05$). On TravelUAV (3,005 test episodes), GRID achieves the best success rate on every split, with relative gains over the state of the art of 9.5% (seen), 17.1% (unseen objects) and 25.4% (unseen map).",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "论文研究无人机视觉语言动作策略中的3D信息注入方式：将单目深度按射线校正为机体系三维位置，并在训练时用冻结多视角几何模型对齐视觉特征，推理无额外开销。",
+      "contribution_zh": "揭示显式三维抬升与隐式几何对齐在飞行失败模式上的互补性，并提出二者结合的GRID，在TravelUAV各划分上取得最优成功率。",
       "source": {
         "kind": "arxiv",
         "external_id": "2611.23491",
@@ -6923,10 +6966,13 @@
         "updated_at": "2026-11-17T20:41:30Z"
       },
       "taxonomy": {
-        "route_id": "action_ground",
+        "route_id": "spatial",
         "topics": [
-          "cs.CV",
-          "vision-language-action"
+          "视觉语言动作模型",
+          "无人机导航",
+          "三维几何接地",
+          "单目深度",
+          "空间推理"
         ],
         "relevance_score": 5.0,
         "relevance_reasons": [
@@ -6944,6 +6990,14 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2611.23491"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.9,
+        "reason": "面向无人机视觉语言动作策略，研究3D几何与深度如何注入策略，属具身空间推理与动作落地。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-21T06:58:08Z"
       }
     },
     {
@@ -7544,7 +7598,7 @@
     {
       "id": "arxiv:2611.22761",
       "title": "Network-Exposed Configuration Attacks on LLM-Controlled Social Robots",
-      "title_zh": "",
+      "title_zh": "LLM控制社交机器人的网络暴露配置攻击",
       "authors": [
         "Stanley Akingbola",
         "Ugbede Ibrahim",
@@ -7554,8 +7608,8 @@
       ],
       "affiliations": [],
       "abstract": "Large language models (LLMs) in embodied robots create security dependencies beyond inference. We investigate a network-exposed configuration attack on the Pollen Robotics Reachy Mini Lite, allowing an unauthenticated attacker to replace personality settings and the cloud LLM's system prompt through a management interface, without adversarial conversational input. Eleven prompt-injection attempts across five categories were reported as resisted, whereas both configuration-layer attack paths produced observable behavioural changes on physical hardware. We demonstrate local and network-adjacent access, mapping the weakness to CWE-306 (Missing Authentication for a Critical Function) and CWE-1327 (Binding to an Unrestricted IP Address), with a reported CVSS v3.1 score of 6.5 (Medium). A configuration endpoint also accepts cross-origin requests without a CORS preflight (CWE-352; 6.5 Medium), while the persistent-memory sink stores content without enforcing its stated restrictions. A source review of 59 public repositories identifies missing authentication in 10 of 11 source-verifiable genuine applications, or 11 of 11 including a framework-default case. These findings indicate recurrence within the sampled repositories, not prevalence in commercial products. We characterise a deployment gap between developer-oriented network assumptions and consumer-facing embodied AI security: inference-layer refusal cannot prevent unauthorised changes to model instructions. Potential consequences include surveillance through onboard cameras and microphones and social engineering of nearby users. Proof-of-concept code, evidence and the survey are available at https://bit.ly/reachypi.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "研究Reachy Mini Lite管理接口未认证配置攻击，可替换人格与云端LLM系统提示，并在实体硬件上引发行为变化；并报告CORS、持久记忆及仓库调查。",
+      "contribution_zh": "揭示具身LLM机器人的配置层攻击面，证明推理层拒答无法阻止未授权指令替换，并给出漏洞映射与仓库复现证据。",
       "source": {
         "kind": "arxiv",
         "external_id": "2611.22761",
@@ -7572,12 +7626,9 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.CR",
-          "cs.AI",
-          "cs.RO",
-          "embodied ai",
-          "robotics",
-          "robot"
+          "具身智能安全",
+          "LLM控制机器人",
+          "配置攻击"
         ],
         "relevance_score": 5.62,
         "relevance_reasons": [
@@ -7597,6 +7648,14 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2611.22761"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "reject",
+        "confidence": 0.86,
+        "reason": "属机器人网络安全漏洞研究，非物理智能核心方法，且无对应技术路线。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-21T06:58:08Z"
       }
     },
     {
