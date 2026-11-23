@@ -1,26 +1,40 @@
 {
   "schema_version": 1,
-  "run_at": "2026-11-22T06:37:44Z",
-  "since": "2026-11-19T06:37:44Z",
+  "run_at": "2026-11-23T07:26:42Z",
+  "since": "2026-11-20T07:26:42Z",
   "source_counts": {
-    "arxiv-physical-ai": 34,
+    "arxiv-physical-ai": 15,
     "openreview-iclr-2026": 0,
     "openreview-neurips-2025": 0,
     "openreview-corl-2025": 0,
     "manual-inbox": 0
   },
-  "fetched": 34,
-  "queued": 0,
-  "duplicates": 34,
-  "ignored_low_score": 0,
-  "pending_total": 1659,
-  "ai_reviewed": 1,
+  "fetched": 15,
+  "queued": 13,
+  "duplicates": 0,
+  "ignored_low_score": 2,
+  "pending_total": 1672,
+  "ai_reviewed": 13,
   "ai_pending": 0,
   "ai_recommendations": {
-    "approve": 1447,
-    "reject": 184,
+    "approve": 1459,
+    "reject": 185,
     "manual": 28
   },
-  "queued_ids": [],
+  "queued_ids": [
+    "arxiv:2611.27963",
+    "arxiv:2611.27939",
+    "arxiv:2611.27870",
+    "arxiv:2611.27648",
+    "arxiv:2611.27645",
+    "arxiv:2611.27639",
+    "arxiv:2611.27547",
+    "arxiv:2611.27516",
+    "arxiv:2611.27513",
+    "arxiv:2611.27489",
+    "arxiv:2611.27418",
+    "arxiv:2611.27401",
+    "arxiv:2611.27344"
+  ],
   "errors": []
 }
