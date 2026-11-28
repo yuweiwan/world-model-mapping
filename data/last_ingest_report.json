@@ -1,19 +1,26 @@
 {
   "schema_version": 1,
-  "run_at": "2026-08-20T01:27:30Z",
-  "since": "2026-08-17T01:27:30Z",
+  "run_at": "2026-11-28T07:39:05Z",
+  "since": "2026-11-25T07:39:05Z",
   "source_counts": {
-    "arxiv-physical-ai": 35,
+    "arxiv-physical-ai": 40,
     "openreview-iclr-2026": 0,
     "openreview-neurips-2025": 0,
     "openreview-corl-2025": 0,
     "manual-inbox": 0
   },
-  "fetched": 35,
+  "fetched": 40,
   "queued": 0,
-  "duplicates": 35,
-  "ignored_low_score": 0,
-  "pending_total": 0,
+  "duplicates": 33,
+  "ignored_low_score": 7,
+  "pending_total": 1870,
+  "ai_reviewed": 1,
+  "ai_pending": 0,
+  "ai_recommendations": {
+    "approve": 1638,
+    "reject": 202,
+    "manual": 30
+  },
   "queued_ids": [],
   "errors": []
 }
