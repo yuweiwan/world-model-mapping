@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-27T08:17:13Z",
+  "updated_at": "2026-11-28T07:39:05Z",
   "papers": [
     {
       "id": "arxiv:2611.34914",
@@ -10951,7 +10951,7 @@
     {
       "id": "arxiv:2611.29646",
       "title": "JKO-GRPO: Augmenting GRPO with Wasserstein Proximal Steps for Flow-Matching VLAs",
-      "title_zh": "",
+      "title_zh": "JKO-GRPO：用Wasserstein近端步骤增强GRPO的流匹配VLA",
       "authors": [
         "Jiyong Kwon",
         "Yikun Bai",
@@ -10960,8 +10960,8 @@
       ],
       "affiliations": [],
       "abstract": "Flow-based vision-language-action (VLA) models such as $π_0,π_{0.5}$ generate continuous action chunks by flow matching, and online reinforcement learning (RL) can improve them beyond supervised fine-tuning. Existing methods, such as Flow-GRPO and $π_{\\mathrm{RL}}$, optimize likelihood ratios of stochastic denoising transitions, which reweight the sampled actions by their advantages but do not use the distances between them. We propose JKO-GRPO, which augments Flow-GRPO with Wasserstein proximal steps, with two contributions: (1) At each state, we treat the group of sampled actions as an empirical distribution and formulate policy improvement as a Jordan-Kinderlehrer-Otto (JKO) step. We use a soft discrete $c$-transform to construct transport targets from group-relative advantages and combine shared-noise regression of the deterministic flow sampler onto these targets and combined with the clipped Flow-GRPO objective without Kullback-Leibler (KL) regularization. (2) We extend this approach to sequential VLA control through random-time branching: we select one or multiple action-chunk indices along old-policy trajectories and independently apply group-level JKO updates using candidate continuations from the corresponding states.",
-      "summary_zh": "",
-      "contribution_zh": "",
+      "summary_zh": "面向流匹配VLA的在线强化学习，将组采样动作视为经验分布，用JKO/Wasserstein近端步构造传输目标，并通过随机时间分支扩展到序列动作块控制。",
+      "contribution_zh": "提出JKO-GRPO，用软离散c变换从组相对优势构造传输目标，结合共享噪声回归与裁剪Flow-GRPO目标，并扩展至序列VLA控制。",
       "source": {
         "kind": "arxiv",
         "external_id": "2611.29646",
@@ -10978,9 +10978,10 @@
       "taxonomy": {
         "route_id": "action_ground",
         "topics": [
-          "cs.RO",
-          "cs.LG",
-          "vision-language-action"
+          "流匹配VLA",
+          "在线强化学习",
+          "Wasserstein近端优化",
+          "机器人动作控制"
         ],
         "relevance_score": 5.0,
         "relevance_reasons": [
@@ -10998,6 +10999,14 @@
         "evidence_urls": [
           "https://arxiv.org/abs/2611.29646"
         ]
+      },
+      "ai_review": {
+        "mode": "shadow",
+        "decision": "approve",
+        "confidence": 0.95,
+        "reason": "直接研究流匹配VLA的在线强化学习与机器人动作控制，属具身智能范围。",
+        "model": "deepseek-v4-flash",
+        "reviewed_at": "2026-11-28T07:39:05Z"
       }
     },
     {
